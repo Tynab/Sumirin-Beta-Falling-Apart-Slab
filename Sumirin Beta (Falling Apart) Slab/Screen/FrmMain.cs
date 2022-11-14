@@ -20,15 +20,17 @@ using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
 using Sumirin_Beta__Falling_Apart__Slab.Script.Model;
 using YANF.Control;
 using YANF.Script;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 {
     public partial class FrmMain : Form
     {
         #region Fields
-        private List<Area> _areaSHs = new();
-        private List<Area> _areaSVs = new();
+        private List<Area> _areaSHs;
+        private List<Area> _areaSVs;
         private FrmResult _frmResult;
+        private SumirinBranch _branch;
         private double _maxRawWood;
         private const int _maxAreaS = 10;
         private const int _maxAreaR = 6;
@@ -187,14 +189,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     nudD?.Select();
                     break;
                 }
-                case M:
-                {
-                    e.SuppressKeyPress = true;
-                    var nudM = (NumericUpDown)Controls.Find($"nudB{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
-                    //
-                    nudM?.Select();
-                    break;
-                }
             }
         }
 
@@ -347,11 +341,14 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             // sound
             SND_NEXT.Play();
             // main
+            _branch = rdoBrIbaraki.Checked ? Ibaraki : Touhoku;
             _maxRawWood = tgTruck2Ton.Checked ? Default.Max_Raw_Wood_2t : Default.Max_Raw_Wood_Nml;
+            _areaSHs = new();
+            _areaSVs = new();
             GetAllChkSH();
             GetAllChkSV();
             _frmResult?.Close();
-            _frmResult = new FrmResult();
+            _frmResult = new FrmResult(_areaSHs, _areaSVs);
             _frmResult.Show();
         }
 
@@ -389,7 +386,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             var nudH = (NumericUpDown)Controls.Find($"nudHSH{i}", searchAllChildren: true).FirstOrDefault();
                             return nudH != null ? (double)nudH.Value : 0;
                         });
-                        var area = new Area(_maxRawWood);
+                        var area = new Area(_branch, _maxRawWood);
                         //
                         var w = taskW.Result;
                         if (w > 0)
@@ -428,7 +425,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 if (!isLgFd && area.W == lgRebar)
                 {
-                    area.IsLg = true;
+                    area.IsLongest = true;
                     isLgFd = true;
                 }
                 area.Prcs();
@@ -459,7 +456,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             var nudH = (NumericUpDown)Controls.Find($"nudHSV{i}", searchAllChildren: true).FirstOrDefault();
                             return nudH != null ? (double)nudH.Value : 0;
                         });
-                        var area = new Area(_maxRawWood);
+                        var area = new Area(_branch, _maxRawWood);
                         //
                         var w = taskW.Result;
                         if (w > 0)
@@ -498,7 +495,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 if (!isLgFd && area.W == lgRebar)
                 {
-                    area.IsLg = true;
+                    area.IsLongest = true;
                     isLgFd = true;
                 }
                 area.Prcs();

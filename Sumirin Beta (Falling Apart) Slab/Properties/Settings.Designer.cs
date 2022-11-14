@@ -26,27 +26,27 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("910")]
-        public double Span {
+        public int Span {
             get {
-                return ((double)(this["Span"]));
+                return ((int)(this["Span"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("13")]
-        public double D_Slab {
+        public int D_Slab {
             get {
-                return ((double)(this["D_Slab"]));
+                return ((int)(this["D_Slab"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("45")]
-        public double Rate_Fixn {
+        public int Rate_Fixn {
             get {
-                return ((double)(this["Rate_Fixn"]));
+                return ((int)(this["Rate_Fixn"]));
             }
         }
         
@@ -62,90 +62,90 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("250")]
-        public double L_Bdng {
+        public int L_Bdng {
             get {
-                return ((double)(this["L_Bdng"]));
+                return ((int)(this["L_Bdng"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1000")]
-        public double Chidori_Horz {
+        public int Chidori_Horz {
             get {
-                return ((double)(this["Chidori_Horz"]));
+                return ((int)(this["Chidori_Horz"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("910")]
-        public double W_Min_Sgl {
+        public int W_Min_Sgl {
             get {
-                return ((double)(this["W_Min_Sgl"]));
+                return ((int)(this["W_Min_Sgl"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("4500")]
-        public double Max_Raw_Wood_2t {
+        public int Max_Raw_Wood_2t {
             get {
-                return ((double)(this["Max_Raw_Wood_2t"]));
+                return ((int)(this["Max_Raw_Wood_2t"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5500")]
-        public double Max_Raw_Wood_Nml {
+        public int Max_Raw_Wood_Nml {
             get {
-                return ((double)(this["Max_Raw_Wood_Nml"]));
+                return ((int)(this["Max_Raw_Wood_Nml"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1000")]
-        public double Fixn_D22 {
+        public int Fixn_D22 {
             get {
-                return ((double)(this["Fixn_D22"]));
+                return ((int)(this["Fixn_D22"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("900")]
-        public double Fixn_D19 {
+        public int Fixn_D19 {
             get {
-                return ((double)(this["Fixn_D19"]));
+                return ((int)(this["Fixn_D19"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("750")]
-        public double Fixn_D16 {
+        public int Fixn_D16 {
             get {
-                return ((double)(this["Fixn_D16"]));
+                return ((int)(this["Fixn_D16"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("600")]
-        public double Fixn_D13 {
+        public int Fixn_D13 {
             get {
-                return ((double)(this["Fixn_D13"]));
+                return ((int)(this["Fixn_D13"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("500")]
-        public double Fixn_D10 {
+        public int Fixn_D10 {
             get {
-                return ((double)(this["Fixn_D10"]));
+                return ((int)(this["Fixn_D10"]));
             }
         }
     }

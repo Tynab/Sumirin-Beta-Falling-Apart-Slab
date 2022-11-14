@@ -10,20 +10,20 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
         /// </summary>
         /// <param name="num">Number.</param>
         /// <returns>Rounded number.</returns>
-        internal static double Round10(this double num) => Ceiling(num / 10) * 10;
+        internal static int Round10(this double num) => (int)Ceiling(num / 10) * 10;
 
         /// <summary>
         /// Round 500.
         /// </summary>
         /// <param name="num">Number.</param>
         /// <returns>Rounded number.</returns>
-        internal static double Round500(this double num) => Ceiling(num / 500) * 500;
+        internal static int Round500(this double num) => (int)Ceiling(num / 500) * 500;
 
         /// <summary>
         /// Fixation calculate.
         /// </summary>
         /// <param name="d">Diameter.</param>
         /// <returns>Fixation.</returns>
-        internal static double Fixation(double d) => Default.Rate_Fixn * d;
+        internal static int Fixation(int d) => Default.Rate_Fixn * d;
     }
 }

@@ -2,46 +2,46 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Sumirin_Beta__Falling_Apart__Slab.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="Span" Type="System.Double" Scope="Application">
+    <Setting Name="Span" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">910</Value>
     </Setting>
-    <Setting Name="D_Slab" Type="System.Double" Scope="Application">
+    <Setting Name="D_Slab" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">13</Value>
     </Setting>
-    <Setting Name="Rate_Fixn" Type="System.Double" Scope="Application">
+    <Setting Name="Rate_Fixn" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">45</Value>
     </Setting>
     <Setting Name="Pitch" Type="System.Double" Scope="Application">
       <Value Profile="(Default)">227.5</Value>
     </Setting>
-    <Setting Name="L_Bdng" Type="System.Double" Scope="Application">
+    <Setting Name="L_Bdng" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">250</Value>
     </Setting>
-    <Setting Name="Chidori_Horz" Type="System.Double" Scope="Application">
+    <Setting Name="Chidori_Horz" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">1000</Value>
     </Setting>
-    <Setting Name="W_Min_Sgl" Type="System.Double" Scope="Application">
+    <Setting Name="W_Min_Sgl" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">910</Value>
     </Setting>
-    <Setting Name="Max_Raw_Wood_2t" Type="System.Double" Scope="Application">
+    <Setting Name="Max_Raw_Wood_2t" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">4500</Value>
     </Setting>
-    <Setting Name="Max_Raw_Wood_Nml" Type="System.Double" Scope="Application">
+    <Setting Name="Max_Raw_Wood_Nml" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">5500</Value>
     </Setting>
-    <Setting Name="Fixn_D22" Type="System.Double" Scope="Application">
+    <Setting Name="Fixn_D22" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">1000</Value>
     </Setting>
-    <Setting Name="Fixn_D19" Type="System.Double" Scope="Application">
+    <Setting Name="Fixn_D19" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">900</Value>
     </Setting>
-    <Setting Name="Fixn_D16" Type="System.Double" Scope="Application">
+    <Setting Name="Fixn_D16" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">750</Value>
     </Setting>
-    <Setting Name="Fixn_D13" Type="System.Double" Scope="Application">
+    <Setting Name="Fixn_D13" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">600</Value>
     </Setting>
-    <Setting Name="Fixn_D10" Type="System.Double" Scope="Application">
+    <Setting Name="Fixn_D10" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">500</Value>
     </Setting>
   </Settings>

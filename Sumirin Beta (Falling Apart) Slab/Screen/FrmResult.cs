@@ -12,13 +12,19 @@ using static System.Windows.Forms.Keys;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using YANF.Control;
 using YANF.Script;
+using Sumirin_Beta__Falling_Apart__Slab.Script.Model;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 {
     public partial class FrmResult : Form
     {
+        #region Fields
+        private List<Area> _areaSHs;
+        private List<Area> _areaSVs;
+        #endregion
+
         #region Constructors
-        public FrmResult()
+        public FrmResult(List<Area> areaSHs, List<Area> areaSVs)
         {
             InitializeComponent();
             // move frm by pnl
@@ -51,10 +57,50 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 rtx.KeyDown += All_KeyDown;
             }
             KeyDown += All_KeyDown;
+            // get list
+            _areaSHs = new List<Area>(areaSHs);
+            _areaSVs = new List<Area>(areaSVs);
         }
         #endregion
 
         #region Events
+        // frm load
+        private void FrmResult_Load(object sender, EventArgs e)
+        {
+            //
+            var rsltRebarSH = "";
+            var rsltAmtSH = "";
+            foreach (var area in _areaSHs)
+            {
+                foreach (var rebar in area.Rebars)
+                {
+                    rsltRebarSH += $"{rebar} + ";
+                }
+                rsltRebarSH = rsltRebarSH.Substring(0, rsltRebarSH.Length - 3);
+                rsltRebarSH += "\n";
+                rsltAmtSH += $"{area.Amount}本\n";
+            }
+            rsltAmtSH.Substring(0, rsltAmtSH.Length - 1);
+            lblRsltRebarSH.Text = rsltRebarSH;
+            lblRsltAmtSH.Text = rsltAmtSH;
+            //
+            var rsltRebarSV = "";
+            var rsltAmtSV = "";
+            foreach (var area in _areaSVs)
+            {
+                foreach (var rebar in area.Rebars)
+                {
+                    rsltRebarSV += $"{rebar} + ";
+                }
+                rsltRebarSV = rsltRebarSV.Substring(0, rsltRebarSV.Length - 3);
+                rsltRebarSV += "\n";
+                rsltAmtSV += $"{area.Amount}本\n";
+            }
+            rsltAmtSV.Substring(0, rsltAmtSV.Length - 1);
+            lblRsltRebarSV.Text = rsltRebarSV;
+            lblRsltAmtSV.Text = rsltAmtSV;
+        }
+
         // frm shown
         private void FrmResult_Shown(object sender, EventArgs e) => this.FadeIn();
 

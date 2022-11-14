@@ -70,7 +70,6 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblRsltRebarSV = new System.Windows.Forms.Label();
             this.lblRsltAmtSV = new System.Windows.Forms.Label();
-            this.lblRsltDSV = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.yanGradPnl1 = new YANF.Control.YANGradPnl();
@@ -83,7 +82,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblRsltRebarSH = new System.Windows.Forms.Label();
             this.lblRsltAmtSH = new System.Windows.Forms.Label();
-            this.lblRsltDSH = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -574,7 +572,7 @@
             this.lblRsltAmtRV.Name = "lblRsltAmtRV";
             this.lblRsltAmtRV.Size = new System.Drawing.Size(40, 190);
             this.lblRsltAmtRV.TabIndex = 0;
-            this.lblRsltAmtRV.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblRsltAmtRV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblRsltDRV
             // 
@@ -606,7 +604,6 @@
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.panel8.Controls.Add(this.lblRsltRebarSV);
             this.panel8.Controls.Add(this.lblRsltAmtSV);
-            this.panel8.Controls.Add(this.lblRsltDSV);
             this.panel8.Controls.Add(this.label18);
             this.panel8.Location = new System.Drawing.Point(10, 10);
             this.panel8.Margin = new System.Windows.Forms.Padding(10, 10, 0, 10);
@@ -620,9 +617,9 @@
             this.lblRsltRebarSV.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRsltRebarSV.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltRebarSV.ForeColor = System.Drawing.Color.White;
-            this.lblRsltRebarSV.Location = new System.Drawing.Point(40, 20);
+            this.lblRsltRebarSV.Location = new System.Drawing.Point(0, 20);
             this.lblRsltRebarSV.Name = "lblRsltRebarSV";
-            this.lblRsltRebarSV.Size = new System.Drawing.Size(240, 190);
+            this.lblRsltRebarSV.Size = new System.Drawing.Size(280, 190);
             this.lblRsltRebarSV.TabIndex = 0;
             this.lblRsltRebarSV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -636,19 +633,7 @@
             this.lblRsltAmtSV.Name = "lblRsltAmtSV";
             this.lblRsltAmtSV.Size = new System.Drawing.Size(40, 190);
             this.lblRsltAmtSV.TabIndex = 0;
-            this.lblRsltAmtSV.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // lblRsltDSV
-            // 
-            this.lblRsltDSV.BackColor = System.Drawing.Color.Transparent;
-            this.lblRsltDSV.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblRsltDSV.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRsltDSV.ForeColor = System.Drawing.Color.White;
-            this.lblRsltDSV.Location = new System.Drawing.Point(0, 20);
-            this.lblRsltDSV.Name = "lblRsltDSV";
-            this.lblRsltDSV.Size = new System.Drawing.Size(40, 190);
-            this.lblRsltDSV.TabIndex = 0;
-            this.lblRsltDSV.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblRsltAmtSV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label18
             // 
@@ -735,7 +720,7 @@
             this.lblRsltAmtRH.Name = "lblRsltAmtRH";
             this.lblRsltAmtRH.Size = new System.Drawing.Size(40, 190);
             this.lblRsltAmtRH.TabIndex = 0;
-            this.lblRsltAmtRH.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblRsltAmtRH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblRsltDRH
             // 
@@ -767,7 +752,6 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.panel4.Controls.Add(this.lblRsltRebarSH);
             this.panel4.Controls.Add(this.lblRsltAmtSH);
-            this.panel4.Controls.Add(this.lblRsltDSH);
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(10, 10);
             this.panel4.Margin = new System.Windows.Forms.Padding(10, 10, 0, 10);
@@ -781,9 +765,9 @@
             this.lblRsltRebarSH.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRsltRebarSH.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltRebarSH.ForeColor = System.Drawing.Color.White;
-            this.lblRsltRebarSH.Location = new System.Drawing.Point(40, 20);
+            this.lblRsltRebarSH.Location = new System.Drawing.Point(0, 20);
             this.lblRsltRebarSH.Name = "lblRsltRebarSH";
-            this.lblRsltRebarSH.Size = new System.Drawing.Size(240, 190);
+            this.lblRsltRebarSH.Size = new System.Drawing.Size(280, 190);
             this.lblRsltRebarSH.TabIndex = 0;
             this.lblRsltRebarSH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -797,19 +781,7 @@
             this.lblRsltAmtSH.Name = "lblRsltAmtSH";
             this.lblRsltAmtSH.Size = new System.Drawing.Size(40, 190);
             this.lblRsltAmtSH.TabIndex = 0;
-            this.lblRsltAmtSH.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // lblRsltDSH
-            // 
-            this.lblRsltDSH.BackColor = System.Drawing.Color.Transparent;
-            this.lblRsltDSH.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblRsltDSH.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRsltDSH.ForeColor = System.Drawing.Color.White;
-            this.lblRsltDSH.Location = new System.Drawing.Point(0, 20);
-            this.lblRsltDSH.Name = "lblRsltDSH";
-            this.lblRsltDSH.Size = new System.Drawing.Size(40, 190);
-            this.lblRsltDSH.TabIndex = 0;
-            this.lblRsltDSH.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblRsltAmtSH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label3
             // 
@@ -867,6 +839,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "スラブ住本林業（ベタ・バラバラ）結果";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmResult_FormClosing);
+            this.Load += new System.EventHandler(this.FrmResult_Load);
             this.Shown += new System.EventHandler(this.FrmResult_Shown);
             this.panel1.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
@@ -937,7 +910,6 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label lblRsltRebarSV;
         private System.Windows.Forms.Label lblRsltAmtSV;
-        private System.Windows.Forms.Label lblRsltDSV;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private YANF.Control.YANGradPnl yanGradPnl1;
@@ -950,7 +922,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lblRsltRebarSH;
         private System.Windows.Forms.Label lblRsltAmtSH;
-        private System.Windows.Forms.Label lblRsltDSH;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
