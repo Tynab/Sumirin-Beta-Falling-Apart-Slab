@@ -58,6 +58,9 @@
             this.panel157 = new System.Windows.Forms.Panel();
             this.nudWRV6 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV6 = new System.Windows.Forms.Label();
+            this.panel74 = new System.Windows.Forms.Panel();
+            this.chkBRRV6 = new System.Windows.Forms.CheckBox();
+            this.chkBLRV6 = new System.Windows.Forms.CheckBox();
             this.panel159 = new System.Windows.Forms.Panel();
             this.nudHRV6 = new System.Windows.Forms.NumericUpDown();
             this.lblHRV6 = new System.Windows.Forms.Label();
@@ -70,6 +73,9 @@
             this.panel107 = new System.Windows.Forms.Panel();
             this.nudWRV1 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV1 = new System.Windows.Forms.Label();
+            this.panel64 = new System.Windows.Forms.Panel();
+            this.chkBRRV1 = new System.Windows.Forms.CheckBox();
+            this.chkBLRV1 = new System.Windows.Forms.CheckBox();
             this.panel109 = new System.Windows.Forms.Panel();
             this.nudHRV1 = new System.Windows.Forms.NumericUpDown();
             this.lblHRV1 = new System.Windows.Forms.Label();
@@ -82,6 +88,9 @@
             this.panel151 = new System.Windows.Forms.Panel();
             this.nudWRV5 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV5 = new System.Windows.Forms.Label();
+            this.panel71 = new System.Windows.Forms.Panel();
+            this.chkBRRV5 = new System.Windows.Forms.CheckBox();
+            this.chkBLRV5 = new System.Windows.Forms.CheckBox();
             this.panel153 = new System.Windows.Forms.Panel();
             this.nudHRV5 = new System.Windows.Forms.NumericUpDown();
             this.lblHRV5 = new System.Windows.Forms.Label();
@@ -94,6 +103,9 @@
             this.panel113 = new System.Windows.Forms.Panel();
             this.nudWRV2 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV2 = new System.Windows.Forms.Label();
+            this.panel65 = new System.Windows.Forms.Panel();
+            this.chkBRRV2 = new System.Windows.Forms.CheckBox();
+            this.chkBLRV2 = new System.Windows.Forms.CheckBox();
             this.panel115 = new System.Windows.Forms.Panel();
             this.nudHRV2 = new System.Windows.Forms.NumericUpDown();
             this.lblHRV2 = new System.Windows.Forms.Label();
@@ -106,6 +118,9 @@
             this.panel125 = new System.Windows.Forms.Panel();
             this.nudWRV4 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV4 = new System.Windows.Forms.Label();
+            this.panel70 = new System.Windows.Forms.Panel();
+            this.chkBRRV4 = new System.Windows.Forms.CheckBox();
+            this.chkBLRV4 = new System.Windows.Forms.CheckBox();
             this.panel127 = new System.Windows.Forms.Panel();
             this.nudHRV4 = new System.Windows.Forms.NumericUpDown();
             this.lblHRV4 = new System.Windows.Forms.Label();
@@ -118,6 +133,9 @@
             this.panel119 = new System.Windows.Forms.Panel();
             this.nudWRV3 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV3 = new System.Windows.Forms.Label();
+            this.panel69 = new System.Windows.Forms.Panel();
+            this.chkBRRV3 = new System.Windows.Forms.CheckBox();
+            this.chkBLRV3 = new System.Windows.Forms.CheckBox();
             this.panel121 = new System.Windows.Forms.Panel();
             this.nudHRV3 = new System.Windows.Forms.NumericUpDown();
             this.lblHRV3 = new System.Windows.Forms.Label();
@@ -133,6 +151,9 @@
             this.panel101 = new System.Windows.Forms.Panel();
             this.nudWRH6 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH6 = new System.Windows.Forms.Label();
+            this.panel61 = new System.Windows.Forms.Panel();
+            this.chkBRRH6 = new System.Windows.Forms.CheckBox();
+            this.chkBLRH6 = new System.Windows.Forms.CheckBox();
             this.panel103 = new System.Windows.Forms.Panel();
             this.nudHRH6 = new System.Windows.Forms.NumericUpDown();
             this.lblHRH6 = new System.Windows.Forms.Label();
@@ -145,6 +166,9 @@
             this.panel34 = new System.Windows.Forms.Panel();
             this.nudWRH5 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH5 = new System.Windows.Forms.Label();
+            this.panel55 = new System.Windows.Forms.Panel();
+            this.chkBRRH5 = new System.Windows.Forms.CheckBox();
+            this.chkBLRH5 = new System.Windows.Forms.CheckBox();
             this.panel36 = new System.Windows.Forms.Panel();
             this.nudHRH5 = new System.Windows.Forms.NumericUpDown();
             this.lblHRH5 = new System.Windows.Forms.Label();
@@ -157,6 +181,9 @@
             this.panel28 = new System.Windows.Forms.Panel();
             this.nudWRH4 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH4 = new System.Windows.Forms.Label();
+            this.panel54 = new System.Windows.Forms.Panel();
+            this.chkBRRH4 = new System.Windows.Forms.CheckBox();
+            this.chkBLRH4 = new System.Windows.Forms.CheckBox();
             this.panel30 = new System.Windows.Forms.Panel();
             this.nudHRH4 = new System.Windows.Forms.NumericUpDown();
             this.lblHRH4 = new System.Windows.Forms.Label();
@@ -169,6 +196,9 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.nudWRH3 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH3 = new System.Windows.Forms.Label();
+            this.panel51 = new System.Windows.Forms.Panel();
+            this.chkBRRH3 = new System.Windows.Forms.CheckBox();
+            this.chkBLRH3 = new System.Windows.Forms.CheckBox();
             this.panel24 = new System.Windows.Forms.Panel();
             this.nudHRH3 = new System.Windows.Forms.NumericUpDown();
             this.lblHRH3 = new System.Windows.Forms.Label();
@@ -181,6 +211,9 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.nudWRH2 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH2 = new System.Windows.Forms.Label();
+            this.panel50 = new System.Windows.Forms.Panel();
+            this.chkBRRH2 = new System.Windows.Forms.CheckBox();
+            this.chkBLRH2 = new System.Windows.Forms.CheckBox();
             this.panel18 = new System.Windows.Forms.Panel();
             this.nudHRH2 = new System.Windows.Forms.NumericUpDown();
             this.lblHRH2 = new System.Windows.Forms.Label();
@@ -193,6 +226,9 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.nudWRH1 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH1 = new System.Windows.Forms.Label();
+            this.panel48 = new System.Windows.Forms.Panel();
+            this.chkBRRH1 = new System.Windows.Forms.CheckBox();
+            this.chkBLRH1 = new System.Windows.Forms.CheckBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.nudHRH1 = new System.Windows.Forms.NumericUpDown();
             this.lblHRH1 = new System.Windows.Forms.Label();
@@ -210,6 +246,9 @@
             this.panel46 = new System.Windows.Forms.Panel();
             this.nudWSV10 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV10 = new System.Windows.Forms.Label();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.chkBRSV10 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV10 = new System.Windows.Forms.CheckBox();
             this.panel49 = new System.Windows.Forms.Panel();
             this.nudHSV10 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV10 = new System.Windows.Forms.Label();
@@ -219,6 +258,9 @@
             this.panel52 = new System.Windows.Forms.Panel();
             this.nudWSV5 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV5 = new System.Windows.Forms.Label();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.chkBRSV5 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV5 = new System.Windows.Forms.CheckBox();
             this.panel53 = new System.Windows.Forms.Panel();
             this.nudHSV5 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV5 = new System.Windows.Forms.Label();
@@ -228,6 +270,9 @@
             this.panel56 = new System.Windows.Forms.Panel();
             this.nudWSV9 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV9 = new System.Windows.Forms.Label();
+            this.panel42 = new System.Windows.Forms.Panel();
+            this.chkBRSV9 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV9 = new System.Windows.Forms.CheckBox();
             this.panel57 = new System.Windows.Forms.Panel();
             this.nudHSV9 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV9 = new System.Windows.Forms.Label();
@@ -237,6 +282,9 @@
             this.panel72 = new System.Windows.Forms.Panel();
             this.nudWSV4 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV4 = new System.Windows.Forms.Label();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.chkBRSV4 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV4 = new System.Windows.Forms.CheckBox();
             this.panel73 = new System.Windows.Forms.Panel();
             this.nudHSV4 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV4 = new System.Windows.Forms.Label();
@@ -246,6 +294,9 @@
             this.panel77 = new System.Windows.Forms.Panel();
             this.nudWSV8 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV8 = new System.Windows.Forms.Label();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.chkBRSV8 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV8 = new System.Windows.Forms.CheckBox();
             this.panel78 = new System.Windows.Forms.Panel();
             this.nudHSV8 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV8 = new System.Windows.Forms.Label();
@@ -255,6 +306,9 @@
             this.panel81 = new System.Windows.Forms.Panel();
             this.nudWSV3 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV3 = new System.Windows.Forms.Label();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.chkBRSV3 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV3 = new System.Windows.Forms.CheckBox();
             this.panel82 = new System.Windows.Forms.Panel();
             this.nudHSV3 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV3 = new System.Windows.Forms.Label();
@@ -264,6 +318,9 @@
             this.panel85 = new System.Windows.Forms.Panel();
             this.nudWSV6 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV6 = new System.Windows.Forms.Label();
+            this.panel39 = new System.Windows.Forms.Panel();
+            this.chkBRSV6 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV6 = new System.Windows.Forms.CheckBox();
             this.panel86 = new System.Windows.Forms.Panel();
             this.nudHSV6 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV6 = new System.Windows.Forms.Label();
@@ -273,6 +330,9 @@
             this.panel139 = new System.Windows.Forms.Panel();
             this.nudWSV7 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV7 = new System.Windows.Forms.Label();
+            this.panel40 = new System.Windows.Forms.Panel();
+            this.chkBRSV7 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV7 = new System.Windows.Forms.CheckBox();
             this.panel140 = new System.Windows.Forms.Panel();
             this.nudHSV7 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV7 = new System.Windows.Forms.Label();
@@ -282,6 +342,9 @@
             this.panel143 = new System.Windows.Forms.Panel();
             this.nudWSV2 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV2 = new System.Windows.Forms.Label();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.chkBRSV2 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV2 = new System.Windows.Forms.CheckBox();
             this.panel144 = new System.Windows.Forms.Panel();
             this.nudHSV2 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV2 = new System.Windows.Forms.Label();
@@ -291,6 +354,9 @@
             this.panel147 = new System.Windows.Forms.Panel();
             this.nudWSV1 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV1 = new System.Windows.Forms.Label();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.chkBRSV1 = new System.Windows.Forms.CheckBox();
+            this.chkBLSV1 = new System.Windows.Forms.CheckBox();
             this.panel148 = new System.Windows.Forms.Panel();
             this.nudHSV1 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV1 = new System.Windows.Forms.Label();
@@ -303,6 +369,9 @@
             this.panel137 = new System.Windows.Forms.Panel();
             this.nudWSH10 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH10 = new System.Windows.Forms.Label();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.chkBRSH10 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH10 = new System.Windows.Forms.CheckBox();
             this.panel138 = new System.Windows.Forms.Panel();
             this.nudHSH10 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH10 = new System.Windows.Forms.Label();
@@ -312,6 +381,9 @@
             this.panel66 = new System.Windows.Forms.Panel();
             this.nudWSH5 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH5 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.chkBRSH5 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH5 = new System.Windows.Forms.CheckBox();
             this.panel68 = new System.Windows.Forms.Panel();
             this.nudHSH5 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH5 = new System.Windows.Forms.Label();
@@ -321,6 +393,9 @@
             this.panel133 = new System.Windows.Forms.Panel();
             this.nudWSH9 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH9 = new System.Windows.Forms.Label();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.chkBRSH9 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH9 = new System.Windows.Forms.CheckBox();
             this.panel134 = new System.Windows.Forms.Panel();
             this.nudHSH9 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH9 = new System.Windows.Forms.Label();
@@ -330,6 +405,9 @@
             this.panel62 = new System.Windows.Forms.Panel();
             this.nudWSH4 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH4 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.chkBRSH4 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH4 = new System.Windows.Forms.CheckBox();
             this.panel63 = new System.Windows.Forms.Panel();
             this.nudHSH4 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH4 = new System.Windows.Forms.Label();
@@ -339,6 +417,9 @@
             this.panel129 = new System.Windows.Forms.Panel();
             this.nudWSH8 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH8 = new System.Windows.Forms.Label();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.chkBRSH8 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH8 = new System.Windows.Forms.CheckBox();
             this.panel130 = new System.Windows.Forms.Panel();
             this.nudHSH8 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH8 = new System.Windows.Forms.Label();
@@ -348,6 +429,9 @@
             this.panel58 = new System.Windows.Forms.Panel();
             this.nudWSH3 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH3 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.chkBRSH3 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH3 = new System.Windows.Forms.CheckBox();
             this.panel59 = new System.Windows.Forms.Panel();
             this.nudHSH3 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH3 = new System.Windows.Forms.Label();
@@ -357,6 +441,9 @@
             this.panel90 = new System.Windows.Forms.Panel();
             this.nudWSH6 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH6 = new System.Windows.Forms.Label();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.chkBRSH6 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH6 = new System.Windows.Forms.CheckBox();
             this.panel91 = new System.Windows.Forms.Panel();
             this.nudHSH6 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH6 = new System.Windows.Forms.Label();
@@ -366,6 +453,9 @@
             this.panel94 = new System.Windows.Forms.Panel();
             this.nudWSH7 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH7 = new System.Windows.Forms.Label();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.chkBRSH7 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH7 = new System.Windows.Forms.CheckBox();
             this.panel95 = new System.Windows.Forms.Panel();
             this.nudHSH7 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH7 = new System.Windows.Forms.Label();
@@ -375,6 +465,9 @@
             this.panel43 = new System.Windows.Forms.Panel();
             this.nudWSH2 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH2 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.chkBRSH2 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH2 = new System.Windows.Forms.CheckBox();
             this.panel44 = new System.Windows.Forms.Panel();
             this.nudHSH2 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH2 = new System.Windows.Forms.Label();
@@ -384,108 +477,15 @@
             this.panel15 = new System.Windows.Forms.Panel();
             this.nudWSH1 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH1 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.chkBRSH1 = new System.Windows.Forms.CheckBox();
+            this.chkBLSH1 = new System.Windows.Forms.CheckBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.nudHSH1 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH1 = new System.Windows.Forms.Label();
             this.chkSH1 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.panel38 = new System.Windows.Forms.Panel();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.panel39 = new System.Windows.Forms.Panel();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.panel40 = new System.Windows.Forms.Panel();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.panel41 = new System.Windows.Forms.Panel();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.checkBox36 = new System.Windows.Forms.CheckBox();
-            this.panel42 = new System.Windows.Forms.Panel();
-            this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.checkBox38 = new System.Windows.Forms.CheckBox();
-            this.panel45 = new System.Windows.Forms.Panel();
-            this.checkBox39 = new System.Windows.Forms.CheckBox();
-            this.checkBox40 = new System.Windows.Forms.CheckBox();
-            this.panel48 = new System.Windows.Forms.Panel();
-            this.checkBox41 = new System.Windows.Forms.CheckBox();
-            this.checkBox42 = new System.Windows.Forms.CheckBox();
-            this.panel50 = new System.Windows.Forms.Panel();
-            this.checkBox43 = new System.Windows.Forms.CheckBox();
-            this.checkBox44 = new System.Windows.Forms.CheckBox();
-            this.panel51 = new System.Windows.Forms.Panel();
-            this.checkBox45 = new System.Windows.Forms.CheckBox();
-            this.checkBox46 = new System.Windows.Forms.CheckBox();
-            this.panel54 = new System.Windows.Forms.Panel();
-            this.checkBox47 = new System.Windows.Forms.CheckBox();
-            this.checkBox48 = new System.Windows.Forms.CheckBox();
-            this.panel55 = new System.Windows.Forms.Panel();
-            this.checkBox49 = new System.Windows.Forms.CheckBox();
-            this.checkBox50 = new System.Windows.Forms.CheckBox();
-            this.panel61 = new System.Windows.Forms.Panel();
-            this.checkBox51 = new System.Windows.Forms.CheckBox();
-            this.checkBox52 = new System.Windows.Forms.CheckBox();
-            this.panel64 = new System.Windows.Forms.Panel();
-            this.checkBox53 = new System.Windows.Forms.CheckBox();
-            this.checkBox54 = new System.Windows.Forms.CheckBox();
-            this.panel65 = new System.Windows.Forms.Panel();
-            this.checkBox55 = new System.Windows.Forms.CheckBox();
-            this.checkBox56 = new System.Windows.Forms.CheckBox();
-            this.panel69 = new System.Windows.Forms.Panel();
-            this.checkBox57 = new System.Windows.Forms.CheckBox();
-            this.checkBox58 = new System.Windows.Forms.CheckBox();
-            this.panel70 = new System.Windows.Forms.Panel();
-            this.checkBox59 = new System.Windows.Forms.CheckBox();
-            this.checkBox60 = new System.Windows.Forms.CheckBox();
-            this.panel71 = new System.Windows.Forms.Panel();
-            this.checkBox61 = new System.Windows.Forms.CheckBox();
-            this.checkBox62 = new System.Windows.Forms.CheckBox();
-            this.panel74 = new System.Windows.Forms.Panel();
-            this.checkBox63 = new System.Windows.Forms.CheckBox();
-            this.checkBox64 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -498,6 +498,7 @@
             this.pnlRV6.SuspendLayout();
             this.panel157.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV6)).BeginInit();
+            this.panel74.SuspendLayout();
             this.panel159.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV6)).BeginInit();
             this.panel160.SuspendLayout();
@@ -506,6 +507,7 @@
             this.pnlRV1.SuspendLayout();
             this.panel107.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV1)).BeginInit();
+            this.panel64.SuspendLayout();
             this.panel109.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV1)).BeginInit();
             this.panel110.SuspendLayout();
@@ -514,6 +516,7 @@
             this.pnlRV5.SuspendLayout();
             this.panel151.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV5)).BeginInit();
+            this.panel71.SuspendLayout();
             this.panel153.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV5)).BeginInit();
             this.panel154.SuspendLayout();
@@ -522,6 +525,7 @@
             this.pnlRV2.SuspendLayout();
             this.panel113.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV2)).BeginInit();
+            this.panel65.SuspendLayout();
             this.panel115.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV2)).BeginInit();
             this.panel116.SuspendLayout();
@@ -530,6 +534,7 @@
             this.pnlRV4.SuspendLayout();
             this.panel125.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV4)).BeginInit();
+            this.panel70.SuspendLayout();
             this.panel127.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV4)).BeginInit();
             this.panel128.SuspendLayout();
@@ -538,6 +543,7 @@
             this.pnlRV3.SuspendLayout();
             this.panel119.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV3)).BeginInit();
+            this.panel69.SuspendLayout();
             this.panel121.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV3)).BeginInit();
             this.panel122.SuspendLayout();
@@ -548,6 +554,7 @@
             this.pnlRH6.SuspendLayout();
             this.panel101.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH6)).BeginInit();
+            this.panel61.SuspendLayout();
             this.panel103.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH6)).BeginInit();
             this.panel104.SuspendLayout();
@@ -556,6 +563,7 @@
             this.pnlRH5.SuspendLayout();
             this.panel34.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH5)).BeginInit();
+            this.panel55.SuspendLayout();
             this.panel36.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH5)).BeginInit();
             this.panel37.SuspendLayout();
@@ -564,6 +572,7 @@
             this.pnlRH4.SuspendLayout();
             this.panel28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH4)).BeginInit();
+            this.panel54.SuspendLayout();
             this.panel30.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH4)).BeginInit();
             this.panel31.SuspendLayout();
@@ -572,6 +581,7 @@
             this.pnlRH3.SuspendLayout();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH3)).BeginInit();
+            this.panel51.SuspendLayout();
             this.panel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH3)).BeginInit();
             this.panel25.SuspendLayout();
@@ -580,6 +590,7 @@
             this.pnlRH2.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH2)).BeginInit();
+            this.panel50.SuspendLayout();
             this.panel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH2)).BeginInit();
             this.panel19.SuspendLayout();
@@ -588,6 +599,7 @@
             this.pnlRH1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH1)).BeginInit();
+            this.panel48.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH1)).BeginInit();
             this.panel9.SuspendLayout();
@@ -599,60 +611,70 @@
             this.pnlSV10.SuspendLayout();
             this.panel46.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV10)).BeginInit();
+            this.panel45.SuspendLayout();
             this.panel49.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV10)).BeginInit();
             this.pnlASV5.SuspendLayout();
             this.pnlSV5.SuspendLayout();
             this.panel52.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV5)).BeginInit();
+            this.panel38.SuspendLayout();
             this.panel53.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV5)).BeginInit();
             this.pnlASV9.SuspendLayout();
             this.pnlSV9.SuspendLayout();
             this.panel56.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV9)).BeginInit();
+            this.panel42.SuspendLayout();
             this.panel57.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV9)).BeginInit();
             this.pnlASV4.SuspendLayout();
             this.pnlSV4.SuspendLayout();
             this.panel72.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV4)).BeginInit();
+            this.panel35.SuspendLayout();
             this.panel73.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV4)).BeginInit();
             this.pnlASV8.SuspendLayout();
             this.pnlSV8.SuspendLayout();
             this.panel77.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV8)).BeginInit();
+            this.panel41.SuspendLayout();
             this.panel78.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV8)).BeginInit();
             this.pnlASV3.SuspendLayout();
             this.pnlSV3.SuspendLayout();
             this.panel81.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV3)).BeginInit();
+            this.panel33.SuspendLayout();
             this.panel82.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV3)).BeginInit();
             this.pnlASV6.SuspendLayout();
             this.pnlSV6.SuspendLayout();
             this.panel85.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV6)).BeginInit();
+            this.panel39.SuspendLayout();
             this.panel86.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV6)).BeginInit();
             this.pnlASV7.SuspendLayout();
             this.pnlSV7.SuspendLayout();
             this.panel139.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV7)).BeginInit();
+            this.panel40.SuspendLayout();
             this.panel140.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV7)).BeginInit();
             this.pnlASV2.SuspendLayout();
             this.pnlSV2.SuspendLayout();
             this.panel143.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV2)).BeginInit();
+            this.panel32.SuspendLayout();
             this.panel144.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV2)).BeginInit();
             this.pnlASV1.SuspendLayout();
             this.pnlSV1.SuspendLayout();
             this.panel147.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV1)).BeginInit();
+            this.panel29.SuspendLayout();
             this.panel148.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV1)).BeginInit();
             this.yanGradPnl1.SuspendLayout();
@@ -661,94 +683,72 @@
             this.pnlSH10.SuspendLayout();
             this.panel137.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH10)).BeginInit();
+            this.panel27.SuspendLayout();
             this.panel138.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH10)).BeginInit();
             this.pnlASH5.SuspendLayout();
             this.pnlSH5.SuspendLayout();
             this.panel66.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH5)).BeginInit();
+            this.panel17.SuspendLayout();
             this.panel68.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH5)).BeginInit();
             this.pnlASH9.SuspendLayout();
             this.pnlSH9.SuspendLayout();
             this.panel133.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH9)).BeginInit();
+            this.panel26.SuspendLayout();
             this.panel134.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH9)).BeginInit();
             this.pnlASH4.SuspendLayout();
             this.pnlSH4.SuspendLayout();
             this.panel62.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH4)).BeginInit();
+            this.panel12.SuspendLayout();
             this.panel63.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH4)).BeginInit();
             this.pnlASH8.SuspendLayout();
             this.pnlSH8.SuspendLayout();
             this.panel129.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH8)).BeginInit();
+            this.panel23.SuspendLayout();
             this.panel130.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH8)).BeginInit();
             this.pnlASH3.SuspendLayout();
             this.pnlSH3.SuspendLayout();
             this.panel58.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH3)).BeginInit();
+            this.panel11.SuspendLayout();
             this.panel59.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH3)).BeginInit();
             this.pnlASH6.SuspendLayout();
             this.pnlSH6.SuspendLayout();
             this.panel90.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH6)).BeginInit();
+            this.panel20.SuspendLayout();
             this.panel91.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH6)).BeginInit();
             this.pnlASH7.SuspendLayout();
             this.pnlSH7.SuspendLayout();
             this.panel94.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH7)).BeginInit();
+            this.panel21.SuspendLayout();
             this.panel95.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH7)).BeginInit();
             this.pnlASH2.SuspendLayout();
             this.pnlSH2.SuspendLayout();
             this.panel43.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH2)).BeginInit();
+            this.panel7.SuspendLayout();
             this.panel44.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH2)).BeginInit();
             this.pnlASH1.SuspendLayout();
             this.pnlSH1.SuspendLayout();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH1)).BeginInit();
+            this.panel10.SuspendLayout();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH1)).BeginInit();
-            this.panel10.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel21.SuspendLayout();
-            this.panel23.SuspendLayout();
-            this.panel26.SuspendLayout();
-            this.panel27.SuspendLayout();
-            this.panel29.SuspendLayout();
-            this.panel32.SuspendLayout();
-            this.panel33.SuspendLayout();
-            this.panel35.SuspendLayout();
-            this.panel38.SuspendLayout();
-            this.panel39.SuspendLayout();
-            this.panel40.SuspendLayout();
-            this.panel41.SuspendLayout();
-            this.panel42.SuspendLayout();
-            this.panel45.SuspendLayout();
-            this.panel48.SuspendLayout();
-            this.panel50.SuspendLayout();
-            this.panel51.SuspendLayout();
-            this.panel54.SuspendLayout();
-            this.panel55.SuspendLayout();
-            this.panel61.SuspendLayout();
-            this.panel64.SuspendLayout();
-            this.panel65.SuspendLayout();
-            this.panel69.SuspendLayout();
-            this.panel70.SuspendLayout();
-            this.panel71.SuspendLayout();
-            this.panel74.SuspendLayout();
             this.SuspendLayout();
             // 
             // tgTruck2Ton
@@ -1166,6 +1166,47 @@
             this.lblWRV6.Text = "Ｗ";
             this.lblWRV6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel74
+            // 
+            this.panel74.Controls.Add(this.chkBRRV6);
+            this.panel74.Controls.Add(this.chkBLRV6);
+            this.panel74.Location = new System.Drawing.Point(10, 100);
+            this.panel74.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel74.Name = "panel74";
+            this.panel74.Size = new System.Drawing.Size(80, 20);
+            this.panel74.TabIndex = 4;
+            // 
+            // chkBRRV6
+            // 
+            this.chkBRRV6.AutoSize = true;
+            this.chkBRRV6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRV6.Checked = true;
+            this.chkBRRV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRV6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRV6.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRV6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRV6.Name = "chkBRRV6";
+            this.chkBRRV6.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRV6.TabIndex = 2;
+            this.chkBRRV6.Text = "R";
+            this.chkBRRV6.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRV6
+            // 
+            this.chkBLRV6.AutoSize = true;
+            this.chkBLRV6.Checked = true;
+            this.chkBLRV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRV6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRV6.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRV6.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRV6.Name = "chkBLRV6";
+            this.chkBLRV6.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRV6.TabIndex = 1;
+            this.chkBLRV6.Text = "L";
+            this.chkBLRV6.UseVisualStyleBackColor = true;
+            // 
             // panel159
             // 
             this.panel159.Controls.Add(this.nudHRV6);
@@ -1319,6 +1360,47 @@
             this.lblWRV1.TabIndex = 0;
             this.lblWRV1.Text = "Ｗ";
             this.lblWRV1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel64
+            // 
+            this.panel64.Controls.Add(this.chkBRRV1);
+            this.panel64.Controls.Add(this.chkBLRV1);
+            this.panel64.Location = new System.Drawing.Point(10, 100);
+            this.panel64.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel64.Name = "panel64";
+            this.panel64.Size = new System.Drawing.Size(80, 20);
+            this.panel64.TabIndex = 4;
+            // 
+            // chkBRRV1
+            // 
+            this.chkBRRV1.AutoSize = true;
+            this.chkBRRV1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRV1.Checked = true;
+            this.chkBRRV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRV1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRV1.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRV1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRV1.Name = "chkBRRV1";
+            this.chkBRRV1.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRV1.TabIndex = 2;
+            this.chkBRRV1.Text = "R";
+            this.chkBRRV1.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRV1
+            // 
+            this.chkBLRV1.AutoSize = true;
+            this.chkBLRV1.Checked = true;
+            this.chkBLRV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRV1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRV1.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRV1.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRV1.Name = "chkBLRV1";
+            this.chkBLRV1.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRV1.TabIndex = 1;
+            this.chkBLRV1.Text = "L";
+            this.chkBLRV1.UseVisualStyleBackColor = true;
             // 
             // panel109
             // 
@@ -1475,6 +1557,47 @@
             this.lblWRV5.Text = "Ｗ";
             this.lblWRV5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel71
+            // 
+            this.panel71.Controls.Add(this.chkBRRV5);
+            this.panel71.Controls.Add(this.chkBLRV5);
+            this.panel71.Location = new System.Drawing.Point(10, 100);
+            this.panel71.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel71.Name = "panel71";
+            this.panel71.Size = new System.Drawing.Size(80, 20);
+            this.panel71.TabIndex = 4;
+            // 
+            // chkBRRV5
+            // 
+            this.chkBRRV5.AutoSize = true;
+            this.chkBRRV5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRV5.Checked = true;
+            this.chkBRRV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRV5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRV5.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRV5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRV5.Name = "chkBRRV5";
+            this.chkBRRV5.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRV5.TabIndex = 2;
+            this.chkBRRV5.Text = "R";
+            this.chkBRRV5.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRV5
+            // 
+            this.chkBLRV5.AutoSize = true;
+            this.chkBLRV5.Checked = true;
+            this.chkBLRV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRV5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRV5.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRV5.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRV5.Name = "chkBLRV5";
+            this.chkBLRV5.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRV5.TabIndex = 1;
+            this.chkBLRV5.Text = "L";
+            this.chkBLRV5.UseVisualStyleBackColor = true;
+            // 
             // panel153
             // 
             this.panel153.Controls.Add(this.nudHRV5);
@@ -1629,6 +1752,47 @@
             this.lblWRV2.TabIndex = 0;
             this.lblWRV2.Text = "Ｗ";
             this.lblWRV2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel65
+            // 
+            this.panel65.Controls.Add(this.chkBRRV2);
+            this.panel65.Controls.Add(this.chkBLRV2);
+            this.panel65.Location = new System.Drawing.Point(10, 100);
+            this.panel65.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel65.Name = "panel65";
+            this.panel65.Size = new System.Drawing.Size(80, 20);
+            this.panel65.TabIndex = 4;
+            // 
+            // chkBRRV2
+            // 
+            this.chkBRRV2.AutoSize = true;
+            this.chkBRRV2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRV2.Checked = true;
+            this.chkBRRV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRV2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRV2.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRV2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRV2.Name = "chkBRRV2";
+            this.chkBRRV2.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRV2.TabIndex = 2;
+            this.chkBRRV2.Text = "R";
+            this.chkBRRV2.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRV2
+            // 
+            this.chkBLRV2.AutoSize = true;
+            this.chkBLRV2.Checked = true;
+            this.chkBLRV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRV2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRV2.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRV2.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRV2.Name = "chkBLRV2";
+            this.chkBLRV2.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRV2.TabIndex = 1;
+            this.chkBLRV2.Text = "L";
+            this.chkBLRV2.UseVisualStyleBackColor = true;
             // 
             // panel115
             // 
@@ -1785,6 +1949,47 @@
             this.lblWRV4.Text = "Ｗ";
             this.lblWRV4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel70
+            // 
+            this.panel70.Controls.Add(this.chkBRRV4);
+            this.panel70.Controls.Add(this.chkBLRV4);
+            this.panel70.Location = new System.Drawing.Point(10, 100);
+            this.panel70.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel70.Name = "panel70";
+            this.panel70.Size = new System.Drawing.Size(80, 20);
+            this.panel70.TabIndex = 4;
+            // 
+            // chkBRRV4
+            // 
+            this.chkBRRV4.AutoSize = true;
+            this.chkBRRV4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRV4.Checked = true;
+            this.chkBRRV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRV4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRV4.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRV4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRV4.Name = "chkBRRV4";
+            this.chkBRRV4.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRV4.TabIndex = 2;
+            this.chkBRRV4.Text = "R";
+            this.chkBRRV4.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRV4
+            // 
+            this.chkBLRV4.AutoSize = true;
+            this.chkBLRV4.Checked = true;
+            this.chkBLRV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRV4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRV4.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRV4.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRV4.Name = "chkBLRV4";
+            this.chkBLRV4.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRV4.TabIndex = 1;
+            this.chkBLRV4.Text = "L";
+            this.chkBLRV4.UseVisualStyleBackColor = true;
+            // 
             // panel127
             // 
             this.panel127.Controls.Add(this.nudHRV4);
@@ -1939,6 +2144,47 @@
             this.lblWRV3.TabIndex = 0;
             this.lblWRV3.Text = "Ｗ";
             this.lblWRV3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel69
+            // 
+            this.panel69.Controls.Add(this.chkBRRV3);
+            this.panel69.Controls.Add(this.chkBLRV3);
+            this.panel69.Location = new System.Drawing.Point(10, 100);
+            this.panel69.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel69.Name = "panel69";
+            this.panel69.Size = new System.Drawing.Size(80, 20);
+            this.panel69.TabIndex = 4;
+            // 
+            // chkBRRV3
+            // 
+            this.chkBRRV3.AutoSize = true;
+            this.chkBRRV3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRV3.Checked = true;
+            this.chkBRRV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRV3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRV3.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRV3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRV3.Name = "chkBRRV3";
+            this.chkBRRV3.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRV3.TabIndex = 2;
+            this.chkBRRV3.Text = "R";
+            this.chkBRRV3.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRV3
+            // 
+            this.chkBLRV3.AutoSize = true;
+            this.chkBLRV3.Checked = true;
+            this.chkBLRV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRV3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRV3.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRV3.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRV3.Name = "chkBLRV3";
+            this.chkBLRV3.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRV3.TabIndex = 1;
+            this.chkBLRV3.Text = "L";
+            this.chkBLRV3.UseVisualStyleBackColor = true;
             // 
             // panel121
             // 
@@ -2136,6 +2382,47 @@
             this.lblWRH6.Text = "Ｗ";
             this.lblWRH6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel61
+            // 
+            this.panel61.Controls.Add(this.chkBRRH6);
+            this.panel61.Controls.Add(this.chkBLRH6);
+            this.panel61.Location = new System.Drawing.Point(10, 100);
+            this.panel61.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel61.Name = "panel61";
+            this.panel61.Size = new System.Drawing.Size(80, 20);
+            this.panel61.TabIndex = 4;
+            // 
+            // chkBRRH6
+            // 
+            this.chkBRRH6.AutoSize = true;
+            this.chkBRRH6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRH6.Checked = true;
+            this.chkBRRH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRH6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRH6.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRH6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRH6.Name = "chkBRRH6";
+            this.chkBRRH6.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRH6.TabIndex = 2;
+            this.chkBRRH6.Text = "R";
+            this.chkBRRH6.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRH6
+            // 
+            this.chkBLRH6.AutoSize = true;
+            this.chkBLRH6.Checked = true;
+            this.chkBLRH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRH6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRH6.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRH6.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRH6.Name = "chkBLRH6";
+            this.chkBLRH6.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRH6.TabIndex = 1;
+            this.chkBLRH6.Text = "L";
+            this.chkBLRH6.UseVisualStyleBackColor = true;
+            // 
             // panel103
             // 
             this.panel103.Controls.Add(this.nudHRH6);
@@ -2290,6 +2577,47 @@
             this.lblWRH5.TabIndex = 0;
             this.lblWRH5.Text = "Ｗ";
             this.lblWRH5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel55
+            // 
+            this.panel55.Controls.Add(this.chkBRRH5);
+            this.panel55.Controls.Add(this.chkBLRH5);
+            this.panel55.Location = new System.Drawing.Point(10, 100);
+            this.panel55.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel55.Name = "panel55";
+            this.panel55.Size = new System.Drawing.Size(80, 20);
+            this.panel55.TabIndex = 4;
+            // 
+            // chkBRRH5
+            // 
+            this.chkBRRH5.AutoSize = true;
+            this.chkBRRH5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRH5.Checked = true;
+            this.chkBRRH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRH5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRH5.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRH5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRH5.Name = "chkBRRH5";
+            this.chkBRRH5.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRH5.TabIndex = 2;
+            this.chkBRRH5.Text = "R";
+            this.chkBRRH5.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRH5
+            // 
+            this.chkBLRH5.AutoSize = true;
+            this.chkBLRH5.Checked = true;
+            this.chkBLRH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRH5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRH5.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRH5.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRH5.Name = "chkBLRH5";
+            this.chkBLRH5.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRH5.TabIndex = 1;
+            this.chkBLRH5.Text = "L";
+            this.chkBLRH5.UseVisualStyleBackColor = true;
             // 
             // panel36
             // 
@@ -2446,6 +2774,47 @@
             this.lblWRH4.Text = "Ｗ";
             this.lblWRH4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel54
+            // 
+            this.panel54.Controls.Add(this.chkBRRH4);
+            this.panel54.Controls.Add(this.chkBLRH4);
+            this.panel54.Location = new System.Drawing.Point(10, 100);
+            this.panel54.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel54.Name = "panel54";
+            this.panel54.Size = new System.Drawing.Size(80, 20);
+            this.panel54.TabIndex = 4;
+            // 
+            // chkBRRH4
+            // 
+            this.chkBRRH4.AutoSize = true;
+            this.chkBRRH4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRH4.Checked = true;
+            this.chkBRRH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRH4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRH4.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRH4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRH4.Name = "chkBRRH4";
+            this.chkBRRH4.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRH4.TabIndex = 2;
+            this.chkBRRH4.Text = "R";
+            this.chkBRRH4.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRH4
+            // 
+            this.chkBLRH4.AutoSize = true;
+            this.chkBLRH4.Checked = true;
+            this.chkBLRH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRH4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRH4.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRH4.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRH4.Name = "chkBLRH4";
+            this.chkBLRH4.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRH4.TabIndex = 1;
+            this.chkBLRH4.Text = "L";
+            this.chkBLRH4.UseVisualStyleBackColor = true;
+            // 
             // panel30
             // 
             this.panel30.Controls.Add(this.nudHRH4);
@@ -2600,6 +2969,47 @@
             this.lblWRH3.TabIndex = 0;
             this.lblWRH3.Text = "Ｗ";
             this.lblWRH3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel51
+            // 
+            this.panel51.Controls.Add(this.chkBRRH3);
+            this.panel51.Controls.Add(this.chkBLRH3);
+            this.panel51.Location = new System.Drawing.Point(10, 100);
+            this.panel51.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel51.Name = "panel51";
+            this.panel51.Size = new System.Drawing.Size(80, 20);
+            this.panel51.TabIndex = 4;
+            // 
+            // chkBRRH3
+            // 
+            this.chkBRRH3.AutoSize = true;
+            this.chkBRRH3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRH3.Checked = true;
+            this.chkBRRH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRH3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRH3.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRH3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRH3.Name = "chkBRRH3";
+            this.chkBRRH3.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRH3.TabIndex = 2;
+            this.chkBRRH3.Text = "R";
+            this.chkBRRH3.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRH3
+            // 
+            this.chkBLRH3.AutoSize = true;
+            this.chkBLRH3.Checked = true;
+            this.chkBLRH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRH3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRH3.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRH3.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRH3.Name = "chkBLRH3";
+            this.chkBLRH3.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRH3.TabIndex = 1;
+            this.chkBLRH3.Text = "L";
+            this.chkBLRH3.UseVisualStyleBackColor = true;
             // 
             // panel24
             // 
@@ -2756,6 +3166,47 @@
             this.lblWRH2.Text = "Ｗ";
             this.lblWRH2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel50
+            // 
+            this.panel50.Controls.Add(this.chkBRRH2);
+            this.panel50.Controls.Add(this.chkBLRH2);
+            this.panel50.Location = new System.Drawing.Point(10, 100);
+            this.panel50.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel50.Name = "panel50";
+            this.panel50.Size = new System.Drawing.Size(80, 20);
+            this.panel50.TabIndex = 4;
+            // 
+            // chkBRRH2
+            // 
+            this.chkBRRH2.AutoSize = true;
+            this.chkBRRH2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRH2.Checked = true;
+            this.chkBRRH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRH2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRH2.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRH2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRH2.Name = "chkBRRH2";
+            this.chkBRRH2.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRH2.TabIndex = 2;
+            this.chkBRRH2.Text = "R";
+            this.chkBRRH2.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRH2
+            // 
+            this.chkBLRH2.AutoSize = true;
+            this.chkBLRH2.Checked = true;
+            this.chkBLRH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRH2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRH2.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRH2.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRH2.Name = "chkBLRH2";
+            this.chkBLRH2.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRH2.TabIndex = 1;
+            this.chkBLRH2.Text = "L";
+            this.chkBLRH2.UseVisualStyleBackColor = true;
+            // 
             // panel18
             // 
             this.panel18.Controls.Add(this.nudHRH2);
@@ -2909,6 +3360,47 @@
             this.lblWRH1.TabIndex = 0;
             this.lblWRH1.Text = "Ｗ";
             this.lblWRH1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel48
+            // 
+            this.panel48.Controls.Add(this.chkBRRH1);
+            this.panel48.Controls.Add(this.chkBLRH1);
+            this.panel48.Location = new System.Drawing.Point(10, 100);
+            this.panel48.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel48.Name = "panel48";
+            this.panel48.Size = new System.Drawing.Size(80, 20);
+            this.panel48.TabIndex = 4;
+            // 
+            // chkBRRH1
+            // 
+            this.chkBRRH1.AutoSize = true;
+            this.chkBRRH1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRRH1.Checked = true;
+            this.chkBRRH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRRH1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRRH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRRH1.Location = new System.Drawing.Point(45, 0);
+            this.chkBRRH1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRRH1.Name = "chkBRRH1";
+            this.chkBRRH1.Size = new System.Drawing.Size(35, 20);
+            this.chkBRRH1.TabIndex = 2;
+            this.chkBRRH1.Text = "R";
+            this.chkBRRH1.UseVisualStyleBackColor = true;
+            // 
+            // chkBLRH1
+            // 
+            this.chkBLRH1.AutoSize = true;
+            this.chkBLRH1.Checked = true;
+            this.chkBLRH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLRH1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLRH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLRH1.Location = new System.Drawing.Point(0, 0);
+            this.chkBLRH1.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLRH1.Name = "chkBLRH1";
+            this.chkBLRH1.Size = new System.Drawing.Size(34, 20);
+            this.chkBLRH1.TabIndex = 1;
+            this.chkBLRH1.Text = "L";
+            this.chkBLRH1.UseVisualStyleBackColor = true;
             // 
             // panel6
             // 
@@ -3134,6 +3626,47 @@
             this.lblWSV10.Text = "Ｗ";
             this.lblWSV10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel45
+            // 
+            this.panel45.Controls.Add(this.chkBRSV10);
+            this.panel45.Controls.Add(this.chkBLSV10);
+            this.panel45.Location = new System.Drawing.Point(10, 70);
+            this.panel45.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel45.Name = "panel45";
+            this.panel45.Size = new System.Drawing.Size(80, 20);
+            this.panel45.TabIndex = 3;
+            // 
+            // chkBRSV10
+            // 
+            this.chkBRSV10.AutoSize = true;
+            this.chkBRSV10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV10.Checked = true;
+            this.chkBRSV10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV10.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV10.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV10.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV10.Name = "chkBRSV10";
+            this.chkBRSV10.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV10.TabIndex = 2;
+            this.chkBRSV10.Text = "R";
+            this.chkBRSV10.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV10
+            // 
+            this.chkBLSV10.AutoSize = true;
+            this.chkBLSV10.Checked = true;
+            this.chkBLSV10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV10.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV10.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV10.Name = "chkBLSV10";
+            this.chkBLSV10.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV10.TabIndex = 1;
+            this.chkBLSV10.Text = "L";
+            this.chkBLSV10.UseVisualStyleBackColor = true;
+            // 
             // panel49
             // 
             this.panel49.Controls.Add(this.nudHSV10);
@@ -3252,6 +3785,47 @@
             this.lblWSV5.TabIndex = 0;
             this.lblWSV5.Text = "Ｗ";
             this.lblWSV5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel38
+            // 
+            this.panel38.Controls.Add(this.chkBRSV5);
+            this.panel38.Controls.Add(this.chkBLSV5);
+            this.panel38.Location = new System.Drawing.Point(10, 70);
+            this.panel38.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel38.Name = "panel38";
+            this.panel38.Size = new System.Drawing.Size(80, 20);
+            this.panel38.TabIndex = 3;
+            // 
+            // chkBRSV5
+            // 
+            this.chkBRSV5.AutoSize = true;
+            this.chkBRSV5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV5.Checked = true;
+            this.chkBRSV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV5.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV5.Name = "chkBRSV5";
+            this.chkBRSV5.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV5.TabIndex = 2;
+            this.chkBRSV5.Text = "R";
+            this.chkBRSV5.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV5
+            // 
+            this.chkBLSV5.AutoSize = true;
+            this.chkBLSV5.Checked = true;
+            this.chkBLSV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV5.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV5.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV5.Name = "chkBLSV5";
+            this.chkBLSV5.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV5.TabIndex = 1;
+            this.chkBLSV5.Text = "L";
+            this.chkBLSV5.UseVisualStyleBackColor = true;
             // 
             // panel53
             // 
@@ -3372,6 +3946,47 @@
             this.lblWSV9.Text = "Ｗ";
             this.lblWSV9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel42
+            // 
+            this.panel42.Controls.Add(this.chkBRSV9);
+            this.panel42.Controls.Add(this.chkBLSV9);
+            this.panel42.Location = new System.Drawing.Point(13, 70);
+            this.panel42.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel42.Name = "panel42";
+            this.panel42.Size = new System.Drawing.Size(80, 20);
+            this.panel42.TabIndex = 3;
+            // 
+            // chkBRSV9
+            // 
+            this.chkBRSV9.AutoSize = true;
+            this.chkBRSV9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV9.Checked = true;
+            this.chkBRSV9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV9.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV9.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV9.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV9.Name = "chkBRSV9";
+            this.chkBRSV9.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV9.TabIndex = 2;
+            this.chkBRSV9.Text = "R";
+            this.chkBRSV9.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV9
+            // 
+            this.chkBLSV9.AutoSize = true;
+            this.chkBLSV9.Checked = true;
+            this.chkBLSV9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV9.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV9.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV9.Name = "chkBLSV9";
+            this.chkBLSV9.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV9.TabIndex = 1;
+            this.chkBLSV9.Text = "L";
+            this.chkBLSV9.UseVisualStyleBackColor = true;
+            // 
             // panel57
             // 
             this.panel57.Controls.Add(this.nudHSV9);
@@ -3490,6 +4105,47 @@
             this.lblWSV4.TabIndex = 0;
             this.lblWSV4.Text = "Ｗ";
             this.lblWSV4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel35
+            // 
+            this.panel35.Controls.Add(this.chkBRSV4);
+            this.panel35.Controls.Add(this.chkBLSV4);
+            this.panel35.Location = new System.Drawing.Point(10, 70);
+            this.panel35.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(80, 20);
+            this.panel35.TabIndex = 3;
+            // 
+            // chkBRSV4
+            // 
+            this.chkBRSV4.AutoSize = true;
+            this.chkBRSV4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV4.Checked = true;
+            this.chkBRSV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV4.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV4.Name = "chkBRSV4";
+            this.chkBRSV4.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV4.TabIndex = 2;
+            this.chkBRSV4.Text = "R";
+            this.chkBRSV4.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV4
+            // 
+            this.chkBLSV4.AutoSize = true;
+            this.chkBLSV4.Checked = true;
+            this.chkBLSV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV4.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV4.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV4.Name = "chkBLSV4";
+            this.chkBLSV4.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV4.TabIndex = 1;
+            this.chkBLSV4.Text = "L";
+            this.chkBLSV4.UseVisualStyleBackColor = true;
             // 
             // panel73
             // 
@@ -3610,6 +4266,47 @@
             this.lblWSV8.Text = "Ｗ";
             this.lblWSV8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel41
+            // 
+            this.panel41.Controls.Add(this.chkBRSV8);
+            this.panel41.Controls.Add(this.chkBLSV8);
+            this.panel41.Location = new System.Drawing.Point(10, 70);
+            this.panel41.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel41.Name = "panel41";
+            this.panel41.Size = new System.Drawing.Size(80, 20);
+            this.panel41.TabIndex = 3;
+            // 
+            // chkBRSV8
+            // 
+            this.chkBRSV8.AutoSize = true;
+            this.chkBRSV8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV8.Checked = true;
+            this.chkBRSV8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV8.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV8.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV8.Name = "chkBRSV8";
+            this.chkBRSV8.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV8.TabIndex = 2;
+            this.chkBRSV8.Text = "R";
+            this.chkBRSV8.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV8
+            // 
+            this.chkBLSV8.AutoSize = true;
+            this.chkBLSV8.Checked = true;
+            this.chkBLSV8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV8.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV8.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV8.Name = "chkBLSV8";
+            this.chkBLSV8.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV8.TabIndex = 1;
+            this.chkBLSV8.Text = "L";
+            this.chkBLSV8.UseVisualStyleBackColor = true;
+            // 
             // panel78
             // 
             this.panel78.Controls.Add(this.nudHSV8);
@@ -3728,6 +4425,47 @@
             this.lblWSV3.TabIndex = 0;
             this.lblWSV3.Text = "Ｗ";
             this.lblWSV3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel33
+            // 
+            this.panel33.Controls.Add(this.chkBRSV3);
+            this.panel33.Controls.Add(this.chkBLSV3);
+            this.panel33.Location = new System.Drawing.Point(10, 70);
+            this.panel33.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(80, 20);
+            this.panel33.TabIndex = 3;
+            // 
+            // chkBRSV3
+            // 
+            this.chkBRSV3.AutoSize = true;
+            this.chkBRSV3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV3.Checked = true;
+            this.chkBRSV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV3.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV3.Name = "chkBRSV3";
+            this.chkBRSV3.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV3.TabIndex = 2;
+            this.chkBRSV3.Text = "R";
+            this.chkBRSV3.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV3
+            // 
+            this.chkBLSV3.AutoSize = true;
+            this.chkBLSV3.Checked = true;
+            this.chkBLSV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV3.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV3.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV3.Name = "chkBLSV3";
+            this.chkBLSV3.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV3.TabIndex = 1;
+            this.chkBLSV3.Text = "L";
+            this.chkBLSV3.UseVisualStyleBackColor = true;
             // 
             // panel82
             // 
@@ -3848,6 +4586,47 @@
             this.lblWSV6.Text = "Ｗ";
             this.lblWSV6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel39
+            // 
+            this.panel39.Controls.Add(this.chkBRSV6);
+            this.panel39.Controls.Add(this.chkBLSV6);
+            this.panel39.Location = new System.Drawing.Point(10, 70);
+            this.panel39.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel39.Name = "panel39";
+            this.panel39.Size = new System.Drawing.Size(80, 20);
+            this.panel39.TabIndex = 3;
+            // 
+            // chkBRSV6
+            // 
+            this.chkBRSV6.AutoSize = true;
+            this.chkBRSV6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV6.Checked = true;
+            this.chkBRSV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV6.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV6.Name = "chkBRSV6";
+            this.chkBRSV6.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV6.TabIndex = 2;
+            this.chkBRSV6.Text = "R";
+            this.chkBRSV6.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV6
+            // 
+            this.chkBLSV6.AutoSize = true;
+            this.chkBLSV6.Checked = true;
+            this.chkBLSV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV6.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV6.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV6.Name = "chkBLSV6";
+            this.chkBLSV6.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV6.TabIndex = 1;
+            this.chkBLSV6.Text = "L";
+            this.chkBLSV6.UseVisualStyleBackColor = true;
+            // 
             // panel86
             // 
             this.panel86.Controls.Add(this.nudHSV6);
@@ -3967,6 +4746,47 @@
             this.lblWSV7.Text = "Ｗ";
             this.lblWSV7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel40
+            // 
+            this.panel40.Controls.Add(this.chkBRSV7);
+            this.panel40.Controls.Add(this.chkBLSV7);
+            this.panel40.Location = new System.Drawing.Point(10, 70);
+            this.panel40.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel40.Name = "panel40";
+            this.panel40.Size = new System.Drawing.Size(80, 20);
+            this.panel40.TabIndex = 3;
+            // 
+            // chkBRSV7
+            // 
+            this.chkBRSV7.AutoSize = true;
+            this.chkBRSV7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV7.Checked = true;
+            this.chkBRSV7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV7.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV7.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV7.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV7.Name = "chkBRSV7";
+            this.chkBRSV7.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV7.TabIndex = 2;
+            this.chkBRSV7.Text = "R";
+            this.chkBRSV7.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV7
+            // 
+            this.chkBLSV7.AutoSize = true;
+            this.chkBLSV7.Checked = true;
+            this.chkBLSV7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV7.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV7.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV7.Name = "chkBLSV7";
+            this.chkBLSV7.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV7.TabIndex = 1;
+            this.chkBLSV7.Text = "L";
+            this.chkBLSV7.UseVisualStyleBackColor = true;
+            // 
             // panel140
             // 
             this.panel140.Controls.Add(this.nudHSV7);
@@ -4085,6 +4905,47 @@
             this.lblWSV2.Text = "Ｗ";
             this.lblWSV2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel32
+            // 
+            this.panel32.Controls.Add(this.chkBRSV2);
+            this.panel32.Controls.Add(this.chkBLSV2);
+            this.panel32.Location = new System.Drawing.Point(10, 70);
+            this.panel32.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(80, 20);
+            this.panel32.TabIndex = 3;
+            // 
+            // chkBRSV2
+            // 
+            this.chkBRSV2.AutoSize = true;
+            this.chkBRSV2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV2.Checked = true;
+            this.chkBRSV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV2.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV2.Name = "chkBRSV2";
+            this.chkBRSV2.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV2.TabIndex = 2;
+            this.chkBRSV2.Text = "R";
+            this.chkBRSV2.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV2
+            // 
+            this.chkBLSV2.AutoSize = true;
+            this.chkBLSV2.Checked = true;
+            this.chkBLSV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV2.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV2.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV2.Name = "chkBLSV2";
+            this.chkBLSV2.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV2.TabIndex = 1;
+            this.chkBLSV2.Text = "L";
+            this.chkBLSV2.UseVisualStyleBackColor = true;
+            // 
             // panel144
             // 
             this.panel144.Controls.Add(this.nudHSV2);
@@ -4201,6 +5062,47 @@
             this.lblWSV1.TabIndex = 0;
             this.lblWSV1.Text = "Ｗ";
             this.lblWSV1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel29
+            // 
+            this.panel29.Controls.Add(this.chkBRSV1);
+            this.panel29.Controls.Add(this.chkBLSV1);
+            this.panel29.Location = new System.Drawing.Point(10, 70);
+            this.panel29.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(80, 20);
+            this.panel29.TabIndex = 3;
+            // 
+            // chkBRSV1
+            // 
+            this.chkBRSV1.AutoSize = true;
+            this.chkBRSV1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSV1.Checked = true;
+            this.chkBRSV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSV1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSV1.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSV1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSV1.Name = "chkBRSV1";
+            this.chkBRSV1.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSV1.TabIndex = 2;
+            this.chkBRSV1.Text = "R";
+            this.chkBRSV1.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSV1
+            // 
+            this.chkBLSV1.AutoSize = true;
+            this.chkBLSV1.Checked = true;
+            this.chkBLSV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSV1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSV1.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSV1.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSV1.Name = "chkBLSV1";
+            this.chkBLSV1.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSV1.TabIndex = 1;
+            this.chkBLSV1.Text = "L";
+            this.chkBLSV1.UseVisualStyleBackColor = true;
             // 
             // panel148
             // 
@@ -4370,6 +5272,47 @@
             this.lblWSH10.Text = "Ｗ";
             this.lblWSH10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel27
+            // 
+            this.panel27.Controls.Add(this.chkBRSH10);
+            this.panel27.Controls.Add(this.chkBLSH10);
+            this.panel27.Location = new System.Drawing.Point(10, 70);
+            this.panel27.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(80, 20);
+            this.panel27.TabIndex = 3;
+            // 
+            // chkBRSH10
+            // 
+            this.chkBRSH10.AutoSize = true;
+            this.chkBRSH10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH10.Checked = true;
+            this.chkBRSH10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH10.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH10.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH10.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH10.Name = "chkBRSH10";
+            this.chkBRSH10.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH10.TabIndex = 2;
+            this.chkBRSH10.Text = "R";
+            this.chkBRSH10.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH10
+            // 
+            this.chkBLSH10.AutoSize = true;
+            this.chkBLSH10.Checked = true;
+            this.chkBLSH10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH10.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH10.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH10.Name = "chkBLSH10";
+            this.chkBLSH10.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH10.TabIndex = 1;
+            this.chkBLSH10.Text = "L";
+            this.chkBLSH10.UseVisualStyleBackColor = true;
+            // 
             // panel138
             // 
             this.panel138.Controls.Add(this.nudHSH10);
@@ -4488,6 +5431,47 @@
             this.lblWSH5.TabIndex = 0;
             this.lblWSH5.Text = "Ｗ";
             this.lblWSH5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.chkBRSH5);
+            this.panel17.Controls.Add(this.chkBLSH5);
+            this.panel17.Location = new System.Drawing.Point(10, 70);
+            this.panel17.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(80, 20);
+            this.panel17.TabIndex = 3;
+            // 
+            // chkBRSH5
+            // 
+            this.chkBRSH5.AutoSize = true;
+            this.chkBRSH5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH5.Checked = true;
+            this.chkBRSH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH5.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH5.Name = "chkBRSH5";
+            this.chkBRSH5.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH5.TabIndex = 2;
+            this.chkBRSH5.Text = "R";
+            this.chkBRSH5.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH5
+            // 
+            this.chkBLSH5.AutoSize = true;
+            this.chkBLSH5.Checked = true;
+            this.chkBLSH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH5.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH5.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH5.Name = "chkBLSH5";
+            this.chkBLSH5.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH5.TabIndex = 1;
+            this.chkBLSH5.Text = "L";
+            this.chkBLSH5.UseVisualStyleBackColor = true;
             // 
             // panel68
             // 
@@ -4608,6 +5592,47 @@
             this.lblWSH9.Text = "Ｗ";
             this.lblWSH9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel26
+            // 
+            this.panel26.Controls.Add(this.chkBRSH9);
+            this.panel26.Controls.Add(this.chkBLSH9);
+            this.panel26.Location = new System.Drawing.Point(10, 70);
+            this.panel26.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(80, 20);
+            this.panel26.TabIndex = 3;
+            // 
+            // chkBRSH9
+            // 
+            this.chkBRSH9.AutoSize = true;
+            this.chkBRSH9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH9.Checked = true;
+            this.chkBRSH9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH9.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH9.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH9.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH9.Name = "chkBRSH9";
+            this.chkBRSH9.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH9.TabIndex = 2;
+            this.chkBRSH9.Text = "R";
+            this.chkBRSH9.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH9
+            // 
+            this.chkBLSH9.AutoSize = true;
+            this.chkBLSH9.Checked = true;
+            this.chkBLSH9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH9.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH9.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH9.Name = "chkBLSH9";
+            this.chkBLSH9.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH9.TabIndex = 1;
+            this.chkBLSH9.Text = "L";
+            this.chkBLSH9.UseVisualStyleBackColor = true;
+            // 
             // panel134
             // 
             this.panel134.Controls.Add(this.nudHSH9);
@@ -4726,6 +5751,47 @@
             this.lblWSH4.TabIndex = 0;
             this.lblWSH4.Text = "Ｗ";
             this.lblWSH4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.chkBRSH4);
+            this.panel12.Controls.Add(this.chkBLSH4);
+            this.panel12.Location = new System.Drawing.Point(10, 70);
+            this.panel12.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(80, 20);
+            this.panel12.TabIndex = 3;
+            // 
+            // chkBRSH4
+            // 
+            this.chkBRSH4.AutoSize = true;
+            this.chkBRSH4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH4.Checked = true;
+            this.chkBRSH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH4.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH4.Name = "chkBRSH4";
+            this.chkBRSH4.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH4.TabIndex = 2;
+            this.chkBRSH4.Text = "R";
+            this.chkBRSH4.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH4
+            // 
+            this.chkBLSH4.AutoSize = true;
+            this.chkBLSH4.Checked = true;
+            this.chkBLSH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH4.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH4.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH4.Name = "chkBLSH4";
+            this.chkBLSH4.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH4.TabIndex = 1;
+            this.chkBLSH4.Text = "L";
+            this.chkBLSH4.UseVisualStyleBackColor = true;
             // 
             // panel63
             // 
@@ -4846,6 +5912,47 @@
             this.lblWSH8.Text = "Ｗ";
             this.lblWSH8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel23
+            // 
+            this.panel23.Controls.Add(this.chkBRSH8);
+            this.panel23.Controls.Add(this.chkBLSH8);
+            this.panel23.Location = new System.Drawing.Point(10, 70);
+            this.panel23.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(80, 20);
+            this.panel23.TabIndex = 3;
+            // 
+            // chkBRSH8
+            // 
+            this.chkBRSH8.AutoSize = true;
+            this.chkBRSH8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH8.Checked = true;
+            this.chkBRSH8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH8.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH8.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH8.Name = "chkBRSH8";
+            this.chkBRSH8.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH8.TabIndex = 2;
+            this.chkBRSH8.Text = "R";
+            this.chkBRSH8.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH8
+            // 
+            this.chkBLSH8.AutoSize = true;
+            this.chkBLSH8.Checked = true;
+            this.chkBLSH8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH8.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH8.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH8.Name = "chkBLSH8";
+            this.chkBLSH8.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH8.TabIndex = 1;
+            this.chkBLSH8.Text = "L";
+            this.chkBLSH8.UseVisualStyleBackColor = true;
+            // 
             // panel130
             // 
             this.panel130.Controls.Add(this.nudHSH8);
@@ -4964,6 +6071,47 @@
             this.lblWSH3.TabIndex = 0;
             this.lblWSH3.Text = "Ｗ";
             this.lblWSH3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.chkBRSH3);
+            this.panel11.Controls.Add(this.chkBLSH3);
+            this.panel11.Location = new System.Drawing.Point(10, 70);
+            this.panel11.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(80, 20);
+            this.panel11.TabIndex = 3;
+            // 
+            // chkBRSH3
+            // 
+            this.chkBRSH3.AutoSize = true;
+            this.chkBRSH3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH3.Checked = true;
+            this.chkBRSH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH3.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH3.Name = "chkBRSH3";
+            this.chkBRSH3.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH3.TabIndex = 2;
+            this.chkBRSH3.Text = "R";
+            this.chkBRSH3.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH3
+            // 
+            this.chkBLSH3.AutoSize = true;
+            this.chkBLSH3.Checked = true;
+            this.chkBLSH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH3.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH3.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH3.Name = "chkBLSH3";
+            this.chkBLSH3.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH3.TabIndex = 1;
+            this.chkBLSH3.Text = "L";
+            this.chkBLSH3.UseVisualStyleBackColor = true;
             // 
             // panel59
             // 
@@ -5084,6 +6232,47 @@
             this.lblWSH6.Text = "Ｗ";
             this.lblWSH6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.chkBRSH6);
+            this.panel20.Controls.Add(this.chkBLSH6);
+            this.panel20.Location = new System.Drawing.Point(10, 70);
+            this.panel20.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(80, 20);
+            this.panel20.TabIndex = 3;
+            // 
+            // chkBRSH6
+            // 
+            this.chkBRSH6.AutoSize = true;
+            this.chkBRSH6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH6.Checked = true;
+            this.chkBRSH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH6.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH6.Name = "chkBRSH6";
+            this.chkBRSH6.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH6.TabIndex = 2;
+            this.chkBRSH6.Text = "R";
+            this.chkBRSH6.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH6
+            // 
+            this.chkBLSH6.AutoSize = true;
+            this.chkBLSH6.Checked = true;
+            this.chkBLSH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH6.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH6.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH6.Name = "chkBLSH6";
+            this.chkBLSH6.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH6.TabIndex = 1;
+            this.chkBLSH6.Text = "L";
+            this.chkBLSH6.UseVisualStyleBackColor = true;
+            // 
             // panel91
             // 
             this.panel91.Controls.Add(this.nudHSH6);
@@ -5203,6 +6392,47 @@
             this.lblWSH7.Text = "Ｗ";
             this.lblWSH7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel21
+            // 
+            this.panel21.Controls.Add(this.chkBRSH7);
+            this.panel21.Controls.Add(this.chkBLSH7);
+            this.panel21.Location = new System.Drawing.Point(10, 73);
+            this.panel21.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(80, 20);
+            this.panel21.TabIndex = 3;
+            // 
+            // chkBRSH7
+            // 
+            this.chkBRSH7.AutoSize = true;
+            this.chkBRSH7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH7.Checked = true;
+            this.chkBRSH7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH7.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH7.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH7.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH7.Name = "chkBRSH7";
+            this.chkBRSH7.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH7.TabIndex = 2;
+            this.chkBRSH7.Text = "R";
+            this.chkBRSH7.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH7
+            // 
+            this.chkBLSH7.AutoSize = true;
+            this.chkBLSH7.Checked = true;
+            this.chkBLSH7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH7.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH7.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH7.Name = "chkBLSH7";
+            this.chkBLSH7.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH7.TabIndex = 1;
+            this.chkBLSH7.Text = "L";
+            this.chkBLSH7.UseVisualStyleBackColor = true;
+            // 
             // panel95
             // 
             this.panel95.Controls.Add(this.nudHSH7);
@@ -5321,6 +6551,47 @@
             this.lblWSH2.Text = "Ｗ";
             this.lblWSH2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.chkBRSH2);
+            this.panel7.Controls.Add(this.chkBLSH2);
+            this.panel7.Location = new System.Drawing.Point(10, 70);
+            this.panel7.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(80, 20);
+            this.panel7.TabIndex = 3;
+            // 
+            // chkBRSH2
+            // 
+            this.chkBRSH2.AutoSize = true;
+            this.chkBRSH2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH2.Checked = true;
+            this.chkBRSH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH2.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH2.Name = "chkBRSH2";
+            this.chkBRSH2.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH2.TabIndex = 2;
+            this.chkBRSH2.Text = "R";
+            this.chkBRSH2.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH2
+            // 
+            this.chkBLSH2.AutoSize = true;
+            this.chkBLSH2.Checked = true;
+            this.chkBLSH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH2.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH2.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH2.Name = "chkBLSH2";
+            this.chkBLSH2.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH2.TabIndex = 1;
+            this.chkBLSH2.Text = "L";
+            this.chkBLSH2.UseVisualStyleBackColor = true;
+            // 
             // panel44
             // 
             this.panel44.Controls.Add(this.nudHSH2);
@@ -5438,6 +6709,47 @@
             this.lblWSH1.Text = "Ｗ";
             this.lblWSH1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.chkBRSH1);
+            this.panel10.Controls.Add(this.chkBLSH1);
+            this.panel10.Location = new System.Drawing.Point(10, 70);
+            this.panel10.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(80, 20);
+            this.panel10.TabIndex = 3;
+            // 
+            // chkBRSH1
+            // 
+            this.chkBRSH1.AutoSize = true;
+            this.chkBRSH1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkBRSH1.Checked = true;
+            this.chkBRSH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBRSH1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkBRSH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBRSH1.Location = new System.Drawing.Point(45, 0);
+            this.chkBRSH1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkBRSH1.Name = "chkBRSH1";
+            this.chkBRSH1.Size = new System.Drawing.Size(35, 20);
+            this.chkBRSH1.TabIndex = 2;
+            this.chkBRSH1.Text = "R";
+            this.chkBRSH1.UseVisualStyleBackColor = true;
+            // 
+            // chkBLSH1
+            // 
+            this.chkBLSH1.AutoSize = true;
+            this.chkBLSH1.Checked = true;
+            this.chkBLSH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBLSH1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkBLSH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBLSH1.Location = new System.Drawing.Point(0, 0);
+            this.chkBLSH1.Margin = new System.Windows.Forms.Padding(10);
+            this.chkBLSH1.Name = "chkBLSH1";
+            this.chkBLSH1.Size = new System.Drawing.Size(34, 20);
+            this.chkBLSH1.TabIndex = 1;
+            this.chkBLSH1.Text = "L";
+            this.chkBLSH1.UseVisualStyleBackColor = true;
+            // 
             // panel14
             // 
             this.panel14.Controls.Add(this.nudHSH1);
@@ -5522,1318 +6834,6 @@
             this.label1.Text = "スラブ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.checkBox2);
-            this.panel10.Controls.Add(this.checkBox1);
-            this.panel10.Location = new System.Drawing.Point(10, 70);
-            this.panel10.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(80, 20);
-            this.panel10.TabIndex = 3;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(45, 0);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(35, 20);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "R";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(0, 0);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(34, 20);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "L";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.checkBox3);
-            this.panel7.Controls.Add(this.checkBox4);
-            this.panel7.Location = new System.Drawing.Point(10, 70);
-            this.panel7.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(80, 20);
-            this.panel7.TabIndex = 3;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox3.Checked = true;
-            this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(45, 0);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(35, 20);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "R";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Checked = true;
-            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(0, 0);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(34, 20);
-            this.checkBox4.TabIndex = 1;
-            this.checkBox4.Text = "L";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.checkBox5);
-            this.panel11.Controls.Add(this.checkBox6);
-            this.panel11.Location = new System.Drawing.Point(10, 70);
-            this.panel11.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(80, 20);
-            this.panel11.TabIndex = 3;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox5.Checked = true;
-            this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(45, 0);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(35, 20);
-            this.checkBox5.TabIndex = 2;
-            this.checkBox5.Text = "R";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Checked = true;
-            this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(0, 0);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(34, 20);
-            this.checkBox6.TabIndex = 1;
-            this.checkBox6.Text = "L";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.checkBox7);
-            this.panel12.Controls.Add(this.checkBox8);
-            this.panel12.Location = new System.Drawing.Point(10, 70);
-            this.panel12.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(80, 20);
-            this.panel12.TabIndex = 3;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox7.Checked = true;
-            this.checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(45, 0);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(35, 20);
-            this.checkBox7.TabIndex = 2;
-            this.checkBox7.Text = "R";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Checked = true;
-            this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(0, 0);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(34, 20);
-            this.checkBox8.TabIndex = 1;
-            this.checkBox8.Text = "L";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.checkBox9);
-            this.panel17.Controls.Add(this.checkBox10);
-            this.panel17.Location = new System.Drawing.Point(10, 70);
-            this.panel17.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(80, 20);
-            this.panel17.TabIndex = 3;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox9.Checked = true;
-            this.checkBox9.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(45, 0);
-            this.checkBox9.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(35, 20);
-            this.checkBox9.TabIndex = 2;
-            this.checkBox9.Text = "R";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Checked = true;
-            this.checkBox10.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(0, 0);
-            this.checkBox10.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(34, 20);
-            this.checkBox10.TabIndex = 1;
-            this.checkBox10.Text = "L";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // panel20
-            // 
-            this.panel20.Controls.Add(this.checkBox11);
-            this.panel20.Controls.Add(this.checkBox12);
-            this.panel20.Location = new System.Drawing.Point(10, 70);
-            this.panel20.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(80, 20);
-            this.panel20.TabIndex = 3;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox11.Checked = true;
-            this.checkBox11.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox11.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(45, 0);
-            this.checkBox11.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(35, 20);
-            this.checkBox11.TabIndex = 2;
-            this.checkBox11.Text = "R";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Checked = true;
-            this.checkBox12.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox12.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox12.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(0, 0);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(34, 20);
-            this.checkBox12.TabIndex = 1;
-            this.checkBox12.Text = "L";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // panel21
-            // 
-            this.panel21.Controls.Add(this.checkBox13);
-            this.panel21.Controls.Add(this.checkBox14);
-            this.panel21.Location = new System.Drawing.Point(10, 73);
-            this.panel21.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(80, 20);
-            this.panel21.TabIndex = 3;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox13.Checked = true;
-            this.checkBox13.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox13.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.Location = new System.Drawing.Point(45, 0);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(35, 20);
-            this.checkBox13.TabIndex = 2;
-            this.checkBox13.Text = "R";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Checked = true;
-            this.checkBox14.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox14.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox14.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.Location = new System.Drawing.Point(0, 0);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(34, 20);
-            this.checkBox14.TabIndex = 1;
-            this.checkBox14.Text = "L";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // panel23
-            // 
-            this.panel23.Controls.Add(this.checkBox15);
-            this.panel23.Controls.Add(this.checkBox16);
-            this.panel23.Location = new System.Drawing.Point(10, 70);
-            this.panel23.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(80, 20);
-            this.panel23.TabIndex = 3;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox15.Checked = true;
-            this.checkBox15.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox15.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.Location = new System.Drawing.Point(45, 0);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(35, 20);
-            this.checkBox15.TabIndex = 2;
-            this.checkBox15.Text = "R";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Checked = true;
-            this.checkBox16.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox16.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox16.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox16.Location = new System.Drawing.Point(0, 0);
-            this.checkBox16.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(34, 20);
-            this.checkBox16.TabIndex = 1;
-            this.checkBox16.Text = "L";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // panel26
-            // 
-            this.panel26.Controls.Add(this.checkBox17);
-            this.panel26.Controls.Add(this.checkBox18);
-            this.panel26.Location = new System.Drawing.Point(10, 70);
-            this.panel26.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(80, 20);
-            this.panel26.TabIndex = 3;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox17.Checked = true;
-            this.checkBox17.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox17.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox17.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(45, 0);
-            this.checkBox17.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(35, 20);
-            this.checkBox17.TabIndex = 2;
-            this.checkBox17.Text = "R";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Checked = true;
-            this.checkBox18.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox18.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox18.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(0, 0);
-            this.checkBox18.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(34, 20);
-            this.checkBox18.TabIndex = 1;
-            this.checkBox18.Text = "L";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // panel27
-            // 
-            this.panel27.Controls.Add(this.checkBox19);
-            this.panel27.Controls.Add(this.checkBox20);
-            this.panel27.Location = new System.Drawing.Point(10, 70);
-            this.panel27.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(80, 20);
-            this.panel27.TabIndex = 3;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox19.Checked = true;
-            this.checkBox19.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox19.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox19.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(45, 0);
-            this.checkBox19.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(35, 20);
-            this.checkBox19.TabIndex = 2;
-            this.checkBox19.Text = "R";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Checked = true;
-            this.checkBox20.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox20.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox20.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(0, 0);
-            this.checkBox20.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(34, 20);
-            this.checkBox20.TabIndex = 1;
-            this.checkBox20.Text = "L";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // panel29
-            // 
-            this.panel29.Controls.Add(this.checkBox21);
-            this.panel29.Controls.Add(this.checkBox22);
-            this.panel29.Location = new System.Drawing.Point(10, 70);
-            this.panel29.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(80, 20);
-            this.panel29.TabIndex = 3;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox21.Checked = true;
-            this.checkBox21.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox21.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox21.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(45, 0);
-            this.checkBox21.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(35, 20);
-            this.checkBox21.TabIndex = 2;
-            this.checkBox21.Text = "R";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Checked = true;
-            this.checkBox22.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox22.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox22.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(0, 0);
-            this.checkBox22.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(34, 20);
-            this.checkBox22.TabIndex = 1;
-            this.checkBox22.Text = "L";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // panel32
-            // 
-            this.panel32.Controls.Add(this.checkBox23);
-            this.panel32.Controls.Add(this.checkBox24);
-            this.panel32.Location = new System.Drawing.Point(10, 70);
-            this.panel32.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(80, 20);
-            this.panel32.TabIndex = 3;
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox23.Checked = true;
-            this.checkBox23.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox23.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox23.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox23.Location = new System.Drawing.Point(45, 0);
-            this.checkBox23.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(35, 20);
-            this.checkBox23.TabIndex = 2;
-            this.checkBox23.Text = "R";
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Checked = true;
-            this.checkBox24.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox24.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox24.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox24.Location = new System.Drawing.Point(0, 0);
-            this.checkBox24.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(34, 20);
-            this.checkBox24.TabIndex = 1;
-            this.checkBox24.Text = "L";
-            this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // panel33
-            // 
-            this.panel33.Controls.Add(this.checkBox25);
-            this.panel33.Controls.Add(this.checkBox26);
-            this.panel33.Location = new System.Drawing.Point(10, 70);
-            this.panel33.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(80, 20);
-            this.panel33.TabIndex = 3;
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox25.Checked = true;
-            this.checkBox25.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox25.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox25.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox25.Location = new System.Drawing.Point(45, 0);
-            this.checkBox25.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(35, 20);
-            this.checkBox25.TabIndex = 2;
-            this.checkBox25.Text = "R";
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // checkBox26
-            // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Checked = true;
-            this.checkBox26.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox26.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox26.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox26.Location = new System.Drawing.Point(0, 0);
-            this.checkBox26.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(34, 20);
-            this.checkBox26.TabIndex = 1;
-            this.checkBox26.Text = "L";
-            this.checkBox26.UseVisualStyleBackColor = true;
-            // 
-            // panel35
-            // 
-            this.panel35.Controls.Add(this.checkBox27);
-            this.panel35.Controls.Add(this.checkBox28);
-            this.panel35.Location = new System.Drawing.Point(10, 70);
-            this.panel35.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(80, 20);
-            this.panel35.TabIndex = 3;
-            // 
-            // checkBox27
-            // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox27.Checked = true;
-            this.checkBox27.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox27.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox27.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox27.Location = new System.Drawing.Point(45, 0);
-            this.checkBox27.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(35, 20);
-            this.checkBox27.TabIndex = 2;
-            this.checkBox27.Text = "R";
-            this.checkBox27.UseVisualStyleBackColor = true;
-            // 
-            // checkBox28
-            // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Checked = true;
-            this.checkBox28.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox28.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox28.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox28.Location = new System.Drawing.Point(0, 0);
-            this.checkBox28.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(34, 20);
-            this.checkBox28.TabIndex = 1;
-            this.checkBox28.Text = "L";
-            this.checkBox28.UseVisualStyleBackColor = true;
-            // 
-            // panel38
-            // 
-            this.panel38.Controls.Add(this.checkBox29);
-            this.panel38.Controls.Add(this.checkBox30);
-            this.panel38.Location = new System.Drawing.Point(10, 70);
-            this.panel38.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(80, 20);
-            this.panel38.TabIndex = 3;
-            // 
-            // checkBox29
-            // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox29.Checked = true;
-            this.checkBox29.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox29.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox29.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox29.Location = new System.Drawing.Point(45, 0);
-            this.checkBox29.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(35, 20);
-            this.checkBox29.TabIndex = 2;
-            this.checkBox29.Text = "R";
-            this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Checked = true;
-            this.checkBox30.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox30.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox30.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox30.Location = new System.Drawing.Point(0, 0);
-            this.checkBox30.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(34, 20);
-            this.checkBox30.TabIndex = 1;
-            this.checkBox30.Text = "L";
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // panel39
-            // 
-            this.panel39.Controls.Add(this.checkBox31);
-            this.panel39.Controls.Add(this.checkBox32);
-            this.panel39.Location = new System.Drawing.Point(10, 70);
-            this.panel39.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(80, 20);
-            this.panel39.TabIndex = 3;
-            // 
-            // checkBox31
-            // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox31.Checked = true;
-            this.checkBox31.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox31.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox31.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox31.Location = new System.Drawing.Point(45, 0);
-            this.checkBox31.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(35, 20);
-            this.checkBox31.TabIndex = 2;
-            this.checkBox31.Text = "R";
-            this.checkBox31.UseVisualStyleBackColor = true;
-            // 
-            // checkBox32
-            // 
-            this.checkBox32.AutoSize = true;
-            this.checkBox32.Checked = true;
-            this.checkBox32.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox32.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox32.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox32.Location = new System.Drawing.Point(0, 0);
-            this.checkBox32.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(34, 20);
-            this.checkBox32.TabIndex = 1;
-            this.checkBox32.Text = "L";
-            this.checkBox32.UseVisualStyleBackColor = true;
-            // 
-            // panel40
-            // 
-            this.panel40.Controls.Add(this.checkBox33);
-            this.panel40.Controls.Add(this.checkBox34);
-            this.panel40.Location = new System.Drawing.Point(10, 70);
-            this.panel40.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(80, 20);
-            this.panel40.TabIndex = 3;
-            // 
-            // checkBox33
-            // 
-            this.checkBox33.AutoSize = true;
-            this.checkBox33.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox33.Checked = true;
-            this.checkBox33.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox33.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox33.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox33.Location = new System.Drawing.Point(45, 0);
-            this.checkBox33.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Size = new System.Drawing.Size(35, 20);
-            this.checkBox33.TabIndex = 2;
-            this.checkBox33.Text = "R";
-            this.checkBox33.UseVisualStyleBackColor = true;
-            // 
-            // checkBox34
-            // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Checked = true;
-            this.checkBox34.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox34.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox34.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox34.Location = new System.Drawing.Point(0, 0);
-            this.checkBox34.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(34, 20);
-            this.checkBox34.TabIndex = 1;
-            this.checkBox34.Text = "L";
-            this.checkBox34.UseVisualStyleBackColor = true;
-            // 
-            // panel41
-            // 
-            this.panel41.Controls.Add(this.checkBox35);
-            this.panel41.Controls.Add(this.checkBox36);
-            this.panel41.Location = new System.Drawing.Point(10, 70);
-            this.panel41.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(80, 20);
-            this.panel41.TabIndex = 3;
-            // 
-            // checkBox35
-            // 
-            this.checkBox35.AutoSize = true;
-            this.checkBox35.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox35.Checked = true;
-            this.checkBox35.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox35.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox35.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox35.Location = new System.Drawing.Point(45, 0);
-            this.checkBox35.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Size = new System.Drawing.Size(35, 20);
-            this.checkBox35.TabIndex = 2;
-            this.checkBox35.Text = "R";
-            this.checkBox35.UseVisualStyleBackColor = true;
-            // 
-            // checkBox36
-            // 
-            this.checkBox36.AutoSize = true;
-            this.checkBox36.Checked = true;
-            this.checkBox36.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox36.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox36.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox36.Location = new System.Drawing.Point(0, 0);
-            this.checkBox36.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Size = new System.Drawing.Size(34, 20);
-            this.checkBox36.TabIndex = 1;
-            this.checkBox36.Text = "L";
-            this.checkBox36.UseVisualStyleBackColor = true;
-            // 
-            // panel42
-            // 
-            this.panel42.Controls.Add(this.checkBox37);
-            this.panel42.Controls.Add(this.checkBox38);
-            this.panel42.Location = new System.Drawing.Point(13, 70);
-            this.panel42.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(80, 20);
-            this.panel42.TabIndex = 3;
-            // 
-            // checkBox37
-            // 
-            this.checkBox37.AutoSize = true;
-            this.checkBox37.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox37.Checked = true;
-            this.checkBox37.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox37.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox37.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox37.Location = new System.Drawing.Point(45, 0);
-            this.checkBox37.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox37.Name = "checkBox37";
-            this.checkBox37.Size = new System.Drawing.Size(35, 20);
-            this.checkBox37.TabIndex = 2;
-            this.checkBox37.Text = "R";
-            this.checkBox37.UseVisualStyleBackColor = true;
-            // 
-            // checkBox38
-            // 
-            this.checkBox38.AutoSize = true;
-            this.checkBox38.Checked = true;
-            this.checkBox38.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox38.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox38.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox38.Location = new System.Drawing.Point(0, 0);
-            this.checkBox38.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox38.Name = "checkBox38";
-            this.checkBox38.Size = new System.Drawing.Size(34, 20);
-            this.checkBox38.TabIndex = 1;
-            this.checkBox38.Text = "L";
-            this.checkBox38.UseVisualStyleBackColor = true;
-            // 
-            // panel45
-            // 
-            this.panel45.Controls.Add(this.checkBox39);
-            this.panel45.Controls.Add(this.checkBox40);
-            this.panel45.Location = new System.Drawing.Point(10, 70);
-            this.panel45.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(80, 20);
-            this.panel45.TabIndex = 3;
-            // 
-            // checkBox39
-            // 
-            this.checkBox39.AutoSize = true;
-            this.checkBox39.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox39.Checked = true;
-            this.checkBox39.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox39.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox39.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox39.Location = new System.Drawing.Point(45, 0);
-            this.checkBox39.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox39.Name = "checkBox39";
-            this.checkBox39.Size = new System.Drawing.Size(35, 20);
-            this.checkBox39.TabIndex = 2;
-            this.checkBox39.Text = "R";
-            this.checkBox39.UseVisualStyleBackColor = true;
-            // 
-            // checkBox40
-            // 
-            this.checkBox40.AutoSize = true;
-            this.checkBox40.Checked = true;
-            this.checkBox40.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox40.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox40.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox40.Location = new System.Drawing.Point(0, 0);
-            this.checkBox40.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox40.Name = "checkBox40";
-            this.checkBox40.Size = new System.Drawing.Size(34, 20);
-            this.checkBox40.TabIndex = 1;
-            this.checkBox40.Text = "L";
-            this.checkBox40.UseVisualStyleBackColor = true;
-            // 
-            // panel48
-            // 
-            this.panel48.Controls.Add(this.checkBox41);
-            this.panel48.Controls.Add(this.checkBox42);
-            this.panel48.Location = new System.Drawing.Point(10, 100);
-            this.panel48.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(80, 20);
-            this.panel48.TabIndex = 4;
-            // 
-            // checkBox41
-            // 
-            this.checkBox41.AutoSize = true;
-            this.checkBox41.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox41.Checked = true;
-            this.checkBox41.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox41.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox41.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox41.Location = new System.Drawing.Point(45, 0);
-            this.checkBox41.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox41.Name = "checkBox41";
-            this.checkBox41.Size = new System.Drawing.Size(35, 20);
-            this.checkBox41.TabIndex = 2;
-            this.checkBox41.Text = "R";
-            this.checkBox41.UseVisualStyleBackColor = true;
-            // 
-            // checkBox42
-            // 
-            this.checkBox42.AutoSize = true;
-            this.checkBox42.Checked = true;
-            this.checkBox42.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox42.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox42.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox42.Location = new System.Drawing.Point(0, 0);
-            this.checkBox42.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox42.Name = "checkBox42";
-            this.checkBox42.Size = new System.Drawing.Size(34, 20);
-            this.checkBox42.TabIndex = 1;
-            this.checkBox42.Text = "L";
-            this.checkBox42.UseVisualStyleBackColor = true;
-            // 
-            // panel50
-            // 
-            this.panel50.Controls.Add(this.checkBox43);
-            this.panel50.Controls.Add(this.checkBox44);
-            this.panel50.Location = new System.Drawing.Point(10, 100);
-            this.panel50.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel50.Name = "panel50";
-            this.panel50.Size = new System.Drawing.Size(80, 20);
-            this.panel50.TabIndex = 4;
-            // 
-            // checkBox43
-            // 
-            this.checkBox43.AutoSize = true;
-            this.checkBox43.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox43.Checked = true;
-            this.checkBox43.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox43.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox43.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox43.Location = new System.Drawing.Point(45, 0);
-            this.checkBox43.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox43.Name = "checkBox43";
-            this.checkBox43.Size = new System.Drawing.Size(35, 20);
-            this.checkBox43.TabIndex = 2;
-            this.checkBox43.Text = "R";
-            this.checkBox43.UseVisualStyleBackColor = true;
-            // 
-            // checkBox44
-            // 
-            this.checkBox44.AutoSize = true;
-            this.checkBox44.Checked = true;
-            this.checkBox44.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox44.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox44.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox44.Location = new System.Drawing.Point(0, 0);
-            this.checkBox44.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox44.Name = "checkBox44";
-            this.checkBox44.Size = new System.Drawing.Size(34, 20);
-            this.checkBox44.TabIndex = 1;
-            this.checkBox44.Text = "L";
-            this.checkBox44.UseVisualStyleBackColor = true;
-            // 
-            // panel51
-            // 
-            this.panel51.Controls.Add(this.checkBox45);
-            this.panel51.Controls.Add(this.checkBox46);
-            this.panel51.Location = new System.Drawing.Point(10, 100);
-            this.panel51.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel51.Name = "panel51";
-            this.panel51.Size = new System.Drawing.Size(80, 20);
-            this.panel51.TabIndex = 4;
-            // 
-            // checkBox45
-            // 
-            this.checkBox45.AutoSize = true;
-            this.checkBox45.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox45.Checked = true;
-            this.checkBox45.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox45.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox45.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox45.Location = new System.Drawing.Point(45, 0);
-            this.checkBox45.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox45.Name = "checkBox45";
-            this.checkBox45.Size = new System.Drawing.Size(35, 20);
-            this.checkBox45.TabIndex = 2;
-            this.checkBox45.Text = "R";
-            this.checkBox45.UseVisualStyleBackColor = true;
-            // 
-            // checkBox46
-            // 
-            this.checkBox46.AutoSize = true;
-            this.checkBox46.Checked = true;
-            this.checkBox46.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox46.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox46.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox46.Location = new System.Drawing.Point(0, 0);
-            this.checkBox46.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox46.Name = "checkBox46";
-            this.checkBox46.Size = new System.Drawing.Size(34, 20);
-            this.checkBox46.TabIndex = 1;
-            this.checkBox46.Text = "L";
-            this.checkBox46.UseVisualStyleBackColor = true;
-            // 
-            // panel54
-            // 
-            this.panel54.Controls.Add(this.checkBox47);
-            this.panel54.Controls.Add(this.checkBox48);
-            this.panel54.Location = new System.Drawing.Point(10, 100);
-            this.panel54.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel54.Name = "panel54";
-            this.panel54.Size = new System.Drawing.Size(80, 20);
-            this.panel54.TabIndex = 4;
-            // 
-            // checkBox47
-            // 
-            this.checkBox47.AutoSize = true;
-            this.checkBox47.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox47.Checked = true;
-            this.checkBox47.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox47.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox47.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox47.Location = new System.Drawing.Point(45, 0);
-            this.checkBox47.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox47.Name = "checkBox47";
-            this.checkBox47.Size = new System.Drawing.Size(35, 20);
-            this.checkBox47.TabIndex = 2;
-            this.checkBox47.Text = "R";
-            this.checkBox47.UseVisualStyleBackColor = true;
-            // 
-            // checkBox48
-            // 
-            this.checkBox48.AutoSize = true;
-            this.checkBox48.Checked = true;
-            this.checkBox48.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox48.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox48.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox48.Location = new System.Drawing.Point(0, 0);
-            this.checkBox48.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox48.Name = "checkBox48";
-            this.checkBox48.Size = new System.Drawing.Size(34, 20);
-            this.checkBox48.TabIndex = 1;
-            this.checkBox48.Text = "L";
-            this.checkBox48.UseVisualStyleBackColor = true;
-            // 
-            // panel55
-            // 
-            this.panel55.Controls.Add(this.checkBox49);
-            this.panel55.Controls.Add(this.checkBox50);
-            this.panel55.Location = new System.Drawing.Point(10, 100);
-            this.panel55.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel55.Name = "panel55";
-            this.panel55.Size = new System.Drawing.Size(80, 20);
-            this.panel55.TabIndex = 4;
-            // 
-            // checkBox49
-            // 
-            this.checkBox49.AutoSize = true;
-            this.checkBox49.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox49.Checked = true;
-            this.checkBox49.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox49.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox49.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox49.Location = new System.Drawing.Point(45, 0);
-            this.checkBox49.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox49.Name = "checkBox49";
-            this.checkBox49.Size = new System.Drawing.Size(35, 20);
-            this.checkBox49.TabIndex = 2;
-            this.checkBox49.Text = "R";
-            this.checkBox49.UseVisualStyleBackColor = true;
-            // 
-            // checkBox50
-            // 
-            this.checkBox50.AutoSize = true;
-            this.checkBox50.Checked = true;
-            this.checkBox50.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox50.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox50.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox50.Location = new System.Drawing.Point(0, 0);
-            this.checkBox50.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox50.Name = "checkBox50";
-            this.checkBox50.Size = new System.Drawing.Size(34, 20);
-            this.checkBox50.TabIndex = 1;
-            this.checkBox50.Text = "L";
-            this.checkBox50.UseVisualStyleBackColor = true;
-            // 
-            // panel61
-            // 
-            this.panel61.Controls.Add(this.checkBox51);
-            this.panel61.Controls.Add(this.checkBox52);
-            this.panel61.Location = new System.Drawing.Point(10, 100);
-            this.panel61.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel61.Name = "panel61";
-            this.panel61.Size = new System.Drawing.Size(80, 20);
-            this.panel61.TabIndex = 4;
-            // 
-            // checkBox51
-            // 
-            this.checkBox51.AutoSize = true;
-            this.checkBox51.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox51.Checked = true;
-            this.checkBox51.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox51.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox51.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox51.Location = new System.Drawing.Point(45, 0);
-            this.checkBox51.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox51.Name = "checkBox51";
-            this.checkBox51.Size = new System.Drawing.Size(35, 20);
-            this.checkBox51.TabIndex = 2;
-            this.checkBox51.Text = "R";
-            this.checkBox51.UseVisualStyleBackColor = true;
-            // 
-            // checkBox52
-            // 
-            this.checkBox52.AutoSize = true;
-            this.checkBox52.Checked = true;
-            this.checkBox52.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox52.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox52.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox52.Location = new System.Drawing.Point(0, 0);
-            this.checkBox52.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox52.Name = "checkBox52";
-            this.checkBox52.Size = new System.Drawing.Size(34, 20);
-            this.checkBox52.TabIndex = 1;
-            this.checkBox52.Text = "L";
-            this.checkBox52.UseVisualStyleBackColor = true;
-            // 
-            // panel64
-            // 
-            this.panel64.Controls.Add(this.checkBox53);
-            this.panel64.Controls.Add(this.checkBox54);
-            this.panel64.Location = new System.Drawing.Point(10, 100);
-            this.panel64.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel64.Name = "panel64";
-            this.panel64.Size = new System.Drawing.Size(80, 20);
-            this.panel64.TabIndex = 4;
-            // 
-            // checkBox53
-            // 
-            this.checkBox53.AutoSize = true;
-            this.checkBox53.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox53.Checked = true;
-            this.checkBox53.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox53.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox53.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox53.Location = new System.Drawing.Point(45, 0);
-            this.checkBox53.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox53.Name = "checkBox53";
-            this.checkBox53.Size = new System.Drawing.Size(35, 20);
-            this.checkBox53.TabIndex = 2;
-            this.checkBox53.Text = "R";
-            this.checkBox53.UseVisualStyleBackColor = true;
-            // 
-            // checkBox54
-            // 
-            this.checkBox54.AutoSize = true;
-            this.checkBox54.Checked = true;
-            this.checkBox54.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox54.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox54.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox54.Location = new System.Drawing.Point(0, 0);
-            this.checkBox54.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox54.Name = "checkBox54";
-            this.checkBox54.Size = new System.Drawing.Size(34, 20);
-            this.checkBox54.TabIndex = 1;
-            this.checkBox54.Text = "L";
-            this.checkBox54.UseVisualStyleBackColor = true;
-            // 
-            // panel65
-            // 
-            this.panel65.Controls.Add(this.checkBox55);
-            this.panel65.Controls.Add(this.checkBox56);
-            this.panel65.Location = new System.Drawing.Point(10, 100);
-            this.panel65.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(80, 20);
-            this.panel65.TabIndex = 4;
-            // 
-            // checkBox55
-            // 
-            this.checkBox55.AutoSize = true;
-            this.checkBox55.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox55.Checked = true;
-            this.checkBox55.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox55.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox55.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox55.Location = new System.Drawing.Point(45, 0);
-            this.checkBox55.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox55.Name = "checkBox55";
-            this.checkBox55.Size = new System.Drawing.Size(35, 20);
-            this.checkBox55.TabIndex = 2;
-            this.checkBox55.Text = "R";
-            this.checkBox55.UseVisualStyleBackColor = true;
-            // 
-            // checkBox56
-            // 
-            this.checkBox56.AutoSize = true;
-            this.checkBox56.Checked = true;
-            this.checkBox56.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox56.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox56.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox56.Location = new System.Drawing.Point(0, 0);
-            this.checkBox56.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox56.Name = "checkBox56";
-            this.checkBox56.Size = new System.Drawing.Size(34, 20);
-            this.checkBox56.TabIndex = 1;
-            this.checkBox56.Text = "L";
-            this.checkBox56.UseVisualStyleBackColor = true;
-            // 
-            // panel69
-            // 
-            this.panel69.Controls.Add(this.checkBox57);
-            this.panel69.Controls.Add(this.checkBox58);
-            this.panel69.Location = new System.Drawing.Point(10, 100);
-            this.panel69.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel69.Name = "panel69";
-            this.panel69.Size = new System.Drawing.Size(80, 20);
-            this.panel69.TabIndex = 4;
-            // 
-            // checkBox57
-            // 
-            this.checkBox57.AutoSize = true;
-            this.checkBox57.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox57.Checked = true;
-            this.checkBox57.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox57.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox57.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox57.Location = new System.Drawing.Point(45, 0);
-            this.checkBox57.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox57.Name = "checkBox57";
-            this.checkBox57.Size = new System.Drawing.Size(35, 20);
-            this.checkBox57.TabIndex = 2;
-            this.checkBox57.Text = "R";
-            this.checkBox57.UseVisualStyleBackColor = true;
-            // 
-            // checkBox58
-            // 
-            this.checkBox58.AutoSize = true;
-            this.checkBox58.Checked = true;
-            this.checkBox58.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox58.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox58.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox58.Location = new System.Drawing.Point(0, 0);
-            this.checkBox58.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox58.Name = "checkBox58";
-            this.checkBox58.Size = new System.Drawing.Size(34, 20);
-            this.checkBox58.TabIndex = 1;
-            this.checkBox58.Text = "L";
-            this.checkBox58.UseVisualStyleBackColor = true;
-            // 
-            // panel70
-            // 
-            this.panel70.Controls.Add(this.checkBox59);
-            this.panel70.Controls.Add(this.checkBox60);
-            this.panel70.Location = new System.Drawing.Point(10, 100);
-            this.panel70.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(80, 20);
-            this.panel70.TabIndex = 4;
-            // 
-            // checkBox59
-            // 
-            this.checkBox59.AutoSize = true;
-            this.checkBox59.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox59.Checked = true;
-            this.checkBox59.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox59.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox59.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox59.Location = new System.Drawing.Point(45, 0);
-            this.checkBox59.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox59.Name = "checkBox59";
-            this.checkBox59.Size = new System.Drawing.Size(35, 20);
-            this.checkBox59.TabIndex = 2;
-            this.checkBox59.Text = "R";
-            this.checkBox59.UseVisualStyleBackColor = true;
-            // 
-            // checkBox60
-            // 
-            this.checkBox60.AutoSize = true;
-            this.checkBox60.Checked = true;
-            this.checkBox60.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox60.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox60.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox60.Location = new System.Drawing.Point(0, 0);
-            this.checkBox60.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox60.Name = "checkBox60";
-            this.checkBox60.Size = new System.Drawing.Size(34, 20);
-            this.checkBox60.TabIndex = 1;
-            this.checkBox60.Text = "L";
-            this.checkBox60.UseVisualStyleBackColor = true;
-            // 
-            // panel71
-            // 
-            this.panel71.Controls.Add(this.checkBox61);
-            this.panel71.Controls.Add(this.checkBox62);
-            this.panel71.Location = new System.Drawing.Point(10, 100);
-            this.panel71.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel71.Name = "panel71";
-            this.panel71.Size = new System.Drawing.Size(80, 20);
-            this.panel71.TabIndex = 4;
-            // 
-            // checkBox61
-            // 
-            this.checkBox61.AutoSize = true;
-            this.checkBox61.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox61.Checked = true;
-            this.checkBox61.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox61.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox61.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox61.Location = new System.Drawing.Point(45, 0);
-            this.checkBox61.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox61.Name = "checkBox61";
-            this.checkBox61.Size = new System.Drawing.Size(35, 20);
-            this.checkBox61.TabIndex = 2;
-            this.checkBox61.Text = "R";
-            this.checkBox61.UseVisualStyleBackColor = true;
-            // 
-            // checkBox62
-            // 
-            this.checkBox62.AutoSize = true;
-            this.checkBox62.Checked = true;
-            this.checkBox62.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox62.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox62.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox62.Location = new System.Drawing.Point(0, 0);
-            this.checkBox62.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox62.Name = "checkBox62";
-            this.checkBox62.Size = new System.Drawing.Size(34, 20);
-            this.checkBox62.TabIndex = 1;
-            this.checkBox62.Text = "L";
-            this.checkBox62.UseVisualStyleBackColor = true;
-            // 
-            // panel74
-            // 
-            this.panel74.Controls.Add(this.checkBox63);
-            this.panel74.Controls.Add(this.checkBox64);
-            this.panel74.Location = new System.Drawing.Point(10, 100);
-            this.panel74.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.panel74.Name = "panel74";
-            this.panel74.Size = new System.Drawing.Size(80, 20);
-            this.panel74.TabIndex = 4;
-            // 
-            // checkBox63
-            // 
-            this.checkBox63.AutoSize = true;
-            this.checkBox63.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox63.Checked = true;
-            this.checkBox63.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox63.Dock = System.Windows.Forms.DockStyle.Right;
-            this.checkBox63.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox63.Location = new System.Drawing.Point(45, 0);
-            this.checkBox63.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.checkBox63.Name = "checkBox63";
-            this.checkBox63.Size = new System.Drawing.Size(35, 20);
-            this.checkBox63.TabIndex = 2;
-            this.checkBox63.Text = "R";
-            this.checkBox63.UseVisualStyleBackColor = true;
-            // 
-            // checkBox64
-            // 
-            this.checkBox64.AutoSize = true;
-            this.checkBox64.Checked = true;
-            this.checkBox64.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox64.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox64.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox64.Location = new System.Drawing.Point(0, 0);
-            this.checkBox64.Margin = new System.Windows.Forms.Padding(10);
-            this.checkBox64.Name = "checkBox64";
-            this.checkBox64.Size = new System.Drawing.Size(34, 20);
-            this.checkBox64.TabIndex = 1;
-            this.checkBox64.Text = "L";
-            this.checkBox64.UseVisualStyleBackColor = true;
-            // 
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -6867,6 +6867,8 @@
             this.pnlRV6.ResumeLayout(false);
             this.panel157.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV6)).EndInit();
+            this.panel74.ResumeLayout(false);
+            this.panel74.PerformLayout();
             this.panel159.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV6)).EndInit();
             this.panel160.ResumeLayout(false);
@@ -6876,6 +6878,8 @@
             this.pnlRV1.ResumeLayout(false);
             this.panel107.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV1)).EndInit();
+            this.panel64.ResumeLayout(false);
+            this.panel64.PerformLayout();
             this.panel109.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV1)).EndInit();
             this.panel110.ResumeLayout(false);
@@ -6885,6 +6889,8 @@
             this.pnlRV5.ResumeLayout(false);
             this.panel151.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV5)).EndInit();
+            this.panel71.ResumeLayout(false);
+            this.panel71.PerformLayout();
             this.panel153.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV5)).EndInit();
             this.panel154.ResumeLayout(false);
@@ -6894,6 +6900,8 @@
             this.pnlRV2.ResumeLayout(false);
             this.panel113.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV2)).EndInit();
+            this.panel65.ResumeLayout(false);
+            this.panel65.PerformLayout();
             this.panel115.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV2)).EndInit();
             this.panel116.ResumeLayout(false);
@@ -6903,6 +6911,8 @@
             this.pnlRV4.ResumeLayout(false);
             this.panel125.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV4)).EndInit();
+            this.panel70.ResumeLayout(false);
+            this.panel70.PerformLayout();
             this.panel127.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV4)).EndInit();
             this.panel128.ResumeLayout(false);
@@ -6912,6 +6922,8 @@
             this.pnlRV3.ResumeLayout(false);
             this.panel119.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV3)).EndInit();
+            this.panel69.ResumeLayout(false);
+            this.panel69.PerformLayout();
             this.panel121.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV3)).EndInit();
             this.panel122.ResumeLayout(false);
@@ -6923,6 +6935,8 @@
             this.pnlRH6.ResumeLayout(false);
             this.panel101.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH6)).EndInit();
+            this.panel61.ResumeLayout(false);
+            this.panel61.PerformLayout();
             this.panel103.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH6)).EndInit();
             this.panel104.ResumeLayout(false);
@@ -6932,6 +6946,8 @@
             this.pnlRH5.ResumeLayout(false);
             this.panel34.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH5)).EndInit();
+            this.panel55.ResumeLayout(false);
+            this.panel55.PerformLayout();
             this.panel36.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH5)).EndInit();
             this.panel37.ResumeLayout(false);
@@ -6941,6 +6957,8 @@
             this.pnlRH4.ResumeLayout(false);
             this.panel28.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH4)).EndInit();
+            this.panel54.ResumeLayout(false);
+            this.panel54.PerformLayout();
             this.panel30.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH4)).EndInit();
             this.panel31.ResumeLayout(false);
@@ -6950,6 +6968,8 @@
             this.pnlRH3.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH3)).EndInit();
+            this.panel51.ResumeLayout(false);
+            this.panel51.PerformLayout();
             this.panel24.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH3)).EndInit();
             this.panel25.ResumeLayout(false);
@@ -6959,6 +6979,8 @@
             this.pnlRH2.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH2)).EndInit();
+            this.panel50.ResumeLayout(false);
+            this.panel50.PerformLayout();
             this.panel18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH2)).EndInit();
             this.panel19.ResumeLayout(false);
@@ -6968,6 +6990,8 @@
             this.pnlRH1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH1)).EndInit();
+            this.panel48.ResumeLayout(false);
+            this.panel48.PerformLayout();
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH1)).EndInit();
             this.panel9.ResumeLayout(false);
@@ -6980,6 +7004,8 @@
             this.pnlSV10.ResumeLayout(false);
             this.panel46.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV10)).EndInit();
+            this.panel45.ResumeLayout(false);
+            this.panel45.PerformLayout();
             this.panel49.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV10)).EndInit();
             this.pnlASV5.ResumeLayout(false);
@@ -6987,6 +7013,8 @@
             this.pnlSV5.ResumeLayout(false);
             this.panel52.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV5)).EndInit();
+            this.panel38.ResumeLayout(false);
+            this.panel38.PerformLayout();
             this.panel53.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV5)).EndInit();
             this.pnlASV9.ResumeLayout(false);
@@ -6994,6 +7022,8 @@
             this.pnlSV9.ResumeLayout(false);
             this.panel56.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV9)).EndInit();
+            this.panel42.ResumeLayout(false);
+            this.panel42.PerformLayout();
             this.panel57.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV9)).EndInit();
             this.pnlASV4.ResumeLayout(false);
@@ -7001,6 +7031,8 @@
             this.pnlSV4.ResumeLayout(false);
             this.panel72.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV4)).EndInit();
+            this.panel35.ResumeLayout(false);
+            this.panel35.PerformLayout();
             this.panel73.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV4)).EndInit();
             this.pnlASV8.ResumeLayout(false);
@@ -7008,6 +7040,8 @@
             this.pnlSV8.ResumeLayout(false);
             this.panel77.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV8)).EndInit();
+            this.panel41.ResumeLayout(false);
+            this.panel41.PerformLayout();
             this.panel78.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV8)).EndInit();
             this.pnlASV3.ResumeLayout(false);
@@ -7015,6 +7049,8 @@
             this.pnlSV3.ResumeLayout(false);
             this.panel81.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV3)).EndInit();
+            this.panel33.ResumeLayout(false);
+            this.panel33.PerformLayout();
             this.panel82.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV3)).EndInit();
             this.pnlASV6.ResumeLayout(false);
@@ -7022,6 +7058,8 @@
             this.pnlSV6.ResumeLayout(false);
             this.panel85.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV6)).EndInit();
+            this.panel39.ResumeLayout(false);
+            this.panel39.PerformLayout();
             this.panel86.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV6)).EndInit();
             this.pnlASV7.ResumeLayout(false);
@@ -7029,6 +7067,8 @@
             this.pnlSV7.ResumeLayout(false);
             this.panel139.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV7)).EndInit();
+            this.panel40.ResumeLayout(false);
+            this.panel40.PerformLayout();
             this.panel140.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV7)).EndInit();
             this.pnlASV2.ResumeLayout(false);
@@ -7036,6 +7076,8 @@
             this.pnlSV2.ResumeLayout(false);
             this.panel143.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV2)).EndInit();
+            this.panel32.ResumeLayout(false);
+            this.panel32.PerformLayout();
             this.panel144.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV2)).EndInit();
             this.pnlASV1.ResumeLayout(false);
@@ -7043,6 +7085,8 @@
             this.pnlSV1.ResumeLayout(false);
             this.panel147.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV1)).EndInit();
+            this.panel29.ResumeLayout(false);
+            this.panel29.PerformLayout();
             this.panel148.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV1)).EndInit();
             this.yanGradPnl1.ResumeLayout(false);
@@ -7052,6 +7096,8 @@
             this.pnlSH10.ResumeLayout(false);
             this.panel137.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH10)).EndInit();
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
             this.panel138.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH10)).EndInit();
             this.pnlASH5.ResumeLayout(false);
@@ -7059,6 +7105,8 @@
             this.pnlSH5.ResumeLayout(false);
             this.panel66.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH5)).EndInit();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
             this.panel68.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH5)).EndInit();
             this.pnlASH9.ResumeLayout(false);
@@ -7066,6 +7114,8 @@
             this.pnlSH9.ResumeLayout(false);
             this.panel133.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH9)).EndInit();
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
             this.panel134.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH9)).EndInit();
             this.pnlASH4.ResumeLayout(false);
@@ -7073,6 +7123,8 @@
             this.pnlSH4.ResumeLayout(false);
             this.panel62.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH4)).EndInit();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.panel63.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH4)).EndInit();
             this.pnlASH8.ResumeLayout(false);
@@ -7080,6 +7132,8 @@
             this.pnlSH8.ResumeLayout(false);
             this.panel129.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH8)).EndInit();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
             this.panel130.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH8)).EndInit();
             this.pnlASH3.ResumeLayout(false);
@@ -7087,6 +7141,8 @@
             this.pnlSH3.ResumeLayout(false);
             this.panel58.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH3)).EndInit();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.panel59.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH3)).EndInit();
             this.pnlASH6.ResumeLayout(false);
@@ -7094,6 +7150,8 @@
             this.pnlSH6.ResumeLayout(false);
             this.panel90.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH6)).EndInit();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
             this.panel91.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH6)).EndInit();
             this.pnlASH7.ResumeLayout(false);
@@ -7101,6 +7159,8 @@
             this.pnlSH7.ResumeLayout(false);
             this.panel94.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH7)).EndInit();
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
             this.panel95.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH7)).EndInit();
             this.pnlASH2.ResumeLayout(false);
@@ -7108,6 +7168,8 @@
             this.pnlSH2.ResumeLayout(false);
             this.panel43.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH2)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel44.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH2)).EndInit();
             this.pnlASH1.ResumeLayout(false);
@@ -7115,72 +7177,10 @@
             this.pnlSH1.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH1)).EndInit();
-            this.panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.nudHSH1)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
-            this.panel27.ResumeLayout(false);
-            this.panel27.PerformLayout();
-            this.panel29.ResumeLayout(false);
-            this.panel29.PerformLayout();
-            this.panel32.ResumeLayout(false);
-            this.panel32.PerformLayout();
-            this.panel33.ResumeLayout(false);
-            this.panel33.PerformLayout();
-            this.panel35.ResumeLayout(false);
-            this.panel35.PerformLayout();
-            this.panel38.ResumeLayout(false);
-            this.panel38.PerformLayout();
-            this.panel39.ResumeLayout(false);
-            this.panel39.PerformLayout();
-            this.panel40.ResumeLayout(false);
-            this.panel40.PerformLayout();
-            this.panel41.ResumeLayout(false);
-            this.panel41.PerformLayout();
-            this.panel42.ResumeLayout(false);
-            this.panel42.PerformLayout();
-            this.panel45.ResumeLayout(false);
-            this.panel45.PerformLayout();
-            this.panel48.ResumeLayout(false);
-            this.panel48.PerformLayout();
-            this.panel50.ResumeLayout(false);
-            this.panel50.PerformLayout();
-            this.panel51.ResumeLayout(false);
-            this.panel51.PerformLayout();
-            this.panel54.ResumeLayout(false);
-            this.panel54.PerformLayout();
-            this.panel55.ResumeLayout(false);
-            this.panel55.PerformLayout();
-            this.panel61.ResumeLayout(false);
-            this.panel61.PerformLayout();
-            this.panel64.ResumeLayout(false);
-            this.panel64.PerformLayout();
-            this.panel65.ResumeLayout(false);
-            this.panel65.PerformLayout();
-            this.panel69.ResumeLayout(false);
-            this.panel69.PerformLayout();
-            this.panel70.ResumeLayout(false);
-            this.panel70.PerformLayout();
-            this.panel71.ResumeLayout(false);
-            this.panel71.PerformLayout();
-            this.panel74.ResumeLayout(false);
-            this.panel74.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nudHSH1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -7548,100 +7548,100 @@
         private YANF.Control.YANBtn btnRSelAll;
         private YANF.Control.YANBtn btnSSelHalf;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chkBRSH1;
+        private System.Windows.Forms.CheckBox chkBLSH1;
         private System.Windows.Forms.Panel panel45;
-        private System.Windows.Forms.CheckBox checkBox39;
-        private System.Windows.Forms.CheckBox checkBox40;
+        private System.Windows.Forms.CheckBox chkBRSV10;
+        private System.Windows.Forms.CheckBox chkBLSV10;
         private System.Windows.Forms.Panel panel38;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.CheckBox checkBox30;
+        private System.Windows.Forms.CheckBox chkBRSV5;
+        private System.Windows.Forms.CheckBox chkBLSV5;
         private System.Windows.Forms.Panel panel42;
-        private System.Windows.Forms.CheckBox checkBox37;
-        private System.Windows.Forms.CheckBox checkBox38;
+        private System.Windows.Forms.CheckBox chkBRSV9;
+        private System.Windows.Forms.CheckBox chkBLSV9;
         private System.Windows.Forms.Panel panel35;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.CheckBox checkBox28;
+        private System.Windows.Forms.CheckBox chkBRSV4;
+        private System.Windows.Forms.CheckBox chkBLSV4;
         private System.Windows.Forms.Panel panel41;
-        private System.Windows.Forms.CheckBox checkBox35;
-        private System.Windows.Forms.CheckBox checkBox36;
+        private System.Windows.Forms.CheckBox chkBRSV8;
+        private System.Windows.Forms.CheckBox chkBLSV8;
         private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox26;
+        private System.Windows.Forms.CheckBox chkBRSV3;
+        private System.Windows.Forms.CheckBox chkBLSV3;
         private System.Windows.Forms.Panel panel39;
-        private System.Windows.Forms.CheckBox checkBox31;
-        private System.Windows.Forms.CheckBox checkBox32;
+        private System.Windows.Forms.CheckBox chkBRSV6;
+        private System.Windows.Forms.CheckBox chkBLSV6;
         private System.Windows.Forms.Panel panel40;
-        private System.Windows.Forms.CheckBox checkBox33;
-        private System.Windows.Forms.CheckBox checkBox34;
+        private System.Windows.Forms.CheckBox chkBRSV7;
+        private System.Windows.Forms.CheckBox chkBLSV7;
         private System.Windows.Forms.Panel panel32;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox24;
+        private System.Windows.Forms.CheckBox chkBRSV2;
+        private System.Windows.Forms.CheckBox chkBLSV2;
         private System.Windows.Forms.Panel panel29;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox22;
+        private System.Windows.Forms.CheckBox chkBRSV1;
+        private System.Windows.Forms.CheckBox chkBLSV1;
         private System.Windows.Forms.Panel panel27;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
+        private System.Windows.Forms.CheckBox chkBRSH10;
+        private System.Windows.Forms.CheckBox chkBLSH10;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox chkBRSH5;
+        private System.Windows.Forms.CheckBox chkBLSH5;
         private System.Windows.Forms.Panel panel26;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
+        private System.Windows.Forms.CheckBox chkBRSH9;
+        private System.Windows.Forms.CheckBox chkBLSH9;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox chkBRSH4;
+        private System.Windows.Forms.CheckBox chkBLSH4;
         private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox chkBRSH8;
+        private System.Windows.Forms.CheckBox chkBLSH8;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox chkBRSH3;
+        private System.Windows.Forms.CheckBox chkBLSH3;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox chkBRSH6;
+        private System.Windows.Forms.CheckBox chkBLSH6;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox chkBRSH7;
+        private System.Windows.Forms.CheckBox chkBLSH7;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox chkBRSH2;
+        private System.Windows.Forms.CheckBox chkBLSH2;
         private System.Windows.Forms.Panel panel74;
-        private System.Windows.Forms.CheckBox checkBox63;
-        private System.Windows.Forms.CheckBox checkBox64;
+        private System.Windows.Forms.CheckBox chkBRRV6;
+        private System.Windows.Forms.CheckBox chkBLRV6;
         private System.Windows.Forms.Panel panel64;
-        private System.Windows.Forms.CheckBox checkBox53;
-        private System.Windows.Forms.CheckBox checkBox54;
+        private System.Windows.Forms.CheckBox chkBRRV1;
+        private System.Windows.Forms.CheckBox chkBLRV1;
         private System.Windows.Forms.Panel panel71;
-        private System.Windows.Forms.CheckBox checkBox61;
-        private System.Windows.Forms.CheckBox checkBox62;
+        private System.Windows.Forms.CheckBox chkBRRV5;
+        private System.Windows.Forms.CheckBox chkBLRV5;
         private System.Windows.Forms.Panel panel65;
-        private System.Windows.Forms.CheckBox checkBox55;
-        private System.Windows.Forms.CheckBox checkBox56;
+        private System.Windows.Forms.CheckBox chkBRRV2;
+        private System.Windows.Forms.CheckBox chkBLRV2;
         private System.Windows.Forms.Panel panel70;
-        private System.Windows.Forms.CheckBox checkBox59;
-        private System.Windows.Forms.CheckBox checkBox60;
+        private System.Windows.Forms.CheckBox chkBRRV4;
+        private System.Windows.Forms.CheckBox chkBLRV4;
         private System.Windows.Forms.Panel panel69;
-        private System.Windows.Forms.CheckBox checkBox57;
-        private System.Windows.Forms.CheckBox checkBox58;
+        private System.Windows.Forms.CheckBox chkBRRV3;
+        private System.Windows.Forms.CheckBox chkBLRV3;
         private System.Windows.Forms.Panel panel61;
-        private System.Windows.Forms.CheckBox checkBox51;
-        private System.Windows.Forms.CheckBox checkBox52;
+        private System.Windows.Forms.CheckBox chkBRRH6;
+        private System.Windows.Forms.CheckBox chkBLRH6;
         private System.Windows.Forms.Panel panel55;
-        private System.Windows.Forms.CheckBox checkBox49;
-        private System.Windows.Forms.CheckBox checkBox50;
+        private System.Windows.Forms.CheckBox chkBRRH5;
+        private System.Windows.Forms.CheckBox chkBLRH5;
         private System.Windows.Forms.Panel panel54;
-        private System.Windows.Forms.CheckBox checkBox47;
-        private System.Windows.Forms.CheckBox checkBox48;
+        private System.Windows.Forms.CheckBox chkBRRH4;
+        private System.Windows.Forms.CheckBox chkBLRH4;
         private System.Windows.Forms.Panel panel51;
-        private System.Windows.Forms.CheckBox checkBox45;
-        private System.Windows.Forms.CheckBox checkBox46;
+        private System.Windows.Forms.CheckBox chkBRRH3;
+        private System.Windows.Forms.CheckBox chkBLRH3;
         private System.Windows.Forms.Panel panel50;
-        private System.Windows.Forms.CheckBox checkBox43;
-        private System.Windows.Forms.CheckBox checkBox44;
+        private System.Windows.Forms.CheckBox chkBRRH2;
+        private System.Windows.Forms.CheckBox chkBLRH2;
         private System.Windows.Forms.Panel panel48;
-        private System.Windows.Forms.CheckBox checkBox41;
-        private System.Windows.Forms.CheckBox checkBox42;
+        private System.Windows.Forms.CheckBox chkBRRH1;
+        private System.Windows.Forms.CheckBox chkBLRH1;
     }
 }

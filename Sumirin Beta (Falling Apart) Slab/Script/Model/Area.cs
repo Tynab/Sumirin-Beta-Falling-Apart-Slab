@@ -10,14 +10,14 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
     {
         #region Fields
         private readonly SumirinBranch _branch;
-        private readonly double _rawWood;
+        private readonly double _lMaxRawWood;
         #endregion
 
         #region Constructors
-        public Area(SumirinBranch branch, double rawWood)
+        public Area(SumirinBranch branch, double lMaxRawWood)
         {
             _branch = branch;
-            _rawWood = rawWood;
+            _lMaxRawWood = lMaxRawWood;
         }
         #endregion
 
@@ -25,8 +25,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         public bool IsLongest { get; set; } = false;
         public double W { get; set; } = 910;
         public double H { get; set; } = 910;
-        public bool BendingL { get; set; } = true;
-        public bool BendingR { get; set; } = true;
+        public bool BendingL { get; set; }
+        public bool BendingR { get; set; }
         public List<string> Rebars { get; private set; }
         public int Amount { get; private set; }
         #endregion
@@ -39,17 +39,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         {
             if (_branch == Touhoku)
             {
-                CalcRebarTouhokuPart();
+                CalcRebarTouhoku();
             }
             else
             {
-                CalcRebarIbarakiPart();
+                CalcRebarIbaraki();
             }
             CalcAmt();
         }
 
-        // Rebar calculate Touhoku part
-        private void CalcRebarTouhokuPart()
+        // Rebar calculate Touhoku
+        private void CalcRebarTouhoku()
         {
             if (W > Default.W_Min_Sgl)
             {
@@ -57,16 +57,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
                 var w = W;
                 var lBndgL = BendingL ? Default.L_Bdng : 0;
                 var lBndgR = BendingR ? Default.L_Bdng : 0;
-                var lRebarL = _rawWood - lBndgL;
-                var lRebarR = _rawWood - lBndgR - Default.Chidori_Horz;
-                while (lRebarL - lRebarR < 1000)
+                var lRebarL = _lMaxRawWood - lBndgL;
+                var lRebarR = _lMaxRawWood - lBndgR - Default.Chidori_Horz;
+                while (lRebarL - lRebarR < Default.Chidori_Horz)
                 {
                     lRebarR -= 500;
                     lRebarR = lRebarR.Round500();
                 }
                 while (w > lRebarL + lRebarR)
                 {
-                    w -= _rawWood;
+                    w -= _lMaxRawWood;
                     jt++;
                 }
                 w += jt * Default.D_Slab * Default.Rate_Fixn + 2 * Default.L_Bdng;
@@ -78,7 +78,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
                 };
                 for (var i = 1; i < jt; i++)
                 {
-                    Rebars.Add(_rawWood.ToString());
+                    Rebars.Add(_lMaxRawWood.ToString());
                 }
                 Rebars.Add(string.Format("{0}×{1,4}", Default.L_Bdng, (wHalf - horzChidoriHalf).Round500() - Default.L_Bdng));
             }
@@ -92,14 +92,51 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
         }
 
-        // Rebar calculate Ibaraki part
-        private void CalcRebarIbarakiPart()
+        private void CalcRebarBdngLTouhoku()
+        {
+            var jt = 0;
+            var w = W;
+            var lMaxRebarL = _lMaxRawWood - Default.L_Bdng;
+            for (var i = 0; ; i++)
+            {
+                if (w < lMaxRebarL + i * _lMaxRawWood)
+                {
+                    jt = i;
+                    break;
+                }
+            }
+            var rawWood = jt - 1;
+            if (jt == 0)
+            {
+
+            }
+            else if(jt == 1)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
+
+        // Rebar calculate Ibaraki
+        private void CalcRebarIbaraki()
         {
             if (W > Default.W_Min_Sgl)
             {
                 var jt = 1;
                 var w = W;
-                while (w > 2 * (Default.Max_Raw_Wood_Nml - Default.L_Bdng) - Default.Chidori_Horz)
+                var lBndgL = BendingL ? Default.L_Bdng : 0;
+                var lBndgR = BendingR ? Default.L_Bdng : 0;
+                var lRebarL = _lMaxRawWood - lBndgL;
+                var lRebarR = _lMaxRawWood - lBndgR - Default.Chidori_Horz;
+                while (lRebarL - lRebarR < Default.Chidori_Horz)
+                {
+                    lRebarR -= 500;
+                    lRebarR = lRebarR.Round500();
+                }
+                while (w > lRebarL + lRebarR)
                 {
                     w -= Default.Max_Raw_Wood_Nml;
                     jt++;

@@ -189,6 +189,28 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     nudD?.Select();
                     break;
                 }
+                case L:
+                {
+                    e.SuppressKeyPress = true;
+                    var chkL = (CheckBox)Controls.Find($"chkBL{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    //
+                    if (chkL != null && chkL.Enabled)
+                    {
+                        chkL.Checked = !chkL.Checked;
+                    }
+                    break;
+                }
+                case R:
+                {
+                    e.SuppressKeyPress = true;
+                    var chkR = (CheckBox)Controls.Find($"chkBR{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    //
+                    if (chkR != null && chkR.Enabled)
+                    {
+                        chkR.Checked = !chkR.Checked;
+                    }
+                    break;
+                }
             }
         }
 
@@ -386,6 +408,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             var nudH = (NumericUpDown)Controls.Find($"nudHSH{i}", searchAllChildren: true).FirstOrDefault();
                             return nudH != null ? (double)nudH.Value : 0;
                         });
+                        var taskBdngL = Run(() =>
+                        {
+                            var chkL = (CheckBox)Controls.Find($"chkBLSH{i}", searchAllChildren: true).FirstOrDefault();
+                            return chkL == null || chkL.Checked;
+                        });
+                        var taskBdngR = Run(() =>
+                        {
+                            var chkR = (CheckBox)Controls.Find($"chkBRSH{i}", searchAllChildren: true).FirstOrDefault();
+                            return chkR == null || chkR.Checked;
+                        });
                         var area = new Area(_branch, _maxRawWood);
                         //
                         var w = taskW.Result;
@@ -409,6 +441,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             YANMessageBox.Show("エラー", $"「nudHSH{i}」探さない！", OK, Error, JAP);
                             return;
                         }
+                        area.BendingL = taskBdngL.Result;
+                        area.BendingR = taskBdngR.Result;
                         lgRebar = Max(lgRebar, w);
                         _areaSHs.Add(area);
                     }
@@ -456,6 +490,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             var nudH = (NumericUpDown)Controls.Find($"nudHSV{i}", searchAllChildren: true).FirstOrDefault();
                             return nudH != null ? (double)nudH.Value : 0;
                         });
+                        var taskBdngL = Run(() =>
+                        {
+                            var chkL = (CheckBox)Controls.Find($"chkBLSV{i}", searchAllChildren: true).FirstOrDefault();
+                            return chkL == null || chkL.Checked;
+                        });
+                        var taskBdngR = Run(() =>
+                        {
+                            var chkR = (CheckBox)Controls.Find($"chkBRSV{i}", searchAllChildren: true).FirstOrDefault();
+                            return chkR == null || chkR.Checked;
+                        });
                         var area = new Area(_branch, _maxRawWood);
                         //
                         var w = taskW.Result;
@@ -479,6 +523,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             YANMessageBox.Show("エラー", $"「nudHSV{i}」探さない！", OK, Error, JAP);
                             return;
                         }
+                        area.BendingL = taskBdngL.Result;
+                        area.BendingR = taskBdngR.Result;
                         lgRebar = Max(lgRebar, w);
                         _areaSVs.Add(area);
                     }
