@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.Common;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
 using static System.Math;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
 {
@@ -92,31 +94,88 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
         }
 
+        //
         private void CalcRebarBdngLTouhoku()
         {
-            var jt = 0;
-            var w = W;
-            var lMaxRebarL = _lMaxRawWood - Default.L_Bdng;
-            for (var i = 0; ; i++)
+            var lMaxRebarLWoBdng = (int)_lMaxRawWood - Default.L_Bdng;
+            if (W <= lMaxRebarLWoBdng)
             {
-                if (w < lMaxRebarL + i * _lMaxRawWood)
+                Rebars = new List<string>
                 {
-                    jt = i;
-                    break;
-                }
-            }
-            var rawWood = jt - 1;
-            if (jt == 0)
-            {
-
-            }
-            else if(jt == 1)
-            {
-
+                    string.Format("{0}×{1,4}", Default.L_Bdng, W)
+                };
             }
             else
             {
+                var lMaxRebarR = (lMaxRebarLWoBdng - Default.Chidori_Horz).Round500();
+                while (lMaxRebarLWoBdng < lMaxRebarR + Default.Chidori_Horz)
+                {
+                    lMaxRebarR -= 500;
+                }
+                var w = W;
+                var jt = 1;
+                var lFixn = Default.Rate_Fixn * Default.D_Slab;
+                var lRawWoodRip = _lMaxRawWood - lFixn;
+                while (w > _lMaxRawWood + lMaxRebarR - lFixn)
+                {
+                    w -= lRawWoodRip;
+                    jt++;
+                }
+                w = w.Round500();
+                var lRebarL = ((w + Default.Chidori_Horz) / 2).Round500() - Default.L_Bdng;
+                var lRebarR = ((w - Default.Chidori_Horz) / 2).Round500();
+                PrcsRebarHorz(ref lRebarL, ref lRebarR, Default.Chidori_Horz);
+                Rebars = new List<string>
+                {
+                    string.Format("{0}×{1,4}", Default.L_Bdng, lRebarL)
+                };
+                for (var i = 1; i < jt; i++)
+                {
+                    Rebars.Add(_lMaxRawWood.ToString());
+                }
+                Rebars.Add(string.Format("{0,4}", lRebarR));
+            }
+        }
 
+        private void CalcRebarBdngRTouhoku()
+        {
+            var lMaxRebarRWoBdng = _lMaxRawWood - Default.L_Bdng;
+            if (W <= lMaxRebarRWoBdng)
+            {
+                Rebars = new List<string>
+                {
+                    string.Format("{0}×{1,4}", Default.L_Bdng, W)
+                };
+            }
+            else
+            {
+                var lMaxRebarR = (_lMaxRawWood - Default.Chidori_Horz).Round500() - Default.L_Bdng;
+                while (_lMaxRawWood < lMaxRebarR + Default.Chidori_Horz)
+                {
+                    lMaxRebarR -= 500;
+                }
+                var w = W;
+                var jt = 1;
+                var lFixn = Default.Rate_Fixn * Default.D_Slab;
+                var lRawWoodRip = _lMaxRawWood - lFixn;
+                while (w > _lMaxRawWood + lMaxRebarR - lFixn)
+                {
+                    w -= lRawWoodRip;
+                    jt++;
+                }
+                w = w.Round500();
+                var lRebarL = ((w + Default.Chidori_Horz) / 2).Round500();
+                var lRebarR = ((w - Default.Chidori_Horz) / 2).Round500() - Default.L_Bdng;
+                PrcsRebarHorz(ref lRebarL, ref lRebarR, Default.Chidori_Horz);
+                Rebars = new List<string>
+                {
+                    string.Format("{0,4}", lRebarL)
+                };
+                for (var i = 1; i < jt; i++)
+                {
+                    Rebars.Add(_lMaxRawWood.ToString());
+                }
+                Rebars.Add(string.Format("{0}×{1,4}", Default.L_Bdng, lRebarR));
             }
         }
 
