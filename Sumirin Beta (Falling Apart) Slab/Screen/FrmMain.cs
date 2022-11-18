@@ -1,26 +1,22 @@
-﻿using System;
+﻿using Sumirin_Beta__Falling_Apart__Slab.Script.Model;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using YANF.Control;
+using YANF.Script;
+using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
 using static System.Drawing.Color;
 using static System.Math;
 using static System.Threading.Tasks.Task;
 using static System.Windows.Forms.Keys;
 using static System.Windows.Forms.MessageBoxButtons;
 using static System.Windows.Forms.MessageBoxIcon;
-using static YANF.Script.YANEvent;
 using static YANF.Script.YANConstant.MsgBoxLang;
-using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
-using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
-using Sumirin_Beta__Falling_Apart__Slab.Script.Model;
-using YANF.Control;
-using YANF.Script;
-using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
+using static YANF.Script.YANEvent;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 {
@@ -67,13 +63,19 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nud.Enter += Nud_Enter;
                 nud.Leave += Nud_Leave;
                 nud.KeyDown += Nud_KeyDown;
-                nud.KeyUp += Nud_KeyUp;
+                nud.KeyDown += Child_KeyDown;
+                nud.KeyUp += Child_KeyUp;
                 nud.ValueChanged += NudG_ValueChanged;
             }
             // chk link pnl
             foreach (var chk in this.GetAllObjs(typeof(CheckBox)).Cast<CheckBox>())
             {
                 chk.CheckedChanged += Chk_CheckedChanged;
+                chk.KeyUp += Child_KeyUp;
+                if (chk.Name.Substring("chk".Length, "X".Length) is "L" or "R")
+                {
+                    chk.KeyDown += Child_KeyDown;
+                }
             }
             // rdo fix tab stop
             foreach (var rdo in this.GetAllObjs(typeof(YANRdo)).Cast<YANRdo>())
@@ -140,13 +142,25 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     e.SuppressKeyPress = true;
                     break;
                 }
+            }
+        }
+
+        // children key down
+        private void Child_KeyDown(object sender, KeyEventArgs e)
+        {
+            var ctrl = (Control)sender;
+            switch (e.KeyCode)
+            {
                 case O:
                 {
-                    e.SuppressKeyPress = true;
-                    var nameNud = nud.Name;
-                    var lenPref = "nudX".Length;
-                    var id = int.TryParse(nameNud.Substring(lenPref + 2), out var num) ? num : 1;
-                    var chkNext = (CheckBox)Controls.Find($"chk{nameNud.Substring(lenPref, 2)}{id + 1}", searchAllChildren: true).FirstOrDefault();
+                    if (ctrl is NumericUpDown)
+                    {
+                        e.SuppressKeyPress = true;
+                    }
+                    var nameCtrl = ctrl.Name;
+                    var lenPref = "xxxX".Length;
+                    var id = int.TryParse(nameCtrl.Substring(lenPref + "YY".Length), out var num) ? num : 1;
+                    var chkNext = (CheckBox)Controls.Find($"chk{nameCtrl.Substring(lenPref, "YY".Length)}{id + 1}", searchAllChildren: true).FirstOrDefault();
                     //
                     if (chkNext != null)
                     {
@@ -156,8 +170,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 case C:
                 {
-                    e.SuppressKeyPress = true;
-                    var chk = (CheckBox)Controls.Find($"chk{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    if (ctrl is NumericUpDown)
+                    {
+                        e.SuppressKeyPress = true;
+                    }
+                    var chk = (CheckBox)Controls.Find($"chk{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
                     //
                     if (chk != null && chk.Enabled)
                     {
@@ -167,32 +184,40 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 case W:
                 {
-                    e.SuppressKeyPress = true;
-                    var nudW = (NumericUpDown)Controls.Find($"nudW{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    if (ctrl is NumericUpDown)
+                    {
+                        e.SuppressKeyPress = true;
+                    }
+                    var nudW = (NumericUpDown)Controls.Find($"nudW{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
                     //
                     nudW?.Select();
                     break;
                 }
                 case H:
                 {
-                    e.SuppressKeyPress = true;
-                    var nudH = (NumericUpDown)Controls.Find($"nudH{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    var nudH = (NumericUpDown)Controls.Find($"nudH{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
                     //
                     nudH?.Select();
                     break;
                 }
                 case D:
                 {
-                    e.SuppressKeyPress = true;
-                    var nudD = (NumericUpDown)Controls.Find($"nudD{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    if (ctrl is NumericUpDown)
+                    {
+                        e.SuppressKeyPress = true;
+                    }
+                    var nudD = (NumericUpDown)Controls.Find($"nudD{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
                     //
                     nudD?.Select();
                     break;
                 }
                 case L:
                 {
-                    e.SuppressKeyPress = true;
-                    var chkL = (CheckBox)Controls.Find($"chkBL{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    if (ctrl is NumericUpDown)
+                    {
+                        e.SuppressKeyPress = true;
+                    }
+                    var chkL = (CheckBox)Controls.Find($"chkL{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
                     //
                     if (chkL != null && chkL.Enabled)
                     {
@@ -202,8 +227,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 case R:
                 {
-                    e.SuppressKeyPress = true;
-                    var chkR = (CheckBox)Controls.Find($"chkBR{nud.Name.Substring("nudX".Length)}", searchAllChildren: true).FirstOrDefault();
+                    if (ctrl is NumericUpDown)
+                    {
+                        e.SuppressKeyPress = true;
+                    }
+                    var chkR = (CheckBox)Controls.Find($"chkR{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
                     //
                     if (chkR != null && chkR.Enabled)
                     {
@@ -214,8 +242,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             }
         }
 
-        // nud key up
-        private void Nud_KeyUp(object sender, KeyEventArgs e)
+        // children key up
+        private void Child_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
@@ -252,12 +280,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
             }
             //
-            var lenPrefChk = "chkXX".Length;
+            var lenPrefChk = "chkYY".Length;
             var hdr = chk.Name.Substring(0, lenPrefChk);
             var ftr = chk.Name.Substring(lenPrefChk);
             if (hdr is "chkSH" or "chkSV" && int.TryParse(ftr, out var no) && no < 10 || hdr is "chkRH" or "chkRV" && int.TryParse(ftr, out no) && no < 6)
             {
-                var nextName = chk.Name.Substring("chk".Length, 2) + (no + 1).ToString();
+                var nextName = chk.Name.Substring("chk".Length, "YY".Length) + (no + 1).ToString();
                 //
                 var pnlPNext = (Panel)Controls.Find($"pnlA{nextName}", searchAllChildren: true).FirstOrDefault();
                 if (pnlPNext != null)

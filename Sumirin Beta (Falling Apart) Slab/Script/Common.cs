@@ -28,18 +28,22 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
         internal static int Fixation(int d) => Default.Rate_Fixn * d;
 
         /// <summary>
-        /// Process rebar horizontal.
+        /// Joint count.
         /// </summary>
-        /// <param name="lRebarL">Rebar left length.</param>
-        /// <param name="lRebarR">Rebar right length.</param>
-        /// <param name="chidoriHorz">Chidori horizontal.</param>
-        internal static void PrcsRebarHorz(ref int lRebarL, ref int lRebarR, int chidoriHorz)
+        /// <param name="w">Clone W.</param>
+        /// <param name="wMinCpl">W minimum match maximum length couple head rebar.</param>
+        /// <param name="lRawWoodRip">Length raw wood without fixation.</param>
+        /// <returns>Joint.</returns>
+        internal static int JtCnt(ref double w, double wMinCpl, double lRawWoodRip)
         {
-            while (lRebarL < lRebarR + chidoriHorz)
+            var jt = 1;
+            while (w > wMinCpl)
             {
-                lRebarL += 500;
-                lRebarR -= 500;
+                w -= lRawWoodRip;
+                jt++;
             }
+            w = w.Round500();
+            return jt;
         }
     }
 }
