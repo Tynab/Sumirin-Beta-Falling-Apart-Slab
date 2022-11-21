@@ -69,7 +69,8 @@
     </Compile>
     <Compile Include="Script\Common.cs" />
     <Compile Include="Script\Constant.cs" />
-    <Compile Include="Script\Model\Area.cs" />
+    <Compile Include="Script\Model\AreaReinforcement.cs" />
+    <Compile Include="Script\Model\AreaSlab.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

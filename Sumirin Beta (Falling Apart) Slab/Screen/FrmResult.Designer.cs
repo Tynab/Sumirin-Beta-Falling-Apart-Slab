@@ -34,28 +34,22 @@
             this.yanGradPnl3 = new YANF.Control.YANGradPnl();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.lblSmryR6 = new System.Windows.Forms.Label();
             this.lblSmryDR6 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.lblSmryR5 = new System.Windows.Forms.Label();
             this.lblSmryDR5 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.lblSmryR4 = new System.Windows.Forms.Label();
             this.lblSmryDR4 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.lblSmryR3 = new System.Windows.Forms.Label();
             this.lblSmryDR3 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.lblSmryR2 = new System.Windows.Forms.Label();
             this.lblSmryDR2 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.lblSmryR1 = new System.Windows.Forms.Label();
             this.lblSmryDR1 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.yanGradPnl4 = new YANF.Control.YANGradPnl();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rtxSmryS = new System.Windows.Forms.RichTextBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
@@ -85,6 +79,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.rtxSmryRD1 = new System.Windows.Forms.RichTextBox();
+            this.rtxSmryRD2 = new System.Windows.Forms.RichTextBox();
+            this.rtxSmryRD3 = new System.Windows.Forms.RichTextBox();
+            this.rtxSmryRD4 = new System.Windows.Forms.RichTextBox();
+            this.rtxSmryRD5 = new System.Windows.Forms.RichTextBox();
+            this.rtxSmryRD6 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.yanGradPnl3.SuspendLayout();
@@ -163,29 +163,13 @@
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel18.Controls.Add(this.lblSmryR6);
+            this.panel18.Controls.Add(this.rtxSmryRD6);
             this.panel18.Controls.Add(this.lblSmryDR6);
             this.panel18.Location = new System.Drawing.Point(310, 255);
             this.panel18.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(140, 235);
             this.panel18.TabIndex = 0;
-            // 
-            // lblSmryR6
-            // 
-            this.lblSmryR6.BackColor = System.Drawing.Color.Transparent;
-            this.lblSmryR6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblSmryR6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSmryR6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmryR6.ForeColor = System.Drawing.Color.White;
-            this.lblSmryR6.Location = new System.Drawing.Point(0, 20);
-            this.lblSmryR6.Name = "lblSmryR6";
-            this.lblSmryR6.Size = new System.Drawing.Size(140, 215);
-            this.lblSmryR6.TabIndex = 0;
-            this.lblSmryR6.Tag = "";
-            this.lblSmryR6.Text = "L-250×5250=99本\r\nL-250×4750=99本\r\nL-250×4250=99本\r\nL-250×3750=99本\r\nL-250×3250=99本\r\nL" +
-    "-250×2750=99本\r\nL-250×2250=99本\r\nL-250×1750=99本\r\nL-250×1250=99本\r\nL-250× 750=99本";
-            this.lblSmryR6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSmryDR6
             // 
@@ -203,29 +187,13 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel16.Controls.Add(this.lblSmryR5);
+            this.panel16.Controls.Add(this.rtxSmryRD5);
             this.panel16.Controls.Add(this.lblSmryDR5);
             this.panel16.Location = new System.Drawing.Point(160, 255);
             this.panel16.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(140, 235);
             this.panel16.TabIndex = 0;
-            // 
-            // lblSmryR5
-            // 
-            this.lblSmryR5.BackColor = System.Drawing.Color.Transparent;
-            this.lblSmryR5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblSmryR5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSmryR5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmryR5.ForeColor = System.Drawing.Color.White;
-            this.lblSmryR5.Location = new System.Drawing.Point(0, 20);
-            this.lblSmryR5.Name = "lblSmryR5";
-            this.lblSmryR5.Size = new System.Drawing.Size(140, 215);
-            this.lblSmryR5.TabIndex = 0;
-            this.lblSmryR5.Tag = "";
-            this.lblSmryR5.Text = "L-250×5250=99本\r\nL-250×4750=99本\r\nL-250×4250=99本\r\nL-250×3750=99本\r\nL-250×3250=99本\r\nL" +
-    "-250×2750=99本\r\nL-250×2250=99本\r\nL-250×1750=99本\r\nL-250×1250=99本\r\nL-250× 750=99本";
-            this.lblSmryR5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSmryDR5
             // 
@@ -243,29 +211,13 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel12.Controls.Add(this.lblSmryR4);
+            this.panel12.Controls.Add(this.rtxSmryRD4);
             this.panel12.Controls.Add(this.lblSmryDR4);
             this.panel12.Location = new System.Drawing.Point(10, 255);
             this.panel12.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(140, 235);
             this.panel12.TabIndex = 0;
-            // 
-            // lblSmryR4
-            // 
-            this.lblSmryR4.BackColor = System.Drawing.Color.Transparent;
-            this.lblSmryR4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblSmryR4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSmryR4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmryR4.ForeColor = System.Drawing.Color.White;
-            this.lblSmryR4.Location = new System.Drawing.Point(0, 20);
-            this.lblSmryR4.Name = "lblSmryR4";
-            this.lblSmryR4.Size = new System.Drawing.Size(140, 215);
-            this.lblSmryR4.TabIndex = 0;
-            this.lblSmryR4.Tag = "";
-            this.lblSmryR4.Text = "L-250×5250=99本\r\nL-250×4750=99本\r\nL-250×4250=99本\r\nL-250×3750=99本\r\nL-250×3250=99本\r\nL" +
-    "-250×2750=99本\r\nL-250×2250=99本\r\nL-250×1750=99本\r\nL-250×1250=99本\r\nL-250× 750=99本";
-            this.lblSmryR4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSmryDR4
             // 
@@ -283,29 +235,13 @@
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel17.Controls.Add(this.lblSmryR3);
+            this.panel17.Controls.Add(this.rtxSmryRD3);
             this.panel17.Controls.Add(this.lblSmryDR3);
             this.panel17.Location = new System.Drawing.Point(310, 10);
             this.panel17.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(140, 235);
             this.panel17.TabIndex = 0;
-            // 
-            // lblSmryR3
-            // 
-            this.lblSmryR3.BackColor = System.Drawing.Color.Transparent;
-            this.lblSmryR3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblSmryR3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSmryR3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmryR3.ForeColor = System.Drawing.Color.White;
-            this.lblSmryR3.Location = new System.Drawing.Point(0, 20);
-            this.lblSmryR3.Name = "lblSmryR3";
-            this.lblSmryR3.Size = new System.Drawing.Size(140, 215);
-            this.lblSmryR3.TabIndex = 0;
-            this.lblSmryR3.Tag = "";
-            this.lblSmryR3.Text = "L-250×5250=99本\r\nL-250×4750=99本\r\nL-250×4250=99本\r\nL-250×3750=99本\r\nL-250×3250=99本\r\nL" +
-    "-250×2750=99本\r\nL-250×2250=99本\r\nL-250×1750=99本\r\nL-250×1250=99本\r\nL-250× 750=99本";
-            this.lblSmryR3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSmryDR3
             // 
@@ -323,29 +259,13 @@
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel14.Controls.Add(this.lblSmryR2);
+            this.panel14.Controls.Add(this.rtxSmryRD2);
             this.panel14.Controls.Add(this.lblSmryDR2);
             this.panel14.Location = new System.Drawing.Point(160, 10);
             this.panel14.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(140, 235);
             this.panel14.TabIndex = 0;
-            // 
-            // lblSmryR2
-            // 
-            this.lblSmryR2.BackColor = System.Drawing.Color.Transparent;
-            this.lblSmryR2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblSmryR2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSmryR2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmryR2.ForeColor = System.Drawing.Color.White;
-            this.lblSmryR2.Location = new System.Drawing.Point(0, 20);
-            this.lblSmryR2.Name = "lblSmryR2";
-            this.lblSmryR2.Size = new System.Drawing.Size(140, 215);
-            this.lblSmryR2.TabIndex = 0;
-            this.lblSmryR2.Tag = "";
-            this.lblSmryR2.Text = "L-250×5250=99本\r\nL-250×4750=99本\r\nL-250×4250=99本\r\nL-250×3750=99本\r\nL-250×3250=99本\r\nL" +
-    "-250×2750=99本\r\nL-250×2250=99本\r\nL-250×1750=99本\r\nL-250×1250=99本\r\nL-250× 750=99本";
-            this.lblSmryR2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSmryDR2
             // 
@@ -363,29 +283,13 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel11.Controls.Add(this.lblSmryR1);
+            this.panel11.Controls.Add(this.rtxSmryRD1);
             this.panel11.Controls.Add(this.lblSmryDR1);
             this.panel11.Location = new System.Drawing.Point(10, 10);
             this.panel11.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(140, 235);
             this.panel11.TabIndex = 0;
-            // 
-            // lblSmryR1
-            // 
-            this.lblSmryR1.BackColor = System.Drawing.Color.Transparent;
-            this.lblSmryR1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblSmryR1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSmryR1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmryR1.ForeColor = System.Drawing.Color.White;
-            this.lblSmryR1.Location = new System.Drawing.Point(0, 20);
-            this.lblSmryR1.Name = "lblSmryR1";
-            this.lblSmryR1.Size = new System.Drawing.Size(140, 215);
-            this.lblSmryR1.TabIndex = 0;
-            this.lblSmryR1.Tag = "";
-            this.lblSmryR1.Text = "L-250×5250=99本\r\nL-250×4750=99本\r\nL-250×4250=99本\r\nL-250×3750=99本\r\nL-250×3250=99本\r\nL" +
-    "-250×2750=99本\r\nL-250×2250=99本\r\nL-250×1750=99本\r\nL-250×1250=99本\r\nL-250× 750=99本";
-            this.lblSmryR1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSmryDR1
             // 
@@ -439,7 +343,7 @@
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel15.Controls.Add(this.richTextBox1);
+            this.panel15.Controls.Add(this.rtxSmryS);
             this.panel15.Controls.Add(this.label36);
             this.panel15.Location = new System.Drawing.Point(10, 10);
             this.panel15.Margin = new System.Windows.Forms.Padding(10, 10, 0, 10);
@@ -447,19 +351,19 @@
             this.panel15.Size = new System.Drawing.Size(140, 480);
             this.panel15.TabIndex = 0;
             // 
-            // richTextBox1
+            // rtxSmryS
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(0, 20);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(140, 460);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.TabStop = false;
-            this.richTextBox1.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
+            this.rtxSmryS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rtxSmryS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxSmryS.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.rtxSmryS.ForeColor = System.Drawing.Color.White;
+            this.rtxSmryS.Location = new System.Drawing.Point(0, 20);
+            this.rtxSmryS.Name = "rtxSmryS";
+            this.rtxSmryS.ReadOnly = true;
+            this.rtxSmryS.Size = new System.Drawing.Size(140, 460);
+            this.rtxSmryS.TabIndex = 0;
+            this.rtxSmryS.TabStop = false;
+            this.rtxSmryS.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
     "2750=99本\nL-250×2250=99本\nL-250×1750=99本\nL-250×1250=99本\nL-250× 750=99本";
             // 
             // label36
@@ -822,6 +726,96 @@
             this.label1.Text = "結果";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // rtxSmryRD1
+            // 
+            this.rtxSmryRD1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rtxSmryRD1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxSmryRD1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.rtxSmryRD1.ForeColor = System.Drawing.Color.White;
+            this.rtxSmryRD1.Location = new System.Drawing.Point(0, 20);
+            this.rtxSmryRD1.Name = "rtxSmryRD1";
+            this.rtxSmryRD1.ReadOnly = true;
+            this.rtxSmryRD1.Size = new System.Drawing.Size(140, 215);
+            this.rtxSmryRD1.TabIndex = 0;
+            this.rtxSmryRD1.TabStop = false;
+            this.rtxSmryRD1.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
+    "2750=99本\nL-250×2250=99本\nL-250×1750=99本\nL-250×1250=99本\nL-250× 750=99本";
+            // 
+            // rtxSmryRD2
+            // 
+            this.rtxSmryRD2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rtxSmryRD2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxSmryRD2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.rtxSmryRD2.ForeColor = System.Drawing.Color.White;
+            this.rtxSmryRD2.Location = new System.Drawing.Point(0, 20);
+            this.rtxSmryRD2.Name = "rtxSmryRD2";
+            this.rtxSmryRD2.ReadOnly = true;
+            this.rtxSmryRD2.Size = new System.Drawing.Size(140, 215);
+            this.rtxSmryRD2.TabIndex = 0;
+            this.rtxSmryRD2.TabStop = false;
+            this.rtxSmryRD2.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
+    "2750=99本\nL-250×2250=99本\nL-250×1750=99本\nL-250×1250=99本\nL-250× 750=99本";
+            // 
+            // rtxSmryRD3
+            // 
+            this.rtxSmryRD3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rtxSmryRD3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxSmryRD3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.rtxSmryRD3.ForeColor = System.Drawing.Color.White;
+            this.rtxSmryRD3.Location = new System.Drawing.Point(0, 20);
+            this.rtxSmryRD3.Name = "rtxSmryRD3";
+            this.rtxSmryRD3.ReadOnly = true;
+            this.rtxSmryRD3.Size = new System.Drawing.Size(140, 215);
+            this.rtxSmryRD3.TabIndex = 0;
+            this.rtxSmryRD3.TabStop = false;
+            this.rtxSmryRD3.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
+    "2750=99本\nL-250×2250=99本\nL-250×1750=99本\nL-250×1250=99本\nL-250× 750=99本";
+            // 
+            // rtxSmryRD4
+            // 
+            this.rtxSmryRD4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rtxSmryRD4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxSmryRD4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.rtxSmryRD4.ForeColor = System.Drawing.Color.White;
+            this.rtxSmryRD4.Location = new System.Drawing.Point(0, 20);
+            this.rtxSmryRD4.Name = "rtxSmryRD4";
+            this.rtxSmryRD4.ReadOnly = true;
+            this.rtxSmryRD4.Size = new System.Drawing.Size(140, 215);
+            this.rtxSmryRD4.TabIndex = 0;
+            this.rtxSmryRD4.TabStop = false;
+            this.rtxSmryRD4.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
+    "2750=99本\nL-250×2250=99本\nL-250×1750=99本\nL-250×1250=99本\nL-250× 750=99本";
+            // 
+            // rtxSmryRD5
+            // 
+            this.rtxSmryRD5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rtxSmryRD5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxSmryRD5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.rtxSmryRD5.ForeColor = System.Drawing.Color.White;
+            this.rtxSmryRD5.Location = new System.Drawing.Point(0, 20);
+            this.rtxSmryRD5.Name = "rtxSmryRD5";
+            this.rtxSmryRD5.ReadOnly = true;
+            this.rtxSmryRD5.Size = new System.Drawing.Size(140, 215);
+            this.rtxSmryRD5.TabIndex = 0;
+            this.rtxSmryRD5.TabStop = false;
+            this.rtxSmryRD5.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
+    "2750=99本\nL-250×2250=99本\nL-250×1750=99本\nL-250×1250=99本\nL-250× 750=99本";
+            // 
+            // rtxSmryRD6
+            // 
+            this.rtxSmryRD6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rtxSmryRD6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxSmryRD6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.rtxSmryRD6.ForeColor = System.Drawing.Color.White;
+            this.rtxSmryRD6.Location = new System.Drawing.Point(0, 20);
+            this.rtxSmryRD6.Name = "rtxSmryRD6";
+            this.rtxSmryRD6.ReadOnly = true;
+            this.rtxSmryRD6.Size = new System.Drawing.Size(140, 215);
+            this.rtxSmryRD6.TabIndex = 0;
+            this.rtxSmryRD6.TabStop = false;
+            this.rtxSmryRD6.Text = "L-250×5250=99本\nL-250×4750=99本\nL-250×4250=99本\nL-250×3750=99本\nL-250×3250=99本\nL-250×" +
+    "2750=99本\nL-250×2250=99本\nL-250×1750=99本\nL-250×1250=99本\nL-250× 750=99本";
+            // 
             // FrmResult
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -874,28 +868,22 @@
         private YANF.Control.YANGradPnl yanGradPnl3;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Label lblSmryR6;
         private System.Windows.Forms.Label lblSmryDR6;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label lblSmryR5;
         private System.Windows.Forms.Label lblSmryDR5;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label lblSmryR4;
         private System.Windows.Forms.Label lblSmryDR4;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label lblSmryR3;
         private System.Windows.Forms.Label lblSmryDR3;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label lblSmryR2;
         private System.Windows.Forms.Label lblSmryDR2;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label lblSmryR1;
         private System.Windows.Forms.Label lblSmryDR1;
         private System.Windows.Forms.Label label22;
         private YANF.Control.YANGradPnl yanGradPnl4;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox rtxSmryS;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
@@ -925,5 +913,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox rtxSmryRD6;
+        private System.Windows.Forms.RichTextBox rtxSmryRD5;
+        private System.Windows.Forms.RichTextBox rtxSmryRD4;
+        private System.Windows.Forms.RichTextBox rtxSmryRD3;
+        private System.Windows.Forms.RichTextBox rtxSmryRD2;
+        private System.Windows.Forms.RichTextBox rtxSmryRD1;
     }
 }
