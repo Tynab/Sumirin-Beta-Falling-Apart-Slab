@@ -143,10 +143,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lblRsltDRV.Text = rsltDRV;
                 lblRsltRebarRV.Text = rsltRebarRV;
                 lblRsltAmtRV.Text = rsltAmtRV;
+                //
+                SmryRForDisplay();
             }
             //
             SmrySForDisplay();
-            SmryRForDisplay();
         }
 
         // frm shown
@@ -280,17 +281,30 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             rtxSmryS.Text = rslt;
         }
 
-        //
+        // Reinforcement summary for display
         private void SmryRForDisplay()
         {
-            var cc = _smryR.OrderBy(g => g.Item1).GroupBy(r => r.Item1).SelectMany(x => x).ToList();
-            var rslt = "";
-            foreach (var item in cc)
+            var splitList = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
+            for (var i = 0; i < splitList.Count; i++)
             {
-                rslt += $"D{item.Item1} {item.Item2} = {item.Item3}本\n";
+                var rslt = "";
+                foreach (var item in splitList[i])
+                {
+                    rslt += $"{item.Item2} = {item.Item3}本\n";
+                }
+                rslt.Substring(0, rslt.Length - 1);
+                // display
+                var rtx = (RichTextBox)Controls.Find($"rtxSmryDR{i + 1}", searchAllChildren: true).FirstOrDefault();
+                if (rtx != null)
+                {
+                    rtx.Text = rslt;
+                }
+                var lbl = (Label)Controls.Find($"lblSmryDR{i + 1}", searchAllChildren: true).FirstOrDefault();
+                if (lbl != null)
+                {
+                    lbl.Text = splitList[i].First().Item1.ToString();
+                }
             }
-            rslt.Substring(0, rslt.Length - 1);
-            rtxSmryRD1.Text = rslt;
         }
         #endregion
     }

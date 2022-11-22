@@ -38,6 +38,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         public FrmMain()
         {
             InitializeComponent();
+            InitItems();
             // move frm by pnl
             foreach (var pnl in this.GetAllObjs(typeof(Panel)))
             {
@@ -59,22 +60,25 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lbl.MouseMove += MoveFrm_MouseMove;
                 lbl.MouseUp += MoveFrm_MouseUp;
             }
+
+
+
+
             // nud event
             foreach (var nud in this.GetAllObjs(typeof(NumericUpDown)).Cast<NumericUpDown>())
             {
                 nud.Enter += Nud_Enter;
                 nud.Leave += Nud_Leave;
-                nud.KeyDown += Nud_KeyDown;
                 nud.KeyDown += Child_KeyDown;
-                nud.KeyUp += Child_KeyUp;
+                nud.KeyDown += Nud_KeyDown;
+                nud.KeyUp += Nud_KeyUp;
                 nud.ValueChanged += NudG_ValueChanged;
             }
             // chk link pnl
             foreach (var chk in this.GetAllObjs(typeof(CheckBox)).Cast<CheckBox>())
             {
-                chk.CheckedChanged += Chk_CheckedChanged;
-                chk.KeyUp += Child_KeyUp;
-                if (chk.Name.Substring("chk".Length, "X".Length) is "L" or "R")
+                chk.CheckedChanged += ChkA_CheckedChanged;
+                if (chk.Name.Substring("chk".Length, "X".Length) is "L" or "R" or "T" or "P")
                 {
                     chk.KeyDown += Child_KeyDown;
                 }
@@ -94,235 +98,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 
         // frm closing
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e) => this.FadeOut();
-
-        // Mod MoveFrm event
-        private void MoveFrmMod_MouseDown(object sender, MouseEventArgs e)
-        {
-            // base
-            MoveFrm_MouseDown(sender, e);
-            // sound
-            SND_CHG.Play();
-        }
-
-        // nud enter
-        private void Nud_Enter(object sender, EventArgs e)
-        {
-            var nud = (NumericUpDown)sender;
-            // effect highlight
-            Run(() => nud.HighLightLblLinkByCtrl("nud", OrangeRed, true));
-            // select text
-            nud.Select(0, nud.Text.Length);
-        }
-
-        // nud leave
-        private void Nud_Leave(object sender, EventArgs e)
-        {
-            var nud = (NumericUpDown)sender;
-            // effect highlight
-            Run(() => nud.HighLightLblLinkByCtrl("nud", Black, false));
-            // fix display
-            if (string.IsNullOrWhiteSpace(nud.Text))
-            {
-                nud.Text = nud.Value.ToString();
-            }
-        }
-
-        // nud key down
-        private void Nud_KeyDown(object sender, KeyEventArgs e)
-        {
-            var nud = (NumericUpDown)sender;
-            switch (e.KeyCode)
-            {
-                case Space:
-                {
-                    nud.ResetText();
-                    break;
-                }
-                case Tab:
-                {
-                    nud.Value = decimal.Parse(nud.Text);
-                    break;
-                }
-                case Keys.Enter:
-                {
-                    e.SuppressKeyPress = true;
-                    break;
-                }
-            }
-        }
-
-        // children key down
-        private void Child_KeyDown(object sender, KeyEventArgs e)
-        {
-            var ctrl = (Control)sender;
-            switch (e.KeyCode)
-            {
-                case O:
-                {
-                    // mute nud
-                    if (ctrl is NumericUpDown)
-                    {
-                        e.SuppressKeyPress = true;
-                    }
-                    // open next area
-                    var nameCtrl = ctrl.Name;
-                    var lenPref = "xxxX".Length;
-                    var id = int.TryParse(nameCtrl.Substring(lenPref + "YY".Length), out var num) ? num : 1;
-                    var chkNext = (CheckBox)Controls.Find($"chk{nameCtrl.Substring(lenPref, "YY".Length)}{id + 1}", searchAllChildren: true).FirstOrDefault();
-                    if (chkNext != null)
-                    {
-                        chkNext.Checked = true;
-                    }
-                    break;
-                }
-                case C:
-                {
-                    // mute nud
-                    if (ctrl is NumericUpDown)
-                    {
-                        e.SuppressKeyPress = true;
-                    }
-                    // close current area
-                    var chk = (CheckBox)Controls.Find($"chk{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
-                    if (chk != null && chk.Enabled)
-                    {
-                        chk.Checked = false;
-                    }
-                    break;
-                }
-                case W:
-                {
-                    // mute nud
-                    if (ctrl is NumericUpDown)
-                    {
-                        e.SuppressKeyPress = true;
-                    }
-                    // focus W
-                    var nudW = (NumericUpDown)Controls.Find($"nudW{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
-                    nudW?.Select();
-                    break;
-                }
-                case H:
-                {
-                    // mute nud
-                    if (ctrl is NumericUpDown)
-                    {
-                        e.SuppressKeyPress = true;
-                    }
-                    // focus H
-                    var nudH = (NumericUpDown)Controls.Find($"nudH{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
-                    nudH?.Select();
-                    break;
-                }
-                case D:
-                {
-                    // mute nud
-                    if (ctrl is NumericUpDown)
-                    {
-                        e.SuppressKeyPress = true;
-                    }
-                    // focus D
-                    var nudD = (NumericUpDown)Controls.Find($"nudD{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
-                    nudD?.Select();
-                    break;
-                }
-                case L:
-                {
-                    // mute nud
-                    if (ctrl is NumericUpDown)
-                    {
-                        e.SuppressKeyPress = true;
-                    }
-                    // change state bending left
-                    var chkL = (CheckBox)Controls.Find($"chkL{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
-                    if (chkL != null && chkL.Enabled)
-                    {
-                        chkL.Checked = !chkL.Checked;
-                    }
-                    break;
-                }
-                case R:
-                {
-                    // mute nud
-                    if (ctrl is NumericUpDown)
-                    {
-                        e.SuppressKeyPress = true;
-                    }
-                    // change state bending right
-                    var chkR = (CheckBox)Controls.Find($"chkR{ctrl.Name.Substring("xxxX".Length)}", searchAllChildren: true).FirstOrDefault();
-                    if (chkR != null && chkR.Enabled)
-                    {
-                        chkR.Checked = !chkR.Checked;
-                    }
-                    break;
-                }
-            }
-        }
-
-        // children key up
-        private void Child_KeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                SelectNextControl(ActiveControl, true, true, true, true);
-            }
-        }
-
-        // nud W value changed
-        private void NudG_ValueChanged(object sender, EventArgs e)
-        {
-            var nud = (NumericUpDown)sender;
-            var val = nud.Value;
-            if (nud.Name.Substring(0, "nudW".Length) is "nudW" or "nudH" && val < 30)
-            {
-                nud.Value = val * Default.Span;
-            }
-        }
-
-        // chk checked changed
-        private void Chk_CheckedChanged(object sender, EventArgs e)
-        {
-            // sound
-            SND_PRS.Play();
-            // main
-            var chk = (CheckBox)sender;
-            // foward focus
-            var pnl = (Panel)Controls.Find("pnl" + chk.Name.Substring("chk".Length), searchAllChildren: true).FirstOrDefault();
-            if (pnl != null)
-            {
-                pnl.Enabled = chk.Checked;
-                if (pnl.Enabled)
-                {
-                    SelectNextControl(pnl, true, true, true, true);
-                }
-            }
-            // chech area chk
-            var lenPrefChk = "chkYY".Length;
-            var hdr = chk.Name.Substring(0, lenPrefChk);
-            var ftr = chk.Name.Substring(lenPrefChk);
-            if (hdr is "chkSH" or "chkSV" && int.TryParse(ftr, out var no) && no < 10 || hdr is "chkRH" or "chkRV" && int.TryParse(ftr, out no) && no < 6)
-            {
-                var nextName = chk.Name.Substring("chk".Length, "YY".Length) + (no + 1).ToString();
-                // sync state
-                var pnlPNext = (Panel)Controls.Find($"pnlA{nextName}", searchAllChildren: true).FirstOrDefault();
-                if (pnlPNext != null)
-                {
-                    pnlPNext.Enabled = chk.Checked;
-                }
-                // off area spread
-                if (!chk.Checked)
-                {
-                    var chkNext = (CheckBox)Controls.Find($"chk{nextName}", searchAllChildren: true).FirstOrDefault();
-                    if (chkNext != null)
-                    {
-                        chkNext.Checked = false;
-                    }
-                }
-            }
-        }
-
-        // rdo checked changed
-        private void Rdo_CheckedChanged(object sender, EventArgs e) => ((YANRdo)sender).TabStop = false;
 
         // btn slab select all click
         private void BtnSSelAll_Click(object sender, EventArgs e)
@@ -344,31 +119,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             }
         }
 
-        // btn slab select half click
-        private void BtnSSelHalf_Click(object sender, EventArgs e)
-        {
-            for (var i = 1; i <= _maxAreaS / 2; i++)
-            {
-                ((CheckBox)Controls.Find($"chkSH{i}", searchAllChildren: true).FirstOrDefault()).Checked = true;
-                ((CheckBox)Controls.Find($"chkSV{i}", searchAllChildren: true).FirstOrDefault()).Checked = true;
-            }
-            var idOut = _maxAreaS / 2 + 1;
-            ((CheckBox)Controls.Find($"chkSH{idOut}", searchAllChildren: true).FirstOrDefault()).Checked = false;
-            ((CheckBox)Controls.Find($"chkSV{idOut}", searchAllChildren: true).FirstOrDefault()).Checked = false;
-        }
-
-        // btn reinforcement select half click
-        private void BtnRSelHalf_Click(object sender, EventArgs e)
-        {
-            for (var i = 1; i <= _maxAreaR / 2; i++)
-            {
-                ((CheckBox)Controls.Find($"chkRH{i}", searchAllChildren: true).FirstOrDefault()).Checked = true;
-                ((CheckBox)Controls.Find($"chkRV{i}", searchAllChildren: true).FirstOrDefault()).Checked = true;
-            }
-            var idOut = _maxAreaR / 2 + 1;
-            ((CheckBox)Controls.Find($"chkRH{idOut}", searchAllChildren: true).FirstOrDefault()).Checked = false;
-            ((CheckBox)Controls.Find($"chkRV{idOut}", searchAllChildren: true).FirstOrDefault()).Checked = false;
-        }
+        // btn close result click
+        private void BtnClRslt_Click(object sender, EventArgs e) => _frmResult?.Close();
 
         // Reset
         private void BtnRst_Click(object sender, EventArgs e)
@@ -396,10 +148,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     }
                 }
                 // default state
-                chkSH2.Checked = false;
-                chkSV2.Checked = false;
-                chkRH1.Checked = false;
-                chkRV1.Checked = false;
+                foreach (var chk in this.GetAllObjs(typeof(CheckBox)).Cast<CheckBox>())
+                {
+                    if (chk.Name.Substring("chk".Length, "X".Length) is "L" or "R" or "T" or "P")
+                    {
+                        
+                    }
+                }
+                chkASH2.Checked = false;
+                chkASV2.Checked = false;
+                chkARH1.Checked = false;
+                chkARV1.Checked = false;
             }
         }
 
@@ -436,6 +195,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Methods
+        //
+        private void TracePnlAFromCtrlI(Control ctrl)
+        {
+
+        }
+
         // Get all chk slab horizontal
         private void GetAllChkSH()
         {

@@ -12,6 +12,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
         public static readonly SoundPlayer SND_PRS = new(sPress);
         public static readonly SoundPlayer SND_CHG = new(sChange);
 
+        // setting
+        public const int MAX_XFMR_G = 30;
+
         // enum
         public enum SumirinBranch
         {

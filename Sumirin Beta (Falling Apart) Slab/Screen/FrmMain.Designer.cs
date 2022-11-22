@@ -42,22 +42,22 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel60 = new System.Windows.Forms.Panel();
-            this.btnRSelHalf = new YANF.Control.YANBtn();
-            this.btnRSelAll = new YANF.Control.YANBtn();
-            this.btnSSelHalf = new YANF.Control.YANBtn();
-            this.btnSSelAll = new YANF.Control.YANBtn();
-            this.label25 = new System.Windows.Forms.Label();
             this.panel96 = new System.Windows.Forms.Panel();
+            this.btnRSelAll = new YANF.Control.YANBtn();
+            this.btnSSelAll = new YANF.Control.YANBtn();
+            this.btnClRslt = new YANF.Control.YANBtn();
             this.label105 = new System.Windows.Forms.Label();
             this.panel47 = new System.Windows.Forms.Panel();
             this.yanGradPnl3 = new YANF.Control.YANGradPnl();
             this.panel75 = new System.Windows.Forms.Panel();
             this.pnlARV6 = new System.Windows.Forms.Panel();
-            this.pnlRV6 = new System.Windows.Forms.Panel();
+            this.pnlIRV6 = new System.Windows.Forms.Panel();
             this.panel157 = new System.Windows.Forms.Panel();
             this.nudWRV6 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV6 = new System.Windows.Forms.Label();
+            this.panel97 = new System.Windows.Forms.Panel();
+            this.chkPRV6 = new System.Windows.Forms.CheckBox();
+            this.chkTRV6 = new System.Windows.Forms.CheckBox();
             this.panel74 = new System.Windows.Forms.Panel();
             this.chkRRV6 = new System.Windows.Forms.CheckBox();
             this.chkLRV6 = new System.Windows.Forms.CheckBox();
@@ -67,12 +67,15 @@
             this.panel160 = new System.Windows.Forms.Panel();
             this.nudDRV6 = new System.Windows.Forms.NumericUpDown();
             this.lblDRV6 = new System.Windows.Forms.Label();
-            this.chkRV6 = new System.Windows.Forms.CheckBox();
+            this.chkARV6 = new System.Windows.Forms.CheckBox();
             this.pnlARV1 = new System.Windows.Forms.Panel();
-            this.pnlRV1 = new System.Windows.Forms.Panel();
+            this.pnlIRV1 = new System.Windows.Forms.Panel();
             this.panel107 = new System.Windows.Forms.Panel();
             this.nudWRV1 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV1 = new System.Windows.Forms.Label();
+            this.panel87 = new System.Windows.Forms.Panel();
+            this.chkPRV1 = new System.Windows.Forms.CheckBox();
+            this.chkTRV1 = new System.Windows.Forms.CheckBox();
             this.panel64 = new System.Windows.Forms.Panel();
             this.chkRRV1 = new System.Windows.Forms.CheckBox();
             this.chkLRV1 = new System.Windows.Forms.CheckBox();
@@ -82,12 +85,15 @@
             this.panel110 = new System.Windows.Forms.Panel();
             this.nudDRV1 = new System.Windows.Forms.NumericUpDown();
             this.lblDRV1 = new System.Windows.Forms.Label();
-            this.chkRV1 = new System.Windows.Forms.CheckBox();
+            this.chkARV1 = new System.Windows.Forms.CheckBox();
             this.pnlARV5 = new System.Windows.Forms.Panel();
-            this.pnlRV5 = new System.Windows.Forms.Panel();
+            this.pnlIRV5 = new System.Windows.Forms.Panel();
             this.panel151 = new System.Windows.Forms.Panel();
             this.nudWRV5 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV5 = new System.Windows.Forms.Label();
+            this.panel93 = new System.Windows.Forms.Panel();
+            this.chkPRV5 = new System.Windows.Forms.CheckBox();
+            this.chkTRV5 = new System.Windows.Forms.CheckBox();
             this.panel71 = new System.Windows.Forms.Panel();
             this.chkRRV5 = new System.Windows.Forms.CheckBox();
             this.chkLRV5 = new System.Windows.Forms.CheckBox();
@@ -97,12 +103,15 @@
             this.panel154 = new System.Windows.Forms.Panel();
             this.nudDRV5 = new System.Windows.Forms.NumericUpDown();
             this.lblDRV5 = new System.Windows.Forms.Label();
-            this.chkRV5 = new System.Windows.Forms.CheckBox();
+            this.chkARV5 = new System.Windows.Forms.CheckBox();
             this.pnlARV2 = new System.Windows.Forms.Panel();
-            this.pnlRV2 = new System.Windows.Forms.Panel();
+            this.pnlIRV2 = new System.Windows.Forms.Panel();
             this.panel113 = new System.Windows.Forms.Panel();
             this.nudWRV2 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV2 = new System.Windows.Forms.Label();
+            this.panel88 = new System.Windows.Forms.Panel();
+            this.chkPRV2 = new System.Windows.Forms.CheckBox();
+            this.chkTRV2 = new System.Windows.Forms.CheckBox();
             this.panel65 = new System.Windows.Forms.Panel();
             this.chkRRV2 = new System.Windows.Forms.CheckBox();
             this.chkLRV2 = new System.Windows.Forms.CheckBox();
@@ -112,12 +121,15 @@
             this.panel116 = new System.Windows.Forms.Panel();
             this.nudDRV2 = new System.Windows.Forms.NumericUpDown();
             this.lblDRV2 = new System.Windows.Forms.Label();
-            this.chkRV2 = new System.Windows.Forms.CheckBox();
+            this.chkARV2 = new System.Windows.Forms.CheckBox();
             this.pnlARV4 = new System.Windows.Forms.Panel();
-            this.pnlRV4 = new System.Windows.Forms.Panel();
+            this.pnlIRV4 = new System.Windows.Forms.Panel();
             this.panel125 = new System.Windows.Forms.Panel();
             this.nudWRV4 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV4 = new System.Windows.Forms.Label();
+            this.panel92 = new System.Windows.Forms.Panel();
+            this.chkPRV4 = new System.Windows.Forms.CheckBox();
+            this.chkTRV4 = new System.Windows.Forms.CheckBox();
             this.panel70 = new System.Windows.Forms.Panel();
             this.chkRRV4 = new System.Windows.Forms.CheckBox();
             this.chkLRV4 = new System.Windows.Forms.CheckBox();
@@ -127,12 +139,15 @@
             this.panel128 = new System.Windows.Forms.Panel();
             this.nudDRV4 = new System.Windows.Forms.NumericUpDown();
             this.lblDRV4 = new System.Windows.Forms.Label();
-            this.chkRV4 = new System.Windows.Forms.CheckBox();
+            this.chkARV4 = new System.Windows.Forms.CheckBox();
             this.pnlARV3 = new System.Windows.Forms.Panel();
-            this.pnlRV3 = new System.Windows.Forms.Panel();
+            this.pnlIRV3 = new System.Windows.Forms.Panel();
             this.panel119 = new System.Windows.Forms.Panel();
             this.nudWRV3 = new System.Windows.Forms.NumericUpDown();
             this.lblWRV3 = new System.Windows.Forms.Label();
+            this.panel89 = new System.Windows.Forms.Panel();
+            this.chkPRV3 = new System.Windows.Forms.CheckBox();
+            this.chkTRV3 = new System.Windows.Forms.CheckBox();
             this.panel69 = new System.Windows.Forms.Panel();
             this.chkRRV3 = new System.Windows.Forms.CheckBox();
             this.chkLRV3 = new System.Windows.Forms.CheckBox();
@@ -142,15 +157,18 @@
             this.panel122 = new System.Windows.Forms.Panel();
             this.nudDRV3 = new System.Windows.Forms.NumericUpDown();
             this.lblDRV3 = new System.Windows.Forms.Label();
-            this.chkRV3 = new System.Windows.Forms.CheckBox();
+            this.chkARV3 = new System.Windows.Forms.CheckBox();
             this.label70 = new System.Windows.Forms.Label();
             this.yanGradPnl4 = new YANF.Control.YANGradPnl();
             this.panel67 = new System.Windows.Forms.Panel();
             this.pnlARH6 = new System.Windows.Forms.Panel();
-            this.pnlRH6 = new System.Windows.Forms.Panel();
+            this.pnlIRH6 = new System.Windows.Forms.Panel();
             this.panel101 = new System.Windows.Forms.Panel();
             this.nudWRH6 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH6 = new System.Windows.Forms.Label();
+            this.panel84 = new System.Windows.Forms.Panel();
+            this.chkPRH6 = new System.Windows.Forms.CheckBox();
+            this.chkTRH6 = new System.Windows.Forms.CheckBox();
             this.panel61 = new System.Windows.Forms.Panel();
             this.chkRRH6 = new System.Windows.Forms.CheckBox();
             this.chkLRH6 = new System.Windows.Forms.CheckBox();
@@ -160,12 +178,15 @@
             this.panel104 = new System.Windows.Forms.Panel();
             this.nudDRH6 = new System.Windows.Forms.NumericUpDown();
             this.lblDRH6 = new System.Windows.Forms.Label();
-            this.chkRH6 = new System.Windows.Forms.CheckBox();
+            this.chkARH6 = new System.Windows.Forms.CheckBox();
             this.pnlARH5 = new System.Windows.Forms.Panel();
-            this.pnlRH5 = new System.Windows.Forms.Panel();
+            this.pnlIRH5 = new System.Windows.Forms.Panel();
             this.panel34 = new System.Windows.Forms.Panel();
             this.nudWRH5 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH5 = new System.Windows.Forms.Label();
+            this.panel83 = new System.Windows.Forms.Panel();
+            this.chkPRH5 = new System.Windows.Forms.CheckBox();
+            this.chkTRH5 = new System.Windows.Forms.CheckBox();
             this.panel55 = new System.Windows.Forms.Panel();
             this.chkRRH5 = new System.Windows.Forms.CheckBox();
             this.chkLRH5 = new System.Windows.Forms.CheckBox();
@@ -175,12 +196,15 @@
             this.panel37 = new System.Windows.Forms.Panel();
             this.nudDRH5 = new System.Windows.Forms.NumericUpDown();
             this.lblDRH5 = new System.Windows.Forms.Label();
-            this.chkRH5 = new System.Windows.Forms.CheckBox();
+            this.chkARH5 = new System.Windows.Forms.CheckBox();
             this.pnlARH4 = new System.Windows.Forms.Panel();
-            this.pnlRH4 = new System.Windows.Forms.Panel();
+            this.pnlIRH4 = new System.Windows.Forms.Panel();
             this.panel28 = new System.Windows.Forms.Panel();
             this.nudWRH4 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH4 = new System.Windows.Forms.Label();
+            this.panel80 = new System.Windows.Forms.Panel();
+            this.chkPRH4 = new System.Windows.Forms.CheckBox();
+            this.chkTRH4 = new System.Windows.Forms.CheckBox();
             this.panel54 = new System.Windows.Forms.Panel();
             this.chkRRH4 = new System.Windows.Forms.CheckBox();
             this.chkLRH4 = new System.Windows.Forms.CheckBox();
@@ -190,12 +214,15 @@
             this.panel31 = new System.Windows.Forms.Panel();
             this.nudDRH4 = new System.Windows.Forms.NumericUpDown();
             this.lblDRH4 = new System.Windows.Forms.Label();
-            this.chkRH4 = new System.Windows.Forms.CheckBox();
+            this.chkARH4 = new System.Windows.Forms.CheckBox();
             this.pnlARH3 = new System.Windows.Forms.Panel();
-            this.pnlRH3 = new System.Windows.Forms.Panel();
+            this.pnlIRH3 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.nudWRH3 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH3 = new System.Windows.Forms.Label();
+            this.panel79 = new System.Windows.Forms.Panel();
+            this.chkPRH3 = new System.Windows.Forms.CheckBox();
+            this.chkTRH3 = new System.Windows.Forms.CheckBox();
             this.panel51 = new System.Windows.Forms.Panel();
             this.chkRRH3 = new System.Windows.Forms.CheckBox();
             this.chkLRH3 = new System.Windows.Forms.CheckBox();
@@ -205,12 +232,15 @@
             this.panel25 = new System.Windows.Forms.Panel();
             this.nudDRH3 = new System.Windows.Forms.NumericUpDown();
             this.lblDRH3 = new System.Windows.Forms.Label();
-            this.chkRH3 = new System.Windows.Forms.CheckBox();
+            this.chkARH3 = new System.Windows.Forms.CheckBox();
             this.pnlARH2 = new System.Windows.Forms.Panel();
-            this.pnlRH2 = new System.Windows.Forms.Panel();
+            this.pnlIRH2 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.nudWRH2 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH2 = new System.Windows.Forms.Label();
+            this.panel60 = new System.Windows.Forms.Panel();
+            this.chkPRH2 = new System.Windows.Forms.CheckBox();
+            this.chkTR2 = new System.Windows.Forms.CheckBox();
             this.panel50 = new System.Windows.Forms.Panel();
             this.chkRRH2 = new System.Windows.Forms.CheckBox();
             this.chkLRH2 = new System.Windows.Forms.CheckBox();
@@ -220,12 +250,15 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.nudDRH2 = new System.Windows.Forms.NumericUpDown();
             this.lblDRH2 = new System.Windows.Forms.Label();
-            this.chkRH2 = new System.Windows.Forms.CheckBox();
+            this.chkARH2 = new System.Windows.Forms.CheckBox();
             this.pnlARH1 = new System.Windows.Forms.Panel();
-            this.pnlRH1 = new System.Windows.Forms.Panel();
+            this.pnlIRH1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.nudWRH1 = new System.Windows.Forms.NumericUpDown();
             this.lblWRH1 = new System.Windows.Forms.Label();
+            this.panel76 = new System.Windows.Forms.Panel();
+            this.chkPRH1 = new System.Windows.Forms.CheckBox();
+            this.chkTRH1 = new System.Windows.Forms.CheckBox();
             this.panel48 = new System.Windows.Forms.Panel();
             this.chkRRH1 = new System.Windows.Forms.CheckBox();
             this.chkLRH1 = new System.Windows.Forms.CheckBox();
@@ -235,14 +268,14 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.nudDRH1 = new System.Windows.Forms.NumericUpDown();
             this.lblDRH1 = new System.Windows.Forms.Label();
-            this.chkRH1 = new System.Windows.Forms.CheckBox();
+            this.chkARH1 = new System.Windows.Forms.CheckBox();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.yanGradPnl2 = new YANF.Control.YANGradPnl();
             this.panel16 = new System.Windows.Forms.Panel();
             this.pnlASV10 = new System.Windows.Forms.Panel();
-            this.pnlSV10 = new System.Windows.Forms.Panel();
+            this.pnlISV10 = new System.Windows.Forms.Panel();
             this.panel46 = new System.Windows.Forms.Panel();
             this.nudWSV10 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV10 = new System.Windows.Forms.Label();
@@ -252,9 +285,9 @@
             this.panel49 = new System.Windows.Forms.Panel();
             this.nudHSV10 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV10 = new System.Windows.Forms.Label();
-            this.chkSV10 = new System.Windows.Forms.CheckBox();
+            this.chkASV10 = new System.Windows.Forms.CheckBox();
             this.pnlASV5 = new System.Windows.Forms.Panel();
-            this.pnlSV5 = new System.Windows.Forms.Panel();
+            this.pnlISV5 = new System.Windows.Forms.Panel();
             this.panel52 = new System.Windows.Forms.Panel();
             this.nudWSV5 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV5 = new System.Windows.Forms.Label();
@@ -264,9 +297,9 @@
             this.panel53 = new System.Windows.Forms.Panel();
             this.nudHSV5 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV5 = new System.Windows.Forms.Label();
-            this.chkSV5 = new System.Windows.Forms.CheckBox();
+            this.chkASV5 = new System.Windows.Forms.CheckBox();
             this.pnlASV9 = new System.Windows.Forms.Panel();
-            this.pnlSV9 = new System.Windows.Forms.Panel();
+            this.pnlISV9 = new System.Windows.Forms.Panel();
             this.panel56 = new System.Windows.Forms.Panel();
             this.nudWSV9 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV9 = new System.Windows.Forms.Label();
@@ -276,9 +309,9 @@
             this.panel57 = new System.Windows.Forms.Panel();
             this.nudHSV9 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV9 = new System.Windows.Forms.Label();
-            this.chkSV9 = new System.Windows.Forms.CheckBox();
+            this.chkASV9 = new System.Windows.Forms.CheckBox();
             this.pnlASV4 = new System.Windows.Forms.Panel();
-            this.pnlSV4 = new System.Windows.Forms.Panel();
+            this.pnlISV4 = new System.Windows.Forms.Panel();
             this.panel72 = new System.Windows.Forms.Panel();
             this.nudWSV4 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV4 = new System.Windows.Forms.Label();
@@ -288,9 +321,9 @@
             this.panel73 = new System.Windows.Forms.Panel();
             this.nudHSV4 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV4 = new System.Windows.Forms.Label();
-            this.chkSV4 = new System.Windows.Forms.CheckBox();
+            this.chkASV4 = new System.Windows.Forms.CheckBox();
             this.pnlASV8 = new System.Windows.Forms.Panel();
-            this.pnlSV8 = new System.Windows.Forms.Panel();
+            this.pnlISV8 = new System.Windows.Forms.Panel();
             this.panel77 = new System.Windows.Forms.Panel();
             this.nudWSV8 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV8 = new System.Windows.Forms.Label();
@@ -300,9 +333,9 @@
             this.panel78 = new System.Windows.Forms.Panel();
             this.nudHSV8 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV8 = new System.Windows.Forms.Label();
-            this.chkSV8 = new System.Windows.Forms.CheckBox();
+            this.chkASV8 = new System.Windows.Forms.CheckBox();
             this.pnlASV3 = new System.Windows.Forms.Panel();
-            this.pnlSV3 = new System.Windows.Forms.Panel();
+            this.pnlISV3 = new System.Windows.Forms.Panel();
             this.panel81 = new System.Windows.Forms.Panel();
             this.nudWSV3 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV3 = new System.Windows.Forms.Label();
@@ -312,9 +345,9 @@
             this.panel82 = new System.Windows.Forms.Panel();
             this.nudHSV3 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV3 = new System.Windows.Forms.Label();
-            this.chkSV3 = new System.Windows.Forms.CheckBox();
+            this.chkASV3 = new System.Windows.Forms.CheckBox();
             this.pnlASV6 = new System.Windows.Forms.Panel();
-            this.pnlSV6 = new System.Windows.Forms.Panel();
+            this.pnlISV6 = new System.Windows.Forms.Panel();
             this.panel85 = new System.Windows.Forms.Panel();
             this.nudWSV6 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV6 = new System.Windows.Forms.Label();
@@ -324,9 +357,9 @@
             this.panel86 = new System.Windows.Forms.Panel();
             this.nudHSV6 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV6 = new System.Windows.Forms.Label();
-            this.chkSV6 = new System.Windows.Forms.CheckBox();
+            this.chkASV6 = new System.Windows.Forms.CheckBox();
             this.pnlASV7 = new System.Windows.Forms.Panel();
-            this.pnlSV7 = new System.Windows.Forms.Panel();
+            this.pnlISV7 = new System.Windows.Forms.Panel();
             this.panel139 = new System.Windows.Forms.Panel();
             this.nudWSV7 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV7 = new System.Windows.Forms.Label();
@@ -336,9 +369,9 @@
             this.panel140 = new System.Windows.Forms.Panel();
             this.nudHSV7 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV7 = new System.Windows.Forms.Label();
-            this.chkSV7 = new System.Windows.Forms.CheckBox();
+            this.chkASV7 = new System.Windows.Forms.CheckBox();
             this.pnlASV2 = new System.Windows.Forms.Panel();
-            this.pnlSV2 = new System.Windows.Forms.Panel();
+            this.pnlISV2 = new System.Windows.Forms.Panel();
             this.panel143 = new System.Windows.Forms.Panel();
             this.nudWSV2 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV2 = new System.Windows.Forms.Label();
@@ -348,9 +381,9 @@
             this.panel144 = new System.Windows.Forms.Panel();
             this.nudHSV2 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV2 = new System.Windows.Forms.Label();
-            this.chkSV2 = new System.Windows.Forms.CheckBox();
+            this.chkASV2 = new System.Windows.Forms.CheckBox();
             this.pnlASV1 = new System.Windows.Forms.Panel();
-            this.pnlSV1 = new System.Windows.Forms.Panel();
+            this.pnlISV1 = new System.Windows.Forms.Panel();
             this.panel147 = new System.Windows.Forms.Panel();
             this.nudWSV1 = new System.Windows.Forms.NumericUpDown();
             this.lblWSV1 = new System.Windows.Forms.Label();
@@ -360,12 +393,12 @@
             this.panel148 = new System.Windows.Forms.Panel();
             this.nudHSV1 = new System.Windows.Forms.NumericUpDown();
             this.lblHSV1 = new System.Windows.Forms.Label();
-            this.chkSV1 = new System.Windows.Forms.CheckBox();
+            this.chkASV1 = new System.Windows.Forms.CheckBox();
             this.label63 = new System.Windows.Forms.Label();
             this.yanGradPnl1 = new YANF.Control.YANGradPnl();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pnlASH10 = new System.Windows.Forms.Panel();
-            this.pnlSH10 = new System.Windows.Forms.Panel();
+            this.pnlISH10 = new System.Windows.Forms.Panel();
             this.panel137 = new System.Windows.Forms.Panel();
             this.nudWSH10 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH10 = new System.Windows.Forms.Label();
@@ -375,9 +408,9 @@
             this.panel138 = new System.Windows.Forms.Panel();
             this.nudHSH10 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH10 = new System.Windows.Forms.Label();
-            this.chkSH10 = new System.Windows.Forms.CheckBox();
+            this.chkASH10 = new System.Windows.Forms.CheckBox();
             this.pnlASH5 = new System.Windows.Forms.Panel();
-            this.pnlSH5 = new System.Windows.Forms.Panel();
+            this.pnlISH5 = new System.Windows.Forms.Panel();
             this.panel66 = new System.Windows.Forms.Panel();
             this.nudWSH5 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH5 = new System.Windows.Forms.Label();
@@ -387,9 +420,9 @@
             this.panel68 = new System.Windows.Forms.Panel();
             this.nudHSH5 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH5 = new System.Windows.Forms.Label();
-            this.chkSH5 = new System.Windows.Forms.CheckBox();
+            this.chkASH5 = new System.Windows.Forms.CheckBox();
             this.pnlASH9 = new System.Windows.Forms.Panel();
-            this.pnlSH9 = new System.Windows.Forms.Panel();
+            this.pnlISH9 = new System.Windows.Forms.Panel();
             this.panel133 = new System.Windows.Forms.Panel();
             this.nudWSH9 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH9 = new System.Windows.Forms.Label();
@@ -399,9 +432,9 @@
             this.panel134 = new System.Windows.Forms.Panel();
             this.nudHSH9 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH9 = new System.Windows.Forms.Label();
-            this.chkSH9 = new System.Windows.Forms.CheckBox();
+            this.chkASH9 = new System.Windows.Forms.CheckBox();
             this.pnlASH4 = new System.Windows.Forms.Panel();
-            this.pnlSH4 = new System.Windows.Forms.Panel();
+            this.pnlISH4 = new System.Windows.Forms.Panel();
             this.panel62 = new System.Windows.Forms.Panel();
             this.nudWSH4 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH4 = new System.Windows.Forms.Label();
@@ -411,9 +444,9 @@
             this.panel63 = new System.Windows.Forms.Panel();
             this.nudHSH4 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH4 = new System.Windows.Forms.Label();
-            this.chkSH4 = new System.Windows.Forms.CheckBox();
+            this.chkASH4 = new System.Windows.Forms.CheckBox();
             this.pnlASH8 = new System.Windows.Forms.Panel();
-            this.pnlSH8 = new System.Windows.Forms.Panel();
+            this.pnlISH8 = new System.Windows.Forms.Panel();
             this.panel129 = new System.Windows.Forms.Panel();
             this.nudWSH8 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH8 = new System.Windows.Forms.Label();
@@ -423,9 +456,9 @@
             this.panel130 = new System.Windows.Forms.Panel();
             this.nudHSH8 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH8 = new System.Windows.Forms.Label();
-            this.chkSH8 = new System.Windows.Forms.CheckBox();
+            this.chkASH8 = new System.Windows.Forms.CheckBox();
             this.pnlASH3 = new System.Windows.Forms.Panel();
-            this.pnlSH3 = new System.Windows.Forms.Panel();
+            this.pnlISH3 = new System.Windows.Forms.Panel();
             this.panel58 = new System.Windows.Forms.Panel();
             this.nudWSH3 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH3 = new System.Windows.Forms.Label();
@@ -435,9 +468,9 @@
             this.panel59 = new System.Windows.Forms.Panel();
             this.nudHSH3 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH3 = new System.Windows.Forms.Label();
-            this.chkSH3 = new System.Windows.Forms.CheckBox();
+            this.chkASH3 = new System.Windows.Forms.CheckBox();
             this.pnlASH6 = new System.Windows.Forms.Panel();
-            this.pnlSH6 = new System.Windows.Forms.Panel();
+            this.pnlISH6 = new System.Windows.Forms.Panel();
             this.panel90 = new System.Windows.Forms.Panel();
             this.nudWSH6 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH6 = new System.Windows.Forms.Label();
@@ -447,9 +480,9 @@
             this.panel91 = new System.Windows.Forms.Panel();
             this.nudHSH6 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH6 = new System.Windows.Forms.Label();
-            this.chkSH6 = new System.Windows.Forms.CheckBox();
+            this.chkASH6 = new System.Windows.Forms.CheckBox();
             this.pnlASH7 = new System.Windows.Forms.Panel();
-            this.pnlSH7 = new System.Windows.Forms.Panel();
+            this.pnlISH7 = new System.Windows.Forms.Panel();
             this.panel94 = new System.Windows.Forms.Panel();
             this.nudWSH7 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH7 = new System.Windows.Forms.Label();
@@ -459,9 +492,9 @@
             this.panel95 = new System.Windows.Forms.Panel();
             this.nudHSH7 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH7 = new System.Windows.Forms.Label();
-            this.chkSH7 = new System.Windows.Forms.CheckBox();
+            this.chkASH7 = new System.Windows.Forms.CheckBox();
             this.pnlASH2 = new System.Windows.Forms.Panel();
-            this.pnlSH2 = new System.Windows.Forms.Panel();
+            this.pnlISH2 = new System.Windows.Forms.Panel();
             this.panel43 = new System.Windows.Forms.Panel();
             this.nudWSH2 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH2 = new System.Windows.Forms.Label();
@@ -471,9 +504,9 @@
             this.panel44 = new System.Windows.Forms.Panel();
             this.nudHSH2 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH2 = new System.Windows.Forms.Label();
-            this.chkSH2 = new System.Windows.Forms.CheckBox();
+            this.chkASH2 = new System.Windows.Forms.CheckBox();
             this.pnlASH1 = new System.Windows.Forms.Panel();
-            this.pnlSH1 = new System.Windows.Forms.Panel();
+            this.pnlISH1 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.nudWSH1 = new System.Windows.Forms.NumericUpDown();
             this.lblWSH1 = new System.Windows.Forms.Label();
@@ -483,66 +516,71 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.nudHSH1 = new System.Windows.Forms.NumericUpDown();
             this.lblHSH1 = new System.Windows.Forms.Label();
-            this.chkSH1 = new System.Windows.Forms.CheckBox();
+            this.chkASH1 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel60.SuspendLayout();
             this.panel96.SuspendLayout();
             this.panel47.SuspendLayout();
             this.yanGradPnl3.SuspendLayout();
             this.panel75.SuspendLayout();
             this.pnlARV6.SuspendLayout();
-            this.pnlRV6.SuspendLayout();
+            this.pnlIRV6.SuspendLayout();
             this.panel157.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV6)).BeginInit();
+            this.panel97.SuspendLayout();
             this.panel74.SuspendLayout();
             this.panel159.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV6)).BeginInit();
             this.panel160.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV6)).BeginInit();
             this.pnlARV1.SuspendLayout();
-            this.pnlRV1.SuspendLayout();
+            this.pnlIRV1.SuspendLayout();
             this.panel107.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV1)).BeginInit();
+            this.panel87.SuspendLayout();
             this.panel64.SuspendLayout();
             this.panel109.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV1)).BeginInit();
             this.panel110.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV1)).BeginInit();
             this.pnlARV5.SuspendLayout();
-            this.pnlRV5.SuspendLayout();
+            this.pnlIRV5.SuspendLayout();
             this.panel151.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV5)).BeginInit();
+            this.panel93.SuspendLayout();
             this.panel71.SuspendLayout();
             this.panel153.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV5)).BeginInit();
             this.panel154.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV5)).BeginInit();
             this.pnlARV2.SuspendLayout();
-            this.pnlRV2.SuspendLayout();
+            this.pnlIRV2.SuspendLayout();
             this.panel113.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV2)).BeginInit();
+            this.panel88.SuspendLayout();
             this.panel65.SuspendLayout();
             this.panel115.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV2)).BeginInit();
             this.panel116.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV2)).BeginInit();
             this.pnlARV4.SuspendLayout();
-            this.pnlRV4.SuspendLayout();
+            this.pnlIRV4.SuspendLayout();
             this.panel125.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV4)).BeginInit();
+            this.panel92.SuspendLayout();
             this.panel70.SuspendLayout();
             this.panel127.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV4)).BeginInit();
             this.panel128.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV4)).BeginInit();
             this.pnlARV3.SuspendLayout();
-            this.pnlRV3.SuspendLayout();
+            this.pnlIRV3.SuspendLayout();
             this.panel119.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV3)).BeginInit();
+            this.panel89.SuspendLayout();
             this.panel69.SuspendLayout();
             this.panel121.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRV3)).BeginInit();
@@ -551,54 +589,60 @@
             this.yanGradPnl4.SuspendLayout();
             this.panel67.SuspendLayout();
             this.pnlARH6.SuspendLayout();
-            this.pnlRH6.SuspendLayout();
+            this.pnlIRH6.SuspendLayout();
             this.panel101.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH6)).BeginInit();
+            this.panel84.SuspendLayout();
             this.panel61.SuspendLayout();
             this.panel103.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH6)).BeginInit();
             this.panel104.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH6)).BeginInit();
             this.pnlARH5.SuspendLayout();
-            this.pnlRH5.SuspendLayout();
+            this.pnlIRH5.SuspendLayout();
             this.panel34.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH5)).BeginInit();
+            this.panel83.SuspendLayout();
             this.panel55.SuspendLayout();
             this.panel36.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH5)).BeginInit();
             this.panel37.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH5)).BeginInit();
             this.pnlARH4.SuspendLayout();
-            this.pnlRH4.SuspendLayout();
+            this.pnlIRH4.SuspendLayout();
             this.panel28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH4)).BeginInit();
+            this.panel80.SuspendLayout();
             this.panel54.SuspendLayout();
             this.panel30.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH4)).BeginInit();
             this.panel31.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH4)).BeginInit();
             this.pnlARH3.SuspendLayout();
-            this.pnlRH3.SuspendLayout();
+            this.pnlIRH3.SuspendLayout();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH3)).BeginInit();
+            this.panel79.SuspendLayout();
             this.panel51.SuspendLayout();
             this.panel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH3)).BeginInit();
             this.panel25.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH3)).BeginInit();
             this.pnlARH2.SuspendLayout();
-            this.pnlRH2.SuspendLayout();
+            this.pnlIRH2.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH2)).BeginInit();
+            this.panel60.SuspendLayout();
             this.panel50.SuspendLayout();
             this.panel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH2)).BeginInit();
             this.panel19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH2)).BeginInit();
             this.pnlARH1.SuspendLayout();
-            this.pnlRH1.SuspendLayout();
+            this.pnlIRH1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH1)).BeginInit();
+            this.panel76.SuspendLayout();
             this.panel48.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHRH1)).BeginInit();
@@ -608,70 +652,70 @@
             this.yanGradPnl2.SuspendLayout();
             this.panel16.SuspendLayout();
             this.pnlASV10.SuspendLayout();
-            this.pnlSV10.SuspendLayout();
+            this.pnlISV10.SuspendLayout();
             this.panel46.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV10)).BeginInit();
             this.panel45.SuspendLayout();
             this.panel49.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV10)).BeginInit();
             this.pnlASV5.SuspendLayout();
-            this.pnlSV5.SuspendLayout();
+            this.pnlISV5.SuspendLayout();
             this.panel52.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV5)).BeginInit();
             this.panel38.SuspendLayout();
             this.panel53.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV5)).BeginInit();
             this.pnlASV9.SuspendLayout();
-            this.pnlSV9.SuspendLayout();
+            this.pnlISV9.SuspendLayout();
             this.panel56.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV9)).BeginInit();
             this.panel42.SuspendLayout();
             this.panel57.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV9)).BeginInit();
             this.pnlASV4.SuspendLayout();
-            this.pnlSV4.SuspendLayout();
+            this.pnlISV4.SuspendLayout();
             this.panel72.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV4)).BeginInit();
             this.panel35.SuspendLayout();
             this.panel73.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV4)).BeginInit();
             this.pnlASV8.SuspendLayout();
-            this.pnlSV8.SuspendLayout();
+            this.pnlISV8.SuspendLayout();
             this.panel77.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV8)).BeginInit();
             this.panel41.SuspendLayout();
             this.panel78.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV8)).BeginInit();
             this.pnlASV3.SuspendLayout();
-            this.pnlSV3.SuspendLayout();
+            this.pnlISV3.SuspendLayout();
             this.panel81.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV3)).BeginInit();
             this.panel33.SuspendLayout();
             this.panel82.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV3)).BeginInit();
             this.pnlASV6.SuspendLayout();
-            this.pnlSV6.SuspendLayout();
+            this.pnlISV6.SuspendLayout();
             this.panel85.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV6)).BeginInit();
             this.panel39.SuspendLayout();
             this.panel86.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV6)).BeginInit();
             this.pnlASV7.SuspendLayout();
-            this.pnlSV7.SuspendLayout();
+            this.pnlISV7.SuspendLayout();
             this.panel139.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV7)).BeginInit();
             this.panel40.SuspendLayout();
             this.panel140.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV7)).BeginInit();
             this.pnlASV2.SuspendLayout();
-            this.pnlSV2.SuspendLayout();
+            this.pnlISV2.SuspendLayout();
             this.panel143.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV2)).BeginInit();
             this.panel32.SuspendLayout();
             this.panel144.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV2)).BeginInit();
             this.pnlASV1.SuspendLayout();
-            this.pnlSV1.SuspendLayout();
+            this.pnlISV1.SuspendLayout();
             this.panel147.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV1)).BeginInit();
             this.panel29.SuspendLayout();
@@ -680,70 +724,70 @@
             this.yanGradPnl1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.pnlASH10.SuspendLayout();
-            this.pnlSH10.SuspendLayout();
+            this.pnlISH10.SuspendLayout();
             this.panel137.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH10)).BeginInit();
             this.panel27.SuspendLayout();
             this.panel138.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH10)).BeginInit();
             this.pnlASH5.SuspendLayout();
-            this.pnlSH5.SuspendLayout();
+            this.pnlISH5.SuspendLayout();
             this.panel66.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH5)).BeginInit();
             this.panel17.SuspendLayout();
             this.panel68.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH5)).BeginInit();
             this.pnlASH9.SuspendLayout();
-            this.pnlSH9.SuspendLayout();
+            this.pnlISH9.SuspendLayout();
             this.panel133.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH9)).BeginInit();
             this.panel26.SuspendLayout();
             this.panel134.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH9)).BeginInit();
             this.pnlASH4.SuspendLayout();
-            this.pnlSH4.SuspendLayout();
+            this.pnlISH4.SuspendLayout();
             this.panel62.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH4)).BeginInit();
             this.panel12.SuspendLayout();
             this.panel63.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH4)).BeginInit();
             this.pnlASH8.SuspendLayout();
-            this.pnlSH8.SuspendLayout();
+            this.pnlISH8.SuspendLayout();
             this.panel129.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH8)).BeginInit();
             this.panel23.SuspendLayout();
             this.panel130.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH8)).BeginInit();
             this.pnlASH3.SuspendLayout();
-            this.pnlSH3.SuspendLayout();
+            this.pnlISH3.SuspendLayout();
             this.panel58.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH3)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel59.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH3)).BeginInit();
             this.pnlASH6.SuspendLayout();
-            this.pnlSH6.SuspendLayout();
+            this.pnlISH6.SuspendLayout();
             this.panel90.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH6)).BeginInit();
             this.panel20.SuspendLayout();
             this.panel91.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH6)).BeginInit();
             this.pnlASH7.SuspendLayout();
-            this.pnlSH7.SuspendLayout();
+            this.pnlISH7.SuspendLayout();
             this.panel94.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH7)).BeginInit();
             this.panel21.SuspendLayout();
             this.panel95.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH7)).BeginInit();
             this.pnlASH2.SuspendLayout();
-            this.pnlSH2.SuspendLayout();
+            this.pnlISH2.SuspendLayout();
             this.panel43.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH2)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel44.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH2)).BeginInit();
             this.pnlASH1.SuspendLayout();
-            this.pnlSH1.SuspendLayout();
+            this.pnlISH1.SuspendLayout();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH1)).BeginInit();
             this.panel10.SuspendLayout();
@@ -755,7 +799,7 @@
             // 
             this.tgTruck2Ton.AutoSize = true;
             this.tgTruck2Ton.BackColor = System.Drawing.Color.Transparent;
-            this.tgTruck2Ton.Location = new System.Drawing.Point(20, 50);
+            this.tgTruck2Ton.Location = new System.Drawing.Point(60, 35);
             this.tgTruck2Ton.MinimumSize = new System.Drawing.Size(45, 22);
             this.tgTruck2Ton.Name = "tgTruck2Ton";
             this.tgTruck2Ton.OffBackColor = System.Drawing.Color.Gray;
@@ -779,7 +823,7 @@
             this.btnCl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnCl.ForeColor = System.Drawing.Color.White;
             this.btnCl.Image = global::Sumirin_Beta__Falling_Apart__Slab.Properties.Resources.pOff;
-            this.btnCl.Location = new System.Drawing.Point(180, 40);
+            this.btnCl.Location = new System.Drawing.Point(235, 90);
             this.btnCl.Margin = new System.Windows.Forms.Padding(20);
             this.btnCl.Name = "btnCl";
             this.btnCl.Size = new System.Drawing.Size(40, 40);
@@ -791,7 +835,7 @@
             // 
             // btnRst
             // 
-            this.btnRst.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(89)))));
+            this.btnRst.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
             this.btnRst.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnRst.BorderRadius = 20;
             this.btnRst.BorderSize = 0;
@@ -799,7 +843,7 @@
             this.btnRst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRst.Font = new System.Drawing.Font("Meiryo", 10F, System.Drawing.FontStyle.Bold);
             this.btnRst.ForeColor = System.Drawing.Color.White;
-            this.btnRst.Location = new System.Drawing.Point(235, 40);
+            this.btnRst.Location = new System.Drawing.Point(345, 90);
             this.btnRst.Margin = new System.Windows.Forms.Padding(30, 10, 30, 10);
             this.btnRst.Name = "btnRst";
             this.btnRst.Size = new System.Drawing.Size(150, 40);
@@ -819,8 +863,8 @@
             this.btnCalc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalc.Font = new System.Drawing.Font("Meiryo", 10F, System.Drawing.FontStyle.Bold);
             this.btnCalc.ForeColor = System.Drawing.Color.White;
-            this.btnCalc.Location = new System.Drawing.Point(15, 40);
-            this.btnCalc.Margin = new System.Windows.Forms.Padding(30, 10, 30, 10);
+            this.btnCalc.Location = new System.Drawing.Point(15, 90);
+            this.btnCalc.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(150, 40);
             this.btnCalc.TabIndex = 0;
@@ -834,7 +878,6 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.panel8);
             this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.panel60);
             this.panel1.Controls.Add(this.panel96);
             this.panel1.Controls.Add(this.panel47);
             this.panel1.Controls.Add(this.panel2);
@@ -850,10 +893,10 @@
             this.panel8.Controls.Add(this.rdoBrTouhoku);
             this.panel8.Controls.Add(this.rdoBrIbaraki);
             this.panel8.Controls.Add(this.label4);
-            this.panel8.Location = new System.Drawing.Point(600, 600);
+            this.panel8.Location = new System.Drawing.Point(600, 550);
             this.panel8.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(185, 100);
+            this.panel8.Size = new System.Drawing.Size(170, 70);
             this.panel8.TabIndex = 0;
             // 
             // rdoBrTouhoku
@@ -863,7 +906,7 @@
             this.rdoBrTouhoku.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(208)))));
             this.rdoBrTouhoku.Font = new System.Drawing.Font("Meiryo", 10F);
             this.rdoBrTouhoku.HighlightText = System.Drawing.Color.DarkGoldenrod;
-            this.rdoBrTouhoku.Location = new System.Drawing.Point(100, 50);
+            this.rdoBrTouhoku.Location = new System.Drawing.Point(90, 35);
             this.rdoBrTouhoku.MinimumSize = new System.Drawing.Size(0, 21);
             this.rdoBrTouhoku.Name = "rdoBrTouhoku";
             this.rdoBrTouhoku.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -880,7 +923,7 @@
             this.rdoBrIbaraki.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(208)))));
             this.rdoBrIbaraki.Font = new System.Drawing.Font("Meiryo", 10F);
             this.rdoBrIbaraki.HighlightText = System.Drawing.Color.DarkGoldenrod;
-            this.rdoBrIbaraki.Location = new System.Drawing.Point(15, 50);
+            this.rdoBrIbaraki.Location = new System.Drawing.Point(10, 35);
             this.rdoBrIbaraki.MinimumSize = new System.Drawing.Size(0, 21);
             this.rdoBrIbaraki.Name = "rdoBrIbaraki";
             this.rdoBrIbaraki.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -898,7 +941,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 30);
+            this.label4.Size = new System.Drawing.Size(166, 30);
             this.label4.TabIndex = 0;
             this.label4.Text = "支店";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -908,10 +951,10 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.tgTruck2Ton);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(795, 600);
+            this.panel4.Location = new System.Drawing.Point(600, 630);
             this.panel4.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(85, 100);
+            this.panel4.Size = new System.Drawing.Size(170, 70);
             this.panel4.TabIndex = 0;
             // 
             // label3
@@ -922,48 +965,30 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 30);
+            this.label3.Size = new System.Drawing.Size(166, 30);
             this.label3.TabIndex = 0;
-            this.label3.Text = "２トン";
+            this.label3.Text = "運賃（２トン車）";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel60
+            // panel96
             // 
-            this.panel60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel60.Controls.Add(this.btnRSelHalf);
-            this.panel60.Controls.Add(this.btnRSelAll);
-            this.panel60.Controls.Add(this.btnSSelHalf);
-            this.panel60.Controls.Add(this.btnSSelAll);
-            this.panel60.Controls.Add(this.label25);
-            this.panel60.Location = new System.Drawing.Point(600, 490);
-            this.panel60.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
-            this.panel60.Name = "panel60";
-            this.panel60.Size = new System.Drawing.Size(690, 100);
-            this.panel60.TabIndex = 0;
-            // 
-            // btnRSelHalf
-            // 
-            this.btnRSelHalf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(40)))), ((int)(((byte)(177)))));
-            this.btnRSelHalf.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnRSelHalf.BorderRadius = 20;
-            this.btnRSelHalf.BorderSize = 0;
-            this.btnRSelHalf.FlatAppearance.BorderSize = 0;
-            this.btnRSelHalf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRSelHalf.Font = new System.Drawing.Font("Meiryo", 10F, System.Drawing.FontStyle.Bold);
-            this.btnRSelHalf.ForeColor = System.Drawing.Color.White;
-            this.btnRSelHalf.Location = new System.Drawing.Point(522, 40);
-            this.btnRSelHalf.Margin = new System.Windows.Forms.Padding(0, 15, 15, 15);
-            this.btnRSelHalf.Name = "btnRSelHalf";
-            this.btnRSelHalf.Size = new System.Drawing.Size(150, 40);
-            this.btnRSelHalf.TabIndex = 0;
-            this.btnRSelHalf.TabStop = false;
-            this.btnRSelHalf.Text = "スラブ補強５０％";
-            this.btnRSelHalf.UseVisualStyleBackColor = false;
-            this.btnRSelHalf.Click += new System.EventHandler(this.BtnRSelHalf_Click);
+            this.panel96.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel96.Controls.Add(this.btnRst);
+            this.panel96.Controls.Add(this.btnCl);
+            this.panel96.Controls.Add(this.btnRSelAll);
+            this.panel96.Controls.Add(this.btnSSelAll);
+            this.panel96.Controls.Add(this.btnClRslt);
+            this.panel96.Controls.Add(this.btnCalc);
+            this.panel96.Controls.Add(this.label105);
+            this.panel96.Location = new System.Drawing.Point(780, 550);
+            this.panel96.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.panel96.Name = "panel96";
+            this.panel96.Size = new System.Drawing.Size(510, 150);
+            this.panel96.TabIndex = 0;
             // 
             // btnRSelAll
             // 
-            this.btnRSelAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(169)))), ((int)(((byte)(245)))));
+            this.btnRSelAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(140)))), ((int)(((byte)(210)))));
             this.btnRSelAll.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnRSelAll.BorderRadius = 20;
             this.btnRSelAll.BorderSize = 0;
@@ -971,39 +996,19 @@
             this.btnRSelAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRSelAll.Font = new System.Drawing.Font("Meiryo", 10F, System.Drawing.FontStyle.Bold);
             this.btnRSelAll.ForeColor = System.Drawing.Color.White;
-            this.btnRSelAll.Location = new System.Drawing.Point(354, 40);
-            this.btnRSelAll.Margin = new System.Windows.Forms.Padding(0, 15, 15, 15);
+            this.btnRSelAll.Location = new System.Drawing.Point(345, 40);
+            this.btnRSelAll.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.btnRSelAll.Name = "btnRSelAll";
             this.btnRSelAll.Size = new System.Drawing.Size(150, 40);
             this.btnRSelAll.TabIndex = 0;
             this.btnRSelAll.TabStop = false;
-            this.btnRSelAll.Text = "スラブ補強１００％";
+            this.btnRSelAll.Text = "すべてのスラブ補強";
             this.btnRSelAll.UseVisualStyleBackColor = false;
             this.btnRSelAll.Click += new System.EventHandler(this.BtnRSelAll_Click);
             // 
-            // btnSSelHalf
-            // 
-            this.btnSSelHalf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(81)))), ((int)(((byte)(181)))));
-            this.btnSSelHalf.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnSSelHalf.BorderRadius = 20;
-            this.btnSSelHalf.BorderSize = 0;
-            this.btnSSelHalf.FlatAppearance.BorderSize = 0;
-            this.btnSSelHalf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSSelHalf.Font = new System.Drawing.Font("Meiryo", 10F, System.Drawing.FontStyle.Bold);
-            this.btnSSelHalf.ForeColor = System.Drawing.Color.White;
-            this.btnSSelHalf.Location = new System.Drawing.Point(186, 40);
-            this.btnSSelHalf.Margin = new System.Windows.Forms.Padding(15, 15, 0, 15);
-            this.btnSSelHalf.Name = "btnSSelHalf";
-            this.btnSSelHalf.Size = new System.Drawing.Size(150, 40);
-            this.btnSSelHalf.TabIndex = 0;
-            this.btnSSelHalf.TabStop = false;
-            this.btnSSelHalf.Text = "スラブ５０％";
-            this.btnSSelHalf.UseVisualStyleBackColor = false;
-            this.btnSSelHalf.Click += new System.EventHandler(this.BtnSSelHalf_Click);
-            // 
             // btnSSelAll
             // 
-            this.btnSSelAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(31)))), ((int)(((byte)(99)))));
+            this.btnSSelAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(86)))), ((int)(((byte)(179)))));
             this.btnSSelAll.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnSSelAll.BorderRadius = 20;
             this.btnSSelAll.BorderSize = 0;
@@ -1011,41 +1016,35 @@
             this.btnSSelAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSSelAll.Font = new System.Drawing.Font("Meiryo", 10F, System.Drawing.FontStyle.Bold);
             this.btnSSelAll.ForeColor = System.Drawing.Color.White;
-            this.btnSSelAll.Location = new System.Drawing.Point(18, 40);
-            this.btnSSelAll.Margin = new System.Windows.Forms.Padding(15, 15, 0, 15);
+            this.btnSSelAll.Location = new System.Drawing.Point(15, 40);
+            this.btnSSelAll.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.btnSSelAll.Name = "btnSSelAll";
             this.btnSSelAll.Size = new System.Drawing.Size(150, 40);
             this.btnSSelAll.TabIndex = 0;
             this.btnSSelAll.TabStop = false;
-            this.btnSSelAll.Text = "スラブ１００％";
+            this.btnSSelAll.Text = "すべてのスラブ";
             this.btnSSelAll.UseVisualStyleBackColor = false;
             this.btnSSelAll.Click += new System.EventHandler(this.BtnSSelAll_Click);
             // 
-            // label25
+            // btnClRslt
             // 
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label25.Font = new System.Drawing.Font("Meiryo", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label25.Location = new System.Drawing.Point(0, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(686, 30);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "サポート";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel96
-            // 
-            this.panel96.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel96.Controls.Add(this.btnRst);
-            this.panel96.Controls.Add(this.btnCl);
-            this.panel96.Controls.Add(this.btnCalc);
-            this.panel96.Controls.Add(this.label105);
-            this.panel96.Location = new System.Drawing.Point(890, 600);
-            this.panel96.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
-            this.panel96.Name = "panel96";
-            this.panel96.Size = new System.Drawing.Size(400, 100);
-            this.panel96.TabIndex = 0;
+            this.btnClRslt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(89)))));
+            this.btnClRslt.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnClRslt.BorderRadius = 20;
+            this.btnClRslt.BorderSize = 0;
+            this.btnClRslt.FlatAppearance.BorderSize = 0;
+            this.btnClRslt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClRslt.Font = new System.Drawing.Font("Meiryo", 10F, System.Drawing.FontStyle.Bold);
+            this.btnClRslt.ForeColor = System.Drawing.Color.White;
+            this.btnClRslt.Location = new System.Drawing.Point(180, 40);
+            this.btnClRslt.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.btnClRslt.Name = "btnClRslt";
+            this.btnClRslt.Size = new System.Drawing.Size(150, 40);
+            this.btnClRslt.TabIndex = 0;
+            this.btnClRslt.TabStop = false;
+            this.btnClRslt.Text = "結果クローズ";
+            this.btnClRslt.UseVisualStyleBackColor = false;
+            this.btnClRslt.Click += new System.EventHandler(this.BtnClRslt_Click);
             // 
             // label105
             // 
@@ -1055,7 +1054,7 @@
             this.label105.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label105.Location = new System.Drawing.Point(0, 0);
             this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(396, 30);
+            this.label105.Size = new System.Drawing.Size(506, 30);
             this.label105.TabIndex = 0;
             this.label105.Text = "コントローラ";
             this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1069,7 +1068,7 @@
             this.panel47.Location = new System.Drawing.Point(600, 10);
             this.panel47.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel47.Name = "panel47";
-            this.panel47.Size = new System.Drawing.Size(690, 470);
+            this.panel47.Size = new System.Drawing.Size(690, 530);
             this.panel47.TabIndex = 2;
             // 
             // yanGradPnl3
@@ -1078,11 +1077,11 @@
             this.yanGradPnl3.BottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(62)))), ((int)(((byte)(117)))));
             this.yanGradPnl3.Controls.Add(this.panel75);
             this.yanGradPnl3.Controls.Add(this.label70);
-            this.yanGradPnl3.Location = new System.Drawing.Point(10, 250);
+            this.yanGradPnl3.Location = new System.Drawing.Point(10, 280);
             this.yanGradPnl3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
             this.yanGradPnl3.Name = "yanGradPnl3";
             this.yanGradPnl3.Padding = new System.Windows.Forms.Padding(1);
-            this.yanGradPnl3.Size = new System.Drawing.Size(670, 210);
+            this.yanGradPnl3.Size = new System.Drawing.Size(670, 240);
             this.yanGradPnl3.TabIndex = 2;
             this.yanGradPnl3.TopColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(208)))));
             // 
@@ -1097,33 +1096,34 @@
             this.panel75.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel75.Location = new System.Drawing.Point(1, 31);
             this.panel75.Name = "panel75";
-            this.panel75.Size = new System.Drawing.Size(668, 178);
+            this.panel75.Size = new System.Drawing.Size(668, 208);
             this.panel75.TabIndex = 0;
             // 
             // pnlARV6
             // 
             this.pnlARV6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV6.Controls.Add(this.pnlRV6);
-            this.pnlARV6.Controls.Add(this.chkRV6);
+            this.pnlARV6.Controls.Add(this.pnlIRV6);
+            this.pnlARV6.Controls.Add(this.chkARV6);
             this.pnlARV6.Enabled = false;
             this.pnlARV6.Location = new System.Drawing.Point(560, 10);
             this.pnlARV6.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARV6.Name = "pnlARV6";
-            this.pnlARV6.Size = new System.Drawing.Size(100, 160);
+            this.pnlARV6.Size = new System.Drawing.Size(100, 190);
             this.pnlARV6.TabIndex = 6;
             // 
-            // pnlRV6
+            // pnlIRV6
             // 
-            this.pnlRV6.Controls.Add(this.panel157);
-            this.pnlRV6.Controls.Add(this.panel74);
-            this.pnlRV6.Controls.Add(this.panel159);
-            this.pnlRV6.Controls.Add(this.panel160);
-            this.pnlRV6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRV6.Enabled = false;
-            this.pnlRV6.Location = new System.Drawing.Point(0, 28);
-            this.pnlRV6.Name = "pnlRV6";
-            this.pnlRV6.Size = new System.Drawing.Size(98, 130);
-            this.pnlRV6.TabIndex = 2;
+            this.pnlIRV6.Controls.Add(this.panel157);
+            this.pnlIRV6.Controls.Add(this.panel97);
+            this.pnlIRV6.Controls.Add(this.panel74);
+            this.pnlIRV6.Controls.Add(this.panel159);
+            this.pnlIRV6.Controls.Add(this.panel160);
+            this.pnlIRV6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRV6.Enabled = false;
+            this.pnlIRV6.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRV6.Name = "pnlIRV6";
+            this.pnlIRV6.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRV6.TabIndex = 2;
             // 
             // panel157
             // 
@@ -1166,6 +1166,49 @@
             this.lblWRV6.Text = "Ｗ";
             this.lblWRV6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel97
+            // 
+            this.panel97.Controls.Add(this.chkPRV6);
+            this.panel97.Controls.Add(this.chkTRV6);
+            this.panel97.Location = new System.Drawing.Point(10, 130);
+            this.panel97.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel97.Name = "panel97";
+            this.panel97.Size = new System.Drawing.Size(80, 20);
+            this.panel97.TabIndex = 5;
+            // 
+            // chkPRV6
+            // 
+            this.chkPRV6.AutoSize = true;
+            this.chkPRV6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRV6.Checked = true;
+            this.chkPRV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRV6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRV6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRV6.Location = new System.Drawing.Point(41, 0);
+            this.chkPRV6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRV6.Name = "chkPRV6";
+            this.chkPRV6.Size = new System.Drawing.Size(39, 20);
+            this.chkPRV6.TabIndex = 2;
+            this.chkPRV6.Text = "手";
+            this.chkPRV6.UseVisualStyleBackColor = true;
+            // 
+            // chkTRV6
+            // 
+            this.chkTRV6.AutoSize = true;
+            this.chkTRV6.Checked = true;
+            this.chkTRV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRV6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRV6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRV6.Location = new System.Drawing.Point(0, 0);
+            this.chkTRV6.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRV6.Name = "chkTRV6";
+            this.chkTRV6.Size = new System.Drawing.Size(39, 20);
+            this.chkTRV6.TabIndex = 1;
+            this.chkTRV6.Text = "手";
+            this.chkTRV6.UseVisualStyleBackColor = true;
+            // 
             // panel74
             // 
             this.panel74.Controls.Add(this.chkRRV6);
@@ -1179,32 +1222,30 @@
             // chkRRV6
             // 
             this.chkRRV6.AutoSize = true;
-            this.chkRRV6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRV6.Checked = true;
-            this.chkRRV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRV6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRV6.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRV6.Location = new System.Drawing.Point(45, 0);
+            this.chkRRV6.Location = new System.Drawing.Point(41, 0);
             this.chkRRV6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRV6.Name = "chkRRV6";
-            this.chkRRV6.Size = new System.Drawing.Size(35, 20);
+            this.chkRRV6.Size = new System.Drawing.Size(39, 20);
             this.chkRRV6.TabIndex = 2;
-            this.chkRRV6.Text = "R";
+            this.chkRRV6.Text = "曲";
             this.chkRRV6.UseVisualStyleBackColor = true;
             // 
             // chkLRV6
             // 
             this.chkLRV6.AutoSize = true;
-            this.chkLRV6.Checked = true;
-            this.chkLRV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRV6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRV6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRV6.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRV6.Location = new System.Drawing.Point(0, 0);
             this.chkLRV6.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRV6.Name = "chkLRV6";
-            this.chkLRV6.Size = new System.Drawing.Size(34, 20);
+            this.chkLRV6.Size = new System.Drawing.Size(39, 20);
             this.chkLRV6.TabIndex = 1;
-            this.chkLRV6.Text = "L";
+            this.chkLRV6.Text = "曲";
             this.chkLRV6.UseVisualStyleBackColor = true;
             // 
             // panel159
@@ -1283,42 +1324,43 @@
             this.lblDRV6.Text = "Ｄ";
             this.lblDRV6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRV6
+            // chkARV6
             // 
-            this.chkRV6.AutoSize = true;
-            this.chkRV6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRV6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRV6.Location = new System.Drawing.Point(10, 10);
-            this.chkRV6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRV6.Name = "chkRV6";
-            this.chkRV6.Size = new System.Drawing.Size(58, 17);
-            this.chkRV6.TabIndex = 1;
-            this.chkRV6.Text = "面積６";
-            this.chkRV6.UseVisualStyleBackColor = true;
+            this.chkARV6.AutoSize = true;
+            this.chkARV6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARV6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARV6.Location = new System.Drawing.Point(10, 10);
+            this.chkARV6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARV6.Name = "chkARV6";
+            this.chkARV6.Size = new System.Drawing.Size(58, 17);
+            this.chkARV6.TabIndex = 1;
+            this.chkARV6.Text = "面積６";
+            this.chkARV6.UseVisualStyleBackColor = true;
             // 
             // pnlARV1
             // 
             this.pnlARV1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV1.Controls.Add(this.pnlRV1);
-            this.pnlARV1.Controls.Add(this.chkRV1);
+            this.pnlARV1.Controls.Add(this.pnlIRV1);
+            this.pnlARV1.Controls.Add(this.chkARV1);
             this.pnlARV1.Location = new System.Drawing.Point(10, 10);
             this.pnlARV1.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARV1.Name = "pnlARV1";
-            this.pnlARV1.Size = new System.Drawing.Size(100, 160);
+            this.pnlARV1.Size = new System.Drawing.Size(100, 190);
             this.pnlARV1.TabIndex = 1;
             // 
-            // pnlRV1
+            // pnlIRV1
             // 
-            this.pnlRV1.Controls.Add(this.panel107);
-            this.pnlRV1.Controls.Add(this.panel64);
-            this.pnlRV1.Controls.Add(this.panel109);
-            this.pnlRV1.Controls.Add(this.panel110);
-            this.pnlRV1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRV1.Enabled = false;
-            this.pnlRV1.Location = new System.Drawing.Point(0, 28);
-            this.pnlRV1.Name = "pnlRV1";
-            this.pnlRV1.Size = new System.Drawing.Size(98, 130);
-            this.pnlRV1.TabIndex = 2;
+            this.pnlIRV1.Controls.Add(this.panel107);
+            this.pnlIRV1.Controls.Add(this.panel87);
+            this.pnlIRV1.Controls.Add(this.panel64);
+            this.pnlIRV1.Controls.Add(this.panel109);
+            this.pnlIRV1.Controls.Add(this.panel110);
+            this.pnlIRV1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRV1.Enabled = false;
+            this.pnlIRV1.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRV1.Name = "pnlIRV1";
+            this.pnlIRV1.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRV1.TabIndex = 2;
             // 
             // panel107
             // 
@@ -1361,6 +1403,49 @@
             this.lblWRV1.Text = "Ｗ";
             this.lblWRV1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel87
+            // 
+            this.panel87.Controls.Add(this.chkPRV1);
+            this.panel87.Controls.Add(this.chkTRV1);
+            this.panel87.Location = new System.Drawing.Point(10, 130);
+            this.panel87.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel87.Name = "panel87";
+            this.panel87.Size = new System.Drawing.Size(80, 20);
+            this.panel87.TabIndex = 5;
+            // 
+            // chkPRV1
+            // 
+            this.chkPRV1.AutoSize = true;
+            this.chkPRV1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRV1.Checked = true;
+            this.chkPRV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRV1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRV1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRV1.Location = new System.Drawing.Point(41, 0);
+            this.chkPRV1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRV1.Name = "chkPRV1";
+            this.chkPRV1.Size = new System.Drawing.Size(39, 20);
+            this.chkPRV1.TabIndex = 2;
+            this.chkPRV1.Text = "手";
+            this.chkPRV1.UseVisualStyleBackColor = true;
+            // 
+            // chkTRV1
+            // 
+            this.chkTRV1.AutoSize = true;
+            this.chkTRV1.Checked = true;
+            this.chkTRV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRV1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRV1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRV1.Location = new System.Drawing.Point(0, 0);
+            this.chkTRV1.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRV1.Name = "chkTRV1";
+            this.chkTRV1.Size = new System.Drawing.Size(39, 20);
+            this.chkTRV1.TabIndex = 1;
+            this.chkTRV1.Text = "手";
+            this.chkTRV1.UseVisualStyleBackColor = true;
+            // 
             // panel64
             // 
             this.panel64.Controls.Add(this.chkRRV1);
@@ -1374,32 +1459,30 @@
             // chkRRV1
             // 
             this.chkRRV1.AutoSize = true;
-            this.chkRRV1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRV1.Checked = true;
-            this.chkRRV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRV1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRV1.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRV1.Location = new System.Drawing.Point(45, 0);
+            this.chkRRV1.Location = new System.Drawing.Point(41, 0);
             this.chkRRV1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRV1.Name = "chkRRV1";
-            this.chkRRV1.Size = new System.Drawing.Size(35, 20);
+            this.chkRRV1.Size = new System.Drawing.Size(39, 20);
             this.chkRRV1.TabIndex = 2;
-            this.chkRRV1.Text = "R";
+            this.chkRRV1.Text = "曲";
             this.chkRRV1.UseVisualStyleBackColor = true;
             // 
             // chkLRV1
             // 
             this.chkLRV1.AutoSize = true;
-            this.chkLRV1.Checked = true;
-            this.chkLRV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRV1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRV1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRV1.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRV1.Location = new System.Drawing.Point(0, 0);
             this.chkLRV1.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRV1.Name = "chkLRV1";
-            this.chkLRV1.Size = new System.Drawing.Size(34, 20);
+            this.chkLRV1.Size = new System.Drawing.Size(39, 20);
             this.chkLRV1.TabIndex = 1;
-            this.chkLRV1.Text = "L";
+            this.chkLRV1.Text = "曲";
             this.chkLRV1.UseVisualStyleBackColor = true;
             // 
             // panel109
@@ -1478,43 +1561,44 @@
             this.lblDRV1.Text = "Ｄ";
             this.lblDRV1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRV1
+            // chkARV1
             // 
-            this.chkRV1.AutoSize = true;
-            this.chkRV1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRV1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRV1.Location = new System.Drawing.Point(10, 10);
-            this.chkRV1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRV1.Name = "chkRV1";
-            this.chkRV1.Size = new System.Drawing.Size(58, 17);
-            this.chkRV1.TabIndex = 1;
-            this.chkRV1.Text = "面積１";
-            this.chkRV1.UseVisualStyleBackColor = true;
+            this.chkARV1.AutoSize = true;
+            this.chkARV1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARV1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARV1.Location = new System.Drawing.Point(10, 10);
+            this.chkARV1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARV1.Name = "chkARV1";
+            this.chkARV1.Size = new System.Drawing.Size(58, 17);
+            this.chkARV1.TabIndex = 1;
+            this.chkARV1.Text = "面積１";
+            this.chkARV1.UseVisualStyleBackColor = true;
             // 
             // pnlARV5
             // 
             this.pnlARV5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV5.Controls.Add(this.pnlRV5);
-            this.pnlARV5.Controls.Add(this.chkRV5);
+            this.pnlARV5.Controls.Add(this.pnlIRV5);
+            this.pnlARV5.Controls.Add(this.chkARV5);
             this.pnlARV5.Enabled = false;
             this.pnlARV5.Location = new System.Drawing.Point(450, 10);
             this.pnlARV5.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARV5.Name = "pnlARV5";
-            this.pnlARV5.Size = new System.Drawing.Size(100, 160);
+            this.pnlARV5.Size = new System.Drawing.Size(100, 190);
             this.pnlARV5.TabIndex = 5;
             // 
-            // pnlRV5
+            // pnlIRV5
             // 
-            this.pnlRV5.Controls.Add(this.panel151);
-            this.pnlRV5.Controls.Add(this.panel71);
-            this.pnlRV5.Controls.Add(this.panel153);
-            this.pnlRV5.Controls.Add(this.panel154);
-            this.pnlRV5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRV5.Enabled = false;
-            this.pnlRV5.Location = new System.Drawing.Point(0, 28);
-            this.pnlRV5.Name = "pnlRV5";
-            this.pnlRV5.Size = new System.Drawing.Size(98, 130);
-            this.pnlRV5.TabIndex = 2;
+            this.pnlIRV5.Controls.Add(this.panel151);
+            this.pnlIRV5.Controls.Add(this.panel93);
+            this.pnlIRV5.Controls.Add(this.panel71);
+            this.pnlIRV5.Controls.Add(this.panel153);
+            this.pnlIRV5.Controls.Add(this.panel154);
+            this.pnlIRV5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRV5.Enabled = false;
+            this.pnlIRV5.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRV5.Name = "pnlIRV5";
+            this.pnlIRV5.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRV5.TabIndex = 2;
             // 
             // panel151
             // 
@@ -1557,6 +1641,49 @@
             this.lblWRV5.Text = "Ｗ";
             this.lblWRV5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel93
+            // 
+            this.panel93.Controls.Add(this.chkPRV5);
+            this.panel93.Controls.Add(this.chkTRV5);
+            this.panel93.Location = new System.Drawing.Point(10, 130);
+            this.panel93.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel93.Name = "panel93";
+            this.panel93.Size = new System.Drawing.Size(80, 20);
+            this.panel93.TabIndex = 5;
+            // 
+            // chkPRV5
+            // 
+            this.chkPRV5.AutoSize = true;
+            this.chkPRV5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRV5.Checked = true;
+            this.chkPRV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRV5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRV5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRV5.Location = new System.Drawing.Point(41, 0);
+            this.chkPRV5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRV5.Name = "chkPRV5";
+            this.chkPRV5.Size = new System.Drawing.Size(39, 20);
+            this.chkPRV5.TabIndex = 2;
+            this.chkPRV5.Text = "手";
+            this.chkPRV5.UseVisualStyleBackColor = true;
+            // 
+            // chkTRV5
+            // 
+            this.chkTRV5.AutoSize = true;
+            this.chkTRV5.Checked = true;
+            this.chkTRV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRV5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRV5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRV5.Location = new System.Drawing.Point(0, 0);
+            this.chkTRV5.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRV5.Name = "chkTRV5";
+            this.chkTRV5.Size = new System.Drawing.Size(39, 20);
+            this.chkTRV5.TabIndex = 1;
+            this.chkTRV5.Text = "手";
+            this.chkTRV5.UseVisualStyleBackColor = true;
+            // 
             // panel71
             // 
             this.panel71.Controls.Add(this.chkRRV5);
@@ -1570,32 +1697,30 @@
             // chkRRV5
             // 
             this.chkRRV5.AutoSize = true;
-            this.chkRRV5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRV5.Checked = true;
-            this.chkRRV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRV5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRV5.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRV5.Location = new System.Drawing.Point(45, 0);
+            this.chkRRV5.Location = new System.Drawing.Point(41, 0);
             this.chkRRV5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRV5.Name = "chkRRV5";
-            this.chkRRV5.Size = new System.Drawing.Size(35, 20);
+            this.chkRRV5.Size = new System.Drawing.Size(39, 20);
             this.chkRRV5.TabIndex = 2;
-            this.chkRRV5.Text = "R";
+            this.chkRRV5.Text = "曲";
             this.chkRRV5.UseVisualStyleBackColor = true;
             // 
             // chkLRV5
             // 
             this.chkLRV5.AutoSize = true;
-            this.chkLRV5.Checked = true;
-            this.chkLRV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRV5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRV5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRV5.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRV5.Location = new System.Drawing.Point(0, 0);
             this.chkLRV5.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRV5.Name = "chkLRV5";
-            this.chkLRV5.Size = new System.Drawing.Size(34, 20);
+            this.chkLRV5.Size = new System.Drawing.Size(39, 20);
             this.chkLRV5.TabIndex = 1;
-            this.chkLRV5.Text = "L";
+            this.chkLRV5.Text = "曲";
             this.chkLRV5.UseVisualStyleBackColor = true;
             // 
             // panel153
@@ -1674,43 +1799,44 @@
             this.lblDRV5.Text = "Ｄ";
             this.lblDRV5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRV5
+            // chkARV5
             // 
-            this.chkRV5.AutoSize = true;
-            this.chkRV5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRV5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRV5.Location = new System.Drawing.Point(10, 10);
-            this.chkRV5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRV5.Name = "chkRV5";
-            this.chkRV5.Size = new System.Drawing.Size(58, 17);
-            this.chkRV5.TabIndex = 1;
-            this.chkRV5.Text = "面積５";
-            this.chkRV5.UseVisualStyleBackColor = true;
+            this.chkARV5.AutoSize = true;
+            this.chkARV5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARV5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARV5.Location = new System.Drawing.Point(10, 10);
+            this.chkARV5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARV5.Name = "chkARV5";
+            this.chkARV5.Size = new System.Drawing.Size(58, 17);
+            this.chkARV5.TabIndex = 1;
+            this.chkARV5.Text = "面積５";
+            this.chkARV5.UseVisualStyleBackColor = true;
             // 
             // pnlARV2
             // 
             this.pnlARV2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV2.Controls.Add(this.pnlRV2);
-            this.pnlARV2.Controls.Add(this.chkRV2);
+            this.pnlARV2.Controls.Add(this.pnlIRV2);
+            this.pnlARV2.Controls.Add(this.chkARV2);
             this.pnlARV2.Enabled = false;
             this.pnlARV2.Location = new System.Drawing.Point(120, 10);
             this.pnlARV2.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARV2.Name = "pnlARV2";
-            this.pnlARV2.Size = new System.Drawing.Size(100, 160);
+            this.pnlARV2.Size = new System.Drawing.Size(100, 190);
             this.pnlARV2.TabIndex = 2;
             // 
-            // pnlRV2
+            // pnlIRV2
             // 
-            this.pnlRV2.Controls.Add(this.panel113);
-            this.pnlRV2.Controls.Add(this.panel65);
-            this.pnlRV2.Controls.Add(this.panel115);
-            this.pnlRV2.Controls.Add(this.panel116);
-            this.pnlRV2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRV2.Enabled = false;
-            this.pnlRV2.Location = new System.Drawing.Point(0, 28);
-            this.pnlRV2.Name = "pnlRV2";
-            this.pnlRV2.Size = new System.Drawing.Size(98, 130);
-            this.pnlRV2.TabIndex = 2;
+            this.pnlIRV2.Controls.Add(this.panel113);
+            this.pnlIRV2.Controls.Add(this.panel88);
+            this.pnlIRV2.Controls.Add(this.panel65);
+            this.pnlIRV2.Controls.Add(this.panel115);
+            this.pnlIRV2.Controls.Add(this.panel116);
+            this.pnlIRV2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRV2.Enabled = false;
+            this.pnlIRV2.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRV2.Name = "pnlIRV2";
+            this.pnlIRV2.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRV2.TabIndex = 2;
             // 
             // panel113
             // 
@@ -1753,6 +1879,49 @@
             this.lblWRV2.Text = "Ｗ";
             this.lblWRV2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel88
+            // 
+            this.panel88.Controls.Add(this.chkPRV2);
+            this.panel88.Controls.Add(this.chkTRV2);
+            this.panel88.Location = new System.Drawing.Point(10, 130);
+            this.panel88.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel88.Name = "panel88";
+            this.panel88.Size = new System.Drawing.Size(80, 20);
+            this.panel88.TabIndex = 5;
+            // 
+            // chkPRV2
+            // 
+            this.chkPRV2.AutoSize = true;
+            this.chkPRV2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRV2.Checked = true;
+            this.chkPRV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRV2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRV2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRV2.Location = new System.Drawing.Point(41, 0);
+            this.chkPRV2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRV2.Name = "chkPRV2";
+            this.chkPRV2.Size = new System.Drawing.Size(39, 20);
+            this.chkPRV2.TabIndex = 2;
+            this.chkPRV2.Text = "手";
+            this.chkPRV2.UseVisualStyleBackColor = true;
+            // 
+            // chkTRV2
+            // 
+            this.chkTRV2.AutoSize = true;
+            this.chkTRV2.Checked = true;
+            this.chkTRV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRV2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRV2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRV2.Location = new System.Drawing.Point(0, 0);
+            this.chkTRV2.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRV2.Name = "chkTRV2";
+            this.chkTRV2.Size = new System.Drawing.Size(39, 20);
+            this.chkTRV2.TabIndex = 1;
+            this.chkTRV2.Text = "手";
+            this.chkTRV2.UseVisualStyleBackColor = true;
+            // 
             // panel65
             // 
             this.panel65.Controls.Add(this.chkRRV2);
@@ -1766,32 +1935,30 @@
             // chkRRV2
             // 
             this.chkRRV2.AutoSize = true;
-            this.chkRRV2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRV2.Checked = true;
-            this.chkRRV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRV2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRV2.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRV2.Location = new System.Drawing.Point(45, 0);
+            this.chkRRV2.Location = new System.Drawing.Point(41, 0);
             this.chkRRV2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRV2.Name = "chkRRV2";
-            this.chkRRV2.Size = new System.Drawing.Size(35, 20);
+            this.chkRRV2.Size = new System.Drawing.Size(39, 20);
             this.chkRRV2.TabIndex = 2;
-            this.chkRRV2.Text = "R";
+            this.chkRRV2.Text = "曲";
             this.chkRRV2.UseVisualStyleBackColor = true;
             // 
             // chkLRV2
             // 
             this.chkLRV2.AutoSize = true;
-            this.chkLRV2.Checked = true;
-            this.chkLRV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRV2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRV2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRV2.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRV2.Location = new System.Drawing.Point(0, 0);
             this.chkLRV2.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRV2.Name = "chkLRV2";
-            this.chkLRV2.Size = new System.Drawing.Size(34, 20);
+            this.chkLRV2.Size = new System.Drawing.Size(39, 20);
             this.chkLRV2.TabIndex = 1;
-            this.chkLRV2.Text = "L";
+            this.chkLRV2.Text = "曲";
             this.chkLRV2.UseVisualStyleBackColor = true;
             // 
             // panel115
@@ -1870,43 +2037,44 @@
             this.lblDRV2.Text = "Ｄ";
             this.lblDRV2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRV2
+            // chkARV2
             // 
-            this.chkRV2.AutoSize = true;
-            this.chkRV2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRV2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRV2.Location = new System.Drawing.Point(10, 10);
-            this.chkRV2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRV2.Name = "chkRV2";
-            this.chkRV2.Size = new System.Drawing.Size(58, 17);
-            this.chkRV2.TabIndex = 1;
-            this.chkRV2.Text = "面積２";
-            this.chkRV2.UseVisualStyleBackColor = true;
+            this.chkARV2.AutoSize = true;
+            this.chkARV2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARV2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARV2.Location = new System.Drawing.Point(10, 10);
+            this.chkARV2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARV2.Name = "chkARV2";
+            this.chkARV2.Size = new System.Drawing.Size(58, 17);
+            this.chkARV2.TabIndex = 1;
+            this.chkARV2.Text = "面積２";
+            this.chkARV2.UseVisualStyleBackColor = true;
             // 
             // pnlARV4
             // 
             this.pnlARV4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV4.Controls.Add(this.pnlRV4);
-            this.pnlARV4.Controls.Add(this.chkRV4);
+            this.pnlARV4.Controls.Add(this.pnlIRV4);
+            this.pnlARV4.Controls.Add(this.chkARV4);
             this.pnlARV4.Enabled = false;
             this.pnlARV4.Location = new System.Drawing.Point(340, 10);
             this.pnlARV4.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARV4.Name = "pnlARV4";
-            this.pnlARV4.Size = new System.Drawing.Size(100, 160);
+            this.pnlARV4.Size = new System.Drawing.Size(100, 190);
             this.pnlARV4.TabIndex = 4;
             // 
-            // pnlRV4
+            // pnlIRV4
             // 
-            this.pnlRV4.Controls.Add(this.panel125);
-            this.pnlRV4.Controls.Add(this.panel70);
-            this.pnlRV4.Controls.Add(this.panel127);
-            this.pnlRV4.Controls.Add(this.panel128);
-            this.pnlRV4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRV4.Enabled = false;
-            this.pnlRV4.Location = new System.Drawing.Point(0, 28);
-            this.pnlRV4.Name = "pnlRV4";
-            this.pnlRV4.Size = new System.Drawing.Size(98, 130);
-            this.pnlRV4.TabIndex = 2;
+            this.pnlIRV4.Controls.Add(this.panel125);
+            this.pnlIRV4.Controls.Add(this.panel92);
+            this.pnlIRV4.Controls.Add(this.panel70);
+            this.pnlIRV4.Controls.Add(this.panel127);
+            this.pnlIRV4.Controls.Add(this.panel128);
+            this.pnlIRV4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRV4.Enabled = false;
+            this.pnlIRV4.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRV4.Name = "pnlIRV4";
+            this.pnlIRV4.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRV4.TabIndex = 2;
             // 
             // panel125
             // 
@@ -1949,6 +2117,49 @@
             this.lblWRV4.Text = "Ｗ";
             this.lblWRV4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel92
+            // 
+            this.panel92.Controls.Add(this.chkPRV4);
+            this.panel92.Controls.Add(this.chkTRV4);
+            this.panel92.Location = new System.Drawing.Point(10, 130);
+            this.panel92.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel92.Name = "panel92";
+            this.panel92.Size = new System.Drawing.Size(80, 20);
+            this.panel92.TabIndex = 5;
+            // 
+            // chkPRV4
+            // 
+            this.chkPRV4.AutoSize = true;
+            this.chkPRV4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRV4.Checked = true;
+            this.chkPRV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRV4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRV4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRV4.Location = new System.Drawing.Point(41, 0);
+            this.chkPRV4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRV4.Name = "chkPRV4";
+            this.chkPRV4.Size = new System.Drawing.Size(39, 20);
+            this.chkPRV4.TabIndex = 2;
+            this.chkPRV4.Text = "手";
+            this.chkPRV4.UseVisualStyleBackColor = true;
+            // 
+            // chkTRV4
+            // 
+            this.chkTRV4.AutoSize = true;
+            this.chkTRV4.Checked = true;
+            this.chkTRV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRV4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRV4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRV4.Location = new System.Drawing.Point(0, 0);
+            this.chkTRV4.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRV4.Name = "chkTRV4";
+            this.chkTRV4.Size = new System.Drawing.Size(39, 20);
+            this.chkTRV4.TabIndex = 1;
+            this.chkTRV4.Text = "手";
+            this.chkTRV4.UseVisualStyleBackColor = true;
+            // 
             // panel70
             // 
             this.panel70.Controls.Add(this.chkRRV4);
@@ -1962,32 +2173,30 @@
             // chkRRV4
             // 
             this.chkRRV4.AutoSize = true;
-            this.chkRRV4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRV4.Checked = true;
-            this.chkRRV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRV4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRV4.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRV4.Location = new System.Drawing.Point(45, 0);
+            this.chkRRV4.Location = new System.Drawing.Point(41, 0);
             this.chkRRV4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRV4.Name = "chkRRV4";
-            this.chkRRV4.Size = new System.Drawing.Size(35, 20);
+            this.chkRRV4.Size = new System.Drawing.Size(39, 20);
             this.chkRRV4.TabIndex = 2;
-            this.chkRRV4.Text = "R";
+            this.chkRRV4.Text = "曲";
             this.chkRRV4.UseVisualStyleBackColor = true;
             // 
             // chkLRV4
             // 
             this.chkLRV4.AutoSize = true;
-            this.chkLRV4.Checked = true;
-            this.chkLRV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRV4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRV4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRV4.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRV4.Location = new System.Drawing.Point(0, 0);
             this.chkLRV4.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRV4.Name = "chkLRV4";
-            this.chkLRV4.Size = new System.Drawing.Size(34, 20);
+            this.chkLRV4.Size = new System.Drawing.Size(39, 20);
             this.chkLRV4.TabIndex = 1;
-            this.chkLRV4.Text = "L";
+            this.chkLRV4.Text = "曲";
             this.chkLRV4.UseVisualStyleBackColor = true;
             // 
             // panel127
@@ -2066,43 +2275,44 @@
             this.lblDRV4.Text = "Ｄ";
             this.lblDRV4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRV4
+            // chkARV4
             // 
-            this.chkRV4.AutoSize = true;
-            this.chkRV4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRV4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRV4.Location = new System.Drawing.Point(10, 10);
-            this.chkRV4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRV4.Name = "chkRV4";
-            this.chkRV4.Size = new System.Drawing.Size(58, 17);
-            this.chkRV4.TabIndex = 1;
-            this.chkRV4.Text = "面積４";
-            this.chkRV4.UseVisualStyleBackColor = true;
+            this.chkARV4.AutoSize = true;
+            this.chkARV4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARV4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARV4.Location = new System.Drawing.Point(10, 10);
+            this.chkARV4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARV4.Name = "chkARV4";
+            this.chkARV4.Size = new System.Drawing.Size(58, 17);
+            this.chkARV4.TabIndex = 1;
+            this.chkARV4.Text = "面積４";
+            this.chkARV4.UseVisualStyleBackColor = true;
             // 
             // pnlARV3
             // 
             this.pnlARV3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV3.Controls.Add(this.pnlRV3);
-            this.pnlARV3.Controls.Add(this.chkRV3);
+            this.pnlARV3.Controls.Add(this.pnlIRV3);
+            this.pnlARV3.Controls.Add(this.chkARV3);
             this.pnlARV3.Enabled = false;
             this.pnlARV3.Location = new System.Drawing.Point(230, 10);
             this.pnlARV3.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARV3.Name = "pnlARV3";
-            this.pnlARV3.Size = new System.Drawing.Size(100, 160);
+            this.pnlARV3.Size = new System.Drawing.Size(100, 190);
             this.pnlARV3.TabIndex = 3;
             // 
-            // pnlRV3
+            // pnlIRV3
             // 
-            this.pnlRV3.Controls.Add(this.panel119);
-            this.pnlRV3.Controls.Add(this.panel69);
-            this.pnlRV3.Controls.Add(this.panel121);
-            this.pnlRV3.Controls.Add(this.panel122);
-            this.pnlRV3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRV3.Enabled = false;
-            this.pnlRV3.Location = new System.Drawing.Point(0, 28);
-            this.pnlRV3.Name = "pnlRV3";
-            this.pnlRV3.Size = new System.Drawing.Size(98, 130);
-            this.pnlRV3.TabIndex = 2;
+            this.pnlIRV3.Controls.Add(this.panel119);
+            this.pnlIRV3.Controls.Add(this.panel89);
+            this.pnlIRV3.Controls.Add(this.panel69);
+            this.pnlIRV3.Controls.Add(this.panel121);
+            this.pnlIRV3.Controls.Add(this.panel122);
+            this.pnlIRV3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRV3.Enabled = false;
+            this.pnlIRV3.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRV3.Name = "pnlIRV3";
+            this.pnlIRV3.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRV3.TabIndex = 2;
             // 
             // panel119
             // 
@@ -2145,6 +2355,49 @@
             this.lblWRV3.Text = "Ｗ";
             this.lblWRV3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel89
+            // 
+            this.panel89.Controls.Add(this.chkPRV3);
+            this.panel89.Controls.Add(this.chkTRV3);
+            this.panel89.Location = new System.Drawing.Point(10, 130);
+            this.panel89.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel89.Name = "panel89";
+            this.panel89.Size = new System.Drawing.Size(80, 20);
+            this.panel89.TabIndex = 5;
+            // 
+            // chkPRV3
+            // 
+            this.chkPRV3.AutoSize = true;
+            this.chkPRV3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRV3.Checked = true;
+            this.chkPRV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRV3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRV3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRV3.Location = new System.Drawing.Point(41, 0);
+            this.chkPRV3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRV3.Name = "chkPRV3";
+            this.chkPRV3.Size = new System.Drawing.Size(39, 20);
+            this.chkPRV3.TabIndex = 2;
+            this.chkPRV3.Text = "手";
+            this.chkPRV3.UseVisualStyleBackColor = true;
+            // 
+            // chkTRV3
+            // 
+            this.chkTRV3.AutoSize = true;
+            this.chkTRV3.Checked = true;
+            this.chkTRV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRV3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRV3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRV3.Location = new System.Drawing.Point(0, 0);
+            this.chkTRV3.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRV3.Name = "chkTRV3";
+            this.chkTRV3.Size = new System.Drawing.Size(39, 20);
+            this.chkTRV3.TabIndex = 1;
+            this.chkTRV3.Text = "手";
+            this.chkTRV3.UseVisualStyleBackColor = true;
+            // 
             // panel69
             // 
             this.panel69.Controls.Add(this.chkRRV3);
@@ -2158,32 +2411,30 @@
             // chkRRV3
             // 
             this.chkRRV3.AutoSize = true;
-            this.chkRRV3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRV3.Checked = true;
-            this.chkRRV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRV3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRV3.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRV3.Location = new System.Drawing.Point(45, 0);
+            this.chkRRV3.Location = new System.Drawing.Point(41, 0);
             this.chkRRV3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRV3.Name = "chkRRV3";
-            this.chkRRV3.Size = new System.Drawing.Size(35, 20);
+            this.chkRRV3.Size = new System.Drawing.Size(39, 20);
             this.chkRRV3.TabIndex = 2;
-            this.chkRRV3.Text = "R";
+            this.chkRRV3.Text = "曲";
             this.chkRRV3.UseVisualStyleBackColor = true;
             // 
             // chkLRV3
             // 
             this.chkLRV3.AutoSize = true;
-            this.chkLRV3.Checked = true;
-            this.chkLRV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRV3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRV3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRV3.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRV3.Location = new System.Drawing.Point(0, 0);
             this.chkLRV3.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRV3.Name = "chkLRV3";
-            this.chkLRV3.Size = new System.Drawing.Size(34, 20);
+            this.chkLRV3.Size = new System.Drawing.Size(39, 20);
             this.chkLRV3.TabIndex = 1;
-            this.chkLRV3.Text = "L";
+            this.chkLRV3.Text = "曲";
             this.chkLRV3.UseVisualStyleBackColor = true;
             // 
             // panel121
@@ -2262,18 +2513,18 @@
             this.lblDRV3.Text = "Ｄ";
             this.lblDRV3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRV3
+            // chkARV3
             // 
-            this.chkRV3.AutoSize = true;
-            this.chkRV3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRV3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRV3.Location = new System.Drawing.Point(10, 10);
-            this.chkRV3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRV3.Name = "chkRV3";
-            this.chkRV3.Size = new System.Drawing.Size(58, 17);
-            this.chkRV3.TabIndex = 1;
-            this.chkRV3.Text = "面積３";
-            this.chkRV3.UseVisualStyleBackColor = true;
+            this.chkARV3.AutoSize = true;
+            this.chkARV3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARV3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARV3.Location = new System.Drawing.Point(10, 10);
+            this.chkARV3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARV3.Name = "chkARV3";
+            this.chkARV3.Size = new System.Drawing.Size(58, 17);
+            this.chkARV3.TabIndex = 1;
+            this.chkARV3.Text = "面積３";
+            this.chkARV3.UseVisualStyleBackColor = true;
             // 
             // label70
             // 
@@ -2298,7 +2549,7 @@
             this.yanGradPnl4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
             this.yanGradPnl4.Name = "yanGradPnl4";
             this.yanGradPnl4.Padding = new System.Windows.Forms.Padding(1);
-            this.yanGradPnl4.Size = new System.Drawing.Size(670, 210);
+            this.yanGradPnl4.Size = new System.Drawing.Size(670, 240);
             this.yanGradPnl4.TabIndex = 1;
             this.yanGradPnl4.TopColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(208)))));
             // 
@@ -2313,33 +2564,34 @@
             this.panel67.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel67.Location = new System.Drawing.Point(1, 31);
             this.panel67.Name = "panel67";
-            this.panel67.Size = new System.Drawing.Size(668, 178);
+            this.panel67.Size = new System.Drawing.Size(668, 208);
             this.panel67.TabIndex = 0;
             // 
             // pnlARH6
             // 
             this.pnlARH6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH6.Controls.Add(this.pnlRH6);
-            this.pnlARH6.Controls.Add(this.chkRH6);
+            this.pnlARH6.Controls.Add(this.pnlIRH6);
+            this.pnlARH6.Controls.Add(this.chkARH6);
             this.pnlARH6.Enabled = false;
             this.pnlARH6.Location = new System.Drawing.Point(560, 10);
             this.pnlARH6.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARH6.Name = "pnlARH6";
-            this.pnlARH6.Size = new System.Drawing.Size(100, 160);
+            this.pnlARH6.Size = new System.Drawing.Size(100, 190);
             this.pnlARH6.TabIndex = 6;
             // 
-            // pnlRH6
+            // pnlIRH6
             // 
-            this.pnlRH6.Controls.Add(this.panel101);
-            this.pnlRH6.Controls.Add(this.panel61);
-            this.pnlRH6.Controls.Add(this.panel103);
-            this.pnlRH6.Controls.Add(this.panel104);
-            this.pnlRH6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRH6.Enabled = false;
-            this.pnlRH6.Location = new System.Drawing.Point(0, 28);
-            this.pnlRH6.Name = "pnlRH6";
-            this.pnlRH6.Size = new System.Drawing.Size(98, 130);
-            this.pnlRH6.TabIndex = 2;
+            this.pnlIRH6.Controls.Add(this.panel101);
+            this.pnlIRH6.Controls.Add(this.panel84);
+            this.pnlIRH6.Controls.Add(this.panel61);
+            this.pnlIRH6.Controls.Add(this.panel103);
+            this.pnlIRH6.Controls.Add(this.panel104);
+            this.pnlIRH6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRH6.Enabled = false;
+            this.pnlIRH6.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRH6.Name = "pnlIRH6";
+            this.pnlIRH6.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRH6.TabIndex = 2;
             // 
             // panel101
             // 
@@ -2382,6 +2634,49 @@
             this.lblWRH6.Text = "Ｗ";
             this.lblWRH6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel84
+            // 
+            this.panel84.Controls.Add(this.chkPRH6);
+            this.panel84.Controls.Add(this.chkTRH6);
+            this.panel84.Location = new System.Drawing.Point(10, 130);
+            this.panel84.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel84.Name = "panel84";
+            this.panel84.Size = new System.Drawing.Size(80, 20);
+            this.panel84.TabIndex = 5;
+            // 
+            // chkPRH6
+            // 
+            this.chkPRH6.AutoSize = true;
+            this.chkPRH6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRH6.Checked = true;
+            this.chkPRH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRH6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRH6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRH6.Location = new System.Drawing.Point(41, 0);
+            this.chkPRH6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRH6.Name = "chkPRH6";
+            this.chkPRH6.Size = new System.Drawing.Size(39, 20);
+            this.chkPRH6.TabIndex = 2;
+            this.chkPRH6.Text = "手";
+            this.chkPRH6.UseVisualStyleBackColor = true;
+            // 
+            // chkTRH6
+            // 
+            this.chkTRH6.AutoSize = true;
+            this.chkTRH6.Checked = true;
+            this.chkTRH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRH6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRH6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRH6.Location = new System.Drawing.Point(0, 0);
+            this.chkTRH6.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRH6.Name = "chkTRH6";
+            this.chkTRH6.Size = new System.Drawing.Size(39, 20);
+            this.chkTRH6.TabIndex = 1;
+            this.chkTRH6.Text = "手";
+            this.chkTRH6.UseVisualStyleBackColor = true;
+            // 
             // panel61
             // 
             this.panel61.Controls.Add(this.chkRRH6);
@@ -2395,32 +2690,30 @@
             // chkRRH6
             // 
             this.chkRRH6.AutoSize = true;
-            this.chkRRH6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRH6.Checked = true;
-            this.chkRRH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRH6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRH6.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRH6.Location = new System.Drawing.Point(45, 0);
+            this.chkRRH6.Location = new System.Drawing.Point(41, 0);
             this.chkRRH6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRH6.Name = "chkRRH6";
-            this.chkRRH6.Size = new System.Drawing.Size(35, 20);
+            this.chkRRH6.Size = new System.Drawing.Size(39, 20);
             this.chkRRH6.TabIndex = 2;
-            this.chkRRH6.Text = "R";
+            this.chkRRH6.Text = "曲";
             this.chkRRH6.UseVisualStyleBackColor = true;
             // 
             // chkLRH6
             // 
             this.chkLRH6.AutoSize = true;
-            this.chkLRH6.Checked = true;
-            this.chkLRH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRH6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRH6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRH6.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRH6.Location = new System.Drawing.Point(0, 0);
             this.chkLRH6.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRH6.Name = "chkLRH6";
-            this.chkLRH6.Size = new System.Drawing.Size(34, 20);
+            this.chkLRH6.Size = new System.Drawing.Size(39, 20);
             this.chkLRH6.TabIndex = 1;
-            this.chkLRH6.Text = "L";
+            this.chkLRH6.Text = "曲";
             this.chkLRH6.UseVisualStyleBackColor = true;
             // 
             // panel103
@@ -2499,43 +2792,44 @@
             this.lblDRH6.Text = "Ｄ";
             this.lblDRH6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRH6
+            // chkARH6
             // 
-            this.chkRH6.AutoSize = true;
-            this.chkRH6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRH6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRH6.Location = new System.Drawing.Point(10, 10);
-            this.chkRH6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRH6.Name = "chkRH6";
-            this.chkRH6.Size = new System.Drawing.Size(58, 17);
-            this.chkRH6.TabIndex = 1;
-            this.chkRH6.Text = "面積６";
-            this.chkRH6.UseVisualStyleBackColor = true;
+            this.chkARH6.AutoSize = true;
+            this.chkARH6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARH6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARH6.Location = new System.Drawing.Point(10, 10);
+            this.chkARH6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARH6.Name = "chkARH6";
+            this.chkARH6.Size = new System.Drawing.Size(58, 17);
+            this.chkARH6.TabIndex = 1;
+            this.chkARH6.Text = "面積６";
+            this.chkARH6.UseVisualStyleBackColor = true;
             // 
             // pnlARH5
             // 
             this.pnlARH5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH5.Controls.Add(this.pnlRH5);
-            this.pnlARH5.Controls.Add(this.chkRH5);
+            this.pnlARH5.Controls.Add(this.pnlIRH5);
+            this.pnlARH5.Controls.Add(this.chkARH5);
             this.pnlARH5.Enabled = false;
             this.pnlARH5.Location = new System.Drawing.Point(450, 10);
             this.pnlARH5.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARH5.Name = "pnlARH5";
-            this.pnlARH5.Size = new System.Drawing.Size(100, 160);
+            this.pnlARH5.Size = new System.Drawing.Size(100, 190);
             this.pnlARH5.TabIndex = 5;
             // 
-            // pnlRH5
+            // pnlIRH5
             // 
-            this.pnlRH5.Controls.Add(this.panel34);
-            this.pnlRH5.Controls.Add(this.panel55);
-            this.pnlRH5.Controls.Add(this.panel36);
-            this.pnlRH5.Controls.Add(this.panel37);
-            this.pnlRH5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRH5.Enabled = false;
-            this.pnlRH5.Location = new System.Drawing.Point(0, 28);
-            this.pnlRH5.Name = "pnlRH5";
-            this.pnlRH5.Size = new System.Drawing.Size(98, 130);
-            this.pnlRH5.TabIndex = 2;
+            this.pnlIRH5.Controls.Add(this.panel34);
+            this.pnlIRH5.Controls.Add(this.panel83);
+            this.pnlIRH5.Controls.Add(this.panel55);
+            this.pnlIRH5.Controls.Add(this.panel36);
+            this.pnlIRH5.Controls.Add(this.panel37);
+            this.pnlIRH5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRH5.Enabled = false;
+            this.pnlIRH5.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRH5.Name = "pnlIRH5";
+            this.pnlIRH5.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRH5.TabIndex = 2;
             // 
             // panel34
             // 
@@ -2578,6 +2872,49 @@
             this.lblWRH5.Text = "Ｗ";
             this.lblWRH5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel83
+            // 
+            this.panel83.Controls.Add(this.chkPRH5);
+            this.panel83.Controls.Add(this.chkTRH5);
+            this.panel83.Location = new System.Drawing.Point(10, 130);
+            this.panel83.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel83.Name = "panel83";
+            this.panel83.Size = new System.Drawing.Size(80, 20);
+            this.panel83.TabIndex = 5;
+            // 
+            // chkPRH5
+            // 
+            this.chkPRH5.AutoSize = true;
+            this.chkPRH5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRH5.Checked = true;
+            this.chkPRH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRH5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRH5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRH5.Location = new System.Drawing.Point(41, 0);
+            this.chkPRH5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRH5.Name = "chkPRH5";
+            this.chkPRH5.Size = new System.Drawing.Size(39, 20);
+            this.chkPRH5.TabIndex = 2;
+            this.chkPRH5.Text = "手";
+            this.chkPRH5.UseVisualStyleBackColor = true;
+            // 
+            // chkTRH5
+            // 
+            this.chkTRH5.AutoSize = true;
+            this.chkTRH5.Checked = true;
+            this.chkTRH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRH5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRH5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRH5.Location = new System.Drawing.Point(0, 0);
+            this.chkTRH5.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRH5.Name = "chkTRH5";
+            this.chkTRH5.Size = new System.Drawing.Size(39, 20);
+            this.chkTRH5.TabIndex = 1;
+            this.chkTRH5.Text = "手";
+            this.chkTRH5.UseVisualStyleBackColor = true;
+            // 
             // panel55
             // 
             this.panel55.Controls.Add(this.chkRRH5);
@@ -2591,32 +2928,30 @@
             // chkRRH5
             // 
             this.chkRRH5.AutoSize = true;
-            this.chkRRH5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRH5.Checked = true;
-            this.chkRRH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRH5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRH5.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRH5.Location = new System.Drawing.Point(45, 0);
+            this.chkRRH5.Location = new System.Drawing.Point(41, 0);
             this.chkRRH5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRH5.Name = "chkRRH5";
-            this.chkRRH5.Size = new System.Drawing.Size(35, 20);
+            this.chkRRH5.Size = new System.Drawing.Size(39, 20);
             this.chkRRH5.TabIndex = 2;
-            this.chkRRH5.Text = "R";
+            this.chkRRH5.Text = "曲";
             this.chkRRH5.UseVisualStyleBackColor = true;
             // 
             // chkLRH5
             // 
             this.chkLRH5.AutoSize = true;
-            this.chkLRH5.Checked = true;
-            this.chkLRH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRH5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRH5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRH5.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRH5.Location = new System.Drawing.Point(0, 0);
             this.chkLRH5.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRH5.Name = "chkLRH5";
-            this.chkLRH5.Size = new System.Drawing.Size(34, 20);
+            this.chkLRH5.Size = new System.Drawing.Size(39, 20);
             this.chkLRH5.TabIndex = 1;
-            this.chkLRH5.Text = "L";
+            this.chkLRH5.Text = "曲";
             this.chkLRH5.UseVisualStyleBackColor = true;
             // 
             // panel36
@@ -2695,43 +3030,44 @@
             this.lblDRH5.Text = "Ｄ";
             this.lblDRH5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRH5
+            // chkARH5
             // 
-            this.chkRH5.AutoSize = true;
-            this.chkRH5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRH5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRH5.Location = new System.Drawing.Point(10, 10);
-            this.chkRH5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRH5.Name = "chkRH5";
-            this.chkRH5.Size = new System.Drawing.Size(58, 17);
-            this.chkRH5.TabIndex = 1;
-            this.chkRH5.Text = "面積５";
-            this.chkRH5.UseVisualStyleBackColor = true;
+            this.chkARH5.AutoSize = true;
+            this.chkARH5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARH5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARH5.Location = new System.Drawing.Point(10, 10);
+            this.chkARH5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARH5.Name = "chkARH5";
+            this.chkARH5.Size = new System.Drawing.Size(58, 17);
+            this.chkARH5.TabIndex = 1;
+            this.chkARH5.Text = "面積５";
+            this.chkARH5.UseVisualStyleBackColor = true;
             // 
             // pnlARH4
             // 
             this.pnlARH4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH4.Controls.Add(this.pnlRH4);
-            this.pnlARH4.Controls.Add(this.chkRH4);
+            this.pnlARH4.Controls.Add(this.pnlIRH4);
+            this.pnlARH4.Controls.Add(this.chkARH4);
             this.pnlARH4.Enabled = false;
             this.pnlARH4.Location = new System.Drawing.Point(340, 10);
             this.pnlARH4.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARH4.Name = "pnlARH4";
-            this.pnlARH4.Size = new System.Drawing.Size(100, 160);
+            this.pnlARH4.Size = new System.Drawing.Size(100, 190);
             this.pnlARH4.TabIndex = 4;
             // 
-            // pnlRH4
+            // pnlIRH4
             // 
-            this.pnlRH4.Controls.Add(this.panel28);
-            this.pnlRH4.Controls.Add(this.panel54);
-            this.pnlRH4.Controls.Add(this.panel30);
-            this.pnlRH4.Controls.Add(this.panel31);
-            this.pnlRH4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRH4.Enabled = false;
-            this.pnlRH4.Location = new System.Drawing.Point(0, 28);
-            this.pnlRH4.Name = "pnlRH4";
-            this.pnlRH4.Size = new System.Drawing.Size(98, 130);
-            this.pnlRH4.TabIndex = 2;
+            this.pnlIRH4.Controls.Add(this.panel28);
+            this.pnlIRH4.Controls.Add(this.panel80);
+            this.pnlIRH4.Controls.Add(this.panel54);
+            this.pnlIRH4.Controls.Add(this.panel30);
+            this.pnlIRH4.Controls.Add(this.panel31);
+            this.pnlIRH4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRH4.Enabled = false;
+            this.pnlIRH4.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRH4.Name = "pnlIRH4";
+            this.pnlIRH4.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRH4.TabIndex = 2;
             // 
             // panel28
             // 
@@ -2774,6 +3110,49 @@
             this.lblWRH4.Text = "Ｗ";
             this.lblWRH4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel80
+            // 
+            this.panel80.Controls.Add(this.chkPRH4);
+            this.panel80.Controls.Add(this.chkTRH4);
+            this.panel80.Location = new System.Drawing.Point(10, 130);
+            this.panel80.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel80.Name = "panel80";
+            this.panel80.Size = new System.Drawing.Size(80, 20);
+            this.panel80.TabIndex = 5;
+            // 
+            // chkPRH4
+            // 
+            this.chkPRH4.AutoSize = true;
+            this.chkPRH4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRH4.Checked = true;
+            this.chkPRH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRH4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRH4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRH4.Location = new System.Drawing.Point(41, 0);
+            this.chkPRH4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRH4.Name = "chkPRH4";
+            this.chkPRH4.Size = new System.Drawing.Size(39, 20);
+            this.chkPRH4.TabIndex = 2;
+            this.chkPRH4.Text = "手";
+            this.chkPRH4.UseVisualStyleBackColor = true;
+            // 
+            // chkTRH4
+            // 
+            this.chkTRH4.AutoSize = true;
+            this.chkTRH4.Checked = true;
+            this.chkTRH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRH4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRH4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRH4.Location = new System.Drawing.Point(0, 0);
+            this.chkTRH4.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRH4.Name = "chkTRH4";
+            this.chkTRH4.Size = new System.Drawing.Size(39, 20);
+            this.chkTRH4.TabIndex = 1;
+            this.chkTRH4.Text = "手";
+            this.chkTRH4.UseVisualStyleBackColor = true;
+            // 
             // panel54
             // 
             this.panel54.Controls.Add(this.chkRRH4);
@@ -2787,32 +3166,30 @@
             // chkRRH4
             // 
             this.chkRRH4.AutoSize = true;
-            this.chkRRH4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRH4.Checked = true;
-            this.chkRRH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRH4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRH4.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRH4.Location = new System.Drawing.Point(45, 0);
+            this.chkRRH4.Location = new System.Drawing.Point(41, 0);
             this.chkRRH4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRH4.Name = "chkRRH4";
-            this.chkRRH4.Size = new System.Drawing.Size(35, 20);
+            this.chkRRH4.Size = new System.Drawing.Size(39, 20);
             this.chkRRH4.TabIndex = 2;
-            this.chkRRH4.Text = "R";
+            this.chkRRH4.Text = "曲";
             this.chkRRH4.UseVisualStyleBackColor = true;
             // 
             // chkLRH4
             // 
             this.chkLRH4.AutoSize = true;
-            this.chkLRH4.Checked = true;
-            this.chkLRH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRH4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRH4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRH4.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRH4.Location = new System.Drawing.Point(0, 0);
             this.chkLRH4.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRH4.Name = "chkLRH4";
-            this.chkLRH4.Size = new System.Drawing.Size(34, 20);
+            this.chkLRH4.Size = new System.Drawing.Size(39, 20);
             this.chkLRH4.TabIndex = 1;
-            this.chkLRH4.Text = "L";
+            this.chkLRH4.Text = "曲";
             this.chkLRH4.UseVisualStyleBackColor = true;
             // 
             // panel30
@@ -2891,43 +3268,44 @@
             this.lblDRH4.Text = "Ｄ";
             this.lblDRH4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRH4
+            // chkARH4
             // 
-            this.chkRH4.AutoSize = true;
-            this.chkRH4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRH4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRH4.Location = new System.Drawing.Point(10, 10);
-            this.chkRH4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRH4.Name = "chkRH4";
-            this.chkRH4.Size = new System.Drawing.Size(58, 17);
-            this.chkRH4.TabIndex = 1;
-            this.chkRH4.Text = "面積４";
-            this.chkRH4.UseVisualStyleBackColor = true;
+            this.chkARH4.AutoSize = true;
+            this.chkARH4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARH4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARH4.Location = new System.Drawing.Point(10, 10);
+            this.chkARH4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARH4.Name = "chkARH4";
+            this.chkARH4.Size = new System.Drawing.Size(58, 17);
+            this.chkARH4.TabIndex = 1;
+            this.chkARH4.Text = "面積４";
+            this.chkARH4.UseVisualStyleBackColor = true;
             // 
             // pnlARH3
             // 
             this.pnlARH3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH3.Controls.Add(this.pnlRH3);
-            this.pnlARH3.Controls.Add(this.chkRH3);
+            this.pnlARH3.Controls.Add(this.pnlIRH3);
+            this.pnlARH3.Controls.Add(this.chkARH3);
             this.pnlARH3.Enabled = false;
             this.pnlARH3.Location = new System.Drawing.Point(230, 10);
             this.pnlARH3.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARH3.Name = "pnlARH3";
-            this.pnlARH3.Size = new System.Drawing.Size(100, 160);
+            this.pnlARH3.Size = new System.Drawing.Size(100, 190);
             this.pnlARH3.TabIndex = 3;
             // 
-            // pnlRH3
+            // pnlIRH3
             // 
-            this.pnlRH3.Controls.Add(this.panel22);
-            this.pnlRH3.Controls.Add(this.panel51);
-            this.pnlRH3.Controls.Add(this.panel24);
-            this.pnlRH3.Controls.Add(this.panel25);
-            this.pnlRH3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRH3.Enabled = false;
-            this.pnlRH3.Location = new System.Drawing.Point(0, 28);
-            this.pnlRH3.Name = "pnlRH3";
-            this.pnlRH3.Size = new System.Drawing.Size(98, 130);
-            this.pnlRH3.TabIndex = 2;
+            this.pnlIRH3.Controls.Add(this.panel22);
+            this.pnlIRH3.Controls.Add(this.panel79);
+            this.pnlIRH3.Controls.Add(this.panel51);
+            this.pnlIRH3.Controls.Add(this.panel24);
+            this.pnlIRH3.Controls.Add(this.panel25);
+            this.pnlIRH3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRH3.Enabled = false;
+            this.pnlIRH3.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRH3.Name = "pnlIRH3";
+            this.pnlIRH3.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRH3.TabIndex = 2;
             // 
             // panel22
             // 
@@ -2970,6 +3348,49 @@
             this.lblWRH3.Text = "Ｗ";
             this.lblWRH3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel79
+            // 
+            this.panel79.Controls.Add(this.chkPRH3);
+            this.panel79.Controls.Add(this.chkTRH3);
+            this.panel79.Location = new System.Drawing.Point(10, 130);
+            this.panel79.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel79.Name = "panel79";
+            this.panel79.Size = new System.Drawing.Size(80, 20);
+            this.panel79.TabIndex = 5;
+            // 
+            // chkPRH3
+            // 
+            this.chkPRH3.AutoSize = true;
+            this.chkPRH3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRH3.Checked = true;
+            this.chkPRH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRH3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRH3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRH3.Location = new System.Drawing.Point(41, 0);
+            this.chkPRH3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRH3.Name = "chkPRH3";
+            this.chkPRH3.Size = new System.Drawing.Size(39, 20);
+            this.chkPRH3.TabIndex = 2;
+            this.chkPRH3.Text = "手";
+            this.chkPRH3.UseVisualStyleBackColor = true;
+            // 
+            // chkTRH3
+            // 
+            this.chkTRH3.AutoSize = true;
+            this.chkTRH3.Checked = true;
+            this.chkTRH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRH3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRH3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRH3.Location = new System.Drawing.Point(0, 0);
+            this.chkTRH3.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRH3.Name = "chkTRH3";
+            this.chkTRH3.Size = new System.Drawing.Size(39, 20);
+            this.chkTRH3.TabIndex = 1;
+            this.chkTRH3.Text = "手";
+            this.chkTRH3.UseVisualStyleBackColor = true;
+            // 
             // panel51
             // 
             this.panel51.Controls.Add(this.chkRRH3);
@@ -2983,32 +3404,30 @@
             // chkRRH3
             // 
             this.chkRRH3.AutoSize = true;
-            this.chkRRH3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRH3.Checked = true;
-            this.chkRRH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRH3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRH3.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRH3.Location = new System.Drawing.Point(45, 0);
+            this.chkRRH3.Location = new System.Drawing.Point(41, 0);
             this.chkRRH3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRH3.Name = "chkRRH3";
-            this.chkRRH3.Size = new System.Drawing.Size(35, 20);
+            this.chkRRH3.Size = new System.Drawing.Size(39, 20);
             this.chkRRH3.TabIndex = 2;
-            this.chkRRH3.Text = "R";
+            this.chkRRH3.Text = "曲";
             this.chkRRH3.UseVisualStyleBackColor = true;
             // 
             // chkLRH3
             // 
             this.chkLRH3.AutoSize = true;
-            this.chkLRH3.Checked = true;
-            this.chkLRH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRH3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRH3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRH3.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRH3.Location = new System.Drawing.Point(0, 0);
             this.chkLRH3.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRH3.Name = "chkLRH3";
-            this.chkLRH3.Size = new System.Drawing.Size(34, 20);
+            this.chkLRH3.Size = new System.Drawing.Size(39, 20);
             this.chkLRH3.TabIndex = 1;
-            this.chkLRH3.Text = "L";
+            this.chkLRH3.Text = "曲";
             this.chkLRH3.UseVisualStyleBackColor = true;
             // 
             // panel24
@@ -3087,43 +3506,44 @@
             this.lblDRH3.Text = "Ｄ";
             this.lblDRH3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRH3
+            // chkARH3
             // 
-            this.chkRH3.AutoSize = true;
-            this.chkRH3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRH3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRH3.Location = new System.Drawing.Point(10, 10);
-            this.chkRH3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRH3.Name = "chkRH3";
-            this.chkRH3.Size = new System.Drawing.Size(58, 17);
-            this.chkRH3.TabIndex = 1;
-            this.chkRH3.Text = "面積３";
-            this.chkRH3.UseVisualStyleBackColor = true;
+            this.chkARH3.AutoSize = true;
+            this.chkARH3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARH3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARH3.Location = new System.Drawing.Point(10, 10);
+            this.chkARH3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARH3.Name = "chkARH3";
+            this.chkARH3.Size = new System.Drawing.Size(58, 17);
+            this.chkARH3.TabIndex = 1;
+            this.chkARH3.Text = "面積３";
+            this.chkARH3.UseVisualStyleBackColor = true;
             // 
             // pnlARH2
             // 
             this.pnlARH2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH2.Controls.Add(this.pnlRH2);
-            this.pnlARH2.Controls.Add(this.chkRH2);
+            this.pnlARH2.Controls.Add(this.pnlIRH2);
+            this.pnlARH2.Controls.Add(this.chkARH2);
             this.pnlARH2.Enabled = false;
             this.pnlARH2.Location = new System.Drawing.Point(120, 10);
             this.pnlARH2.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARH2.Name = "pnlARH2";
-            this.pnlARH2.Size = new System.Drawing.Size(100, 160);
+            this.pnlARH2.Size = new System.Drawing.Size(100, 190);
             this.pnlARH2.TabIndex = 2;
             // 
-            // pnlRH2
+            // pnlIRH2
             // 
-            this.pnlRH2.Controls.Add(this.panel13);
-            this.pnlRH2.Controls.Add(this.panel50);
-            this.pnlRH2.Controls.Add(this.panel18);
-            this.pnlRH2.Controls.Add(this.panel19);
-            this.pnlRH2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRH2.Enabled = false;
-            this.pnlRH2.Location = new System.Drawing.Point(0, 28);
-            this.pnlRH2.Name = "pnlRH2";
-            this.pnlRH2.Size = new System.Drawing.Size(98, 130);
-            this.pnlRH2.TabIndex = 2;
+            this.pnlIRH2.Controls.Add(this.panel13);
+            this.pnlIRH2.Controls.Add(this.panel60);
+            this.pnlIRH2.Controls.Add(this.panel50);
+            this.pnlIRH2.Controls.Add(this.panel18);
+            this.pnlIRH2.Controls.Add(this.panel19);
+            this.pnlIRH2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRH2.Enabled = false;
+            this.pnlIRH2.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRH2.Name = "pnlIRH2";
+            this.pnlIRH2.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRH2.TabIndex = 2;
             // 
             // panel13
             // 
@@ -3166,6 +3586,49 @@
             this.lblWRH2.Text = "Ｗ";
             this.lblWRH2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel60
+            // 
+            this.panel60.Controls.Add(this.chkPRH2);
+            this.panel60.Controls.Add(this.chkTR2);
+            this.panel60.Location = new System.Drawing.Point(10, 130);
+            this.panel60.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel60.Name = "panel60";
+            this.panel60.Size = new System.Drawing.Size(80, 20);
+            this.panel60.TabIndex = 5;
+            // 
+            // chkPRH2
+            // 
+            this.chkPRH2.AutoSize = true;
+            this.chkPRH2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRH2.Checked = true;
+            this.chkPRH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRH2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRH2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRH2.Location = new System.Drawing.Point(41, 0);
+            this.chkPRH2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRH2.Name = "chkPRH2";
+            this.chkPRH2.Size = new System.Drawing.Size(39, 20);
+            this.chkPRH2.TabIndex = 2;
+            this.chkPRH2.Text = "手";
+            this.chkPRH2.UseVisualStyleBackColor = true;
+            // 
+            // chkTR2
+            // 
+            this.chkTR2.AutoSize = true;
+            this.chkTR2.Checked = true;
+            this.chkTR2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTR2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTR2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTR2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTR2.Location = new System.Drawing.Point(0, 0);
+            this.chkTR2.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTR2.Name = "chkTR2";
+            this.chkTR2.Size = new System.Drawing.Size(39, 20);
+            this.chkTR2.TabIndex = 1;
+            this.chkTR2.Text = "手";
+            this.chkTR2.UseVisualStyleBackColor = true;
+            // 
             // panel50
             // 
             this.panel50.Controls.Add(this.chkRRH2);
@@ -3179,32 +3642,30 @@
             // chkRRH2
             // 
             this.chkRRH2.AutoSize = true;
-            this.chkRRH2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRH2.Checked = true;
-            this.chkRRH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRH2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRH2.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRH2.Location = new System.Drawing.Point(45, 0);
+            this.chkRRH2.Location = new System.Drawing.Point(41, 0);
             this.chkRRH2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRH2.Name = "chkRRH2";
-            this.chkRRH2.Size = new System.Drawing.Size(35, 20);
+            this.chkRRH2.Size = new System.Drawing.Size(39, 20);
             this.chkRRH2.TabIndex = 2;
-            this.chkRRH2.Text = "R";
+            this.chkRRH2.Text = "曲";
             this.chkRRH2.UseVisualStyleBackColor = true;
             // 
             // chkLRH2
             // 
             this.chkLRH2.AutoSize = true;
-            this.chkLRH2.Checked = true;
-            this.chkLRH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRH2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRH2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRH2.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRH2.Location = new System.Drawing.Point(0, 0);
             this.chkLRH2.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRH2.Name = "chkLRH2";
-            this.chkLRH2.Size = new System.Drawing.Size(34, 20);
+            this.chkLRH2.Size = new System.Drawing.Size(39, 20);
             this.chkLRH2.TabIndex = 1;
-            this.chkLRH2.Text = "L";
+            this.chkLRH2.Text = "曲";
             this.chkLRH2.UseVisualStyleBackColor = true;
             // 
             // panel18
@@ -3283,42 +3744,43 @@
             this.lblDRH2.Text = "Ｄ";
             this.lblDRH2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRH2
+            // chkARH2
             // 
-            this.chkRH2.AutoSize = true;
-            this.chkRH2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRH2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRH2.Location = new System.Drawing.Point(10, 10);
-            this.chkRH2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRH2.Name = "chkRH2";
-            this.chkRH2.Size = new System.Drawing.Size(58, 17);
-            this.chkRH2.TabIndex = 1;
-            this.chkRH2.Text = "面積２";
-            this.chkRH2.UseVisualStyleBackColor = true;
+            this.chkARH2.AutoSize = true;
+            this.chkARH2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARH2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARH2.Location = new System.Drawing.Point(10, 10);
+            this.chkARH2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARH2.Name = "chkARH2";
+            this.chkARH2.Size = new System.Drawing.Size(58, 17);
+            this.chkARH2.TabIndex = 1;
+            this.chkARH2.Text = "面積２";
+            this.chkARH2.UseVisualStyleBackColor = true;
             // 
             // pnlARH1
             // 
             this.pnlARH1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH1.Controls.Add(this.pnlRH1);
-            this.pnlARH1.Controls.Add(this.chkRH1);
+            this.pnlARH1.Controls.Add(this.pnlIRH1);
+            this.pnlARH1.Controls.Add(this.chkARH1);
             this.pnlARH1.Location = new System.Drawing.Point(10, 10);
             this.pnlARH1.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlARH1.Name = "pnlARH1";
-            this.pnlARH1.Size = new System.Drawing.Size(100, 160);
+            this.pnlARH1.Size = new System.Drawing.Size(100, 190);
             this.pnlARH1.TabIndex = 1;
             // 
-            // pnlRH1
+            // pnlIRH1
             // 
-            this.pnlRH1.Controls.Add(this.panel5);
-            this.pnlRH1.Controls.Add(this.panel48);
-            this.pnlRH1.Controls.Add(this.panel6);
-            this.pnlRH1.Controls.Add(this.panel9);
-            this.pnlRH1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlRH1.Enabled = false;
-            this.pnlRH1.Location = new System.Drawing.Point(0, 28);
-            this.pnlRH1.Name = "pnlRH1";
-            this.pnlRH1.Size = new System.Drawing.Size(98, 130);
-            this.pnlRH1.TabIndex = 2;
+            this.pnlIRH1.Controls.Add(this.panel5);
+            this.pnlIRH1.Controls.Add(this.panel76);
+            this.pnlIRH1.Controls.Add(this.panel48);
+            this.pnlIRH1.Controls.Add(this.panel6);
+            this.pnlIRH1.Controls.Add(this.panel9);
+            this.pnlIRH1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlIRH1.Enabled = false;
+            this.pnlIRH1.Location = new System.Drawing.Point(0, 28);
+            this.pnlIRH1.Name = "pnlIRH1";
+            this.pnlIRH1.Size = new System.Drawing.Size(98, 160);
+            this.pnlIRH1.TabIndex = 2;
             // 
             // panel5
             // 
@@ -3361,6 +3823,49 @@
             this.lblWRH1.Text = "Ｗ";
             this.lblWRH1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel76
+            // 
+            this.panel76.Controls.Add(this.chkPRH1);
+            this.panel76.Controls.Add(this.chkTRH1);
+            this.panel76.Location = new System.Drawing.Point(10, 130);
+            this.panel76.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.panel76.Name = "panel76";
+            this.panel76.Size = new System.Drawing.Size(80, 20);
+            this.panel76.TabIndex = 5;
+            // 
+            // chkPRH1
+            // 
+            this.chkPRH1.AutoSize = true;
+            this.chkPRH1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkPRH1.Checked = true;
+            this.chkPRH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPRH1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkPRH1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chkPRH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPRH1.Location = new System.Drawing.Point(41, 0);
+            this.chkPRH1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.chkPRH1.Name = "chkPRH1";
+            this.chkPRH1.Size = new System.Drawing.Size(39, 20);
+            this.chkPRH1.TabIndex = 2;
+            this.chkPRH1.Text = "手";
+            this.chkPRH1.UseVisualStyleBackColor = true;
+            // 
+            // chkTRH1
+            // 
+            this.chkTRH1.AutoSize = true;
+            this.chkTRH1.Checked = true;
+            this.chkTRH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTRH1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkTRH1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chkTRH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTRH1.Location = new System.Drawing.Point(0, 0);
+            this.chkTRH1.Margin = new System.Windows.Forms.Padding(10);
+            this.chkTRH1.Name = "chkTRH1";
+            this.chkTRH1.Size = new System.Drawing.Size(39, 20);
+            this.chkTRH1.TabIndex = 1;
+            this.chkTRH1.Text = "手";
+            this.chkTRH1.UseVisualStyleBackColor = true;
+            // 
             // panel48
             // 
             this.panel48.Controls.Add(this.chkRRH1);
@@ -3374,32 +3879,30 @@
             // chkRRH1
             // 
             this.chkRRH1.AutoSize = true;
-            this.chkRRH1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkRRH1.Checked = true;
-            this.chkRRH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRRH1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRRH1.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRRH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRRH1.Location = new System.Drawing.Point(45, 0);
+            this.chkRRH1.Location = new System.Drawing.Point(41, 0);
             this.chkRRH1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRRH1.Name = "chkRRH1";
-            this.chkRRH1.Size = new System.Drawing.Size(35, 20);
+            this.chkRRH1.Size = new System.Drawing.Size(39, 20);
             this.chkRRH1.TabIndex = 2;
-            this.chkRRH1.Text = "R";
+            this.chkRRH1.Text = "曲";
             this.chkRRH1.UseVisualStyleBackColor = true;
             // 
             // chkLRH1
             // 
             this.chkLRH1.AutoSize = true;
-            this.chkLRH1.Checked = true;
-            this.chkLRH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLRH1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkLRH1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLRH1.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLRH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLRH1.Location = new System.Drawing.Point(0, 0);
             this.chkLRH1.Margin = new System.Windows.Forms.Padding(10);
             this.chkLRH1.Name = "chkLRH1";
-            this.chkLRH1.Size = new System.Drawing.Size(34, 20);
+            this.chkLRH1.Size = new System.Drawing.Size(39, 20);
             this.chkLRH1.TabIndex = 1;
-            this.chkLRH1.Text = "L";
+            this.chkLRH1.Text = "曲";
             this.chkLRH1.UseVisualStyleBackColor = true;
             // 
             // panel6
@@ -3478,18 +3981,18 @@
             this.lblDRH1.Text = "Ｄ";
             this.lblDRH1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkRH1
+            // chkARH1
             // 
-            this.chkRH1.AutoSize = true;
-            this.chkRH1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRH1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkRH1.Location = new System.Drawing.Point(10, 10);
-            this.chkRH1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkRH1.Name = "chkRH1";
-            this.chkRH1.Size = new System.Drawing.Size(58, 17);
-            this.chkRH1.TabIndex = 1;
-            this.chkRH1.Text = "面積１";
-            this.chkRH1.UseVisualStyleBackColor = true;
+            this.chkARH1.AutoSize = true;
+            this.chkARH1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkARH1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkARH1.Location = new System.Drawing.Point(10, 10);
+            this.chkARH1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkARH1.Name = "chkARH1";
+            this.chkARH1.Size = new System.Drawing.Size(58, 17);
+            this.chkARH1.TabIndex = 1;
+            this.chkARH1.Text = "面積１";
+            this.chkARH1.UseVisualStyleBackColor = true;
             // 
             // label58
             // 
@@ -3564,8 +4067,8 @@
             // pnlASV10
             // 
             this.pnlASV10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV10.Controls.Add(this.pnlSV10);
-            this.pnlASV10.Controls.Add(this.chkSV10);
+            this.pnlASV10.Controls.Add(this.pnlISV10);
+            this.pnlASV10.Controls.Add(this.chkASV10);
             this.pnlASV10.Enabled = false;
             this.pnlASV10.Location = new System.Drawing.Point(450, 150);
             this.pnlASV10.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -3573,17 +4076,17 @@
             this.pnlASV10.Size = new System.Drawing.Size(100, 130);
             this.pnlASV10.TabIndex = 10;
             // 
-            // pnlSV10
+            // pnlISV10
             // 
-            this.pnlSV10.Controls.Add(this.panel46);
-            this.pnlSV10.Controls.Add(this.panel45);
-            this.pnlSV10.Controls.Add(this.panel49);
-            this.pnlSV10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV10.Enabled = false;
-            this.pnlSV10.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV10.Name = "pnlSV10";
-            this.pnlSV10.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV10.TabIndex = 2;
+            this.pnlISV10.Controls.Add(this.panel46);
+            this.pnlISV10.Controls.Add(this.panel45);
+            this.pnlISV10.Controls.Add(this.panel49);
+            this.pnlISV10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV10.Enabled = false;
+            this.pnlISV10.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV10.Name = "pnlISV10";
+            this.pnlISV10.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV10.TabIndex = 2;
             // 
             // panel46
             // 
@@ -3639,32 +4142,34 @@
             // chkRSV10
             // 
             this.chkRSV10.AutoSize = true;
-            this.chkRSV10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV10.Checked = true;
             this.chkRSV10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV10.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV10.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV10.Location = new System.Drawing.Point(41, 0);
             this.chkRSV10.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV10.Name = "chkRSV10";
-            this.chkRSV10.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV10.Size = new System.Drawing.Size(39, 20);
             this.chkRSV10.TabIndex = 2;
-            this.chkRSV10.Text = "R";
+            this.chkRSV10.Text = "曲";
             this.chkRSV10.UseVisualStyleBackColor = true;
             // 
             // chkLSV10
             // 
             this.chkLSV10.AutoSize = true;
+            this.chkLSV10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV10.Checked = true;
             this.chkLSV10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV10.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV10.Location = new System.Drawing.Point(0, 0);
             this.chkLSV10.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV10.Name = "chkLSV10";
-            this.chkLSV10.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV10.Size = new System.Drawing.Size(39, 20);
             this.chkLSV10.TabIndex = 1;
-            this.chkLSV10.Text = "L";
+            this.chkLSV10.Text = "曲";
             this.chkLSV10.UseVisualStyleBackColor = true;
             // 
             // panel49
@@ -3708,24 +4213,24 @@
             this.lblHSV10.Text = "Ｈ";
             this.lblHSV10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV10
+            // chkASV10
             // 
-            this.chkSV10.AutoSize = true;
-            this.chkSV10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV10.Location = new System.Drawing.Point(10, 10);
-            this.chkSV10.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV10.Name = "chkSV10";
-            this.chkSV10.Size = new System.Drawing.Size(66, 17);
-            this.chkSV10.TabIndex = 1;
-            this.chkSV10.Text = "面積１０";
-            this.chkSV10.UseVisualStyleBackColor = true;
+            this.chkASV10.AutoSize = true;
+            this.chkASV10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV10.Location = new System.Drawing.Point(10, 10);
+            this.chkASV10.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV10.Name = "chkASV10";
+            this.chkASV10.Size = new System.Drawing.Size(66, 17);
+            this.chkASV10.TabIndex = 1;
+            this.chkASV10.Text = "面積１０";
+            this.chkASV10.UseVisualStyleBackColor = true;
             // 
             // pnlASV5
             // 
             this.pnlASV5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV5.Controls.Add(this.pnlSV5);
-            this.pnlASV5.Controls.Add(this.chkSV5);
+            this.pnlASV5.Controls.Add(this.pnlISV5);
+            this.pnlASV5.Controls.Add(this.chkASV5);
             this.pnlASV5.Enabled = false;
             this.pnlASV5.Location = new System.Drawing.Point(450, 10);
             this.pnlASV5.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -3733,17 +4238,17 @@
             this.pnlASV5.Size = new System.Drawing.Size(100, 130);
             this.pnlASV5.TabIndex = 5;
             // 
-            // pnlSV5
+            // pnlISV5
             // 
-            this.pnlSV5.Controls.Add(this.panel52);
-            this.pnlSV5.Controls.Add(this.panel38);
-            this.pnlSV5.Controls.Add(this.panel53);
-            this.pnlSV5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV5.Enabled = false;
-            this.pnlSV5.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV5.Name = "pnlSV5";
-            this.pnlSV5.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV5.TabIndex = 2;
+            this.pnlISV5.Controls.Add(this.panel52);
+            this.pnlISV5.Controls.Add(this.panel38);
+            this.pnlISV5.Controls.Add(this.panel53);
+            this.pnlISV5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV5.Enabled = false;
+            this.pnlISV5.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV5.Name = "pnlISV5";
+            this.pnlISV5.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV5.TabIndex = 2;
             // 
             // panel52
             // 
@@ -3799,32 +4304,34 @@
             // chkRSV5
             // 
             this.chkRSV5.AutoSize = true;
-            this.chkRSV5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV5.Checked = true;
             this.chkRSV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV5.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV5.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV5.Location = new System.Drawing.Point(41, 0);
             this.chkRSV5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV5.Name = "chkRSV5";
-            this.chkRSV5.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV5.Size = new System.Drawing.Size(39, 20);
             this.chkRSV5.TabIndex = 2;
-            this.chkRSV5.Text = "R";
+            this.chkRSV5.Text = "曲";
             this.chkRSV5.UseVisualStyleBackColor = true;
             // 
             // chkLSV5
             // 
             this.chkLSV5.AutoSize = true;
+            this.chkLSV5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV5.Checked = true;
             this.chkLSV5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV5.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV5.Location = new System.Drawing.Point(0, 0);
             this.chkLSV5.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV5.Name = "chkLSV5";
-            this.chkLSV5.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV5.Size = new System.Drawing.Size(39, 20);
             this.chkLSV5.TabIndex = 1;
-            this.chkLSV5.Text = "L";
+            this.chkLSV5.Text = "曲";
             this.chkLSV5.UseVisualStyleBackColor = true;
             // 
             // panel53
@@ -3868,24 +4375,24 @@
             this.lblHSV5.Text = "Ｈ";
             this.lblHSV5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV5
+            // chkASV5
             // 
-            this.chkSV5.AutoSize = true;
-            this.chkSV5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV5.Location = new System.Drawing.Point(10, 10);
-            this.chkSV5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV5.Name = "chkSV5";
-            this.chkSV5.Size = new System.Drawing.Size(58, 17);
-            this.chkSV5.TabIndex = 1;
-            this.chkSV5.Text = "面積５";
-            this.chkSV5.UseVisualStyleBackColor = true;
+            this.chkASV5.AutoSize = true;
+            this.chkASV5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV5.Location = new System.Drawing.Point(10, 10);
+            this.chkASV5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV5.Name = "chkASV5";
+            this.chkASV5.Size = new System.Drawing.Size(58, 17);
+            this.chkASV5.TabIndex = 1;
+            this.chkASV5.Text = "面積５";
+            this.chkASV5.UseVisualStyleBackColor = true;
             // 
             // pnlASV9
             // 
             this.pnlASV9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV9.Controls.Add(this.pnlSV9);
-            this.pnlASV9.Controls.Add(this.chkSV9);
+            this.pnlASV9.Controls.Add(this.pnlISV9);
+            this.pnlASV9.Controls.Add(this.chkASV9);
             this.pnlASV9.Enabled = false;
             this.pnlASV9.Location = new System.Drawing.Point(340, 150);
             this.pnlASV9.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -3893,17 +4400,17 @@
             this.pnlASV9.Size = new System.Drawing.Size(100, 130);
             this.pnlASV9.TabIndex = 9;
             // 
-            // pnlSV9
+            // pnlISV9
             // 
-            this.pnlSV9.Controls.Add(this.panel56);
-            this.pnlSV9.Controls.Add(this.panel42);
-            this.pnlSV9.Controls.Add(this.panel57);
-            this.pnlSV9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV9.Enabled = false;
-            this.pnlSV9.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV9.Name = "pnlSV9";
-            this.pnlSV9.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV9.TabIndex = 2;
+            this.pnlISV9.Controls.Add(this.panel56);
+            this.pnlISV9.Controls.Add(this.panel42);
+            this.pnlISV9.Controls.Add(this.panel57);
+            this.pnlISV9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV9.Enabled = false;
+            this.pnlISV9.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV9.Name = "pnlISV9";
+            this.pnlISV9.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV9.TabIndex = 2;
             // 
             // panel56
             // 
@@ -3959,32 +4466,34 @@
             // chkRSV9
             // 
             this.chkRSV9.AutoSize = true;
-            this.chkRSV9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV9.Checked = true;
             this.chkRSV9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV9.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV9.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV9.Location = new System.Drawing.Point(41, 0);
             this.chkRSV9.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV9.Name = "chkRSV9";
-            this.chkRSV9.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV9.Size = new System.Drawing.Size(39, 20);
             this.chkRSV9.TabIndex = 2;
-            this.chkRSV9.Text = "R";
+            this.chkRSV9.Text = "曲";
             this.chkRSV9.UseVisualStyleBackColor = true;
             // 
             // chkLSV9
             // 
             this.chkLSV9.AutoSize = true;
+            this.chkLSV9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV9.Checked = true;
             this.chkLSV9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV9.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV9.Location = new System.Drawing.Point(0, 0);
             this.chkLSV9.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV9.Name = "chkLSV9";
-            this.chkLSV9.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV9.Size = new System.Drawing.Size(39, 20);
             this.chkLSV9.TabIndex = 1;
-            this.chkLSV9.Text = "L";
+            this.chkLSV9.Text = "曲";
             this.chkLSV9.UseVisualStyleBackColor = true;
             // 
             // panel57
@@ -4028,24 +4537,24 @@
             this.lblHSV9.Text = "Ｈ";
             this.lblHSV9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV9
+            // chkASV9
             // 
-            this.chkSV9.AutoSize = true;
-            this.chkSV9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV9.Location = new System.Drawing.Point(10, 10);
-            this.chkSV9.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV9.Name = "chkSV9";
-            this.chkSV9.Size = new System.Drawing.Size(58, 17);
-            this.chkSV9.TabIndex = 1;
-            this.chkSV9.Text = "面積９";
-            this.chkSV9.UseVisualStyleBackColor = true;
+            this.chkASV9.AutoSize = true;
+            this.chkASV9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV9.Location = new System.Drawing.Point(10, 10);
+            this.chkASV9.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV9.Name = "chkASV9";
+            this.chkASV9.Size = new System.Drawing.Size(58, 17);
+            this.chkASV9.TabIndex = 1;
+            this.chkASV9.Text = "面積９";
+            this.chkASV9.UseVisualStyleBackColor = true;
             // 
             // pnlASV4
             // 
             this.pnlASV4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV4.Controls.Add(this.pnlSV4);
-            this.pnlASV4.Controls.Add(this.chkSV4);
+            this.pnlASV4.Controls.Add(this.pnlISV4);
+            this.pnlASV4.Controls.Add(this.chkASV4);
             this.pnlASV4.Enabled = false;
             this.pnlASV4.Location = new System.Drawing.Point(340, 10);
             this.pnlASV4.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -4053,17 +4562,17 @@
             this.pnlASV4.Size = new System.Drawing.Size(100, 130);
             this.pnlASV4.TabIndex = 4;
             // 
-            // pnlSV4
+            // pnlISV4
             // 
-            this.pnlSV4.Controls.Add(this.panel72);
-            this.pnlSV4.Controls.Add(this.panel35);
-            this.pnlSV4.Controls.Add(this.panel73);
-            this.pnlSV4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV4.Enabled = false;
-            this.pnlSV4.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV4.Name = "pnlSV4";
-            this.pnlSV4.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV4.TabIndex = 2;
+            this.pnlISV4.Controls.Add(this.panel72);
+            this.pnlISV4.Controls.Add(this.panel35);
+            this.pnlISV4.Controls.Add(this.panel73);
+            this.pnlISV4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV4.Enabled = false;
+            this.pnlISV4.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV4.Name = "pnlISV4";
+            this.pnlISV4.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV4.TabIndex = 2;
             // 
             // panel72
             // 
@@ -4119,32 +4628,34 @@
             // chkRSV4
             // 
             this.chkRSV4.AutoSize = true;
-            this.chkRSV4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV4.Checked = true;
             this.chkRSV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV4.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV4.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV4.Location = new System.Drawing.Point(41, 0);
             this.chkRSV4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV4.Name = "chkRSV4";
-            this.chkRSV4.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV4.Size = new System.Drawing.Size(39, 20);
             this.chkRSV4.TabIndex = 2;
-            this.chkRSV4.Text = "R";
+            this.chkRSV4.Text = "曲";
             this.chkRSV4.UseVisualStyleBackColor = true;
             // 
             // chkLSV4
             // 
             this.chkLSV4.AutoSize = true;
+            this.chkLSV4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV4.Checked = true;
             this.chkLSV4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV4.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV4.Location = new System.Drawing.Point(0, 0);
             this.chkLSV4.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV4.Name = "chkLSV4";
-            this.chkLSV4.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV4.Size = new System.Drawing.Size(39, 20);
             this.chkLSV4.TabIndex = 1;
-            this.chkLSV4.Text = "L";
+            this.chkLSV4.Text = "曲";
             this.chkLSV4.UseVisualStyleBackColor = true;
             // 
             // panel73
@@ -4188,24 +4699,24 @@
             this.lblHSV4.Text = "Ｈ";
             this.lblHSV4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV4
+            // chkASV4
             // 
-            this.chkSV4.AutoSize = true;
-            this.chkSV4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV4.Location = new System.Drawing.Point(10, 10);
-            this.chkSV4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV4.Name = "chkSV4";
-            this.chkSV4.Size = new System.Drawing.Size(58, 17);
-            this.chkSV4.TabIndex = 1;
-            this.chkSV4.Text = "面積４";
-            this.chkSV4.UseVisualStyleBackColor = true;
+            this.chkASV4.AutoSize = true;
+            this.chkASV4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV4.Location = new System.Drawing.Point(10, 10);
+            this.chkASV4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV4.Name = "chkASV4";
+            this.chkASV4.Size = new System.Drawing.Size(58, 17);
+            this.chkASV4.TabIndex = 1;
+            this.chkASV4.Text = "面積４";
+            this.chkASV4.UseVisualStyleBackColor = true;
             // 
             // pnlASV8
             // 
             this.pnlASV8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV8.Controls.Add(this.pnlSV8);
-            this.pnlASV8.Controls.Add(this.chkSV8);
+            this.pnlASV8.Controls.Add(this.pnlISV8);
+            this.pnlASV8.Controls.Add(this.chkASV8);
             this.pnlASV8.Enabled = false;
             this.pnlASV8.Location = new System.Drawing.Point(230, 150);
             this.pnlASV8.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -4213,17 +4724,17 @@
             this.pnlASV8.Size = new System.Drawing.Size(100, 130);
             this.pnlASV8.TabIndex = 8;
             // 
-            // pnlSV8
+            // pnlISV8
             // 
-            this.pnlSV8.Controls.Add(this.panel77);
-            this.pnlSV8.Controls.Add(this.panel41);
-            this.pnlSV8.Controls.Add(this.panel78);
-            this.pnlSV8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV8.Enabled = false;
-            this.pnlSV8.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV8.Name = "pnlSV8";
-            this.pnlSV8.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV8.TabIndex = 2;
+            this.pnlISV8.Controls.Add(this.panel77);
+            this.pnlISV8.Controls.Add(this.panel41);
+            this.pnlISV8.Controls.Add(this.panel78);
+            this.pnlISV8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV8.Enabled = false;
+            this.pnlISV8.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV8.Name = "pnlISV8";
+            this.pnlISV8.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV8.TabIndex = 2;
             // 
             // panel77
             // 
@@ -4279,32 +4790,34 @@
             // chkRSV8
             // 
             this.chkRSV8.AutoSize = true;
-            this.chkRSV8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV8.Checked = true;
             this.chkRSV8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV8.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV8.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV8.Location = new System.Drawing.Point(41, 0);
             this.chkRSV8.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV8.Name = "chkRSV8";
-            this.chkRSV8.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV8.Size = new System.Drawing.Size(39, 20);
             this.chkRSV8.TabIndex = 2;
-            this.chkRSV8.Text = "R";
+            this.chkRSV8.Text = "曲";
             this.chkRSV8.UseVisualStyleBackColor = true;
             // 
             // chkLSV8
             // 
             this.chkLSV8.AutoSize = true;
+            this.chkLSV8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV8.Checked = true;
             this.chkLSV8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV8.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV8.Location = new System.Drawing.Point(0, 0);
             this.chkLSV8.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV8.Name = "chkLSV8";
-            this.chkLSV8.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV8.Size = new System.Drawing.Size(39, 20);
             this.chkLSV8.TabIndex = 1;
-            this.chkLSV8.Text = "L";
+            this.chkLSV8.Text = "曲";
             this.chkLSV8.UseVisualStyleBackColor = true;
             // 
             // panel78
@@ -4348,24 +4861,24 @@
             this.lblHSV8.Text = "Ｈ";
             this.lblHSV8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV8
+            // chkASV8
             // 
-            this.chkSV8.AutoSize = true;
-            this.chkSV8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV8.Location = new System.Drawing.Point(10, 10);
-            this.chkSV8.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV8.Name = "chkSV8";
-            this.chkSV8.Size = new System.Drawing.Size(58, 17);
-            this.chkSV8.TabIndex = 1;
-            this.chkSV8.Text = "面積８";
-            this.chkSV8.UseVisualStyleBackColor = true;
+            this.chkASV8.AutoSize = true;
+            this.chkASV8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV8.Location = new System.Drawing.Point(10, 10);
+            this.chkASV8.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV8.Name = "chkASV8";
+            this.chkASV8.Size = new System.Drawing.Size(58, 17);
+            this.chkASV8.TabIndex = 1;
+            this.chkASV8.Text = "面積８";
+            this.chkASV8.UseVisualStyleBackColor = true;
             // 
             // pnlASV3
             // 
             this.pnlASV3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV3.Controls.Add(this.pnlSV3);
-            this.pnlASV3.Controls.Add(this.chkSV3);
+            this.pnlASV3.Controls.Add(this.pnlISV3);
+            this.pnlASV3.Controls.Add(this.chkASV3);
             this.pnlASV3.Enabled = false;
             this.pnlASV3.Location = new System.Drawing.Point(230, 10);
             this.pnlASV3.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -4373,17 +4886,17 @@
             this.pnlASV3.Size = new System.Drawing.Size(100, 130);
             this.pnlASV3.TabIndex = 3;
             // 
-            // pnlSV3
+            // pnlISV3
             // 
-            this.pnlSV3.Controls.Add(this.panel81);
-            this.pnlSV3.Controls.Add(this.panel33);
-            this.pnlSV3.Controls.Add(this.panel82);
-            this.pnlSV3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV3.Enabled = false;
-            this.pnlSV3.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV3.Name = "pnlSV3";
-            this.pnlSV3.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV3.TabIndex = 2;
+            this.pnlISV3.Controls.Add(this.panel81);
+            this.pnlISV3.Controls.Add(this.panel33);
+            this.pnlISV3.Controls.Add(this.panel82);
+            this.pnlISV3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV3.Enabled = false;
+            this.pnlISV3.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV3.Name = "pnlISV3";
+            this.pnlISV3.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV3.TabIndex = 2;
             // 
             // panel81
             // 
@@ -4439,32 +4952,34 @@
             // chkRSV3
             // 
             this.chkRSV3.AutoSize = true;
-            this.chkRSV3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV3.Checked = true;
             this.chkRSV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV3.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV3.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV3.Location = new System.Drawing.Point(41, 0);
             this.chkRSV3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV3.Name = "chkRSV3";
-            this.chkRSV3.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV3.Size = new System.Drawing.Size(39, 20);
             this.chkRSV3.TabIndex = 2;
-            this.chkRSV3.Text = "R";
+            this.chkRSV3.Text = "曲";
             this.chkRSV3.UseVisualStyleBackColor = true;
             // 
             // chkLSV3
             // 
             this.chkLSV3.AutoSize = true;
+            this.chkLSV3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV3.Checked = true;
             this.chkLSV3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV3.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV3.Location = new System.Drawing.Point(0, 0);
             this.chkLSV3.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV3.Name = "chkLSV3";
-            this.chkLSV3.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV3.Size = new System.Drawing.Size(39, 20);
             this.chkLSV3.TabIndex = 1;
-            this.chkLSV3.Text = "L";
+            this.chkLSV3.Text = "曲";
             this.chkLSV3.UseVisualStyleBackColor = true;
             // 
             // panel82
@@ -4508,24 +5023,24 @@
             this.lblHSV3.Text = "Ｈ";
             this.lblHSV3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV3
+            // chkASV3
             // 
-            this.chkSV3.AutoSize = true;
-            this.chkSV3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV3.Location = new System.Drawing.Point(10, 10);
-            this.chkSV3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV3.Name = "chkSV3";
-            this.chkSV3.Size = new System.Drawing.Size(58, 17);
-            this.chkSV3.TabIndex = 1;
-            this.chkSV3.Text = "面積３";
-            this.chkSV3.UseVisualStyleBackColor = true;
+            this.chkASV3.AutoSize = true;
+            this.chkASV3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV3.Location = new System.Drawing.Point(10, 10);
+            this.chkASV3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV3.Name = "chkASV3";
+            this.chkASV3.Size = new System.Drawing.Size(58, 17);
+            this.chkASV3.TabIndex = 1;
+            this.chkASV3.Text = "面積３";
+            this.chkASV3.UseVisualStyleBackColor = true;
             // 
             // pnlASV6
             // 
             this.pnlASV6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV6.Controls.Add(this.pnlSV6);
-            this.pnlASV6.Controls.Add(this.chkSV6);
+            this.pnlASV6.Controls.Add(this.pnlISV6);
+            this.pnlASV6.Controls.Add(this.chkASV6);
             this.pnlASV6.Enabled = false;
             this.pnlASV6.Location = new System.Drawing.Point(10, 150);
             this.pnlASV6.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -4533,17 +5048,17 @@
             this.pnlASV6.Size = new System.Drawing.Size(100, 130);
             this.pnlASV6.TabIndex = 6;
             // 
-            // pnlSV6
+            // pnlISV6
             // 
-            this.pnlSV6.Controls.Add(this.panel85);
-            this.pnlSV6.Controls.Add(this.panel39);
-            this.pnlSV6.Controls.Add(this.panel86);
-            this.pnlSV6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV6.Enabled = false;
-            this.pnlSV6.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV6.Name = "pnlSV6";
-            this.pnlSV6.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV6.TabIndex = 2;
+            this.pnlISV6.Controls.Add(this.panel85);
+            this.pnlISV6.Controls.Add(this.panel39);
+            this.pnlISV6.Controls.Add(this.panel86);
+            this.pnlISV6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV6.Enabled = false;
+            this.pnlISV6.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV6.Name = "pnlISV6";
+            this.pnlISV6.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV6.TabIndex = 2;
             // 
             // panel85
             // 
@@ -4599,32 +5114,34 @@
             // chkRSV6
             // 
             this.chkRSV6.AutoSize = true;
-            this.chkRSV6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV6.Checked = true;
             this.chkRSV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV6.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV6.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV6.Location = new System.Drawing.Point(41, 0);
             this.chkRSV6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV6.Name = "chkRSV6";
-            this.chkRSV6.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV6.Size = new System.Drawing.Size(39, 20);
             this.chkRSV6.TabIndex = 2;
-            this.chkRSV6.Text = "R";
+            this.chkRSV6.Text = "曲";
             this.chkRSV6.UseVisualStyleBackColor = true;
             // 
             // chkLSV6
             // 
             this.chkLSV6.AutoSize = true;
+            this.chkLSV6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV6.Checked = true;
             this.chkLSV6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV6.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV6.Location = new System.Drawing.Point(0, 0);
             this.chkLSV6.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV6.Name = "chkLSV6";
-            this.chkLSV6.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV6.Size = new System.Drawing.Size(39, 20);
             this.chkLSV6.TabIndex = 1;
-            this.chkLSV6.Text = "L";
+            this.chkLSV6.Text = "曲";
             this.chkLSV6.UseVisualStyleBackColor = true;
             // 
             // panel86
@@ -4668,24 +5185,24 @@
             this.lblHSV6.Text = "Ｈ";
             this.lblHSV6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV6
+            // chkASV6
             // 
-            this.chkSV6.AutoSize = true;
-            this.chkSV6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV6.Location = new System.Drawing.Point(10, 10);
-            this.chkSV6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV6.Name = "chkSV6";
-            this.chkSV6.Size = new System.Drawing.Size(58, 17);
-            this.chkSV6.TabIndex = 1;
-            this.chkSV6.Text = "面積６";
-            this.chkSV6.UseVisualStyleBackColor = true;
+            this.chkASV6.AutoSize = true;
+            this.chkASV6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV6.Location = new System.Drawing.Point(10, 10);
+            this.chkASV6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV6.Name = "chkASV6";
+            this.chkASV6.Size = new System.Drawing.Size(58, 17);
+            this.chkASV6.TabIndex = 1;
+            this.chkASV6.Text = "面積６";
+            this.chkASV6.UseVisualStyleBackColor = true;
             // 
             // pnlASV7
             // 
             this.pnlASV7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV7.Controls.Add(this.pnlSV7);
-            this.pnlASV7.Controls.Add(this.chkSV7);
+            this.pnlASV7.Controls.Add(this.pnlISV7);
+            this.pnlASV7.Controls.Add(this.chkASV7);
             this.pnlASV7.Enabled = false;
             this.pnlASV7.Location = new System.Drawing.Point(120, 150);
             this.pnlASV7.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -4693,17 +5210,17 @@
             this.pnlASV7.Size = new System.Drawing.Size(100, 130);
             this.pnlASV7.TabIndex = 7;
             // 
-            // pnlSV7
+            // pnlISV7
             // 
-            this.pnlSV7.Controls.Add(this.panel139);
-            this.pnlSV7.Controls.Add(this.panel40);
-            this.pnlSV7.Controls.Add(this.panel140);
-            this.pnlSV7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV7.Enabled = false;
-            this.pnlSV7.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV7.Name = "pnlSV7";
-            this.pnlSV7.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV7.TabIndex = 2;
+            this.pnlISV7.Controls.Add(this.panel139);
+            this.pnlISV7.Controls.Add(this.panel40);
+            this.pnlISV7.Controls.Add(this.panel140);
+            this.pnlISV7.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV7.Enabled = false;
+            this.pnlISV7.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV7.Name = "pnlISV7";
+            this.pnlISV7.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV7.TabIndex = 2;
             // 
             // panel139
             // 
@@ -4759,32 +5276,34 @@
             // chkRSV7
             // 
             this.chkRSV7.AutoSize = true;
-            this.chkRSV7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV7.Checked = true;
             this.chkRSV7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV7.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV7.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV7.Location = new System.Drawing.Point(41, 0);
             this.chkRSV7.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV7.Name = "chkRSV7";
-            this.chkRSV7.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV7.Size = new System.Drawing.Size(39, 20);
             this.chkRSV7.TabIndex = 2;
-            this.chkRSV7.Text = "R";
+            this.chkRSV7.Text = "曲";
             this.chkRSV7.UseVisualStyleBackColor = true;
             // 
             // chkLSV7
             // 
             this.chkLSV7.AutoSize = true;
+            this.chkLSV7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV7.Checked = true;
             this.chkLSV7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV7.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV7.Location = new System.Drawing.Point(0, 0);
             this.chkLSV7.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV7.Name = "chkLSV7";
-            this.chkLSV7.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV7.Size = new System.Drawing.Size(39, 20);
             this.chkLSV7.TabIndex = 1;
-            this.chkLSV7.Text = "L";
+            this.chkLSV7.Text = "曲";
             this.chkLSV7.UseVisualStyleBackColor = true;
             // 
             // panel140
@@ -4828,41 +5347,41 @@
             this.lblHSV7.Text = "Ｈ";
             this.lblHSV7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV7
+            // chkASV7
             // 
-            this.chkSV7.AutoSize = true;
-            this.chkSV7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV7.Location = new System.Drawing.Point(10, 10);
-            this.chkSV7.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV7.Name = "chkSV7";
-            this.chkSV7.Size = new System.Drawing.Size(58, 17);
-            this.chkSV7.TabIndex = 1;
-            this.chkSV7.Text = "面積７";
-            this.chkSV7.UseVisualStyleBackColor = true;
+            this.chkASV7.AutoSize = true;
+            this.chkASV7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV7.Location = new System.Drawing.Point(10, 10);
+            this.chkASV7.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV7.Name = "chkASV7";
+            this.chkASV7.Size = new System.Drawing.Size(58, 17);
+            this.chkASV7.TabIndex = 1;
+            this.chkASV7.Text = "面積７";
+            this.chkASV7.UseVisualStyleBackColor = true;
             // 
             // pnlASV2
             // 
             this.pnlASV2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV2.Controls.Add(this.pnlSV2);
-            this.pnlASV2.Controls.Add(this.chkSV2);
+            this.pnlASV2.Controls.Add(this.pnlISV2);
+            this.pnlASV2.Controls.Add(this.chkASV2);
             this.pnlASV2.Location = new System.Drawing.Point(120, 10);
             this.pnlASV2.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlASV2.Name = "pnlASV2";
             this.pnlASV2.Size = new System.Drawing.Size(100, 130);
             this.pnlASV2.TabIndex = 2;
             // 
-            // pnlSV2
+            // pnlISV2
             // 
-            this.pnlSV2.Controls.Add(this.panel143);
-            this.pnlSV2.Controls.Add(this.panel32);
-            this.pnlSV2.Controls.Add(this.panel144);
-            this.pnlSV2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV2.Enabled = false;
-            this.pnlSV2.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV2.Name = "pnlSV2";
-            this.pnlSV2.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV2.TabIndex = 2;
+            this.pnlISV2.Controls.Add(this.panel143);
+            this.pnlISV2.Controls.Add(this.panel32);
+            this.pnlISV2.Controls.Add(this.panel144);
+            this.pnlISV2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV2.Enabled = false;
+            this.pnlISV2.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV2.Name = "pnlISV2";
+            this.pnlISV2.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV2.TabIndex = 2;
             // 
             // panel143
             // 
@@ -4918,32 +5437,34 @@
             // chkRSV2
             // 
             this.chkRSV2.AutoSize = true;
-            this.chkRSV2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV2.Checked = true;
             this.chkRSV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV2.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV2.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV2.Location = new System.Drawing.Point(41, 0);
             this.chkRSV2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV2.Name = "chkRSV2";
-            this.chkRSV2.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV2.Size = new System.Drawing.Size(39, 20);
             this.chkRSV2.TabIndex = 2;
-            this.chkRSV2.Text = "R";
+            this.chkRSV2.Text = "曲";
             this.chkRSV2.UseVisualStyleBackColor = true;
             // 
             // chkLSV2
             // 
             this.chkLSV2.AutoSize = true;
+            this.chkLSV2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV2.Checked = true;
             this.chkLSV2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV2.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV2.Location = new System.Drawing.Point(0, 0);
             this.chkLSV2.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV2.Name = "chkLSV2";
-            this.chkLSV2.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV2.Size = new System.Drawing.Size(39, 20);
             this.chkLSV2.TabIndex = 1;
-            this.chkLSV2.Text = "L";
+            this.chkLSV2.Text = "曲";
             this.chkLSV2.UseVisualStyleBackColor = true;
             // 
             // panel144
@@ -4987,40 +5508,40 @@
             this.lblHSV2.Text = "Ｈ";
             this.lblHSV2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV2
+            // chkASV2
             // 
-            this.chkSV2.AutoSize = true;
-            this.chkSV2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV2.Location = new System.Drawing.Point(10, 10);
-            this.chkSV2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV2.Name = "chkSV2";
-            this.chkSV2.Size = new System.Drawing.Size(58, 17);
-            this.chkSV2.TabIndex = 1;
-            this.chkSV2.Text = "面積２";
-            this.chkSV2.UseVisualStyleBackColor = true;
+            this.chkASV2.AutoSize = true;
+            this.chkASV2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV2.Location = new System.Drawing.Point(10, 10);
+            this.chkASV2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV2.Name = "chkASV2";
+            this.chkASV2.Size = new System.Drawing.Size(58, 17);
+            this.chkASV2.TabIndex = 1;
+            this.chkASV2.Text = "面積２";
+            this.chkASV2.UseVisualStyleBackColor = true;
             // 
             // pnlASV1
             // 
             this.pnlASV1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV1.Controls.Add(this.pnlSV1);
-            this.pnlASV1.Controls.Add(this.chkSV1);
+            this.pnlASV1.Controls.Add(this.pnlISV1);
+            this.pnlASV1.Controls.Add(this.chkASV1);
             this.pnlASV1.Location = new System.Drawing.Point(10, 10);
             this.pnlASV1.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlASV1.Name = "pnlASV1";
             this.pnlASV1.Size = new System.Drawing.Size(100, 130);
             this.pnlASV1.TabIndex = 1;
             // 
-            // pnlSV1
+            // pnlISV1
             // 
-            this.pnlSV1.Controls.Add(this.panel147);
-            this.pnlSV1.Controls.Add(this.panel29);
-            this.pnlSV1.Controls.Add(this.panel148);
-            this.pnlSV1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSV1.Location = new System.Drawing.Point(0, 28);
-            this.pnlSV1.Name = "pnlSV1";
-            this.pnlSV1.Size = new System.Drawing.Size(98, 100);
-            this.pnlSV1.TabIndex = 0;
+            this.pnlISV1.Controls.Add(this.panel147);
+            this.pnlISV1.Controls.Add(this.panel29);
+            this.pnlISV1.Controls.Add(this.panel148);
+            this.pnlISV1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISV1.Location = new System.Drawing.Point(0, 28);
+            this.pnlISV1.Name = "pnlISV1";
+            this.pnlISV1.Size = new System.Drawing.Size(98, 100);
+            this.pnlISV1.TabIndex = 0;
             // 
             // panel147
             // 
@@ -5076,32 +5597,34 @@
             // chkRSV1
             // 
             this.chkRSV1.AutoSize = true;
-            this.chkRSV1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSV1.Checked = true;
             this.chkRSV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSV1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSV1.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSV1.Location = new System.Drawing.Point(45, 0);
+            this.chkRSV1.Location = new System.Drawing.Point(41, 0);
             this.chkRSV1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSV1.Name = "chkRSV1";
-            this.chkRSV1.Size = new System.Drawing.Size(35, 20);
+            this.chkRSV1.Size = new System.Drawing.Size(39, 20);
             this.chkRSV1.TabIndex = 2;
-            this.chkRSV1.Text = "R";
+            this.chkRSV1.Text = "曲";
             this.chkRSV1.UseVisualStyleBackColor = true;
             // 
             // chkLSV1
             // 
             this.chkLSV1.AutoSize = true;
+            this.chkLSV1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSV1.Checked = true;
             this.chkLSV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSV1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSV1.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSV1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSV1.Location = new System.Drawing.Point(0, 0);
             this.chkLSV1.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSV1.Name = "chkLSV1";
-            this.chkLSV1.Size = new System.Drawing.Size(34, 20);
+            this.chkLSV1.Size = new System.Drawing.Size(39, 20);
             this.chkLSV1.TabIndex = 1;
-            this.chkLSV1.Text = "L";
+            this.chkLSV1.Text = "曲";
             this.chkLSV1.UseVisualStyleBackColor = true;
             // 
             // panel148
@@ -5145,22 +5668,22 @@
             this.lblHSV1.Text = "Ｈ";
             this.lblHSV1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSV1
+            // chkASV1
             // 
-            this.chkSV1.AutoSize = true;
-            this.chkSV1.Checked = true;
-            this.chkSV1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkSV1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSV1.Enabled = false;
-            this.chkSV1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSV1.Location = new System.Drawing.Point(10, 10);
-            this.chkSV1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSV1.Name = "chkSV1";
-            this.chkSV1.Size = new System.Drawing.Size(58, 17);
-            this.chkSV1.TabIndex = 0;
-            this.chkSV1.TabStop = false;
-            this.chkSV1.Text = "面積１";
-            this.chkSV1.UseVisualStyleBackColor = true;
+            this.chkASV1.AutoSize = true;
+            this.chkASV1.Checked = true;
+            this.chkASV1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkASV1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASV1.Enabled = false;
+            this.chkASV1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASV1.Location = new System.Drawing.Point(10, 10);
+            this.chkASV1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASV1.Name = "chkASV1";
+            this.chkASV1.Size = new System.Drawing.Size(58, 17);
+            this.chkASV1.TabIndex = 0;
+            this.chkASV1.TabStop = false;
+            this.chkASV1.Text = "面積１";
+            this.chkASV1.UseVisualStyleBackColor = true;
             // 
             // label63
             // 
@@ -5210,8 +5733,8 @@
             // pnlASH10
             // 
             this.pnlASH10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH10.Controls.Add(this.pnlSH10);
-            this.pnlASH10.Controls.Add(this.chkSH10);
+            this.pnlASH10.Controls.Add(this.pnlISH10);
+            this.pnlASH10.Controls.Add(this.chkASH10);
             this.pnlASH10.Enabled = false;
             this.pnlASH10.Location = new System.Drawing.Point(450, 150);
             this.pnlASH10.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -5219,17 +5742,17 @@
             this.pnlASH10.Size = new System.Drawing.Size(100, 130);
             this.pnlASH10.TabIndex = 10;
             // 
-            // pnlSH10
+            // pnlISH10
             // 
-            this.pnlSH10.Controls.Add(this.panel137);
-            this.pnlSH10.Controls.Add(this.panel27);
-            this.pnlSH10.Controls.Add(this.panel138);
-            this.pnlSH10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH10.Enabled = false;
-            this.pnlSH10.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH10.Name = "pnlSH10";
-            this.pnlSH10.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH10.TabIndex = 2;
+            this.pnlISH10.Controls.Add(this.panel137);
+            this.pnlISH10.Controls.Add(this.panel27);
+            this.pnlISH10.Controls.Add(this.panel138);
+            this.pnlISH10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH10.Enabled = false;
+            this.pnlISH10.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH10.Name = "pnlISH10";
+            this.pnlISH10.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH10.TabIndex = 2;
             // 
             // panel137
             // 
@@ -5285,32 +5808,34 @@
             // chkRSH10
             // 
             this.chkRSH10.AutoSize = true;
-            this.chkRSH10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH10.Checked = true;
             this.chkRSH10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH10.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH10.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH10.Location = new System.Drawing.Point(41, 0);
             this.chkRSH10.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH10.Name = "chkRSH10";
-            this.chkRSH10.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH10.Size = new System.Drawing.Size(39, 20);
             this.chkRSH10.TabIndex = 2;
-            this.chkRSH10.Text = "R";
+            this.chkRSH10.Text = "曲";
             this.chkRSH10.UseVisualStyleBackColor = true;
             // 
             // chkLSH10
             // 
             this.chkLSH10.AutoSize = true;
+            this.chkLSH10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH10.Checked = true;
             this.chkLSH10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH10.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH10.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH10.Location = new System.Drawing.Point(0, 0);
             this.chkLSH10.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH10.Name = "chkLSH10";
-            this.chkLSH10.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH10.Size = new System.Drawing.Size(39, 20);
             this.chkLSH10.TabIndex = 1;
-            this.chkLSH10.Text = "L";
+            this.chkLSH10.Text = "曲";
             this.chkLSH10.UseVisualStyleBackColor = true;
             // 
             // panel138
@@ -5354,24 +5879,24 @@
             this.lblHSH10.Text = "Ｈ";
             this.lblHSH10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH10
+            // chkASH10
             // 
-            this.chkSH10.AutoSize = true;
-            this.chkSH10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH10.Location = new System.Drawing.Point(10, 10);
-            this.chkSH10.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH10.Name = "chkSH10";
-            this.chkSH10.Size = new System.Drawing.Size(66, 17);
-            this.chkSH10.TabIndex = 1;
-            this.chkSH10.Text = "面積１０";
-            this.chkSH10.UseVisualStyleBackColor = true;
+            this.chkASH10.AutoSize = true;
+            this.chkASH10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH10.Location = new System.Drawing.Point(10, 10);
+            this.chkASH10.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH10.Name = "chkASH10";
+            this.chkASH10.Size = new System.Drawing.Size(66, 17);
+            this.chkASH10.TabIndex = 1;
+            this.chkASH10.Text = "面積１０";
+            this.chkASH10.UseVisualStyleBackColor = true;
             // 
             // pnlASH5
             // 
             this.pnlASH5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH5.Controls.Add(this.pnlSH5);
-            this.pnlASH5.Controls.Add(this.chkSH5);
+            this.pnlASH5.Controls.Add(this.pnlISH5);
+            this.pnlASH5.Controls.Add(this.chkASH5);
             this.pnlASH5.Enabled = false;
             this.pnlASH5.Location = new System.Drawing.Point(450, 10);
             this.pnlASH5.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -5379,17 +5904,17 @@
             this.pnlASH5.Size = new System.Drawing.Size(100, 130);
             this.pnlASH5.TabIndex = 5;
             // 
-            // pnlSH5
+            // pnlISH5
             // 
-            this.pnlSH5.Controls.Add(this.panel66);
-            this.pnlSH5.Controls.Add(this.panel17);
-            this.pnlSH5.Controls.Add(this.panel68);
-            this.pnlSH5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH5.Enabled = false;
-            this.pnlSH5.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH5.Name = "pnlSH5";
-            this.pnlSH5.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH5.TabIndex = 2;
+            this.pnlISH5.Controls.Add(this.panel66);
+            this.pnlISH5.Controls.Add(this.panel17);
+            this.pnlISH5.Controls.Add(this.panel68);
+            this.pnlISH5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH5.Enabled = false;
+            this.pnlISH5.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH5.Name = "pnlISH5";
+            this.pnlISH5.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH5.TabIndex = 2;
             // 
             // panel66
             // 
@@ -5445,32 +5970,34 @@
             // chkRSH5
             // 
             this.chkRSH5.AutoSize = true;
-            this.chkRSH5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH5.Checked = true;
             this.chkRSH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH5.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH5.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH5.Location = new System.Drawing.Point(41, 0);
             this.chkRSH5.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH5.Name = "chkRSH5";
-            this.chkRSH5.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH5.Size = new System.Drawing.Size(39, 20);
             this.chkRSH5.TabIndex = 2;
-            this.chkRSH5.Text = "R";
+            this.chkRSH5.Text = "曲";
             this.chkRSH5.UseVisualStyleBackColor = true;
             // 
             // chkLSH5
             // 
             this.chkLSH5.AutoSize = true;
+            this.chkLSH5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH5.Checked = true;
             this.chkLSH5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH5.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH5.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH5.Location = new System.Drawing.Point(0, 0);
             this.chkLSH5.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH5.Name = "chkLSH5";
-            this.chkLSH5.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH5.Size = new System.Drawing.Size(39, 20);
             this.chkLSH5.TabIndex = 1;
-            this.chkLSH5.Text = "L";
+            this.chkLSH5.Text = "曲";
             this.chkLSH5.UseVisualStyleBackColor = true;
             // 
             // panel68
@@ -5514,24 +6041,24 @@
             this.lblHSH5.Text = "Ｈ";
             this.lblHSH5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH5
+            // chkASH5
             // 
-            this.chkSH5.AutoSize = true;
-            this.chkSH5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH5.Location = new System.Drawing.Point(10, 10);
-            this.chkSH5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH5.Name = "chkSH5";
-            this.chkSH5.Size = new System.Drawing.Size(58, 17);
-            this.chkSH5.TabIndex = 1;
-            this.chkSH5.Text = "面積５";
-            this.chkSH5.UseVisualStyleBackColor = true;
+            this.chkASH5.AutoSize = true;
+            this.chkASH5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH5.Location = new System.Drawing.Point(10, 10);
+            this.chkASH5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH5.Name = "chkASH5";
+            this.chkASH5.Size = new System.Drawing.Size(58, 17);
+            this.chkASH5.TabIndex = 1;
+            this.chkASH5.Text = "面積５";
+            this.chkASH5.UseVisualStyleBackColor = true;
             // 
             // pnlASH9
             // 
             this.pnlASH9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH9.Controls.Add(this.pnlSH9);
-            this.pnlASH9.Controls.Add(this.chkSH9);
+            this.pnlASH9.Controls.Add(this.pnlISH9);
+            this.pnlASH9.Controls.Add(this.chkASH9);
             this.pnlASH9.Enabled = false;
             this.pnlASH9.Location = new System.Drawing.Point(340, 150);
             this.pnlASH9.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -5539,17 +6066,17 @@
             this.pnlASH9.Size = new System.Drawing.Size(100, 130);
             this.pnlASH9.TabIndex = 9;
             // 
-            // pnlSH9
+            // pnlISH9
             // 
-            this.pnlSH9.Controls.Add(this.panel133);
-            this.pnlSH9.Controls.Add(this.panel26);
-            this.pnlSH9.Controls.Add(this.panel134);
-            this.pnlSH9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH9.Enabled = false;
-            this.pnlSH9.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH9.Name = "pnlSH9";
-            this.pnlSH9.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH9.TabIndex = 2;
+            this.pnlISH9.Controls.Add(this.panel133);
+            this.pnlISH9.Controls.Add(this.panel26);
+            this.pnlISH9.Controls.Add(this.panel134);
+            this.pnlISH9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH9.Enabled = false;
+            this.pnlISH9.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH9.Name = "pnlISH9";
+            this.pnlISH9.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH9.TabIndex = 2;
             // 
             // panel133
             // 
@@ -5605,32 +6132,34 @@
             // chkRSH9
             // 
             this.chkRSH9.AutoSize = true;
-            this.chkRSH9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH9.Checked = true;
             this.chkRSH9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH9.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH9.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH9.Location = new System.Drawing.Point(41, 0);
             this.chkRSH9.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH9.Name = "chkRSH9";
-            this.chkRSH9.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH9.Size = new System.Drawing.Size(39, 20);
             this.chkRSH9.TabIndex = 2;
-            this.chkRSH9.Text = "R";
+            this.chkRSH9.Text = "曲";
             this.chkRSH9.UseVisualStyleBackColor = true;
             // 
             // chkLSH9
             // 
             this.chkLSH9.AutoSize = true;
+            this.chkLSH9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH9.Checked = true;
             this.chkLSH9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH9.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH9.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH9.Location = new System.Drawing.Point(0, 0);
             this.chkLSH9.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH9.Name = "chkLSH9";
-            this.chkLSH9.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH9.Size = new System.Drawing.Size(39, 20);
             this.chkLSH9.TabIndex = 1;
-            this.chkLSH9.Text = "L";
+            this.chkLSH9.Text = "曲";
             this.chkLSH9.UseVisualStyleBackColor = true;
             // 
             // panel134
@@ -5674,24 +6203,24 @@
             this.lblHSH9.Text = "Ｈ";
             this.lblHSH9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH9
+            // chkASH9
             // 
-            this.chkSH9.AutoSize = true;
-            this.chkSH9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH9.Location = new System.Drawing.Point(10, 10);
-            this.chkSH9.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH9.Name = "chkSH9";
-            this.chkSH9.Size = new System.Drawing.Size(58, 17);
-            this.chkSH9.TabIndex = 1;
-            this.chkSH9.Text = "面積９";
-            this.chkSH9.UseVisualStyleBackColor = true;
+            this.chkASH9.AutoSize = true;
+            this.chkASH9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH9.Location = new System.Drawing.Point(10, 10);
+            this.chkASH9.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH9.Name = "chkASH9";
+            this.chkASH9.Size = new System.Drawing.Size(58, 17);
+            this.chkASH9.TabIndex = 1;
+            this.chkASH9.Text = "面積９";
+            this.chkASH9.UseVisualStyleBackColor = true;
             // 
             // pnlASH4
             // 
             this.pnlASH4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH4.Controls.Add(this.pnlSH4);
-            this.pnlASH4.Controls.Add(this.chkSH4);
+            this.pnlASH4.Controls.Add(this.pnlISH4);
+            this.pnlASH4.Controls.Add(this.chkASH4);
             this.pnlASH4.Enabled = false;
             this.pnlASH4.Location = new System.Drawing.Point(340, 10);
             this.pnlASH4.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -5699,17 +6228,17 @@
             this.pnlASH4.Size = new System.Drawing.Size(100, 130);
             this.pnlASH4.TabIndex = 4;
             // 
-            // pnlSH4
+            // pnlISH4
             // 
-            this.pnlSH4.Controls.Add(this.panel62);
-            this.pnlSH4.Controls.Add(this.panel12);
-            this.pnlSH4.Controls.Add(this.panel63);
-            this.pnlSH4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH4.Enabled = false;
-            this.pnlSH4.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH4.Name = "pnlSH4";
-            this.pnlSH4.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH4.TabIndex = 2;
+            this.pnlISH4.Controls.Add(this.panel62);
+            this.pnlISH4.Controls.Add(this.panel12);
+            this.pnlISH4.Controls.Add(this.panel63);
+            this.pnlISH4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH4.Enabled = false;
+            this.pnlISH4.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH4.Name = "pnlISH4";
+            this.pnlISH4.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH4.TabIndex = 2;
             // 
             // panel62
             // 
@@ -5765,32 +6294,34 @@
             // chkRSH4
             // 
             this.chkRSH4.AutoSize = true;
-            this.chkRSH4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH4.Checked = true;
             this.chkRSH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH4.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH4.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH4.Location = new System.Drawing.Point(41, 0);
             this.chkRSH4.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH4.Name = "chkRSH4";
-            this.chkRSH4.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH4.Size = new System.Drawing.Size(39, 20);
             this.chkRSH4.TabIndex = 2;
-            this.chkRSH4.Text = "R";
+            this.chkRSH4.Text = "曲";
             this.chkRSH4.UseVisualStyleBackColor = true;
             // 
             // chkLSH4
             // 
             this.chkLSH4.AutoSize = true;
+            this.chkLSH4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH4.Checked = true;
             this.chkLSH4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH4.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH4.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH4.Location = new System.Drawing.Point(0, 0);
             this.chkLSH4.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH4.Name = "chkLSH4";
-            this.chkLSH4.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH4.Size = new System.Drawing.Size(39, 20);
             this.chkLSH4.TabIndex = 1;
-            this.chkLSH4.Text = "L";
+            this.chkLSH4.Text = "曲";
             this.chkLSH4.UseVisualStyleBackColor = true;
             // 
             // panel63
@@ -5834,24 +6365,24 @@
             this.lblHSH4.Text = "Ｈ";
             this.lblHSH4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH4
+            // chkASH4
             // 
-            this.chkSH4.AutoSize = true;
-            this.chkSH4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH4.Location = new System.Drawing.Point(10, 10);
-            this.chkSH4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH4.Name = "chkSH4";
-            this.chkSH4.Size = new System.Drawing.Size(58, 17);
-            this.chkSH4.TabIndex = 1;
-            this.chkSH4.Text = "面積４";
-            this.chkSH4.UseVisualStyleBackColor = true;
+            this.chkASH4.AutoSize = true;
+            this.chkASH4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH4.Location = new System.Drawing.Point(10, 10);
+            this.chkASH4.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH4.Name = "chkASH4";
+            this.chkASH4.Size = new System.Drawing.Size(58, 17);
+            this.chkASH4.TabIndex = 1;
+            this.chkASH4.Text = "面積４";
+            this.chkASH4.UseVisualStyleBackColor = true;
             // 
             // pnlASH8
             // 
             this.pnlASH8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH8.Controls.Add(this.pnlSH8);
-            this.pnlASH8.Controls.Add(this.chkSH8);
+            this.pnlASH8.Controls.Add(this.pnlISH8);
+            this.pnlASH8.Controls.Add(this.chkASH8);
             this.pnlASH8.Enabled = false;
             this.pnlASH8.Location = new System.Drawing.Point(230, 150);
             this.pnlASH8.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -5859,17 +6390,17 @@
             this.pnlASH8.Size = new System.Drawing.Size(100, 130);
             this.pnlASH8.TabIndex = 8;
             // 
-            // pnlSH8
+            // pnlISH8
             // 
-            this.pnlSH8.Controls.Add(this.panel129);
-            this.pnlSH8.Controls.Add(this.panel23);
-            this.pnlSH8.Controls.Add(this.panel130);
-            this.pnlSH8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH8.Enabled = false;
-            this.pnlSH8.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH8.Name = "pnlSH8";
-            this.pnlSH8.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH8.TabIndex = 2;
+            this.pnlISH8.Controls.Add(this.panel129);
+            this.pnlISH8.Controls.Add(this.panel23);
+            this.pnlISH8.Controls.Add(this.panel130);
+            this.pnlISH8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH8.Enabled = false;
+            this.pnlISH8.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH8.Name = "pnlISH8";
+            this.pnlISH8.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH8.TabIndex = 2;
             // 
             // panel129
             // 
@@ -5925,32 +6456,34 @@
             // chkRSH8
             // 
             this.chkRSH8.AutoSize = true;
-            this.chkRSH8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH8.Checked = true;
             this.chkRSH8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH8.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH8.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH8.Location = new System.Drawing.Point(41, 0);
             this.chkRSH8.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH8.Name = "chkRSH8";
-            this.chkRSH8.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH8.Size = new System.Drawing.Size(39, 20);
             this.chkRSH8.TabIndex = 2;
-            this.chkRSH8.Text = "R";
+            this.chkRSH8.Text = "曲";
             this.chkRSH8.UseVisualStyleBackColor = true;
             // 
             // chkLSH8
             // 
             this.chkLSH8.AutoSize = true;
+            this.chkLSH8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH8.Checked = true;
             this.chkLSH8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH8.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH8.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH8.Location = new System.Drawing.Point(0, 0);
             this.chkLSH8.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH8.Name = "chkLSH8";
-            this.chkLSH8.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH8.Size = new System.Drawing.Size(39, 20);
             this.chkLSH8.TabIndex = 1;
-            this.chkLSH8.Text = "L";
+            this.chkLSH8.Text = "曲";
             this.chkLSH8.UseVisualStyleBackColor = true;
             // 
             // panel130
@@ -5994,24 +6527,24 @@
             this.lblHSH8.Text = "Ｈ";
             this.lblHSH8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH8
+            // chkASH8
             // 
-            this.chkSH8.AutoSize = true;
-            this.chkSH8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH8.Location = new System.Drawing.Point(10, 10);
-            this.chkSH8.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH8.Name = "chkSH8";
-            this.chkSH8.Size = new System.Drawing.Size(58, 17);
-            this.chkSH8.TabIndex = 1;
-            this.chkSH8.Text = "面積８";
-            this.chkSH8.UseVisualStyleBackColor = true;
+            this.chkASH8.AutoSize = true;
+            this.chkASH8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH8.Location = new System.Drawing.Point(10, 10);
+            this.chkASH8.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH8.Name = "chkASH8";
+            this.chkASH8.Size = new System.Drawing.Size(58, 17);
+            this.chkASH8.TabIndex = 1;
+            this.chkASH8.Text = "面積８";
+            this.chkASH8.UseVisualStyleBackColor = true;
             // 
             // pnlASH3
             // 
             this.pnlASH3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH3.Controls.Add(this.pnlSH3);
-            this.pnlASH3.Controls.Add(this.chkSH3);
+            this.pnlASH3.Controls.Add(this.pnlISH3);
+            this.pnlASH3.Controls.Add(this.chkASH3);
             this.pnlASH3.Enabled = false;
             this.pnlASH3.Location = new System.Drawing.Point(230, 10);
             this.pnlASH3.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -6019,17 +6552,17 @@
             this.pnlASH3.Size = new System.Drawing.Size(100, 130);
             this.pnlASH3.TabIndex = 3;
             // 
-            // pnlSH3
+            // pnlISH3
             // 
-            this.pnlSH3.Controls.Add(this.panel58);
-            this.pnlSH3.Controls.Add(this.panel11);
-            this.pnlSH3.Controls.Add(this.panel59);
-            this.pnlSH3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH3.Enabled = false;
-            this.pnlSH3.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH3.Name = "pnlSH3";
-            this.pnlSH3.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH3.TabIndex = 2;
+            this.pnlISH3.Controls.Add(this.panel58);
+            this.pnlISH3.Controls.Add(this.panel11);
+            this.pnlISH3.Controls.Add(this.panel59);
+            this.pnlISH3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH3.Enabled = false;
+            this.pnlISH3.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH3.Name = "pnlISH3";
+            this.pnlISH3.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH3.TabIndex = 2;
             // 
             // panel58
             // 
@@ -6085,32 +6618,34 @@
             // chkRSH3
             // 
             this.chkRSH3.AutoSize = true;
-            this.chkRSH3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH3.Checked = true;
             this.chkRSH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH3.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH3.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH3.Location = new System.Drawing.Point(41, 0);
             this.chkRSH3.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH3.Name = "chkRSH3";
-            this.chkRSH3.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH3.Size = new System.Drawing.Size(39, 20);
             this.chkRSH3.TabIndex = 2;
-            this.chkRSH3.Text = "R";
+            this.chkRSH3.Text = "曲";
             this.chkRSH3.UseVisualStyleBackColor = true;
             // 
             // chkLSH3
             // 
             this.chkLSH3.AutoSize = true;
+            this.chkLSH3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH3.Checked = true;
             this.chkLSH3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH3.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH3.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH3.Location = new System.Drawing.Point(0, 0);
             this.chkLSH3.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH3.Name = "chkLSH3";
-            this.chkLSH3.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH3.Size = new System.Drawing.Size(39, 20);
             this.chkLSH3.TabIndex = 1;
-            this.chkLSH3.Text = "L";
+            this.chkLSH3.Text = "曲";
             this.chkLSH3.UseVisualStyleBackColor = true;
             // 
             // panel59
@@ -6154,24 +6689,24 @@
             this.lblHSH3.Text = "Ｈ";
             this.lblHSH3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH3
+            // chkASH3
             // 
-            this.chkSH3.AutoSize = true;
-            this.chkSH3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH3.Location = new System.Drawing.Point(10, 10);
-            this.chkSH3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH3.Name = "chkSH3";
-            this.chkSH3.Size = new System.Drawing.Size(58, 17);
-            this.chkSH3.TabIndex = 1;
-            this.chkSH3.Text = "面積３";
-            this.chkSH3.UseVisualStyleBackColor = true;
+            this.chkASH3.AutoSize = true;
+            this.chkASH3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH3.Location = new System.Drawing.Point(10, 10);
+            this.chkASH3.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH3.Name = "chkASH3";
+            this.chkASH3.Size = new System.Drawing.Size(58, 17);
+            this.chkASH3.TabIndex = 1;
+            this.chkASH3.Text = "面積３";
+            this.chkASH3.UseVisualStyleBackColor = true;
             // 
             // pnlASH6
             // 
             this.pnlASH6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH6.Controls.Add(this.pnlSH6);
-            this.pnlASH6.Controls.Add(this.chkSH6);
+            this.pnlASH6.Controls.Add(this.pnlISH6);
+            this.pnlASH6.Controls.Add(this.chkASH6);
             this.pnlASH6.Enabled = false;
             this.pnlASH6.Location = new System.Drawing.Point(10, 150);
             this.pnlASH6.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -6179,17 +6714,17 @@
             this.pnlASH6.Size = new System.Drawing.Size(100, 130);
             this.pnlASH6.TabIndex = 6;
             // 
-            // pnlSH6
+            // pnlISH6
             // 
-            this.pnlSH6.Controls.Add(this.panel90);
-            this.pnlSH6.Controls.Add(this.panel20);
-            this.pnlSH6.Controls.Add(this.panel91);
-            this.pnlSH6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH6.Enabled = false;
-            this.pnlSH6.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH6.Name = "pnlSH6";
-            this.pnlSH6.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH6.TabIndex = 2;
+            this.pnlISH6.Controls.Add(this.panel90);
+            this.pnlISH6.Controls.Add(this.panel20);
+            this.pnlISH6.Controls.Add(this.panel91);
+            this.pnlISH6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH6.Enabled = false;
+            this.pnlISH6.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH6.Name = "pnlISH6";
+            this.pnlISH6.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH6.TabIndex = 2;
             // 
             // panel90
             // 
@@ -6245,32 +6780,34 @@
             // chkRSH6
             // 
             this.chkRSH6.AutoSize = true;
-            this.chkRSH6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH6.Checked = true;
             this.chkRSH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH6.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH6.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH6.Location = new System.Drawing.Point(41, 0);
             this.chkRSH6.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH6.Name = "chkRSH6";
-            this.chkRSH6.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH6.Size = new System.Drawing.Size(39, 20);
             this.chkRSH6.TabIndex = 2;
-            this.chkRSH6.Text = "R";
+            this.chkRSH6.Text = "曲";
             this.chkRSH6.UseVisualStyleBackColor = true;
             // 
             // chkLSH6
             // 
             this.chkLSH6.AutoSize = true;
+            this.chkLSH6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH6.Checked = true;
             this.chkLSH6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH6.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH6.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH6.Location = new System.Drawing.Point(0, 0);
             this.chkLSH6.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH6.Name = "chkLSH6";
-            this.chkLSH6.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH6.Size = new System.Drawing.Size(39, 20);
             this.chkLSH6.TabIndex = 1;
-            this.chkLSH6.Text = "L";
+            this.chkLSH6.Text = "曲";
             this.chkLSH6.UseVisualStyleBackColor = true;
             // 
             // panel91
@@ -6314,24 +6851,24 @@
             this.lblHSH6.Text = "Ｈ";
             this.lblHSH6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH6
+            // chkASH6
             // 
-            this.chkSH6.AutoSize = true;
-            this.chkSH6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH6.Location = new System.Drawing.Point(10, 10);
-            this.chkSH6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH6.Name = "chkSH6";
-            this.chkSH6.Size = new System.Drawing.Size(58, 17);
-            this.chkSH6.TabIndex = 1;
-            this.chkSH6.Text = "面積６";
-            this.chkSH6.UseVisualStyleBackColor = true;
+            this.chkASH6.AutoSize = true;
+            this.chkASH6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH6.Location = new System.Drawing.Point(10, 10);
+            this.chkASH6.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH6.Name = "chkASH6";
+            this.chkASH6.Size = new System.Drawing.Size(58, 17);
+            this.chkASH6.TabIndex = 1;
+            this.chkASH6.Text = "面積６";
+            this.chkASH6.UseVisualStyleBackColor = true;
             // 
             // pnlASH7
             // 
             this.pnlASH7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH7.Controls.Add(this.pnlSH7);
-            this.pnlASH7.Controls.Add(this.chkSH7);
+            this.pnlASH7.Controls.Add(this.pnlISH7);
+            this.pnlASH7.Controls.Add(this.chkASH7);
             this.pnlASH7.Enabled = false;
             this.pnlASH7.Location = new System.Drawing.Point(120, 150);
             this.pnlASH7.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
@@ -6339,17 +6876,17 @@
             this.pnlASH7.Size = new System.Drawing.Size(100, 130);
             this.pnlASH7.TabIndex = 7;
             // 
-            // pnlSH7
+            // pnlISH7
             // 
-            this.pnlSH7.Controls.Add(this.panel94);
-            this.pnlSH7.Controls.Add(this.panel21);
-            this.pnlSH7.Controls.Add(this.panel95);
-            this.pnlSH7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH7.Enabled = false;
-            this.pnlSH7.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH7.Name = "pnlSH7";
-            this.pnlSH7.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH7.TabIndex = 2;
+            this.pnlISH7.Controls.Add(this.panel94);
+            this.pnlISH7.Controls.Add(this.panel21);
+            this.pnlISH7.Controls.Add(this.panel95);
+            this.pnlISH7.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH7.Enabled = false;
+            this.pnlISH7.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH7.Name = "pnlISH7";
+            this.pnlISH7.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH7.TabIndex = 2;
             // 
             // panel94
             // 
@@ -6405,32 +6942,34 @@
             // chkRSH7
             // 
             this.chkRSH7.AutoSize = true;
-            this.chkRSH7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH7.Checked = true;
             this.chkRSH7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH7.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH7.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH7.Location = new System.Drawing.Point(41, 0);
             this.chkRSH7.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH7.Name = "chkRSH7";
-            this.chkRSH7.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH7.Size = new System.Drawing.Size(39, 20);
             this.chkRSH7.TabIndex = 2;
-            this.chkRSH7.Text = "R";
+            this.chkRSH7.Text = "曲";
             this.chkRSH7.UseVisualStyleBackColor = true;
             // 
             // chkLSH7
             // 
             this.chkLSH7.AutoSize = true;
+            this.chkLSH7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH7.Checked = true;
             this.chkLSH7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH7.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH7.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH7.Location = new System.Drawing.Point(0, 0);
             this.chkLSH7.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH7.Name = "chkLSH7";
-            this.chkLSH7.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH7.Size = new System.Drawing.Size(39, 20);
             this.chkLSH7.TabIndex = 1;
-            this.chkLSH7.Text = "L";
+            this.chkLSH7.Text = "曲";
             this.chkLSH7.UseVisualStyleBackColor = true;
             // 
             // panel95
@@ -6474,41 +7013,41 @@
             this.lblHSH7.Text = "Ｈ";
             this.lblHSH7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH7
+            // chkASH7
             // 
-            this.chkSH7.AutoSize = true;
-            this.chkSH7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH7.Location = new System.Drawing.Point(10, 10);
-            this.chkSH7.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH7.Name = "chkSH7";
-            this.chkSH7.Size = new System.Drawing.Size(58, 17);
-            this.chkSH7.TabIndex = 1;
-            this.chkSH7.Text = "面積７";
-            this.chkSH7.UseVisualStyleBackColor = true;
+            this.chkASH7.AutoSize = true;
+            this.chkASH7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH7.Location = new System.Drawing.Point(10, 10);
+            this.chkASH7.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH7.Name = "chkASH7";
+            this.chkASH7.Size = new System.Drawing.Size(58, 17);
+            this.chkASH7.TabIndex = 1;
+            this.chkASH7.Text = "面積７";
+            this.chkASH7.UseVisualStyleBackColor = true;
             // 
             // pnlASH2
             // 
             this.pnlASH2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH2.Controls.Add(this.pnlSH2);
-            this.pnlASH2.Controls.Add(this.chkSH2);
+            this.pnlASH2.Controls.Add(this.pnlISH2);
+            this.pnlASH2.Controls.Add(this.chkASH2);
             this.pnlASH2.Location = new System.Drawing.Point(120, 10);
             this.pnlASH2.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlASH2.Name = "pnlASH2";
             this.pnlASH2.Size = new System.Drawing.Size(100, 130);
             this.pnlASH2.TabIndex = 2;
             // 
-            // pnlSH2
+            // pnlISH2
             // 
-            this.pnlSH2.Controls.Add(this.panel43);
-            this.pnlSH2.Controls.Add(this.panel7);
-            this.pnlSH2.Controls.Add(this.panel44);
-            this.pnlSH2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH2.Enabled = false;
-            this.pnlSH2.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH2.Name = "pnlSH2";
-            this.pnlSH2.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH2.TabIndex = 2;
+            this.pnlISH2.Controls.Add(this.panel43);
+            this.pnlISH2.Controls.Add(this.panel7);
+            this.pnlISH2.Controls.Add(this.panel44);
+            this.pnlISH2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH2.Enabled = false;
+            this.pnlISH2.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH2.Name = "pnlISH2";
+            this.pnlISH2.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH2.TabIndex = 2;
             // 
             // panel43
             // 
@@ -6564,32 +7103,34 @@
             // chkRSH2
             // 
             this.chkRSH2.AutoSize = true;
-            this.chkRSH2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH2.Checked = true;
             this.chkRSH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH2.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH2.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH2.Location = new System.Drawing.Point(41, 0);
             this.chkRSH2.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH2.Name = "chkRSH2";
-            this.chkRSH2.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH2.Size = new System.Drawing.Size(39, 20);
             this.chkRSH2.TabIndex = 2;
-            this.chkRSH2.Text = "R";
+            this.chkRSH2.Text = "曲";
             this.chkRSH2.UseVisualStyleBackColor = true;
             // 
             // chkLSH2
             // 
             this.chkLSH2.AutoSize = true;
+            this.chkLSH2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH2.Checked = true;
             this.chkLSH2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH2.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH2.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH2.Location = new System.Drawing.Point(0, 0);
             this.chkLSH2.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH2.Name = "chkLSH2";
-            this.chkLSH2.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH2.Size = new System.Drawing.Size(39, 20);
             this.chkLSH2.TabIndex = 1;
-            this.chkLSH2.Text = "L";
+            this.chkLSH2.Text = "曲";
             this.chkLSH2.UseVisualStyleBackColor = true;
             // 
             // panel44
@@ -6633,40 +7174,40 @@
             this.lblHSH2.Text = "Ｈ";
             this.lblHSH2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH2
+            // chkASH2
             // 
-            this.chkSH2.AutoSize = true;
-            this.chkSH2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH2.Location = new System.Drawing.Point(10, 10);
-            this.chkSH2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH2.Name = "chkSH2";
-            this.chkSH2.Size = new System.Drawing.Size(58, 17);
-            this.chkSH2.TabIndex = 1;
-            this.chkSH2.Text = "面積２";
-            this.chkSH2.UseVisualStyleBackColor = true;
+            this.chkASH2.AutoSize = true;
+            this.chkASH2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH2.Location = new System.Drawing.Point(10, 10);
+            this.chkASH2.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH2.Name = "chkASH2";
+            this.chkASH2.Size = new System.Drawing.Size(58, 17);
+            this.chkASH2.TabIndex = 1;
+            this.chkASH2.Text = "面積２";
+            this.chkASH2.UseVisualStyleBackColor = true;
             // 
             // pnlASH1
             // 
             this.pnlASH1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH1.Controls.Add(this.pnlSH1);
-            this.pnlASH1.Controls.Add(this.chkSH1);
+            this.pnlASH1.Controls.Add(this.pnlISH1);
+            this.pnlASH1.Controls.Add(this.chkASH1);
             this.pnlASH1.Location = new System.Drawing.Point(10, 10);
             this.pnlASH1.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.pnlASH1.Name = "pnlASH1";
             this.pnlASH1.Size = new System.Drawing.Size(100, 130);
             this.pnlASH1.TabIndex = 1;
             // 
-            // pnlSH1
+            // pnlISH1
             // 
-            this.pnlSH1.Controls.Add(this.panel15);
-            this.pnlSH1.Controls.Add(this.panel10);
-            this.pnlSH1.Controls.Add(this.panel14);
-            this.pnlSH1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlSH1.Location = new System.Drawing.Point(0, 28);
-            this.pnlSH1.Name = "pnlSH1";
-            this.pnlSH1.Size = new System.Drawing.Size(98, 100);
-            this.pnlSH1.TabIndex = 0;
+            this.pnlISH1.Controls.Add(this.panel15);
+            this.pnlISH1.Controls.Add(this.panel10);
+            this.pnlISH1.Controls.Add(this.panel14);
+            this.pnlISH1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlISH1.Location = new System.Drawing.Point(0, 28);
+            this.pnlISH1.Name = "pnlISH1";
+            this.pnlISH1.Size = new System.Drawing.Size(98, 100);
+            this.pnlISH1.TabIndex = 0;
             // 
             // panel15
             // 
@@ -6722,32 +7263,34 @@
             // chkRSH1
             // 
             this.chkRSH1.AutoSize = true;
-            this.chkRSH1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkRSH1.Checked = true;
             this.chkRSH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkRSH1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkRSH1.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkRSH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRSH1.Location = new System.Drawing.Point(45, 0);
+            this.chkRSH1.Location = new System.Drawing.Point(41, 0);
             this.chkRSH1.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.chkRSH1.Name = "chkRSH1";
-            this.chkRSH1.Size = new System.Drawing.Size(35, 20);
+            this.chkRSH1.Size = new System.Drawing.Size(39, 20);
             this.chkRSH1.TabIndex = 2;
-            this.chkRSH1.Text = "R";
+            this.chkRSH1.Text = "曲";
             this.chkRSH1.UseVisualStyleBackColor = true;
             // 
             // chkLSH1
             // 
             this.chkLSH1.AutoSize = true;
+            this.chkLSH1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkLSH1.Checked = true;
             this.chkLSH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkLSH1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLSH1.Dock = System.Windows.Forms.DockStyle.Left;
             this.chkLSH1.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLSH1.Location = new System.Drawing.Point(0, 0);
             this.chkLSH1.Margin = new System.Windows.Forms.Padding(10);
             this.chkLSH1.Name = "chkLSH1";
-            this.chkLSH1.Size = new System.Drawing.Size(34, 20);
+            this.chkLSH1.Size = new System.Drawing.Size(39, 20);
             this.chkLSH1.TabIndex = 1;
-            this.chkLSH1.Text = "L";
+            this.chkLSH1.Text = "曲";
             this.chkLSH1.UseVisualStyleBackColor = true;
             // 
             // panel14
@@ -6791,22 +7334,22 @@
             this.lblHSH1.Text = "Ｈ";
             this.lblHSH1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // chkSH1
+            // chkASH1
             // 
-            this.chkSH1.AutoSize = true;
-            this.chkSH1.Checked = true;
-            this.chkSH1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkSH1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkSH1.Enabled = false;
-            this.chkSH1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.chkSH1.Location = new System.Drawing.Point(10, 10);
-            this.chkSH1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.chkSH1.Name = "chkSH1";
-            this.chkSH1.Size = new System.Drawing.Size(58, 17);
-            this.chkSH1.TabIndex = 0;
-            this.chkSH1.TabStop = false;
-            this.chkSH1.Text = "面積１";
-            this.chkSH1.UseVisualStyleBackColor = true;
+            this.chkASH1.AutoSize = true;
+            this.chkASH1.Checked = true;
+            this.chkASH1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkASH1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkASH1.Enabled = false;
+            this.chkASH1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.chkASH1.Location = new System.Drawing.Point(10, 10);
+            this.chkASH1.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.chkASH1.Name = "chkASH1";
+            this.chkASH1.Size = new System.Drawing.Size(58, 17);
+            this.chkASH1.TabIndex = 0;
+            this.chkASH1.TabStop = false;
+            this.chkASH1.Text = "面積１";
+            this.chkASH1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -6857,16 +7400,17 @@
             this.panel8.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel60.ResumeLayout(false);
             this.panel96.ResumeLayout(false);
             this.panel47.ResumeLayout(false);
             this.yanGradPnl3.ResumeLayout(false);
             this.panel75.ResumeLayout(false);
             this.pnlARV6.ResumeLayout(false);
             this.pnlARV6.PerformLayout();
-            this.pnlRV6.ResumeLayout(false);
+            this.pnlIRV6.ResumeLayout(false);
             this.panel157.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV6)).EndInit();
+            this.panel97.ResumeLayout(false);
+            this.panel97.PerformLayout();
             this.panel74.ResumeLayout(false);
             this.panel74.PerformLayout();
             this.panel159.ResumeLayout(false);
@@ -6875,9 +7419,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV6)).EndInit();
             this.pnlARV1.ResumeLayout(false);
             this.pnlARV1.PerformLayout();
-            this.pnlRV1.ResumeLayout(false);
+            this.pnlIRV1.ResumeLayout(false);
             this.panel107.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV1)).EndInit();
+            this.panel87.ResumeLayout(false);
+            this.panel87.PerformLayout();
             this.panel64.ResumeLayout(false);
             this.panel64.PerformLayout();
             this.panel109.ResumeLayout(false);
@@ -6886,9 +7432,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV1)).EndInit();
             this.pnlARV5.ResumeLayout(false);
             this.pnlARV5.PerformLayout();
-            this.pnlRV5.ResumeLayout(false);
+            this.pnlIRV5.ResumeLayout(false);
             this.panel151.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV5)).EndInit();
+            this.panel93.ResumeLayout(false);
+            this.panel93.PerformLayout();
             this.panel71.ResumeLayout(false);
             this.panel71.PerformLayout();
             this.panel153.ResumeLayout(false);
@@ -6897,9 +7445,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV5)).EndInit();
             this.pnlARV2.ResumeLayout(false);
             this.pnlARV2.PerformLayout();
-            this.pnlRV2.ResumeLayout(false);
+            this.pnlIRV2.ResumeLayout(false);
             this.panel113.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV2)).EndInit();
+            this.panel88.ResumeLayout(false);
+            this.panel88.PerformLayout();
             this.panel65.ResumeLayout(false);
             this.panel65.PerformLayout();
             this.panel115.ResumeLayout(false);
@@ -6908,9 +7458,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV2)).EndInit();
             this.pnlARV4.ResumeLayout(false);
             this.pnlARV4.PerformLayout();
-            this.pnlRV4.ResumeLayout(false);
+            this.pnlIRV4.ResumeLayout(false);
             this.panel125.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV4)).EndInit();
+            this.panel92.ResumeLayout(false);
+            this.panel92.PerformLayout();
             this.panel70.ResumeLayout(false);
             this.panel70.PerformLayout();
             this.panel127.ResumeLayout(false);
@@ -6919,9 +7471,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV4)).EndInit();
             this.pnlARV3.ResumeLayout(false);
             this.pnlARV3.PerformLayout();
-            this.pnlRV3.ResumeLayout(false);
+            this.pnlIRV3.ResumeLayout(false);
             this.panel119.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV3)).EndInit();
+            this.panel89.ResumeLayout(false);
+            this.panel89.PerformLayout();
             this.panel69.ResumeLayout(false);
             this.panel69.PerformLayout();
             this.panel121.ResumeLayout(false);
@@ -6932,9 +7486,11 @@
             this.panel67.ResumeLayout(false);
             this.pnlARH6.ResumeLayout(false);
             this.pnlARH6.PerformLayout();
-            this.pnlRH6.ResumeLayout(false);
+            this.pnlIRH6.ResumeLayout(false);
             this.panel101.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH6)).EndInit();
+            this.panel84.ResumeLayout(false);
+            this.panel84.PerformLayout();
             this.panel61.ResumeLayout(false);
             this.panel61.PerformLayout();
             this.panel103.ResumeLayout(false);
@@ -6943,9 +7499,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH6)).EndInit();
             this.pnlARH5.ResumeLayout(false);
             this.pnlARH5.PerformLayout();
-            this.pnlRH5.ResumeLayout(false);
+            this.pnlIRH5.ResumeLayout(false);
             this.panel34.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH5)).EndInit();
+            this.panel83.ResumeLayout(false);
+            this.panel83.PerformLayout();
             this.panel55.ResumeLayout(false);
             this.panel55.PerformLayout();
             this.panel36.ResumeLayout(false);
@@ -6954,9 +7512,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH5)).EndInit();
             this.pnlARH4.ResumeLayout(false);
             this.pnlARH4.PerformLayout();
-            this.pnlRH4.ResumeLayout(false);
+            this.pnlIRH4.ResumeLayout(false);
             this.panel28.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH4)).EndInit();
+            this.panel80.ResumeLayout(false);
+            this.panel80.PerformLayout();
             this.panel54.ResumeLayout(false);
             this.panel54.PerformLayout();
             this.panel30.ResumeLayout(false);
@@ -6965,9 +7525,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH4)).EndInit();
             this.pnlARH3.ResumeLayout(false);
             this.pnlARH3.PerformLayout();
-            this.pnlRH3.ResumeLayout(false);
+            this.pnlIRH3.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH3)).EndInit();
+            this.panel79.ResumeLayout(false);
+            this.panel79.PerformLayout();
             this.panel51.ResumeLayout(false);
             this.panel51.PerformLayout();
             this.panel24.ResumeLayout(false);
@@ -6976,9 +7538,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH3)).EndInit();
             this.pnlARH2.ResumeLayout(false);
             this.pnlARH2.PerformLayout();
-            this.pnlRH2.ResumeLayout(false);
+            this.pnlIRH2.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH2)).EndInit();
+            this.panel60.ResumeLayout(false);
+            this.panel60.PerformLayout();
             this.panel50.ResumeLayout(false);
             this.panel50.PerformLayout();
             this.panel18.ResumeLayout(false);
@@ -6987,9 +7551,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH2)).EndInit();
             this.pnlARH1.ResumeLayout(false);
             this.pnlARH1.PerformLayout();
-            this.pnlRH1.ResumeLayout(false);
+            this.pnlIRH1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH1)).EndInit();
+            this.panel76.ResumeLayout(false);
+            this.panel76.PerformLayout();
             this.panel48.ResumeLayout(false);
             this.panel48.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -7001,7 +7567,7 @@
             this.panel16.ResumeLayout(false);
             this.pnlASV10.ResumeLayout(false);
             this.pnlASV10.PerformLayout();
-            this.pnlSV10.ResumeLayout(false);
+            this.pnlISV10.ResumeLayout(false);
             this.panel46.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV10)).EndInit();
             this.panel45.ResumeLayout(false);
@@ -7010,7 +7576,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV10)).EndInit();
             this.pnlASV5.ResumeLayout(false);
             this.pnlASV5.PerformLayout();
-            this.pnlSV5.ResumeLayout(false);
+            this.pnlISV5.ResumeLayout(false);
             this.panel52.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV5)).EndInit();
             this.panel38.ResumeLayout(false);
@@ -7019,7 +7585,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV5)).EndInit();
             this.pnlASV9.ResumeLayout(false);
             this.pnlASV9.PerformLayout();
-            this.pnlSV9.ResumeLayout(false);
+            this.pnlISV9.ResumeLayout(false);
             this.panel56.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV9)).EndInit();
             this.panel42.ResumeLayout(false);
@@ -7028,7 +7594,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV9)).EndInit();
             this.pnlASV4.ResumeLayout(false);
             this.pnlASV4.PerformLayout();
-            this.pnlSV4.ResumeLayout(false);
+            this.pnlISV4.ResumeLayout(false);
             this.panel72.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV4)).EndInit();
             this.panel35.ResumeLayout(false);
@@ -7037,7 +7603,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV4)).EndInit();
             this.pnlASV8.ResumeLayout(false);
             this.pnlASV8.PerformLayout();
-            this.pnlSV8.ResumeLayout(false);
+            this.pnlISV8.ResumeLayout(false);
             this.panel77.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV8)).EndInit();
             this.panel41.ResumeLayout(false);
@@ -7046,7 +7612,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV8)).EndInit();
             this.pnlASV3.ResumeLayout(false);
             this.pnlASV3.PerformLayout();
-            this.pnlSV3.ResumeLayout(false);
+            this.pnlISV3.ResumeLayout(false);
             this.panel81.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV3)).EndInit();
             this.panel33.ResumeLayout(false);
@@ -7055,7 +7621,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV3)).EndInit();
             this.pnlASV6.ResumeLayout(false);
             this.pnlASV6.PerformLayout();
-            this.pnlSV6.ResumeLayout(false);
+            this.pnlISV6.ResumeLayout(false);
             this.panel85.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV6)).EndInit();
             this.panel39.ResumeLayout(false);
@@ -7064,7 +7630,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV6)).EndInit();
             this.pnlASV7.ResumeLayout(false);
             this.pnlASV7.PerformLayout();
-            this.pnlSV7.ResumeLayout(false);
+            this.pnlISV7.ResumeLayout(false);
             this.panel139.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV7)).EndInit();
             this.panel40.ResumeLayout(false);
@@ -7073,7 +7639,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV7)).EndInit();
             this.pnlASV2.ResumeLayout(false);
             this.pnlASV2.PerformLayout();
-            this.pnlSV2.ResumeLayout(false);
+            this.pnlISV2.ResumeLayout(false);
             this.panel143.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV2)).EndInit();
             this.panel32.ResumeLayout(false);
@@ -7082,7 +7648,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV2)).EndInit();
             this.pnlASV1.ResumeLayout(false);
             this.pnlASV1.PerformLayout();
-            this.pnlSV1.ResumeLayout(false);
+            this.pnlISV1.ResumeLayout(false);
             this.panel147.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV1)).EndInit();
             this.panel29.ResumeLayout(false);
@@ -7093,7 +7659,7 @@
             this.panel3.ResumeLayout(false);
             this.pnlASH10.ResumeLayout(false);
             this.pnlASH10.PerformLayout();
-            this.pnlSH10.ResumeLayout(false);
+            this.pnlISH10.ResumeLayout(false);
             this.panel137.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH10)).EndInit();
             this.panel27.ResumeLayout(false);
@@ -7102,7 +7668,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH10)).EndInit();
             this.pnlASH5.ResumeLayout(false);
             this.pnlASH5.PerformLayout();
-            this.pnlSH5.ResumeLayout(false);
+            this.pnlISH5.ResumeLayout(false);
             this.panel66.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH5)).EndInit();
             this.panel17.ResumeLayout(false);
@@ -7111,7 +7677,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH5)).EndInit();
             this.pnlASH9.ResumeLayout(false);
             this.pnlASH9.PerformLayout();
-            this.pnlSH9.ResumeLayout(false);
+            this.pnlISH9.ResumeLayout(false);
             this.panel133.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH9)).EndInit();
             this.panel26.ResumeLayout(false);
@@ -7120,7 +7686,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH9)).EndInit();
             this.pnlASH4.ResumeLayout(false);
             this.pnlASH4.PerformLayout();
-            this.pnlSH4.ResumeLayout(false);
+            this.pnlISH4.ResumeLayout(false);
             this.panel62.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH4)).EndInit();
             this.panel12.ResumeLayout(false);
@@ -7129,7 +7695,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH4)).EndInit();
             this.pnlASH8.ResumeLayout(false);
             this.pnlASH8.PerformLayout();
-            this.pnlSH8.ResumeLayout(false);
+            this.pnlISH8.ResumeLayout(false);
             this.panel129.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH8)).EndInit();
             this.panel23.ResumeLayout(false);
@@ -7138,7 +7704,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH8)).EndInit();
             this.pnlASH3.ResumeLayout(false);
             this.pnlASH3.PerformLayout();
-            this.pnlSH3.ResumeLayout(false);
+            this.pnlISH3.ResumeLayout(false);
             this.panel58.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH3)).EndInit();
             this.panel11.ResumeLayout(false);
@@ -7147,7 +7713,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH3)).EndInit();
             this.pnlASH6.ResumeLayout(false);
             this.pnlASH6.PerformLayout();
-            this.pnlSH6.ResumeLayout(false);
+            this.pnlISH6.ResumeLayout(false);
             this.panel90.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH6)).EndInit();
             this.panel20.ResumeLayout(false);
@@ -7156,7 +7722,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH6)).EndInit();
             this.pnlASH7.ResumeLayout(false);
             this.pnlASH7.PerformLayout();
-            this.pnlSH7.ResumeLayout(false);
+            this.pnlISH7.ResumeLayout(false);
             this.panel94.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH7)).EndInit();
             this.panel21.ResumeLayout(false);
@@ -7165,7 +7731,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH7)).EndInit();
             this.pnlASH2.ResumeLayout(false);
             this.pnlASH2.PerformLayout();
-            this.pnlSH2.ResumeLayout(false);
+            this.pnlISH2.ResumeLayout(false);
             this.panel43.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH2)).EndInit();
             this.panel7.ResumeLayout(false);
@@ -7174,7 +7740,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH2)).EndInit();
             this.pnlASH1.ResumeLayout(false);
             this.pnlASH1.PerformLayout();
-            this.pnlSH1.ResumeLayout(false);
+            this.pnlISH1.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH1)).EndInit();
             this.panel10.ResumeLayout(false);
@@ -7201,7 +7767,7 @@
         private YANF.Control.YANGradPnl yanGradPnl3;
         private System.Windows.Forms.Panel panel75;
         private System.Windows.Forms.Panel pnlARV6;
-        private System.Windows.Forms.Panel pnlRV6;
+        private System.Windows.Forms.Panel pnlIRV6;
         private System.Windows.Forms.Panel panel157;
         private System.Windows.Forms.NumericUpDown nudWRV6;
         private System.Windows.Forms.Label lblWRV6;
@@ -7211,9 +7777,9 @@
         private System.Windows.Forms.Panel panel160;
         private System.Windows.Forms.NumericUpDown nudDRV6;
         private System.Windows.Forms.Label lblDRV6;
-        private System.Windows.Forms.CheckBox chkRV6;
+        private System.Windows.Forms.CheckBox chkARV6;
         private System.Windows.Forms.Panel pnlARV1;
-        private System.Windows.Forms.Panel pnlRV1;
+        private System.Windows.Forms.Panel pnlIRV1;
         private System.Windows.Forms.Panel panel107;
         private System.Windows.Forms.NumericUpDown nudWRV1;
         private System.Windows.Forms.Label lblWRV1;
@@ -7223,9 +7789,9 @@
         private System.Windows.Forms.Panel panel110;
         private System.Windows.Forms.NumericUpDown nudDRV1;
         private System.Windows.Forms.Label lblDRV1;
-        private System.Windows.Forms.CheckBox chkRV1;
+        private System.Windows.Forms.CheckBox chkARV1;
         private System.Windows.Forms.Panel pnlARV5;
-        private System.Windows.Forms.Panel pnlRV5;
+        private System.Windows.Forms.Panel pnlIRV5;
         private System.Windows.Forms.Panel panel151;
         private System.Windows.Forms.NumericUpDown nudWRV5;
         private System.Windows.Forms.Label lblWRV5;
@@ -7235,9 +7801,9 @@
         private System.Windows.Forms.Panel panel154;
         private System.Windows.Forms.NumericUpDown nudDRV5;
         private System.Windows.Forms.Label lblDRV5;
-        private System.Windows.Forms.CheckBox chkRV5;
+        private System.Windows.Forms.CheckBox chkARV5;
         private System.Windows.Forms.Panel pnlARV2;
-        private System.Windows.Forms.Panel pnlRV2;
+        private System.Windows.Forms.Panel pnlIRV2;
         private System.Windows.Forms.Panel panel113;
         private System.Windows.Forms.NumericUpDown nudWRV2;
         private System.Windows.Forms.Label lblWRV2;
@@ -7247,9 +7813,9 @@
         private System.Windows.Forms.Panel panel116;
         private System.Windows.Forms.NumericUpDown nudDRV2;
         private System.Windows.Forms.Label lblDRV2;
-        private System.Windows.Forms.CheckBox chkRV2;
+        private System.Windows.Forms.CheckBox chkARV2;
         private System.Windows.Forms.Panel pnlARV4;
-        private System.Windows.Forms.Panel pnlRV4;
+        private System.Windows.Forms.Panel pnlIRV4;
         private System.Windows.Forms.Panel panel125;
         private System.Windows.Forms.NumericUpDown nudWRV4;
         private System.Windows.Forms.Label lblWRV4;
@@ -7259,9 +7825,9 @@
         private System.Windows.Forms.Panel panel128;
         private System.Windows.Forms.NumericUpDown nudDRV4;
         private System.Windows.Forms.Label lblDRV4;
-        private System.Windows.Forms.CheckBox chkRV4;
+        private System.Windows.Forms.CheckBox chkARV4;
         private System.Windows.Forms.Panel pnlARV3;
-        private System.Windows.Forms.Panel pnlRV3;
+        private System.Windows.Forms.Panel pnlIRV3;
         private System.Windows.Forms.Panel panel119;
         private System.Windows.Forms.NumericUpDown nudWRV3;
         private System.Windows.Forms.Label lblWRV3;
@@ -7271,12 +7837,12 @@
         private System.Windows.Forms.Panel panel122;
         private System.Windows.Forms.NumericUpDown nudDRV3;
         private System.Windows.Forms.Label lblDRV3;
-        private System.Windows.Forms.CheckBox chkRV3;
+        private System.Windows.Forms.CheckBox chkARV3;
         private System.Windows.Forms.Label label70;
         private YANF.Control.YANGradPnl yanGradPnl4;
         private System.Windows.Forms.Panel panel67;
         private System.Windows.Forms.Panel pnlARH6;
-        private System.Windows.Forms.Panel pnlRH6;
+        private System.Windows.Forms.Panel pnlIRH6;
         private System.Windows.Forms.Panel panel101;
         private System.Windows.Forms.NumericUpDown nudWRH6;
         private System.Windows.Forms.Label lblWRH6;
@@ -7286,9 +7852,9 @@
         private System.Windows.Forms.Panel panel104;
         private System.Windows.Forms.NumericUpDown nudDRH6;
         private System.Windows.Forms.Label lblDRH6;
-        private System.Windows.Forms.CheckBox chkRH6;
+        private System.Windows.Forms.CheckBox chkARH6;
         private System.Windows.Forms.Panel pnlARH5;
-        private System.Windows.Forms.Panel pnlRH5;
+        private System.Windows.Forms.Panel pnlIRH5;
         private System.Windows.Forms.Panel panel34;
         private System.Windows.Forms.NumericUpDown nudWRH5;
         private System.Windows.Forms.Label lblWRH5;
@@ -7298,9 +7864,9 @@
         private System.Windows.Forms.Panel panel37;
         private System.Windows.Forms.NumericUpDown nudDRH5;
         private System.Windows.Forms.Label lblDRH5;
-        private System.Windows.Forms.CheckBox chkRH5;
+        private System.Windows.Forms.CheckBox chkARH5;
         private System.Windows.Forms.Panel pnlARH4;
-        private System.Windows.Forms.Panel pnlRH4;
+        private System.Windows.Forms.Panel pnlIRH4;
         private System.Windows.Forms.Panel panel28;
         private System.Windows.Forms.NumericUpDown nudWRH4;
         private System.Windows.Forms.Label lblWRH4;
@@ -7310,9 +7876,9 @@
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.NumericUpDown nudDRH4;
         private System.Windows.Forms.Label lblDRH4;
-        private System.Windows.Forms.CheckBox chkRH4;
+        private System.Windows.Forms.CheckBox chkARH4;
         private System.Windows.Forms.Panel pnlARH3;
-        private System.Windows.Forms.Panel pnlRH3;
+        private System.Windows.Forms.Panel pnlIRH3;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.NumericUpDown nudWRH3;
         private System.Windows.Forms.Label lblWRH3;
@@ -7322,9 +7888,9 @@
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.NumericUpDown nudDRH3;
         private System.Windows.Forms.Label lblDRH3;
-        private System.Windows.Forms.CheckBox chkRH3;
+        private System.Windows.Forms.CheckBox chkARH3;
         private System.Windows.Forms.Panel pnlARH2;
-        private System.Windows.Forms.Panel pnlRH2;
+        private System.Windows.Forms.Panel pnlIRH2;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.NumericUpDown nudWRH2;
         private System.Windows.Forms.Label lblWRH2;
@@ -7334,9 +7900,9 @@
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.NumericUpDown nudDRH2;
         private System.Windows.Forms.Label lblDRH2;
-        private System.Windows.Forms.CheckBox chkRH2;
+        private System.Windows.Forms.CheckBox chkARH2;
         private System.Windows.Forms.Panel pnlARH1;
-        private System.Windows.Forms.Panel pnlRH1;
+        private System.Windows.Forms.Panel pnlIRH1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.NumericUpDown nudWRH1;
         private System.Windows.Forms.Label lblWRH1;
@@ -7346,207 +7912,201 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.NumericUpDown nudDRH1;
         private System.Windows.Forms.Label lblDRH1;
-        private System.Windows.Forms.CheckBox chkRH1;
+        private System.Windows.Forms.CheckBox chkARH1;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Panel panel2;
         private YANF.Control.YANGradPnl yanGradPnl2;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel pnlASV10;
-        private System.Windows.Forms.Panel pnlSV10;
+        private System.Windows.Forms.Panel pnlISV10;
         private System.Windows.Forms.Panel panel46;
         private System.Windows.Forms.NumericUpDown nudWSV10;
         private System.Windows.Forms.Label lblWSV10;
         private System.Windows.Forms.Panel panel49;
         private System.Windows.Forms.NumericUpDown nudHSV10;
         private System.Windows.Forms.Label lblHSV10;
-        private System.Windows.Forms.CheckBox chkSV10;
+        private System.Windows.Forms.CheckBox chkASV10;
         private System.Windows.Forms.Panel pnlASV5;
-        private System.Windows.Forms.Panel pnlSV5;
+        private System.Windows.Forms.Panel pnlISV5;
         private System.Windows.Forms.Panel panel52;
         private System.Windows.Forms.NumericUpDown nudWSV5;
         private System.Windows.Forms.Label lblWSV5;
         private System.Windows.Forms.Panel panel53;
         private System.Windows.Forms.NumericUpDown nudHSV5;
         private System.Windows.Forms.Label lblHSV5;
-        private System.Windows.Forms.CheckBox chkSV5;
+        private System.Windows.Forms.CheckBox chkASV5;
         private System.Windows.Forms.Panel pnlASV9;
-        private System.Windows.Forms.Panel pnlSV9;
+        private System.Windows.Forms.Panel pnlISV9;
         private System.Windows.Forms.Panel panel56;
         private System.Windows.Forms.NumericUpDown nudWSV9;
         private System.Windows.Forms.Label lblWSV9;
         private System.Windows.Forms.Panel panel57;
         private System.Windows.Forms.NumericUpDown nudHSV9;
         private System.Windows.Forms.Label lblHSV9;
-        private System.Windows.Forms.CheckBox chkSV9;
+        private System.Windows.Forms.CheckBox chkASV9;
         private System.Windows.Forms.Panel pnlASV4;
-        private System.Windows.Forms.Panel pnlSV4;
+        private System.Windows.Forms.Panel pnlISV4;
         private System.Windows.Forms.Panel panel72;
         private System.Windows.Forms.NumericUpDown nudWSV4;
         private System.Windows.Forms.Label lblWSV4;
         private System.Windows.Forms.Panel panel73;
         private System.Windows.Forms.NumericUpDown nudHSV4;
         private System.Windows.Forms.Label lblHSV4;
-        private System.Windows.Forms.CheckBox chkSV4;
+        private System.Windows.Forms.CheckBox chkASV4;
         private System.Windows.Forms.Panel pnlASV8;
-        private System.Windows.Forms.Panel pnlSV8;
+        private System.Windows.Forms.Panel pnlISV8;
         private System.Windows.Forms.Panel panel77;
         private System.Windows.Forms.NumericUpDown nudWSV8;
         private System.Windows.Forms.Label lblWSV8;
         private System.Windows.Forms.Panel panel78;
         private System.Windows.Forms.NumericUpDown nudHSV8;
         private System.Windows.Forms.Label lblHSV8;
-        private System.Windows.Forms.CheckBox chkSV8;
+        private System.Windows.Forms.CheckBox chkASV8;
         private System.Windows.Forms.Panel pnlASV3;
-        private System.Windows.Forms.Panel pnlSV3;
+        private System.Windows.Forms.Panel pnlISV3;
         private System.Windows.Forms.Panel panel81;
         private System.Windows.Forms.NumericUpDown nudWSV3;
         private System.Windows.Forms.Label lblWSV3;
         private System.Windows.Forms.Panel panel82;
         private System.Windows.Forms.NumericUpDown nudHSV3;
         private System.Windows.Forms.Label lblHSV3;
-        private System.Windows.Forms.CheckBox chkSV3;
+        private System.Windows.Forms.CheckBox chkASV3;
         private System.Windows.Forms.Panel pnlASV6;
-        private System.Windows.Forms.Panel pnlSV6;
+        private System.Windows.Forms.Panel pnlISV6;
         private System.Windows.Forms.Panel panel85;
         private System.Windows.Forms.NumericUpDown nudWSV6;
         private System.Windows.Forms.Label lblWSV6;
         private System.Windows.Forms.Panel panel86;
         private System.Windows.Forms.NumericUpDown nudHSV6;
         private System.Windows.Forms.Label lblHSV6;
-        private System.Windows.Forms.CheckBox chkSV6;
+        private System.Windows.Forms.CheckBox chkASV6;
         private System.Windows.Forms.Panel pnlASV7;
-        private System.Windows.Forms.Panel pnlSV7;
+        private System.Windows.Forms.Panel pnlISV7;
         private System.Windows.Forms.Panel panel139;
         private System.Windows.Forms.NumericUpDown nudWSV7;
         private System.Windows.Forms.Label lblWSV7;
         private System.Windows.Forms.Panel panel140;
         private System.Windows.Forms.NumericUpDown nudHSV7;
         private System.Windows.Forms.Label lblHSV7;
-        private System.Windows.Forms.CheckBox chkSV7;
+        private System.Windows.Forms.CheckBox chkASV7;
         private System.Windows.Forms.Panel pnlASV2;
-        private System.Windows.Forms.Panel pnlSV2;
+        private System.Windows.Forms.Panel pnlISV2;
         private System.Windows.Forms.Panel panel143;
         private System.Windows.Forms.NumericUpDown nudWSV2;
         private System.Windows.Forms.Label lblWSV2;
         private System.Windows.Forms.Panel panel144;
         private System.Windows.Forms.NumericUpDown nudHSV2;
         private System.Windows.Forms.Label lblHSV2;
-        private System.Windows.Forms.CheckBox chkSV2;
+        private System.Windows.Forms.CheckBox chkASV2;
         private System.Windows.Forms.Panel pnlASV1;
-        private System.Windows.Forms.Panel pnlSV1;
+        private System.Windows.Forms.Panel pnlISV1;
         private System.Windows.Forms.Panel panel147;
         private System.Windows.Forms.NumericUpDown nudWSV1;
         private System.Windows.Forms.Label lblWSV1;
         private System.Windows.Forms.Panel panel148;
         private System.Windows.Forms.NumericUpDown nudHSV1;
         private System.Windows.Forms.Label lblHSV1;
-        private System.Windows.Forms.CheckBox chkSV1;
+        private System.Windows.Forms.CheckBox chkASV1;
         private System.Windows.Forms.Label label63;
         private YANF.Control.YANGradPnl yanGradPnl1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel pnlASH10;
-        private System.Windows.Forms.Panel pnlSH10;
+        private System.Windows.Forms.Panel pnlISH10;
         private System.Windows.Forms.Panel panel137;
         private System.Windows.Forms.NumericUpDown nudWSH10;
         private System.Windows.Forms.Label lblWSH10;
         private System.Windows.Forms.Panel panel138;
         private System.Windows.Forms.NumericUpDown nudHSH10;
         private System.Windows.Forms.Label lblHSH10;
-        private System.Windows.Forms.CheckBox chkSH10;
+        private System.Windows.Forms.CheckBox chkASH10;
         private System.Windows.Forms.Panel pnlASH5;
-        private System.Windows.Forms.Panel pnlSH5;
+        private System.Windows.Forms.Panel pnlISH5;
         private System.Windows.Forms.Panel panel66;
         private System.Windows.Forms.NumericUpDown nudWSH5;
         private System.Windows.Forms.Label lblWSH5;
         private System.Windows.Forms.Panel panel68;
         private System.Windows.Forms.NumericUpDown nudHSH5;
         private System.Windows.Forms.Label lblHSH5;
-        private System.Windows.Forms.CheckBox chkSH5;
+        private System.Windows.Forms.CheckBox chkASH5;
         private System.Windows.Forms.Panel pnlASH9;
-        private System.Windows.Forms.Panel pnlSH9;
+        private System.Windows.Forms.Panel pnlISH9;
         private System.Windows.Forms.Panel panel133;
         private System.Windows.Forms.NumericUpDown nudWSH9;
         private System.Windows.Forms.Label lblWSH9;
         private System.Windows.Forms.Panel panel134;
         private System.Windows.Forms.NumericUpDown nudHSH9;
         private System.Windows.Forms.Label lblHSH9;
-        private System.Windows.Forms.CheckBox chkSH9;
+        private System.Windows.Forms.CheckBox chkASH9;
         private System.Windows.Forms.Panel pnlASH4;
-        private System.Windows.Forms.Panel pnlSH4;
+        private System.Windows.Forms.Panel pnlISH4;
         private System.Windows.Forms.Panel panel62;
         private System.Windows.Forms.NumericUpDown nudWSH4;
         private System.Windows.Forms.Label lblWSH4;
         private System.Windows.Forms.Panel panel63;
         private System.Windows.Forms.NumericUpDown nudHSH4;
         private System.Windows.Forms.Label lblHSH4;
-        private System.Windows.Forms.CheckBox chkSH4;
+        private System.Windows.Forms.CheckBox chkASH4;
         private System.Windows.Forms.Panel pnlASH8;
-        private System.Windows.Forms.Panel pnlSH8;
+        private System.Windows.Forms.Panel pnlISH8;
         private System.Windows.Forms.Panel panel129;
         private System.Windows.Forms.NumericUpDown nudWSH8;
         private System.Windows.Forms.Label lblWSH8;
         private System.Windows.Forms.Panel panel130;
         private System.Windows.Forms.NumericUpDown nudHSH8;
         private System.Windows.Forms.Label lblHSH8;
-        private System.Windows.Forms.CheckBox chkSH8;
+        private System.Windows.Forms.CheckBox chkASH8;
         private System.Windows.Forms.Panel pnlASH3;
-        private System.Windows.Forms.Panel pnlSH3;
+        private System.Windows.Forms.Panel pnlISH3;
         private System.Windows.Forms.Panel panel58;
         private System.Windows.Forms.NumericUpDown nudWSH3;
         private System.Windows.Forms.Label lblWSH3;
         private System.Windows.Forms.Panel panel59;
         private System.Windows.Forms.NumericUpDown nudHSH3;
         private System.Windows.Forms.Label lblHSH3;
-        private System.Windows.Forms.CheckBox chkSH3;
+        private System.Windows.Forms.CheckBox chkASH3;
         private System.Windows.Forms.Panel pnlASH6;
-        private System.Windows.Forms.Panel pnlSH6;
+        private System.Windows.Forms.Panel pnlISH6;
         private System.Windows.Forms.Panel panel90;
         private System.Windows.Forms.NumericUpDown nudWSH6;
         private System.Windows.Forms.Label lblWSH6;
         private System.Windows.Forms.Panel panel91;
         private System.Windows.Forms.NumericUpDown nudHSH6;
         private System.Windows.Forms.Label lblHSH6;
-        private System.Windows.Forms.CheckBox chkSH6;
+        private System.Windows.Forms.CheckBox chkASH6;
         private System.Windows.Forms.Panel pnlASH7;
-        private System.Windows.Forms.Panel pnlSH7;
+        private System.Windows.Forms.Panel pnlISH7;
         private System.Windows.Forms.Panel panel94;
         private System.Windows.Forms.NumericUpDown nudWSH7;
         private System.Windows.Forms.Label lblWSH7;
         private System.Windows.Forms.Panel panel95;
         private System.Windows.Forms.NumericUpDown nudHSH7;
         private System.Windows.Forms.Label lblHSH7;
-        private System.Windows.Forms.CheckBox chkSH7;
+        private System.Windows.Forms.CheckBox chkASH7;
         private System.Windows.Forms.Panel pnlASH2;
-        private System.Windows.Forms.Panel pnlSH2;
+        private System.Windows.Forms.Panel pnlISH2;
         private System.Windows.Forms.Panel panel43;
         private System.Windows.Forms.NumericUpDown nudWSH2;
         private System.Windows.Forms.Label lblWSH2;
         private System.Windows.Forms.Panel panel44;
         private System.Windows.Forms.NumericUpDown nudHSH2;
         private System.Windows.Forms.Label lblHSH2;
-        private System.Windows.Forms.CheckBox chkSH2;
+        private System.Windows.Forms.CheckBox chkASH2;
         private System.Windows.Forms.Panel pnlASH1;
-        private System.Windows.Forms.Panel pnlSH1;
+        private System.Windows.Forms.Panel pnlISH1;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.NumericUpDown nudWSH1;
         private System.Windows.Forms.Label lblWSH1;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.NumericUpDown nudHSH1;
         private System.Windows.Forms.Label lblHSH1;
-        private System.Windows.Forms.CheckBox chkSH1;
+        private System.Windows.Forms.CheckBox chkASH1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel8;
         private YANF.Control.YANRdo rdoBrIbaraki;
         private System.Windows.Forms.Label label4;
         private YANF.Control.YANRdo rdoBrTouhoku;
-        private System.Windows.Forms.Panel panel60;
-        private YANF.Control.YANBtn btnSSelAll;
-        private System.Windows.Forms.Label label25;
-        private YANF.Control.YANBtn btnRSelHalf;
-        private YANF.Control.YANBtn btnRSelAll;
-        private YANF.Control.YANBtn btnSSelHalf;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.CheckBox chkRSH1;
         private System.Windows.Forms.CheckBox chkLSH1;
@@ -7643,5 +8203,44 @@
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.CheckBox chkRRH1;
         private System.Windows.Forms.CheckBox chkLRH1;
+        private System.Windows.Forms.Panel panel76;
+        private System.Windows.Forms.CheckBox chkPRH1;
+        private System.Windows.Forms.CheckBox chkTRH1;
+        private System.Windows.Forms.Panel panel97;
+        private System.Windows.Forms.CheckBox chkPRV6;
+        private System.Windows.Forms.CheckBox chkTRV6;
+        private System.Windows.Forms.Panel panel87;
+        private System.Windows.Forms.CheckBox chkPRV1;
+        private System.Windows.Forms.CheckBox chkTRV1;
+        private System.Windows.Forms.Panel panel93;
+        private System.Windows.Forms.CheckBox chkPRV5;
+        private System.Windows.Forms.CheckBox chkTRV5;
+        private System.Windows.Forms.Panel panel88;
+        private System.Windows.Forms.CheckBox chkPRV2;
+        private System.Windows.Forms.CheckBox chkTRV2;
+        private System.Windows.Forms.Panel panel92;
+        private System.Windows.Forms.CheckBox chkPRV4;
+        private System.Windows.Forms.CheckBox chkTRV4;
+        private System.Windows.Forms.Panel panel89;
+        private System.Windows.Forms.CheckBox chkPRV3;
+        private System.Windows.Forms.CheckBox chkTRV3;
+        private System.Windows.Forms.Panel panel84;
+        private System.Windows.Forms.CheckBox chkPRH6;
+        private System.Windows.Forms.CheckBox chkTRH6;
+        private System.Windows.Forms.Panel panel83;
+        private System.Windows.Forms.CheckBox chkPRH5;
+        private System.Windows.Forms.CheckBox chkTRH5;
+        private System.Windows.Forms.Panel panel80;
+        private System.Windows.Forms.CheckBox chkPRH4;
+        private System.Windows.Forms.CheckBox chkTRH4;
+        private System.Windows.Forms.Panel panel79;
+        private System.Windows.Forms.CheckBox chkPRH3;
+        private System.Windows.Forms.CheckBox chkTRH3;
+        private System.Windows.Forms.Panel panel60;
+        private System.Windows.Forms.CheckBox chkPRH2;
+        private System.Windows.Forms.CheckBox chkTR2;
+        private YANF.Control.YANBtn btnRSelAll;
+        private YANF.Control.YANBtn btnSSelAll;
+        private YANF.Control.YANBtn btnClRslt;
     }
 }
