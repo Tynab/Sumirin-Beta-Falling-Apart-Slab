@@ -31,6 +31,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
 
         #region Properties
         public int D { get; set; } = 10;
+        public new bool BendingL { get; set; } = false;
+        public new bool BendingR { get; set; } = false;
+        public bool FixationL { get; set; } = true;
+        public bool FixationR { get; set; } = true;
         #endregion
 
         #region Overridden

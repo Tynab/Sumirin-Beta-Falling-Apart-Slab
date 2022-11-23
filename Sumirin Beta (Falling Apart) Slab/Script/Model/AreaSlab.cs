@@ -33,8 +33,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         public bool IsLongest { get; set; } = false;
         public double W { get; set; } = 910;
         public double H { get; set; } = 910;
-        public bool BendingL { get; set; }
-        public bool BendingR { get; set; }
+        public bool BendingL { get; set; } = true;
+        public bool BendingR { get; set; } = true;
         public List<string> Rebars { get; protected set; }
         public int Amount { get; protected set; }
         #endregion
