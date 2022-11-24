@@ -1,17 +1,12 @@
 ﻿using Sumirin_Beta__Falling_Apart__Slab.Script.Model;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using YANF.Control;
 using YANF.Script;
-using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
-using static System.Windows.Forms.DockStyle;
-using static System.Windows.Forms.HorizontalAlignment;
-using static System.Windows.Forms.Keys;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.EventHandler;
 using static YANF.Script.YANEvent;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
@@ -19,31 +14,27 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
     public partial class FrmResult : Form
     {
         #region Fields
-        private List<(string, int)> _smryS; // rebar, summary
-        private List<(int, string, int)> _smryR; // D, rebar, sumary
-        private List<(string, int)> _smryRD1;
-        private List<(string, int)> _smryRD2;
-        private List<(string, int)> _smryRD3;
-        private List<(string, int)> _smryRD4;
-        private List<(string, int)> _smryRD5;
-        private List<(string, int)> _smryRD6;
-        private List<AreaSlab> _areaSHs;
-        private List<AreaSlab> _areaSVs;
-        private List<AreaReinforcement> _areaRHs;
-        private List<AreaReinforcement> _areaRVs;
+        private readonly List<(string, int)> _smryS; // rebar, summary
+        private readonly List<(int, string, int)> _smryR; // D, rebar, sumary
+        private readonly List<AreaSlab> _areaSHs;
+        private readonly List<AreaSlab> _areaSVs;
+        private readonly List<AreaReinforcement> _areaRHs;
+        private readonly List<AreaReinforcement> _areaRVs;
+        private readonly bool _hasR;
         #endregion
 
         #region Constructors
         public FrmResult(List<AreaSlab> areaSHs, List<AreaSlab> areaSVs)
         {
             InitializeComponent();
+            InitItems();
             // move frm by pnl
             foreach (var pnl in this.GetAllObjs(typeof(Panel)))
             {
                 pnl.MouseDown += MoveFrmMod_MouseDown;
                 pnl.MouseMove += MoveFrm_MouseMove;
                 pnl.MouseUp += MoveFrm_MouseUp;
-                pnl.KeyDown += All_KeyDown;
+                pnl.KeyDown += Ctrl_KeyDown;
             }
             // move frm by gradient pnl
             foreach (var gradPnl in this.GetAllObjs(typeof(YANGradPnl)))
@@ -51,7 +42,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 gradPnl.MouseDown += MoveFrmMod_MouseDown;
                 gradPnl.MouseMove += MoveFrm_MouseMove;
                 gradPnl.MouseUp += MoveFrm_MouseUp;
-                gradPnl.KeyDown += All_KeyDown;
+                gradPnl.KeyDown += Ctrl_KeyDown;
             }
             // move frm by lbl
             foreach (var lbl in this.GetAllObjs(typeof(Label)))
@@ -59,19 +50,21 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lbl.MouseDown += MoveFrmMod_MouseDown;
                 lbl.MouseMove += MoveFrm_MouseMove;
                 lbl.MouseUp += MoveFrm_MouseUp;
-                lbl.KeyDown += All_KeyDown;
+                lbl.KeyDown += Ctrl_KeyDown;
             }
             // move frm by lbl
             foreach (var rtx in this.GetAllObjs(typeof(RichTextBox)).Cast<RichTextBox>())
             {
-                rtx.KeyDown += All_KeyDown;
+                rtx.KeyDown += Ctrl_KeyDown;
                 rtx.ContentsResized += Rtx_ContentsResized;
             }
-            KeyDown += All_KeyDown;
+            // this
+            KeyDown += Ctrl_KeyDown;
             // get list
             _smryS = new List<(string, int)>();
             _areaSHs = new List<AreaSlab>(areaSHs);
             _areaSVs = new List<AreaSlab>(areaSVs);
+            _hasR = false;
         }
 
         public FrmResult(List<AreaSlab> areaSHs, List<AreaSlab> areaSVs, List<AreaReinforcement> areaRHs, List<AreaReinforcement> areaRVs)
@@ -83,7 +76,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 pnl.MouseDown += MoveFrmMod_MouseDown;
                 pnl.MouseMove += MoveFrm_MouseMove;
                 pnl.MouseUp += MoveFrm_MouseUp;
-                pnl.KeyDown += All_KeyDown;
+                pnl.KeyDown += Ctrl_KeyDown;
             }
             // move frm by gradient pnl
             foreach (var gradPnl in this.GetAllObjs(typeof(YANGradPnl)))
@@ -91,7 +84,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 gradPnl.MouseDown += MoveFrmMod_MouseDown;
                 gradPnl.MouseMove += MoveFrm_MouseMove;
                 gradPnl.MouseUp += MoveFrm_MouseUp;
-                gradPnl.KeyDown += All_KeyDown;
+                gradPnl.KeyDown += Ctrl_KeyDown;
             }
             // move frm by lbl
             foreach (var lbl in this.GetAllObjs(typeof(Label)))
@@ -99,15 +92,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lbl.MouseDown += MoveFrmMod_MouseDown;
                 lbl.MouseMove += MoveFrm_MouseMove;
                 lbl.MouseUp += MoveFrm_MouseUp;
-                lbl.KeyDown += All_KeyDown;
+                lbl.KeyDown += Ctrl_KeyDown;
             }
             // move frm by lbl
             foreach (var rtx in this.GetAllObjs(typeof(RichTextBox)).Cast<RichTextBox>())
             {
-                rtx.KeyDown += All_KeyDown;
+                rtx.KeyDown += Ctrl_KeyDown;
                 rtx.ContentsResized += Rtx_ContentsResized;
             }
-            KeyDown += All_KeyDown;
+            // this
+            KeyDown += Ctrl_KeyDown;
             // get list
             _smryS = new List<(string, int)>();
             _areaSHs = new List<AreaSlab>(areaSHs);
@@ -115,6 +109,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             _smryR = new List<(int, string, int)>();
             _areaRHs = new List<AreaReinforcement>(areaRHs);
             _areaRVs = new List<AreaReinforcement>(areaRVs);
+            _hasR = true;
         }
         #endregion
 
@@ -122,32 +117,32 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // frm load
         private void FrmResult_Load(object sender, EventArgs e)
         {
-            //
+            // display result slab horizontal
             SsForDisplay(_areaSHs, out var rsltRebarSH, out var rsltAmtSH);
             lblRsltRebarSH.Text = rsltRebarSH;
             lblRsltAmtSH.Text = rsltAmtSH;
-            //
+            // display result slab vertical
             SsForDisplay(_areaSVs, out var rsltRebarSV, out var rsltAmtSV);
             lblRsltRebarSV.Text = rsltRebarSV;
             lblRsltAmtSV.Text = rsltAmtSV;
-            //
-            if (_areaRHs != null && _areaRVs != null)
+            // display slab reinforcement
+            SmrySForDisplay();
+            // reinforcement exist
+            if (_hasR)
             {
-                //
+                // display result reinforcement horizontal
                 RsForDisplay(_areaRHs, out var rsltDRH, out var rsltRebarRH, out var rsltAmtRH);
                 lblRsltDRH.Text = rsltDRH;
                 lblRsltRebarRH.Text = rsltRebarRH;
                 lblRsltAmtRH.Text = rsltAmtRH;
-                //
-                RsForDisplay(_areaRHs, out var rsltDRV, out var rsltRebarRV, out var rsltAmtRV);
+                // display result reinforcement vertical
+                RsForDisplay(_areaRVs, out var rsltDRV, out var rsltRebarRV, out var rsltAmtRV);
                 lblRsltDRV.Text = rsltDRV;
                 lblRsltRebarRV.Text = rsltRebarRV;
                 lblRsltAmtRV.Text = rsltAmtRV;
-                //
+                // display summary reinforcement
                 SmryRForDisplay();
             }
-            //
-            SmrySForDisplay();
         }
 
         // frm shown
@@ -155,49 +150,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 
         // frm closing
         private void FrmResult_FormClosing(object sender, FormClosingEventArgs e) => this.FadeOut();
-
-        // Mod MoveFrm event
-        private void MoveFrmMod_MouseDown(object sender, MouseEventArgs e)
-        {
-            // base
-            MoveFrm_MouseDown(sender, e);
-            // sound
-            SND_CHG.Play();
-        }
-
-        // all key down
-        private void All_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Escape)
-            {
-                // main
-                Close();
-                // sound
-                SND_CHG.PlaySync();
-            }
-        }
-
-        // rtx text align
-        private void Rtx_ContentsResized(object sender, ContentsResizedEventArgs e)
-        {
-            var rtx = (RichTextBox)sender;
-            // horizontal
-            rtx.SelectAll();
-            rtx.SelectionAlignment = Center;
-            rtx.DeselectAll();
-            // vertical
-            rtx.Height = e.NewRectangle.Height;
-            var cH = rtx.Height;
-            var pH = rtx.Parent.Height;
-            if (cH < pH - 20)
-            {
-                rtx.Top = (pH - cH) / 2 + 20;
-            }
-            else
-            {
-                rtx.Dock = Fill;
-            }
-        }
         #endregion
 
         #region Methods
@@ -225,12 +177,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         _smryS[_smryS.FindIndex(s => s.Item1 == rebar)] = item;
                     }
                 }
-                rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - 3);
+                rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - " + ".Length);
                 rsltRebarSs += "\n";
                 rsltAmtSs += $"{area.Amount}本\n";
             }
-            rsltRebarSs.Substring(0, rsltRebarSs.Length - 1);
-            rsltAmtSs.Substring(0, rsltAmtSs.Length - 1);
+            rsltRebarSs.Substring(0, rsltRebarSs.Length - "\n".Length);
+            rsltAmtSs.Substring(0, rsltAmtSs.Length - "\n".Length);
         }
 
         // Reinforcement list for display
@@ -260,13 +212,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         _smryR[_smryR.FindIndex(s => s.Item1 == d && s.Item2 == rebar)] = item;
                     }
                 }
-                rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - 3);
+                rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - " + ".Length);
                 rsltRebarRs += "\n";
                 rsltAmtRs += $"{area.Amount}本\n";
             }
-            rsltDRs.Substring(0, rsltDRs.Length - 1);
-            rsltRebarRs.Substring(0, rsltRebarRs.Length - 1);
-            rsltAmtRs.Substring(0, rsltAmtRs.Length - 1);
+            rsltDRs.Substring(0, rsltDRs.Length - "\n".Length);
+            rsltRebarRs.Substring(0, rsltRebarRs.Length - "\n".Length);
+            rsltAmtRs.Substring(0, rsltAmtRs.Length - "\n".Length);
         }
 
         // Slab summary for display
@@ -277,7 +229,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 rslt += $"{item.Item1} = {item.Item2}本\n";
             }
-            rslt.Substring(0, rslt.Length - 1);
+            rslt.Substring(0, rslt.Length - "\n".Length);
             rtxSmryS.Text = rslt;
         }
 
@@ -292,17 +244,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 {
                     rslt += $"{item.Item2} = {item.Item3}本\n";
                 }
-                rslt.Substring(0, rslt.Length - 1);
-                // display
-                var rtx = (RichTextBox)Controls.Find($"rtxSmryDR{i + 1}", searchAllChildren: true).FirstOrDefault();
-                if (rtx != null)
+                rslt.Substring(0, rslt.Length - "\n".Length);
+                // tranfer to ctrl
+                foreach (var rtxSmryR in _rtxSmryRs)
                 {
-                    rtx.Text = rslt;
+                    rtxSmryR.Text = rslt;
                 }
-                var lbl = (Label)Controls.Find($"lblSmryDR{i + 1}", searchAllChildren: true).FirstOrDefault();
-                if (lbl != null)
+                foreach (var lblSmryR in _lblSmryRs)
                 {
-                    lbl.Text = splitList[i].First().Item1.ToString();
+                    lblSmryR.Text = splitList[i].First().Item1.ToString();
                 }
             }
         }

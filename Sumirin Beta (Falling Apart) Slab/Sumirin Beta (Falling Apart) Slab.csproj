@@ -53,6 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\Calculator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screen\FrmMain.cs">
@@ -70,13 +76,23 @@
     <Compile Include="Screen\FrmResult.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Screen\FrmResult.Define.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Screen\FrmResult.Designer.cs">
       <DependentUpon>FrmResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screen\FrmResult.EventHandler.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Script\Common.cs" />
     <Compile Include="Script\Constant.cs" />
+    <Compile Include="Script\EventHandler.cs" />
     <Compile Include="Script\Model\AreaReinforcement.cs" />
     <Compile Include="Script\Model\AreaSlab.cs" />
+    <EmbeddedResource Include="Control\Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

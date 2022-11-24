@@ -811,6 +811,7 @@
             this.tgTruck2Ton.TabStop = false;
             this.tipMain.SetToolTip(this.tgTruck2Ton, "2t");
             this.tgTruck2Ton.UseVisualStyleBackColor = false;
+            this.tgTruck2Ton.CheckedChanged += new System.EventHandler(this.TgTruck2Ton_CheckedChanged);
             // 
             // btnCl
             // 

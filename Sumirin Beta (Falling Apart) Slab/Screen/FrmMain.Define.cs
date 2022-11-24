@@ -6,7 +6,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 {
     public partial class FrmMain
     {
-        // define
+        // Define
         private readonly int _span = Default.Span;
 
         // Initialize items
@@ -23,9 +23,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             InitChkASHs();
             InitChkASVs();
             InitChkARs();
+            InitChkARHs();
+            InitChkARVs();
             InitChkIs();
             InitChkOns();
-            InitChkOffs();
+            InitChkROns();
+            InitChkROffs();
             InitChkBLs();
             InitChkBLSHs();
             InitChkBLSVs();
@@ -338,6 +341,30 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkARV6
             };
 
+        private List<CheckBox> _chkARHs;
+        // Initialize list chkARH
+        private void InitChkARHs() => _chkARHs = new List<CheckBox>
+            {
+                chkARH1,
+                chkARH2,
+                chkARH3,
+                chkARH4,
+                chkARH5,
+                chkARH6
+            };
+
+        private List<CheckBox> _chkARVs;
+        // Initialize list chkARV
+        private void InitChkARVs() => _chkARVs = new List<CheckBox>
+            {
+                chkARV1,
+                chkARV2,
+                chkARV3,
+                chkARV4,
+                chkARV5,
+                chkARV6
+            };
+
         private List<CheckBox> _chkIs;
         // Initialize list chkI
         private void InitChkIs() => _chkIs = new List<CheckBox>
@@ -502,9 +529,39 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkFRRV6
             };
 
-        private List<CheckBox> _chkOffs;
-        // Initialize list chkOff
-        private void InitChkOffs() => _chkOffs = new List<CheckBox>
+        private List<CheckBox> _chkROns;
+        // Initialize list chkROn
+        private void InitChkROns() => _chkROns = new List<CheckBox>
+            {
+                chkFLRH1,
+                chkFRRH1,
+                chkFLRH2,
+                chkFRRH2,
+                chkFLRH3,
+                chkFRRH3,
+                chkFLRH4,
+                chkFRRH4,
+                chkFLRH5,
+                chkFRRH5,
+                chkFLRH6,
+                chkFRRH6,
+                chkFLRV1,
+                chkFRRV1,
+                chkFLRV2,
+                chkFRRV2,
+                chkFLRV3,
+                chkFRRV3,
+                chkFLRV4,
+                chkFRRV4,
+                chkFLRV5,
+                chkFRRV5,
+                chkFLRV6,
+                chkFRRV6
+            };
+
+        private List<CheckBox> _chkROffs;
+        // Initialize list chkROff
+        private void InitChkROffs() => _chkROffs = new List<CheckBox>
             {
                 chkBLRH1,
                 chkBRRH1,

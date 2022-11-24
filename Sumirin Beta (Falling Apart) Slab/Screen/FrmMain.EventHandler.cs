@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using YANF.Control;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static System.Drawing.Color;
 using static System.Drawing.FontStyle;
 using static System.Windows.Forms.Keys;
-using static YANF.Script.YANEvent;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 {
@@ -34,37 +32,25 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 _chkAs[id + 1].Checked = false;
             }
         }
-        #endregion
 
-        #region Rdo
-        // rdo checked changed
-        private void Rdo_CheckedChanged(object sender, EventArgs e) => ((YANRdo)sender).TabStop = false;
+        // chkROFf checked changed
+        private void ChkROff_CheckedChanged(object sender, EventArgs e)
+        {
+            var chk = (CheckBox)sender;
+            if (chk.Checked)
+            {
+                _chkROns[_chkROffs.IndexOf(chk)].Checked = false;
+            }
+        }
         #endregion
 
         #region Nud
-        // nud enter
-        private void Nud_Enter(object sender, EventArgs e)
-        {
-            var nud = (NumericUpDown)sender;
-            nud.Select(0, nud.Text.Length);
-        }
-
         // nud title enter
         private void NudTit_Enter(object sender, EventArgs e)
         {
             var id = _nudTits.IndexOf((NumericUpDown)sender);
             _lblTits[id].ForeColor = OrangeRed;
             _lblTits[id].Font = new Font(_lblTits[id].Font, Bold);
-        }
-
-        // nud leave
-        private void Nud_Leave(object sender, EventArgs e)
-        {
-            var nud = (NumericUpDown)sender;
-            if (string.IsNullOrWhiteSpace(nud.Text))
-            {
-                nud.Text = nud.Value.ToString();
-            }
         }
 
         // nud title leave
@@ -121,10 +107,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Other
-        // children key down
-        private void Child_KeyDown(object sender, KeyEventArgs e)
+        // ctrl info key down
+        private void CtrlI_KeyDown(object sender, KeyEventArgs e)
         {
-            var ctrl = (Control)sender;
+            var ctrl = (System.Windows.Forms.Control)sender;
             var id = GetIdFromCtrlI(ctrl);
             if (id != null)
             {
@@ -231,15 +217,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     }
                 }
             }
-        }
-
-        // Mod MoveFrm event
-        private void MoveFrmMod_MouseDown(object sender, MouseEventArgs e)
-        {
-            // base
-            MoveFrm_MouseDown(sender, e);
-            // sound
-            SND_CHG.Play();
         }
         #endregion
     }

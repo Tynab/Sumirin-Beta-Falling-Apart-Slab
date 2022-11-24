@@ -15,8 +15,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         private readonly int _fixnD16 = Default.Fixn_D16;
         private readonly int _fixnD19 = Default.Fixn_D19;
         private readonly int _fixnD22 = Default.Fixn_D22;
-        private readonly SumirinBranch _branch = Touhoku;
         private readonly double _lMaxRawWood = Default.Max_Raw_Wood_Nml;
+        private readonly SumirinBranch _branch = Touhoku;
         private readonly int _lFixn;
         #endregion
 
@@ -54,8 +54,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate bending left
         protected new void CalcRebarBdngL()
         {
+            var fixnR = FixationR ? Fixation() : 0;
+            var w = W + fixnR;
             var lMaxRebarLWoBdng = (int)_lMaxRawWood - _lBdng;
-            if (W <= lMaxRebarLWoBdng)
+            if (w <= lMaxRebarLWoBdng)
             {
                 Rebars = new List<string>
                 {
@@ -69,7 +71,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
                 {
                     lMaxRebarR -= 500;
                 }
-                var w = W;
                 var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
                 var jt = JtCnt(ref w, lMaxRawWoodRip + lMaxRebarR, lMaxRawWoodRip);
                 var lRebarLWoBdng = ((w + _chidoriHorz) / 2).Round500() - _lBdng;
@@ -94,8 +95,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate bending right
         protected new void CalcRebarBdngR()
         {
+            var fixnL = FixationL ? Fixation() : 0;
+            var w = W + fixnL;
             var lMaxRebarRWoBdng = _lMaxRawWood - _lBdng;
-            if (W <= lMaxRebarRWoBdng)
+            if (w <= lMaxRebarRWoBdng)
             {
                 Rebars = new List<string>
                 {
@@ -105,7 +108,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             else
             {
                 var lMaxRebarR = _lMaxRawWood - _chidoriHorz - _lBdng;
-                var w = W;
                 var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
                 var jt = JtCnt(ref w, lMaxRawWoodRip + lMaxRebarR, lMaxRawWoodRip);
                 var lRebarL = ((w + _chidoriHorz) / 2).Round500();
@@ -125,7 +127,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate bending couple head
         protected new void CalcRebarBdngLR()
         {
-            if (W <= 910)
+            var w = W;
+            if (w <= 910)
             {
                 Rebars = new List<string>
                 {
@@ -134,7 +137,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
             else
             {
-                var w = W;
                 var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
                 var jt = JtCnt(ref w, (lMaxRawWoodRip - _lBdng) * 2 - _chidoriHorz + _lFixn, lMaxRawWoodRip);
                 var lRebarLWoBdng = ((w + _chidoriHorz) / 2).Round500() - _lBdng;
@@ -154,7 +156,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate straight
         protected new void CalcRebarSt()
         {
-            if (W <= _lMaxRawWood)
+            var fixnL = FixationL ? Fixation() : 0;
+            var fixnR = FixationR ? Fixation() : 0;
+            var w = W + fixnL + fixnR;
+            if (w <= _lMaxRawWood)
             {
                 Rebars = new List<string>
                 {
@@ -163,7 +168,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
             else
             {
-                var w = W;
                 var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
                 var jt = JtCnt(ref w, _lMaxRawWood + lMaxRawWoodRip - _chidoriHorz, lMaxRawWoodRip);
                 var lRebarL = ((w + _chidoriHorz) / 2).Round500();

@@ -9,11 +9,8 @@ using YANF.Script;
 using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.EventHandler;
 using static System.Math;
-using static System.Threading.Tasks.Task;
-using static System.Windows.Forms.MessageBoxButtons;
-using static System.Windows.Forms.MessageBoxIcon;
-using static YANF.Script.YANConstant.MsgBoxLang;
 using static YANF.Script.YANEvent;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
@@ -64,7 +61,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             // chk info event
             foreach (var chkI in _chkIs)
             {
-                chkI.KeyDown += Child_KeyDown;
+                chkI.KeyDown += CtrlI_KeyDown;
+            }
+            // chk reinforcement off event
+            foreach (var chkROff in _chkROffs)
+            {
+                chkROff.CheckedChanged += ChkROff_CheckedChanged;
             }
             // rdo fix tab stop
             foreach (var rdo in this.GetAllObjs(typeof(YANRdo)).Cast<YANRdo>())
@@ -85,7 +87,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 nudTit.Enter += NudTit_Enter;
                 nudTit.Leave += NudTit_Leave;
-                nudTit.KeyDown += Child_KeyDown;
+                nudTit.KeyDown += CtrlI_KeyDown;
             }
             // nud G event
             foreach (var nudG in _nudGs)
@@ -102,12 +104,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // frm closing
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e) => this.FadeOut();
 
+        // sound effect
+        private void TgTruck2Ton_CheckedChanged(object sender, EventArgs e) => SND_CHG.Play();
+
         // btn slab select all click
         private void BtnSSelAll_Click(object sender, EventArgs e)
         {
-            foreach(var chkAS in _chkASs)
+            foreach (var chkAS in _chkASs)
             {
-                chkAS.Checked= true;
+                chkAS.Checked = true;
             }
         }
 
@@ -142,7 +147,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkOn.Checked = true;
             }
             // default state off
-            foreach (var chkOff in _chkOffs)
+            foreach (var chkOff in _chkROffs)
             {
                 chkOff.Checked = false;
             }
@@ -188,7 +193,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 
         #region Methods
         // Get Id from control info
-        private int? GetIdFromCtrlI(Control ctrl) => _nudWs.Contains(ctrl)
+        private int? GetIdFromCtrlI(System.Windows.Forms.Control ctrl) => _nudWs.Contains(ctrl)
                 ? _nudWs.IndexOf((NumericUpDown)ctrl)
                 : _nudHs.Contains(ctrl)
                     ? _nudHs.IndexOf((NumericUpDown)ctrl)
@@ -205,7 +210,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         {
             var lgRebar = 0d;
             // scan control to list model
-            foreach(var chkASH in _chkASHs)
+            foreach (var chkASH in _chkASHs)
             {
                 if (chkASH.Checked)
                 {
@@ -278,82 +283,24 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private bool HasGetAllChkRH()
         {
             var rslt = false;
-            for (var i = 1; i <= _maxAreaR; i++)
+            foreach (var chkARH in _chkARHs)
             {
-                var chk = (CheckBox)Controls.Find($"chkRH{i}", searchAllChildren: true).FirstOrDefault();
-                if (chk != null)
+                if (chkARH.Checked)
                 {
-                    if (chk.Checked)
+                    rslt = true;
+                    var id = _chkARHs.IndexOf(chkARH);
+                    var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
-                        rslt = true;
-                        // async
-                        var taskW = Run(() =>
-                        {
-                            var nudW = (NumericUpDown)Controls.Find($"nudWRH{i}", searchAllChildren: true).FirstOrDefault();
-                            return nudW != null ? (double)nudW.Value : 0;
-                        });
-                        var taskH = Run(() =>
-                        {
-                            var nudH = (NumericUpDown)Controls.Find($"nudHRH{i}", searchAllChildren: true).FirstOrDefault();
-                            return nudH != null ? (double)nudH.Value : 0;
-                        });
-                        var taskD = Run(() =>
-                        {
-                            var nudD = (NumericUpDown)Controls.Find($"nudDRH{i}", searchAllChildren: true).FirstOrDefault();
-                            return nudD != null ? (int)nudD.Value : 0;
-                        });
-                        var taskBdngL = Run(() =>
-                        {
-                            var chkL = (CheckBox)Controls.Find($"chkLRH{i}", searchAllChildren: true).FirstOrDefault();
-                            return chkL == null || chkL.Checked;
-                        });
-                        var taskBdngR = Run(() =>
-                        {
-                            var chkR = (CheckBox)Controls.Find($"chkRRH{i}", searchAllChildren: true).FirstOrDefault();
-                            return chkR == null || chkR.Checked;
-                        });
-                        // await
-                        var areaR = new AreaReinforcement(_branch, _maxRawWood);
-                        var w = taskW.Result;
-                        if (w > 0)
-                        {
-                            areaR.W = w;
-                        }
-                        else
-                        {
-                            YANMessageBox.Show("エラー", $"「nudWSH{i}」探さない！", OK, Error, JAP);
-                            return false;
-                        }
-                        var h = taskH.Result;
-                        if (h > 0)
-                        {
-                            areaR.H = h;
-                        }
-                        else
-                        {
-                            YANMessageBox.Show("エラー", $"「nudHSH{i}」探さない！", OK, Error, JAP);
-                            return false;
-                        }
-                        var d = taskD.Result;
-                        if (d > 0)
-                        {
-                            areaR.D = d;
-                        }
-                        else
-                        {
-                            YANMessageBox.Show("エラー", $"「nudDSH{i}」探さない！", OK, Error, JAP);
-                            return false;
-                        }
-                        areaR.BendingL = taskBdngL.Result;
-                        areaR.BendingR = taskBdngR.Result;
-                        areaR.Prcs();
-                        _areaRHs.Add(areaR);
-                    }
-                }
-                else
-                {
-                    YANMessageBox.Show("エラー", $"「chkRH{i}」探さない！", OK, Error, JAP);
-                    return false;
+                        W = (double)_nudWRHs[id].Value,
+                        H = (double)_nudHRHs[id].Value,
+                        D = (int)_nudDRHs[id].Value,
+                        BendingL = _chkBLRHs[id].Checked,
+                        BendingR = _chkBRRHs[id].Checked,
+                        FixationL = _chkFLRHs[id].Checked,
+                        FixationR = _chkFRRHs[id].Checked
+                    };
+                    areaR.Prcs();
+                    _areaRHs.Add(areaR);
                 }
             }
             return rslt;
@@ -363,82 +310,24 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private bool HasGetAllChkRV()
         {
             var rslt = false;
-            for (var i = 1; i <= _maxAreaR; i++)
+            foreach (var chkARV in _chkARVs)
             {
-                var chk = (CheckBox)Controls.Find($"chkRV{i}", searchAllChildren: true).FirstOrDefault();
-                if (chk != null)
+                if (chkARV.Checked)
                 {
-                    if (chk.Checked)
+                    rslt = true;
+                    var id = _chkARVs.IndexOf(chkARV);
+                    var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
-                        rslt = true;
-                        // async
-                        var taskW = Run(() =>
-                        {
-                            var nudW = (NumericUpDown)Controls.Find($"nudWRV{i}", searchAllChildren: true).FirstOrDefault();
-                            return nudW != null ? (double)nudW.Value : 0;
-                        });
-                        var taskH = Run(() =>
-                        {
-                            var nudH = (NumericUpDown)Controls.Find($"nudHRV{i}", searchAllChildren: true).FirstOrDefault();
-                            return nudH != null ? (double)nudH.Value : 0;
-                        });
-                        var taskD = Run(() =>
-                        {
-                            var nudD = (NumericUpDown)Controls.Find($"nudDRV{i}", searchAllChildren: true).FirstOrDefault();
-                            return nudD != null ? (int)nudD.Value : 0;
-                        });
-                        var taskBdngL = Run(() =>
-                        {
-                            var chkL = (CheckBox)Controls.Find($"chkLRV{i}", searchAllChildren: true).FirstOrDefault();
-                            return chkL == null || chkL.Checked;
-                        });
-                        var taskBdngR = Run(() =>
-                        {
-                            var chkR = (CheckBox)Controls.Find($"chkRRV{i}", searchAllChildren: true).FirstOrDefault();
-                            return chkR == null || chkR.Checked;
-                        });
-                        // await
-                        var areaR = new AreaReinforcement(_branch, _maxRawWood);
-                        var w = taskW.Result;
-                        if (w > 0)
-                        {
-                            areaR.W = w;
-                        }
-                        else
-                        {
-                            YANMessageBox.Show("エラー", $"「nudWSV{i}」探さない！", OK, Error, JAP);
-                            return false;
-                        }
-                        var h = taskH.Result;
-                        if (h > 0)
-                        {
-                            areaR.H = h;
-                        }
-                        else
-                        {
-                            YANMessageBox.Show("エラー", $"「nudHSV{i}」探さない！", OK, Error, JAP);
-                            return false;
-                        }
-                        var d = taskD.Result;
-                        if (d > 0)
-                        {
-                            areaR.D = d;
-                        }
-                        else
-                        {
-                            YANMessageBox.Show("エラー", $"「nudDSH{i}」探さない！", OK, Error, JAP);
-                            return false;
-                        }
-                        areaR.BendingL = taskBdngL.Result;
-                        areaR.BendingR = taskBdngR.Result;
-                        areaR.Prcs();
-                        _areaRHs.Add(areaR);
-                    }
-                }
-                else
-                {
-                    YANMessageBox.Show("エラー", $"「chkSV{i}」探さない！", OK, Error, JAP);
-                    return false;
+                        W = (double)_nudWRVs[id].Value,
+                        H = (double)_nudHRVs[id].Value,
+                        D = (int)_nudDRVs[id].Value,
+                        BendingL = _chkBLRVs[id].Checked,
+                        BendingR = _chkBRRVs[id].Checked,
+                        FixationL = _chkFLRVs[id].Checked,
+                        FixationR = _chkFRRVs[id].Checked
+                    };
+                    areaR.Prcs();
+                    _areaRHs.Add(areaR);
                 }
             }
             return rslt;
