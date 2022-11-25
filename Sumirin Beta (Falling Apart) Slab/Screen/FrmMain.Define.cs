@@ -13,12 +13,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void InitItems()
         {
             // pnl
-            InitPnlAs();
-            InitPnlIs();
+            InitPnlASs();
+            InitPnlARs();
+            InitPnlISs();
+            InitPnlIRs();
             // lbl
             InitLblTits();
             // chk
-            InitChkAs();
             InitChkASs();
             InitChkASHs();
             InitChkASVs();
@@ -29,34 +30,37 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             InitChkOns();
             InitChkROns();
             InitChkROffs();
-            InitChkBLs();
+            InitChkBLSs();
             InitChkBLSHs();
             InitChkBLSVs();
+            InitChkBLRs();
             InitChkBLRHs();
             InitChkBLRVs();
-            InitChkBRs();
+            InitChkBRSs();
             InitChkBRSHs();
             InitChkBRSVs();
+            InitChkBRRs();
             InitChkBRRHs();
             InitChkBRRVs();
-            InitChkFLs();
+            InitChkFLRs();
             InitChkFLRHs();
             InitChkFLRVs();
-            InitChkFRs();
+            InitChkFRRs();
             InitChkFRRHs();
             InitChkFRRVs();
             // nud
-            InitNudWs();
+            InitNudWSs();
+            InitNudWRs();
             InitNudWSHs();
             InitNudWSVs();
             InitNudWRHs();
             InitNudWRVs();
-            InitNudHs();
+            InitNudHSs();
+            InitNudHRs();
             InitNudHSHs();
             InitNudHSVs();
             InitNudHRHs();
             InitNudHRVs();
-            InitNudDs();
             InitNudDRs();
             InitNudDRHs();
             InitNudDRVs();
@@ -65,9 +69,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         }
 
         #region Pnl
-        private List<Panel> _pnlAs;
-        // Initialize list pnlA
-        private void InitPnlAs() => _pnlAs = new List<Panel>
+        private List<Panel> _pnlASs;
+        // Initialize list pnlAS
+        private void InitPnlASs() => _pnlASs = new List<Panel>
             {
                 pnlASH1,
                 pnlASH2,
@@ -88,7 +92,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 pnlASV7,
                 pnlASV8,
                 pnlASV9,
-                pnlASV10,
+                pnlASV10
+            };
+
+        private List<Panel> _pnlARs;
+        // Initialize list pnlAR
+        private void InitPnlARs() => _pnlARs = new List<Panel>
+            {
                 pnlARH1,
                 pnlARH2,
                 pnlARH3,
@@ -103,9 +113,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 pnlARV6
             };
 
-        private List<Panel> _pnlIs;
-        // Initialize list pnlI
-        private void InitPnlIs() => _pnlIs = new List<Panel>
+        private List<Panel> _pnlISs;
+        // Initialize list pnlIS
+        private void InitPnlISs() => _pnlISs = new List<Panel>
             {
                 pnlISH1,
                 pnlISH2,
@@ -126,7 +136,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 pnlISV7,
                 pnlISV8,
                 pnlISV9,
-                pnlISV10,
+                pnlISV10
+            };
+
+        private List<Panel> _pnlIRs;
+        // Initialize list pnlIR
+        private void InitPnlIRs() => _pnlIRs = new List<Panel>
+            {
                 pnlIRH1,
                 pnlIRH2,
                 pnlIRH3,
@@ -227,44 +243,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Chk
-        private List<CheckBox> _chkAs;
-        // Initialize list chkA
-        private void InitChkAs() => _chkAs = new List<CheckBox>
-            {
-                chkASH1,
-                chkASH2,
-                chkASH3,
-                chkASH4,
-                chkASH5,
-                chkASH6,
-                chkASH7,
-                chkASH8,
-                chkASH9,
-                chkASH10,
-                chkASV1,
-                chkASV2,
-                chkASV3,
-                chkASV4,
-                chkASV5,
-                chkASV6,
-                chkASV7,
-                chkASV8,
-                chkASV9,
-                chkASV10,
-                chkARH1,
-                chkARH2,
-                chkARH3,
-                chkARH4,
-                chkARH5,
-                chkARH6,
-                chkARV1,
-                chkARV2,
-                chkARV3,
-                chkARV4,
-                chkARV5,
-                chkARV6
-            };
-
         private List<CheckBox> _chkASs;
         // Initialize list chkAS
         private void InitChkASs() => _chkASs = new List<CheckBox>
@@ -589,9 +567,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkBRRV6
             };
 
-        private List<CheckBox> _chkBLs;
-        // Initialize list chkBL
-        private void InitChkBLs() => _chkBLs = new List<CheckBox>
+        private List<CheckBox> _chkBLSs;
+        // Initialize list chkBLS
+        private void InitChkBLSs() => _chkBLSs = new List<CheckBox>
             {
                 chkBLSH1,
                 chkBLSH2,
@@ -612,19 +590,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkBLSV7,
                 chkBLSV8,
                 chkBLSV9,
-                chkBLSV10,
-                chkBLRH1,
-                chkBLRH2,
-                chkBLRH3,
-                chkBLRH4,
-                chkBLRH5,
-                chkBLRH6,
-                chkBLRV1,
-                chkBLRV2,
-                chkBLRV3,
-                chkBLRV4,
-                chkBLRV5,
-                chkBLRV6
+                chkBLSV10
             };
 
         private List<CheckBox> _chkBLSHs;
@@ -659,6 +625,24 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkBLSV10
             };
 
+        private List<CheckBox> _chkBLRs;
+        // Initialize list chkBLR
+        private void InitChkBLRs() => _chkBLRs = new List<CheckBox>
+            {
+                chkBLRH1,
+                chkBLRH2,
+                chkBLRH3,
+                chkBLRH4,
+                chkBLRH5,
+                chkBLRH6,
+                chkBLRV1,
+                chkBLRV2,
+                chkBLRV3,
+                chkBLRV4,
+                chkBLRV5,
+                chkBLRV6
+            };
+
         private List<CheckBox> _chkBLRHs;
         // Initialize list chkBLRH
         private void InitChkBLRHs() => _chkBLRHs = new List<CheckBox>
@@ -683,9 +667,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkBLRV6
             };
 
-        private List<CheckBox> _chkBRs;
-        // Initialize list chkBR
-        private void InitChkBRs() => _chkBRs = new List<CheckBox>
+        private List<CheckBox> _chkBRSs;
+        // Initialize list chkBRS
+        private void InitChkBRSs() => _chkBRSs = new List<CheckBox>
             {
                 chkBRSH1,
                 chkBRSH2,
@@ -706,19 +690,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkBRSV7,
                 chkBRSV8,
                 chkBRSV9,
-                chkBRSV10,
-                chkBRRH1,
-                chkBRRH2,
-                chkBRRH3,
-                chkBRRH4,
-                chkBRRH5,
-                chkBRRH6,
-                chkBRRV1,
-                chkBRRV2,
-                chkBRRV3,
-                chkBRRV4,
-                chkBRRV5,
-                chkBRRV6
+                chkBRSV10
             };
 
         private List<CheckBox> _chkBRSHs;
@@ -753,6 +725,24 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkBRSV10
             };
 
+        private List<CheckBox> _chkBRRs;
+        // Initialize list chkBR
+        private void InitChkBRRs() => _chkBRRs = new List<CheckBox>
+            {
+                chkBRRH1,
+                chkBRRH2,
+                chkBRRH3,
+                chkBRRH4,
+                chkBRRH5,
+                chkBRRH6,
+                chkBRRV1,
+                chkBRRV2,
+                chkBRRV3,
+                chkBRRV4,
+                chkBRRV5,
+                chkBRRV6
+            };
+
         private List<CheckBox> _chkBRRHs;
         // Initialize list chkBRRH
         private void InitChkBRRHs() => _chkBRRHs = new List<CheckBox>
@@ -777,30 +767,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkBRRV6
             };
 
-        private List<CheckBox> _chkFLs;
-        // Initialize list chkFL
-        private void InitChkFLs() => _chkFLs = new List<CheckBox>
+        private List<CheckBox> _chkFLRs;
+        // Initialize list chkFLR
+        private void InitChkFLRs() => _chkFLRs = new List<CheckBox>
             {
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 chkFLRH1,
                 chkFLRH2,
                 chkFLRH3,
@@ -839,30 +809,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkFLRV6
             };
 
-        private List<CheckBox> _chkFRs;
-        // Initialize list chkFL
-        private void InitChkFRs() => _chkFRs = new List<CheckBox>
+        private List<CheckBox> _chkFRRs;
+        // Initialize list chkFRR
+        private void InitChkFRRs() => _chkFRRs = new List<CheckBox>
             {
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 chkFRRH1,
                 chkFRRH2,
                 chkFRRH3,
@@ -903,9 +853,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Nud
-        private List<NumericUpDown> _nudWs;
-        // Initialize list nudW
-        private void InitNudWs() => _nudWs = new List<NumericUpDown>
+        private List<NumericUpDown> _nudWSs;
+        // Initialize list nudWS
+        private void InitNudWSs() => _nudWSs = new List<NumericUpDown>
             {
                 nudWSH1,
                 nudWSH2,
@@ -926,7 +876,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nudWSV7,
                 nudWSV8,
                 nudWSV9,
-                nudWSV10,
+                nudWSV10
+            };
+
+        private List<NumericUpDown> _nudWRs;
+        // Initialize list nudWR
+        private void InitNudWRs() => _nudWRs = new List<NumericUpDown>
+            {
                 nudWRH1,
                 nudWRH2,
                 nudWRH3,
@@ -997,9 +953,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nudWRV6
             };
 
-        private List<NumericUpDown> _nudHs;
-        // Initialize list nudH
-        private void InitNudHs() => _nudHs = new List<NumericUpDown>
+        private List<NumericUpDown> _nudHSs;
+        // Initialize list nudHS
+        private void InitNudHSs() => _nudHSs = new List<NumericUpDown>
             {
                 nudHSH1,
                 nudHSH2,
@@ -1020,7 +976,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nudHSV7,
                 nudHSV8,
                 nudHSV9,
-                nudHSV10,
+                nudHSV10
+            };
+
+        private List<NumericUpDown> _nudHRs;
+        // Initialize list nudHR
+        private void InitNudHRs() => _nudHRs = new List<NumericUpDown>
+            {
                 nudHRH1,
                 nudHRH2,
                 nudHRH3,
@@ -1089,44 +1051,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nudHRV4,
                 nudHRV5,
                 nudHRV6
-            };
-
-        private List<NumericUpDown> _nudDs;
-        // Initialize list nudD
-        private void InitNudDs() => _nudDs = new List<NumericUpDown>
-            {
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                nudDRH1,
-                nudDRH2,
-                nudDRH3,
-                nudDRH4,
-                nudDRH5,
-                nudDRH6,
-                nudDRV1,
-                nudDRV2,
-                nudDRV3,
-                nudDRV4,
-                nudDRV5,
-                nudDRV6
             };
 
         private List<NumericUpDown> _nudDRs;

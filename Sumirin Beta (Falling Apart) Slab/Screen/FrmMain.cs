@@ -1,4 +1,5 @@
-﻿using Sumirin_Beta__Falling_Apart__Slab.Script.Model;
+﻿using Sumirin_Beta__Falling_Apart__Slab.Control;
+using Sumirin_Beta__Falling_Apart__Slab.Script.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -23,6 +24,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private List<AreaReinforcement> _areaRHs;
         private List<AreaReinforcement> _areaRVs;
         private FrmResult _frmResult;
+        private Calculator _ctrlCalculator;
         private SumirinBranch _branch;
         private double _maxRawWood;
         #endregion
@@ -53,10 +55,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lbl.MouseMove += MoveFrm_MouseMove;
                 lbl.MouseUp += MoveFrm_MouseUp;
             }
-            // chk area event
-            foreach (var chkA in _chkAs)
+            // chk slab area event
+            foreach (var chkAS in _chkASs)
             {
-                chkA.CheckedChanged += ChkA_CheckedChanged;
+                chkAS.CheckedChanged += ChkAS_CheckedChanged;
+            }
+            // chk reinforcement area event
+            foreach (var chkAR in _chkARs)
+            {
+                chkAR.CheckedChanged += ChkAR_CheckedChanged;
             }
             // chk info event
             foreach (var chkI in _chkIs)
@@ -204,6 +211,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                                                     : _chkBRs.Contains(ctrl)
                                                                     ? _chkBRs.IndexOf((CheckBox)ctrl)
                                                                     : _chkFLs.Contains(ctrl) ? _chkFLs.IndexOf((CheckBox)ctrl) : _chkFRs.Contains(ctrl) ? _chkFRs.IndexOf((CheckBox)ctrl) : null;
+        // Get Id from control slab info
+        private int? GetIdFromCtrlIS(System.Windows.Forms.Control ctrl)
+        {
+            if()
+        }
 
         // Get all chk slab horizontal
         private void GetAllChkSH()

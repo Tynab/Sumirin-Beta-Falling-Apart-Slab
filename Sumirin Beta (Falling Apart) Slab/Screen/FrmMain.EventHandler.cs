@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sumirin_Beta__Falling_Apart__Slab.Control;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
@@ -11,25 +12,53 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
     public partial class FrmMain
     {
         #region Chk
-        // chkA checked changed
-        private void ChkA_CheckedChanged(object sender, EventArgs e)
+        // chkAS checked changed
+        private void ChkAS_CheckedChanged(object sender, EventArgs e)
         {
             // sound
             SND_PRS.Play();
             // main
             var chk = (CheckBox)sender;
-            var id = _chkAs.IndexOf(chk);
-            _pnlIs[id].Enabled = chk.Checked;
+            var id = _chkASs.IndexOf(chk);
+            _pnlISs[id].Enabled = chk.Checked;
             // foward focus
-            if (_pnlIs[id].Enabled)
+            if (_pnlISs[id].Enabled)
             {
-                SelectNextControl(_pnlIs[id], true, true, true, true);
+                SelectNextControl(_pnlISs[id], true, true, true, true);
             }
             // for next side
-            _pnlAs[id + 1].Enabled = chk.Checked;
-            if (!chk.Checked)
+            if (id + 1 < _pnlASs.Count)
             {
-                _chkAs[id + 1].Checked = false;
+                _pnlASs[id + 1].Enabled = chk.Checked;
+                if (!chk.Checked)
+                {
+                    _chkASs[id + 1].Checked = false;
+                }
+            }
+        }
+
+        // chkAR checked changed
+        private void ChkAR_CheckedChanged(object sender, EventArgs e)
+        {
+            // sound
+            SND_PRS.Play();
+            // main
+            var chk = (CheckBox)sender;
+            var id = _chkARs.IndexOf(chk);
+            _pnlIRs[id].Enabled = chk.Checked;
+            // foward focus
+            if (_pnlIRs[id].Enabled)
+            {
+                SelectNextControl(_pnlIRs[id], true, true, true, true);
+            }
+            // for next side
+            if (id + 1 < _pnlARs.Count)
+            {
+                _pnlARs[id + 1].Enabled = chk.Checked;
+                if (!chk.Checked)
+                {
+                    _chkARs[id + 1].Checked = false;
+                }
             }
         }
 
@@ -82,6 +111,43 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     e.SuppressKeyPress = true;
                     break;
                 }
+                case C:
+                {
+                    var hNud = nud.Height;
+                    var ptCalc = nud.FindForm().PointToClient(nud.Parent.PointToScreen(new Point(nud.Location.X, nud.Location.Y + hNud)));
+                    var wCalc = 210;
+                    var xCalc = ptCalc.X;
+                    var yCalc = ptCalc.Y;
+                    if (xCalc + wCalc > Width)
+                    {
+                        ptCalc = new Point(xCalc - wCalc, yCalc);
+                    }
+                    var hCalc = 220;
+                    if (ptCalc.Y + hCalc > Height)
+                    {
+                        ptCalc = new Point(xCalc, yCalc - hNud - hCalc);
+                    }
+                    if (_ctrlCalculator == null)
+                    {
+                        _ctrlCalculator = new Calculator
+                        {
+                            Location = ptCalc
+                        };
+                        Controls.Add(_ctrlCalculator);
+                        _ctrlCalculator.BringToFront();
+                    }
+                    else
+                    {
+                        if (ptCalc != _ctrlCalculator.Location)
+                        {
+                            //_ctrlCalculator.Dispose();
+                            _ctrlCalculator.Location = ptCalc;
+                        }
+                    }
+                    _ctrlCalculator.Select();
+                    //nud.Enabled = false;
+                    break;
+                }
             }
         }
 
@@ -107,8 +173,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Other
-        // ctrl info key down
-        private void CtrlI_KeyDown(object sender, KeyEventArgs e)
+        // ctrl slab info key down
+        private void CtrlIS_KeyDown(object sender, KeyEventArgs e)
         {
             var ctrl = (System.Windows.Forms.Control)sender;
             var id = GetIdFromCtrlI(ctrl);
@@ -124,10 +190,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // open next area
-                        _chkAs[(int)id + 1].Checked = true;
+                        if (id + 1 < _chkASs.Count)
+                        {
+                            _chkASs[(int)id + 1].Checked = true;
+                        }
                         break;
                     }
-                    case C:
+                    case X:
                     {
                         // mute nud
                         if (ctrl is NumericUpDown)
@@ -135,7 +204,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // close current area
-                        _chkAs[(int)id].Checked = false;
+                        _chkASs[(int)id].Checked = false;
                         break;
                     }
                     case W:
@@ -146,7 +215,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // focus W
-                        _nudWs[(int)id].Select();
+                        _nudWSs[(int)id].Select();
                         break;
                     }
                     case H:
@@ -157,18 +226,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // focus H
-                        _nudHs[(int)id].Select();
-                        break;
-                    }
-                    case D:
-                    {
-                        // mute nud
-                        if (ctrl is NumericUpDown)
-                        {
-                            e.SuppressKeyPress = true;
-                        }
-                        // focus D
-                        _nudDs[(int)id].Select();
+                        _nudHSs[(int)id].Select();
                         break;
                     }
                     case L:
@@ -179,7 +237,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // change state bending left
-                        _chkBLs[(int)id].Checked = !_chkBLs[(int)id].Checked;
+                        _chkBLSs[(int)id].Checked = !_chkBLSs[(int)id].Checked;
                         break;
                     }
                     case R:
@@ -190,7 +248,100 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // change state bending right
-                        _chkBRs[(int)id].Checked = !_chkBRs[(int)id].Checked;
+                        _chkBRSs[(int)id].Checked = !_chkBRSs[(int)id].Checked;
+                        break;
+                    }
+                }
+            }
+        }
+
+        // ctrl reinforcement info key down
+        private void CtrlIR_KeyDown(object sender, KeyEventArgs e)
+        {
+            var ctrl = (System.Windows.Forms.Control)sender;
+            var id = GetIdFromCtrlI(ctrl);
+            if (id != null)
+            {
+                switch (e.KeyCode)
+                {
+                    case O:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // open next area
+                        if (id + 1 < _chkARs.Count)
+                        {
+                            _chkARs[(int)id + 1].Checked = true;
+                        }
+                        break;
+                    }
+                    case X:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // close current area
+                        _chkARs[(int)id].Checked = false;
+                        break;
+                    }
+                    case W:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // focus W
+                        _nudWRs[(int)id].Select();
+                        break;
+                    }
+                    case H:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // focus H
+                        _nudHRs[(int)id].Select();
+                        break;
+                    }
+                    case D:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // focus D
+                        _nudDRs[(int)id].Select();
+                        break;
+                    }
+                    case L:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // change state bending left
+                        _chkBLRs[(int)id].Checked = !_chkBLRs[(int)id].Checked;
+                        break;
+                    }
+                    case R:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // change state bending right
+                        _chkBRRs[(int)id].Checked = !_chkBRRs[(int)id].Checked;
                         break;
                     }
                     case T:
@@ -201,7 +352,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // change state bending left
-                        _chkFLs[(int)id].Checked = !_chkFLs[(int)id].Checked;
+                        _chkFLRs[(int)id].Checked = !_chkFLRs[(int)id].Checked;
                         break;
                     }
                     case P:
@@ -212,7 +363,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // change state bending right
-                        _chkFRs[(int)id].Checked = !_chkFRs[(int)id].Checked;
+                        _chkFRRs[(int)id].Checked = !_chkFRRs[(int)id].Checked;
                         break;
                     }
                 }
