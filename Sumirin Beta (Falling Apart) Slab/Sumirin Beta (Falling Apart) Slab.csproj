@@ -56,8 +56,14 @@
     <Compile Include="Control\Calculator.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Control\Calculator.Define.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Control\Calculator.Designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Calculator.EventHandler.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +98,7 @@
     <Compile Include="Script\Model\AreaSlab.cs" />
     <EmbeddedResource Include="Control\Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -109,6 +116,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Screen\FrmResult.resx">
       <DependentUpon>FrmResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -55,6 +55,29 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lbl.MouseMove += MoveFrm_MouseMove;
                 lbl.MouseUp += MoveFrm_MouseUp;
             }
+            // ctrl slab info event
+            var ctrlIS = new List<System.Windows.Forms.Control>();
+            ctrlIS.AddRange(_nudWSs);
+            ctrlIS.AddRange(_nudHSs);
+            ctrlIS.AddRange(_chkBLSs);
+            ctrlIS.AddRange(_chkBRSs);
+            foreach(var ctrlS in ctrlIS)
+            {
+                ctrlS.KeyDown += CtrlIS_KeyDown;
+            }
+            // ctrl reinforcement info event
+            var ctrlIR = new List<System.Windows.Forms.Control>();
+            ctrlIR.AddRange(_nudWRs);
+            ctrlIR.AddRange(_nudHRs);
+            ctrlIR.AddRange(_nudDRs);
+            ctrlIR.AddRange(_chkBLRs);
+            ctrlIR.AddRange(_chkBRRs);
+            ctrlIR.AddRange(_chkFLRs);
+            ctrlIR.AddRange(_chkFRRs);
+            foreach (var ctrlR in ctrlIR)
+            {
+                ctrlR.KeyDown += CtrlIR_KeyDown;
+            }
             // chk slab area event
             foreach (var chkAS in _chkASs)
             {
@@ -65,10 +88,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 chkAR.CheckedChanged += ChkAR_CheckedChanged;
             }
-            // chk info event
-            foreach (var chkI in _chkIs)
+            // chk reinforcement on event
+            foreach (var chkROn in _chkROns)
             {
-                chkI.KeyDown += CtrlI_KeyDown;
+                chkROn.CheckedChanged += ChkROn_CheckedChanged;
             }
             // chk reinforcement off event
             foreach (var chkROff in _chkROffs)
@@ -94,7 +117,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 nudTit.Enter += NudTit_Enter;
                 nudTit.Leave += NudTit_Leave;
-                nudTit.KeyDown += CtrlI_KeyDown;
             }
             // nud G event
             foreach (var nudG in _nudGs)
@@ -199,23 +221,25 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Methods
-        // Get Id from control info
-        private int? GetIdFromCtrlI(System.Windows.Forms.Control ctrl) => _nudWs.Contains(ctrl)
-                ? _nudWs.IndexOf((NumericUpDown)ctrl)
-                : _nudHs.Contains(ctrl)
-                    ? _nudHs.IndexOf((NumericUpDown)ctrl)
-                    : _nudDs.Contains(ctrl)
-                                    ? _nudDs.IndexOf((NumericUpDown)ctrl)
-                                    : _chkBLs.Contains(ctrl)
-                                                    ? _chkBLs.IndexOf((CheckBox)ctrl)
-                                                    : _chkBRs.Contains(ctrl)
-                                                                    ? _chkBRs.IndexOf((CheckBox)ctrl)
-                                                                    : _chkFLs.Contains(ctrl) ? _chkFLs.IndexOf((CheckBox)ctrl) : _chkFRs.Contains(ctrl) ? _chkFRs.IndexOf((CheckBox)ctrl) : null;
         // Get Id from control slab info
-        private int? GetIdFromCtrlIS(System.Windows.Forms.Control ctrl)
-        {
-            if()
-        }
+        private int? GetIdFromCtrlIS(System.Windows.Forms.Control ctrl) => _nudWSs.Contains(ctrl)
+                ? _nudWSs.IndexOf((NumericUpDown)ctrl)
+                : _nudHSs.Contains(ctrl)
+                    ? _nudHSs.IndexOf((NumericUpDown)ctrl)
+                    : _chkBLSs.Contains(ctrl) ? _chkBLSs.IndexOf((CheckBox)ctrl) : _chkBRSs.Contains(ctrl) ? _chkBRSs.IndexOf((CheckBox)ctrl) : null;
+
+        // Get Id from control reinforcement info
+        private int? GetIdFromCtrlIR(System.Windows.Forms.Control ctrl) => _nudWRs.Contains(ctrl)
+                ? _nudWRs.IndexOf((NumericUpDown)ctrl)
+                : _nudHRs.Contains(ctrl)
+                    ? _nudHRs.IndexOf((NumericUpDown)ctrl)
+                    : _nudDRs.Contains(ctrl)
+                                    ? _nudDRs.IndexOf((NumericUpDown)ctrl)
+                                    : _chkBLRs.Contains(ctrl)
+                                                    ? _chkBLRs.IndexOf((CheckBox)ctrl)
+                                                    : _chkBRRs.Contains(ctrl)
+                                                                    ? _chkBRRs.IndexOf((CheckBox)ctrl)
+                                                                    : _chkFLRs.Contains(ctrl) ? _chkFLRs.IndexOf((CheckBox)ctrl) : _chkFRRs.Contains(ctrl) ? _chkFRRs.IndexOf((CheckBox)ctrl) : null;
 
         // Get all chk slab horizontal
         private void GetAllChkSH()

@@ -156,8 +156,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // Slab list for display
         private void SsForDisplay(List<AreaSlab> areaSs, out string rsltRebarSs, out string rsltAmtSs)
         {
-            rsltRebarSs = "";
-            rsltAmtSs = "";
+            rsltRebarSs = string.Empty;
+            rsltAmtSs = string.Empty;
             foreach (var area in areaSs)
             {
                 foreach (var rebar in area.Rebars)
@@ -188,9 +188,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // Reinforcement list for display
         private void RsForDisplay(List<AreaReinforcement> areaRs, out string rsltDRs, out string rsltRebarRs, out string rsltAmtRs)
         {
-            rsltDRs = "";
-            rsltRebarRs = "";
-            rsltAmtRs = "";
+            rsltDRs = string.Empty;
+            rsltRebarRs = string.Empty;
+            rsltAmtRs = string.Empty;
             foreach (var area in areaRs)
             {
                 rsltDRs += $"D{area.D}\n";
@@ -224,7 +224,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // Slab summary for display
         private void SmrySForDisplay()
         {
-            var rslt = "";
+            var rslt = string.Empty;
             foreach (var item in _smryS)
             {
                 rslt += $"{item.Item1} = {item.Item2}本\n";
@@ -239,7 +239,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             var splitList = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
             for (var i = 0; i < splitList.Count; i++)
             {
-                var rslt = "";
+                var rslt = string.Empty;
                 foreach (var item in splitList[i])
                 {
                     rslt += $"{item.Item2} = {item.Item3}本\n";

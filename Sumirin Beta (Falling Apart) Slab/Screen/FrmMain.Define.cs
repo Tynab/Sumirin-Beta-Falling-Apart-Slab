@@ -7,6 +7,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
     public partial class FrmMain
     {
         // Define
+        private const int _id1stSH = 0;
+        private const int _id1stSV = 10;
+        private const int _id1stRH = 0;
+        private const int _id1stRV = 6;
         private readonly int _span = Default.Span;
 
         // Initialize items
@@ -26,7 +30,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             InitChkARs();
             InitChkARHs();
             InitChkARVs();
-            InitChkIs();
             InitChkOns();
             InitChkROns();
             InitChkROffs();
@@ -341,100 +344,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 chkARV4,
                 chkARV5,
                 chkARV6
-            };
-
-        private List<CheckBox> _chkIs;
-        // Initialize list chkI
-        private void InitChkIs() => _chkIs = new List<CheckBox>
-            {
-                chkBLSH1,
-                chkBRSH1,
-                chkBLSH2,
-                chkBRSH2,
-                chkBLSH3,
-                chkBRSH3,
-                chkBLSH4,
-                chkBRSH4,
-                chkBLSH5,
-                chkBRSH5,
-                chkBLSH6,
-                chkBRSH6,
-                chkBLSH7,
-                chkBRSH7,
-                chkBLSH8,
-                chkBRSH8,
-                chkBLSH9,
-                chkBRSH9,
-                chkBLSH10,
-                chkBRSH10,
-                chkBLSV1,
-                chkBRSV1,
-                chkBLSV2,
-                chkBRSV2,
-                chkBLSV3,
-                chkBRSV3,
-                chkBLSV4,
-                chkBRSV4,
-                chkBLSV5,
-                chkBRSV5,
-                chkBLSV6,
-                chkBRSV6,
-                chkBLSV7,
-                chkBRSV7,
-                chkBLSV8,
-                chkBRSV8,
-                chkBLSV9,
-                chkBRSV9,
-                chkBLSV10,
-                chkBRSV10,
-                chkBLRH1,
-                chkBRRH1,
-                chkBLRH2,
-                chkBRRH2,
-                chkBLRH3,
-                chkBRRH3,
-                chkBLRH4,
-                chkBRRH4,
-                chkBLRH5,
-                chkBRRH5,
-                chkBLRH6,
-                chkBRRH6,
-                chkBLRV1,
-                chkBRRV1,
-                chkBLRV2,
-                chkBRRV2,
-                chkBLRV3,
-                chkBRRV3,
-                chkBLRV4,
-                chkBRRV4,
-                chkBLRV5,
-                chkBRRV5,
-                chkBLRV6,
-                chkBRRV6,
-                chkFLRH1,
-                chkFRRH1,
-                chkFLRH2,
-                chkFRRH2,
-                chkFLRH3,
-                chkFRRH3,
-                chkFLRH4,
-                chkFRRH4,
-                chkFLRH5,
-                chkFRRH5,
-                chkFLRH6,
-                chkFRRH6,
-                chkFLRV1,
-                chkFRRV1,
-                chkFLRV2,
-                chkFRRV2,
-                chkFLRV3,
-                chkFRRV3,
-                chkFLRV4,
-                chkFRRV4,
-                chkFLRV5,
-                chkFRRV5,
-                chkFLRV6,
-                chkFRRV6
             };
 
         private List<CheckBox> _chkOns;

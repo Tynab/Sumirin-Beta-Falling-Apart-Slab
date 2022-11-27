@@ -27,12 +27,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 SelectNextControl(_pnlISs[id], true, true, true, true);
             }
             // for next side
-            if (id + 1 < _pnlASs.Count)
+            var idNext = id + 1;
+            if (idNext < _pnlASs.Count && idNext is not (_id1stSH or _id1stSV))
             {
-                _pnlASs[id + 1].Enabled = chk.Checked;
+                _pnlASs[idNext].Enabled = chk.Checked;
                 if (!chk.Checked)
                 {
-                    _chkASs[id + 1].Checked = false;
+                    _chkASs[idNext].Checked = false;
                 }
             }
         }
@@ -52,17 +53,28 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 SelectNextControl(_pnlIRs[id], true, true, true, true);
             }
             // for next side
-            if (id + 1 < _pnlARs.Count)
+            var idNext = id + 1;
+            if (idNext < _pnlARs.Count && idNext is not (_id1stRH or _id1stRV))
             {
-                _pnlARs[id + 1].Enabled = chk.Checked;
+                _pnlARs[idNext].Enabled = chk.Checked;
                 if (!chk.Checked)
                 {
-                    _chkARs[id + 1].Checked = false;
+                    _chkARs[idNext].Checked = false;
                 }
             }
         }
 
-        // chkROFf checked changed
+        // chkROn checked changed
+        private void ChkROn_CheckedChanged(object sender, EventArgs e)
+        {
+            var chk = (CheckBox)sender;
+            if (chk.Checked)
+            {
+                _chkROffs[_chkROns.IndexOf(chk)].Checked = false;
+            }
+        }
+
+        // chkROff checked changed
         private void ChkROff_CheckedChanged(object sender, EventArgs e)
         {
             var chk = (CheckBox)sender;
@@ -177,7 +189,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void CtrlIS_KeyDown(object sender, KeyEventArgs e)
         {
             var ctrl = (System.Windows.Forms.Control)sender;
-            var id = GetIdFromCtrlI(ctrl);
+            var id = GetIdFromCtrlIS(ctrl);
             if (id != null)
             {
                 switch (e.KeyCode)
@@ -203,8 +215,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         {
                             e.SuppressKeyPress = true;
                         }
-                        // close current area
-                        _chkASs[(int)id].Checked = false;
+                        // close current area without first
+                        if (id is not (_id1stSH or _id1stSV))
+                        {
+                            _chkASs[(int)id].Checked = false;
+                        }
                         break;
                     }
                     case W:
@@ -259,7 +274,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void CtrlIR_KeyDown(object sender, KeyEventArgs e)
         {
             var ctrl = (System.Windows.Forms.Control)sender;
-            var id = GetIdFromCtrlI(ctrl);
+            var id = GetIdFromCtrlIR(ctrl);
             if (id != null)
             {
                 switch (e.KeyCode)
