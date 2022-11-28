@@ -56,25 +56,25 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lbl.MouseUp += MoveFrm_MouseUp;
             }
             // ctrl slab info event
-            var ctrlIS = new List<System.Windows.Forms.Control>();
-            ctrlIS.AddRange(_nudWSs);
-            ctrlIS.AddRange(_nudHSs);
-            ctrlIS.AddRange(_chkBLSs);
-            ctrlIS.AddRange(_chkBRSs);
-            foreach(var ctrlS in ctrlIS)
+            var ctrlISs = new List<System.Windows.Forms.Control>();
+            ctrlISs.AddRange(_nudWSs);
+            ctrlISs.AddRange(_nudHSs);
+            ctrlISs.AddRange(_chkBLSs);
+            ctrlISs.AddRange(_chkBRSs);
+            foreach(var ctrlS in ctrlISs)
             {
                 ctrlS.KeyDown += CtrlIS_KeyDown;
             }
             // ctrl reinforcement info event
-            var ctrlIR = new List<System.Windows.Forms.Control>();
-            ctrlIR.AddRange(_nudWRs);
-            ctrlIR.AddRange(_nudHRs);
-            ctrlIR.AddRange(_nudDRs);
-            ctrlIR.AddRange(_chkBLRs);
-            ctrlIR.AddRange(_chkBRRs);
-            ctrlIR.AddRange(_chkFLRs);
-            ctrlIR.AddRange(_chkFRRs);
-            foreach (var ctrlR in ctrlIR)
+            var ctrlIRs = new List<System.Windows.Forms.Control>();
+            ctrlIRs.AddRange(_nudWRs);
+            ctrlIRs.AddRange(_nudHRs);
+            ctrlIRs.AddRange(_nudDRs);
+            ctrlIRs.AddRange(_chkBLRs);
+            ctrlIRs.AddRange(_chkBRRs);
+            ctrlIRs.AddRange(_chkFLRs);
+            ctrlIRs.AddRange(_chkFRRs);
+            foreach (var ctrlR in ctrlIRs)
             {
                 ctrlR.KeyDown += CtrlIR_KeyDown;
             }

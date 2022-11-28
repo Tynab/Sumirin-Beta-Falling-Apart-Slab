@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnC = new YANF.Control.YANBtn();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlBoard = new System.Windows.Forms.Panel();
             this.btnReturn = new YANF.Control.YANBtn();
             this.btnN0 = new YANF.Control.YANBtn();
             this.btnN3 = new YANF.Control.YANBtn();
@@ -43,11 +43,11 @@
             this.btnN4 = new YANF.Control.YANBtn();
             this.btnPlus = new YANF.Control.YANBtn();
             this.btnN8 = new YANF.Control.YANBtn();
-            this.btnBack = new YANF.Control.YANBtn();
+            this.btnBksp = new YANF.Control.YANBtn();
             this.btnN7 = new YANF.Control.YANBtn();
             this.lblResult = new System.Windows.Forms.Label();
             this.rtxDetail = new System.Windows.Forms.RichTextBox();
-            this.panel1.SuspendLayout();
+            this.pnlBoard.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnC
@@ -71,29 +71,29 @@
             this.btnC.UseVisualStyleBackColor = false;
             this.btnC.Click += new System.EventHandler(this.BtnC_Click);
             // 
-            // panel1
+            // pnlBoard
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.btnReturn);
-            this.panel1.Controls.Add(this.btnN0);
-            this.panel1.Controls.Add(this.btnN3);
-            this.panel1.Controls.Add(this.btnN2);
-            this.panel1.Controls.Add(this.btnN6);
-            this.panel1.Controls.Add(this.btnDot);
-            this.panel1.Controls.Add(this.btnN5);
-            this.panel1.Controls.Add(this.btnN1);
-            this.panel1.Controls.Add(this.btnN9);
-            this.panel1.Controls.Add(this.btnMinus);
-            this.panel1.Controls.Add(this.btnN4);
-            this.panel1.Controls.Add(this.btnPlus);
-            this.panel1.Controls.Add(this.btnN8);
-            this.panel1.Controls.Add(this.btnBack);
-            this.panel1.Controls.Add(this.btnN7);
-            this.panel1.Controls.Add(this.btnC);
-            this.panel1.Location = new System.Drawing.Point(5, 65);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 160);
-            this.panel1.TabIndex = 0;
+            this.pnlBoard.BackColor = System.Drawing.Color.Transparent;
+            this.pnlBoard.Controls.Add(this.btnReturn);
+            this.pnlBoard.Controls.Add(this.btnN0);
+            this.pnlBoard.Controls.Add(this.btnN3);
+            this.pnlBoard.Controls.Add(this.btnN2);
+            this.pnlBoard.Controls.Add(this.btnN6);
+            this.pnlBoard.Controls.Add(this.btnDot);
+            this.pnlBoard.Controls.Add(this.btnN5);
+            this.pnlBoard.Controls.Add(this.btnN1);
+            this.pnlBoard.Controls.Add(this.btnN9);
+            this.pnlBoard.Controls.Add(this.btnMinus);
+            this.pnlBoard.Controls.Add(this.btnN4);
+            this.pnlBoard.Controls.Add(this.btnPlus);
+            this.pnlBoard.Controls.Add(this.btnN8);
+            this.pnlBoard.Controls.Add(this.btnBksp);
+            this.pnlBoard.Controls.Add(this.btnN7);
+            this.pnlBoard.Controls.Add(this.btnC);
+            this.pnlBoard.Location = new System.Drawing.Point(5, 65);
+            this.pnlBoard.Name = "pnlBoard";
+            this.pnlBoard.Size = new System.Drawing.Size(200, 160);
+            this.pnlBoard.TabIndex = 0;
             // 
             // btnReturn
             // 
@@ -359,26 +359,26 @@
             this.btnN8.UseVisualStyleBackColor = false;
             this.btnN8.Click += new System.EventHandler(this.BtnN8_Click);
             // 
-            // btnBack
+            // btnBksp
             // 
-            this.btnBack.BackColor = System.Drawing.Color.DimGray;
-            this.btnBack.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnBack.BorderRadius = 0;
-            this.btnBack.BorderSize = 2;
-            this.btnBack.Enabled = false;
-            this.btnBack.FlatAppearance.BorderSize = 0;
-            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.Location = new System.Drawing.Point(0, 40);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(0);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(50, 40);
-            this.btnBack.TabIndex = 0;
-            this.btnBack.TabStop = false;
-            this.btnBack.Text = "←";
-            this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
+            this.btnBksp.BackColor = System.Drawing.Color.DimGray;
+            this.btnBksp.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnBksp.BorderRadius = 0;
+            this.btnBksp.BorderSize = 2;
+            this.btnBksp.Enabled = false;
+            this.btnBksp.FlatAppearance.BorderSize = 0;
+            this.btnBksp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBksp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.btnBksp.ForeColor = System.Drawing.Color.White;
+            this.btnBksp.Location = new System.Drawing.Point(0, 40);
+            this.btnBksp.Margin = new System.Windows.Forms.Padding(0);
+            this.btnBksp.Name = "btnBksp";
+            this.btnBksp.Size = new System.Drawing.Size(50, 40);
+            this.btnBksp.TabIndex = 0;
+            this.btnBksp.TabStop = false;
+            this.btnBksp.Text = "←";
+            this.btnBksp.UseVisualStyleBackColor = false;
+            this.btnBksp.Click += new System.EventHandler(this.BtnBksp_Click);
             // 
             // btnN7
             // 
@@ -433,11 +433,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Controls.Add(this.rtxDetail);
             this.Controls.Add(this.lblResult);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBoard);
             this.DoubleBuffered = true;
             this.Name = "Calculator";
             this.Size = new System.Drawing.Size(210, 230);
-            this.panel1.ResumeLayout(false);
+            this.pnlBoard.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -445,7 +445,7 @@
         #endregion
 
         private YANF.Control.YANBtn btnC;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlBoard;
         private YANF.Control.YANBtn btnReturn;
         private YANF.Control.YANBtn btnN0;
         private YANF.Control.YANBtn btnN3;
@@ -459,9 +459,9 @@
         private YANF.Control.YANBtn btnN4;
         private YANF.Control.YANBtn btnPlus;
         private YANF.Control.YANBtn btnN8;
-        private YANF.Control.YANBtn btnBack;
+        private YANF.Control.YANBtn btnBksp;
         private YANF.Control.YANBtn btnN7;
         private System.Windows.Forms.Label lblResult;
-        private System.Windows.Forms.RichTextBox rtxDetail;
+        internal System.Windows.Forms.RichTextBox rtxDetail;
     }
 }

@@ -125,20 +125,23 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 case C:
                 {
+                    // auto change location
+                    var wNud = nud.Width;
                     var hNud = nud.Height;
                     var ptCalc = nud.FindForm().PointToClient(nud.Parent.PointToScreen(new Point(nud.Location.X, nud.Location.Y + hNud)));
-                    var wCalc = 210;
                     var xCalc = ptCalc.X;
                     var yCalc = ptCalc.Y;
-                    if (xCalc + wCalc > Width)
+                    if (xCalc + W_CALC > Width)
                     {
-                        ptCalc = new Point(xCalc - wCalc, yCalc);
+                        ptCalc = new Point(xCalc + wNud - W_CALC, yCalc);
+                        //Width = xCalc + W_CALC;
                     }
-                    var hCalc = 220;
-                    if (ptCalc.Y + hCalc > Height)
+                    if (ptCalc.Y + H_CALC > Height)
                     {
-                        ptCalc = new Point(xCalc, yCalc - hNud - hCalc);
+                        ptCalc = new Point(xCalc, yCalc - hNud - H_CALC);
+                        //Height = yCalc + H_CALC;
                     }
+                    // re-init
                     if (_ctrlCalculator == null)
                     {
                         _ctrlCalculator = new Calculator
@@ -156,7 +159,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             _ctrlCalculator.Location = ptCalc;
                         }
                     }
-                    _ctrlCalculator.Select();
+                    _ctrlCalculator.rtxDetail.Select();
                     //nud.Enabled = false;
                     break;
                 }

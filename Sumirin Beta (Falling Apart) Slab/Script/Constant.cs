@@ -14,6 +14,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
 
         // setting
         public const int MAX_XFMR_G = 30;
+        public const int W_CALC = 210;
+        public const int H_CALC = 230;
 
         // enum
         public enum SumirinBranch

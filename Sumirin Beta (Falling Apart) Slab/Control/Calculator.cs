@@ -23,6 +23,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         {
             InitializeComponent();
             InitItems();
+            // ctrl all event
+            var ctrls = new List<System.Windows.Forms.Control>();
+            ctrls.AddRange(_btnAlls);
+            ctrls.AddRange(_ctrlOths);
+            foreach (var ctrl in ctrls)
+            {
+                ctrl.KeyDown += Ctrl_KeyDown;
+            }
+            KeyDown += Ctrl_KeyDown;
             // btn all event
             foreach (var btn in _btnAlls)
             {
@@ -83,7 +92,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         private void BtnC_Click(object sender, EventArgs e) => _detail = string.Empty;
 
         // btn backspace click
-        private void BtnBack_Click(object sender, EventArgs e)
+        private void BtnBksp_Click(object sender, EventArgs e)
         {
             if (_detail.Length > 0)
             {
