@@ -8,8 +8,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         private void InitItems()
         {
             InitCtrlOths();
-            InitBtnAlls();
+            InitBtnAllRips();
             InitBtnBlks();
+            InitBtnChns();
             InitBtnNs();
         }
 
@@ -20,21 +21,21 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             {
                 pnlBoard,
                 lblResult,
-                rtxDetail
+                rtxDetail,
+                btnReturn
             };
         #endregion
 
         #region Btn
-        private List<Button> _btnAlls;
-        // Initialize list btn all
-        private void InitBtnAlls() => _btnAlls = new List<Button>()
+        private List<Button> _btnAllRips;
+        // Initialize list btn all rip
+        private void InitBtnAllRips() => _btnAllRips = new List<Button>()
             {
                 btnC,
                 btnBksp,
                 btnPlus,
                 btnMinus,
                 btnDot,
-                btnReturn,
                 btnN0,
                 btnN1,
                 btnN2,
@@ -53,6 +54,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             {
                 btnC,
                 btnBksp,
+                btnPlus,
+                btnMinus,
+                btnDot,
+                btnReturn
+            };
+
+        private List<Button> _btnChns;
+        // Initialize list btnChn
+        private void InitBtnChns() => _btnChns = new List<Button>()
+            {
                 btnPlus,
                 btnMinus,
                 btnDot,

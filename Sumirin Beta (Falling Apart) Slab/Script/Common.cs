@@ -1,4 +1,6 @@
-﻿using static System.Convert;
+﻿using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
+using static System.Convert;
 using static System.Math;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Script
@@ -44,5 +46,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
             w = w.Round500();
             return jt;
         }
+
+        /// <summary>
+        /// Number to G span.
+        /// </summary>
+        /// <param name="num">Number.</param>
+        /// <returns>Number to G span.</returns>
+        internal static double ToGSpan(this double num) => num < MAX_XFMR_G ? num * Default.Span : num;
     }
 }

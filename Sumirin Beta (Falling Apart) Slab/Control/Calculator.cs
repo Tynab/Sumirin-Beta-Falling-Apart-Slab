@@ -1,14 +1,7 @@
-﻿using System;
+﻿using Sumirin_Beta__Falling_Apart__Slab.Script;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using YANF.Control;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Control
 {
@@ -25,7 +18,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             InitItems();
             // ctrl all event
             var ctrls = new List<System.Windows.Forms.Control>();
-            ctrls.AddRange(_btnAlls);
+            ctrls.AddRange(_btnAllRips);
             ctrls.AddRange(_ctrlOths);
             foreach (var ctrl in ctrls)
             {
@@ -33,7 +26,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             }
             KeyDown += Ctrl_KeyDown;
             // btn all event
-            foreach (var btn in _btnAlls)
+            foreach (var btn in _btnAllRips)
             {
                 btn.Click += BtnAll_Click;
             }
@@ -46,6 +39,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         #endregion
 
         #region Events
+        // ctrl leave
+        private void Calculator_Leave(object sender, EventArgs e) => Dispose();
+
         // rtx detail text changed
         private void RtxDetail_TextChanged(object sender, EventArgs e)
         {
@@ -86,34 +82,66 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         private void BtnN9_Click(object sender, EventArgs e) => _detail += "9";
 
         // btn "." click
-        private void BtnDot_Click(object sender, EventArgs e) => _detail += ".";
+        private void BtnDot_Click(object sender, EventArgs e)
+        {
+            _detail += ".";
+            DsblChainBtn();
+        }
 
         // btn reset click
-        private void BtnC_Click(object sender, EventArgs e) => _detail = string.Empty;
+        private void BtnC_Click(object sender, EventArgs e)
+        {
+            _detail = string.Empty;
+            lblResult.Text = "0";
+        }
 
         // btn backspace click
         private void BtnBksp_Click(object sender, EventArgs e)
         {
-            if (_detail.Length > 0)
+            if (!string.IsNullOrWhiteSpace(_detail))
             {
-                _detail.Remove(_detail.Length - 1);
+                _detail = _detail.Remove(_detail.Length - 1);
+                if (!string.IsNullOrWhiteSpace(_detail) && int.TryParse(_detail[_detail.Length - 1].ToString(), out var _))
+                {
+                    EnblChainBtn();
+                }
+                else
+                {
+                    DsblChainBtn();
+                }
             }
         }
 
         // btn "+" click
-        private void BtnPlus_Click(object sender, EventArgs e) => _detail += "+";
+        private void BtnPlus_Click(object sender, EventArgs e)
+        {
+            _detail += "+";
+            DsblChainBtn();
+        }
 
         // btn "-" click
-        private void BtnMinus_Click(object sender, EventArgs e) => _detail += "-";
+        private void BtnMinus_Click(object sender, EventArgs e)
+        {
+            _detail += "-";
+            DsblChainBtn();
+        }
 
         // btn "=" click
         private void BtnReturn_Click(object sender, EventArgs e)
         {
-            // TODO:
+            var rslt = MathGPrcsText(_detail);
+            lblResult.Text = rslt.ToString("N0");
         }
         #endregion
 
         #region Methods
+        // btn num active
+        private void BtnNAct(Button btnN)
+        {
+            BtnN_Click(btnN, null);
+            BtnAll_Click(btnN, null);
+        }
+
         // Un-block
         private void UnBlk()
         {
@@ -130,6 +158,64 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             {
                 btnBlk.Enabled = false;
             }
+        }
+
+        // Enable chain button
+        private void EnblChainBtn()
+        {
+            foreach (var btnChn in _btnChns)
+            {
+                btnChn.Enabled = true;
+            }
+        }
+
+        // Disable chain button
+        private void DsblChainBtn()
+        {
+            foreach (var btnChn in _btnChns)
+            {
+                btnChn.Enabled = false;
+            }
+        }
+
+        // Math (with G) process text
+        private double MathGPrcsText(string text)
+        {
+            var rslt = 0d;
+            var nums = new List<double>();
+            var oprs = new List<string>();
+            var strtPt = 0;
+            var nChar = 0;
+            //
+            for (var i = 0; i < text.Length; i++)
+            {
+                nChar++;
+                if (_detail[i] is '+' or '-')
+                {
+                    nums.Add(double.Parse(_detail.Substring(strtPt, nChar - 1)).ToGSpan());
+                    oprs.Add(_detail[i].ToString());
+                    strtPt = i + 1;
+                    nChar = 0;
+                }
+                if (i == text.Length - 1)
+                {
+                    nums.Add(double.Parse(_detail.Substring(strtPt, nChar)).ToGSpan());
+                }
+            }
+            //
+            rslt += nums[0];
+            for (var i = 0; i < oprs.Count; i++)
+            {
+                if (oprs[i] == "+")
+                {
+                    rslt += nums[i + 1];
+                }
+                else
+                {
+                    rslt -= nums[i + 1];
+                }
+            }
+            return rslt;
         }
         #endregion
     }

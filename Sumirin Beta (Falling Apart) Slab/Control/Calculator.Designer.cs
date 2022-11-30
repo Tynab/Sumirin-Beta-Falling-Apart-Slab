@@ -437,6 +437,7 @@
             this.DoubleBuffered = true;
             this.Name = "Calculator";
             this.Size = new System.Drawing.Size(210, 230);
+            this.Leave += new System.EventHandler(this.Calculator_Leave);
             this.pnlBoard.ResumeLayout(false);
             this.ResumeLayout(false);
 

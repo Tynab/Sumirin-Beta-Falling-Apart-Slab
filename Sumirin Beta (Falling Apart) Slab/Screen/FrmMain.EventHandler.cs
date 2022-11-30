@@ -1,4 +1,5 @@
 ﻿using Sumirin_Beta__Falling_Apart__Slab.Control;
+using Sumirin_Beta__Falling_Apart__Slab.Script;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -142,7 +143,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         //Height = yCalc + H_CALC;
                     }
                     // re-init
-                    if (_ctrlCalculator == null)
+                    if (_ctrlCalculator == null || _ctrlCalculator.IsDisposed)
                     {
                         _ctrlCalculator = new Calculator
                         {
@@ -150,14 +151,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         };
                         Controls.Add(_ctrlCalculator);
                         _ctrlCalculator.BringToFront();
-                    }
-                    else
-                    {
-                        if (ptCalc != _ctrlCalculator.Location)
-                        {
-                            //_ctrlCalculator.Dispose();
-                            _ctrlCalculator.Location = ptCalc;
-                        }
                     }
                     _ctrlCalculator.rtxDetail.Select();
                     //nud.Enabled = false;
@@ -179,11 +172,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void NudG_ValueChanged(object sender, EventArgs e)
         {
             var nud = (NumericUpDown)sender;
-            var val = nud.Value;
-            if (val < MAX_XFMR_G)
-            {
-                nud.Value = val * _span;
-            }
+            nud.Value = (decimal)((double)nud.Value).ToGSpan();
         }
         #endregion
 

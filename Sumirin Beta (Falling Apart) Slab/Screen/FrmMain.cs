@@ -61,7 +61,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             ctrlISs.AddRange(_nudHSs);
             ctrlISs.AddRange(_chkBLSs);
             ctrlISs.AddRange(_chkBRSs);
-            foreach(var ctrlS in ctrlISs)
+            foreach (var ctrlS in ctrlISs)
             {
                 ctrlS.KeyDown += CtrlIS_KeyDown;
             }
