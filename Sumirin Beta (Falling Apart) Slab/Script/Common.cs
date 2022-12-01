@@ -15,13 +15,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
         internal static int Round10<T>(this T num) => (int)Ceiling(ToDouble(num) / 10) * 10;
 
         /// <summary>
-        /// Ceiling 50.
-        /// </summary>
-        /// <param name="num">Number.</param>
-        /// <returns>Ceiling number.</returns>
-        internal static int Ceiling50<T>(this T num) => (int)Ceiling((ToDouble(num) + 1) / 50) * 50;
-
-        /// <summary>
         /// Round 500.
         /// </summary>
         /// <param name="num">Number.</param>
@@ -29,29 +22,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
         internal static int Round500<T>(this T num) => (int)Ceiling(ToDouble(num) / 500) * 500;
 
         /// <summary>
-        /// Joint count.
+        /// Ceiling 50.
         /// </summary>
-        /// <param name="w">Clone W.</param>
-        /// <param name="wMinCpl">W minimum match maximum length couple head rebar.</param>
-        /// <param name="lRawWoodRip">Length raw wood without fixation.</param>
-        /// <returns>Joint.</returns>
-        internal static int JtCnt(ref double w, double wMinCpl, double lRawWoodRip)
-        {
-            var jt = 1;
-            while (w > wMinCpl)
-            {
-                w -= lRawWoodRip;
-                jt++;
-            }
-            w = w.Round500();
-            return jt;
-        }
+        /// <param name="num">Number.</param>
+        /// <returns>Ceiling number.</returns>
+        internal static int Ceiling50<T>(this T num) => (int)Ceiling((ToDouble(num) + 1) / 50) * 50;
 
         /// <summary>
         /// Number to G span.
         /// </summary>
         /// <param name="num">Number.</param>
         /// <returns>Number to G span.</returns>
-        internal static double ToGSpan(this double num) => num < MAX_XFMR_G ? num * Default.Span : num;
+        internal static decimal ToGSpan(this decimal num) => num < MAX_XFMR_G ? num * Default.Span : num;
     }
 }

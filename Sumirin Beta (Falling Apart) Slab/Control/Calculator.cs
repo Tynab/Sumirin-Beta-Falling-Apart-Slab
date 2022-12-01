@@ -8,11 +8,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
     public partial class Calculator : UserControl
     {
         #region Fields
+        private NumericUpDown _nud;
         private string _detail = string.Empty;
         #endregion
 
         #region Constructors
-        public Calculator()
+        public Calculator(NumericUpDown nud)
         {
             InitializeComponent();
             InitItems();
@@ -35,6 +36,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             {
                 btnN.Click += BtnN_Click;
             }
+            // option
+            _nud = nud;
         }
         #endregion
 
@@ -131,6 +134,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         {
             var rslt = MathGPrcsText(_detail);
             lblResult.Text = rslt.ToString("N0");
+            _nud.Value = rslt;
+            Dispose();
+            _nud.Select();
         }
         #endregion
 
@@ -179,10 +185,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         }
 
         // Math (with G) process text
-        private double MathGPrcsText(string text)
+        private decimal MathGPrcsText(string text)
         {
-            var rslt = 0d;
-            var nums = new List<double>();
+            var rslt = 0m;
+            var nums = new List<decimal>();
             var oprs = new List<string>();
             var strtPt = 0;
             var nChar = 0;
@@ -192,14 +198,14 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 nChar++;
                 if (_detail[i] is '+' or '-')
                 {
-                    nums.Add(double.Parse(_detail.Substring(strtPt, nChar - 1)).ToGSpan());
+                    nums.Add(decimal.Parse(_detail.Substring(strtPt, nChar - 1)).ToGSpan());
                     oprs.Add(_detail[i].ToString());
                     strtPt = i + 1;
                     nChar = 0;
                 }
                 if (i == text.Length - 1)
                 {
-                    nums.Add(double.Parse(_detail.Substring(strtPt, nChar)).ToGSpan());
+                    nums.Add(decimal.Parse(_detail.Substring(strtPt, nChar)).ToGSpan());
                 }
             }
             //

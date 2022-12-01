@@ -145,7 +145,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     // re-init
                     if (_ctrlCalculator == null || _ctrlCalculator.IsDisposed)
                     {
-                        _ctrlCalculator = new Calculator
+                        _ctrlCalculator = new Calculator(nud)
                         {
                             Location = ptCalc
                         };
@@ -172,7 +172,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void NudG_ValueChanged(object sender, EventArgs e)
         {
             var nud = (NumericUpDown)sender;
-            nud.Value = (decimal)((double)nud.Value).ToGSpan();
+            nud.Value = nud.Value.ToGSpan();
         }
         #endregion
 

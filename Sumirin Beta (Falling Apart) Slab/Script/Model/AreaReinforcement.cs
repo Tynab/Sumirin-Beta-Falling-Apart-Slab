@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
-using static Sumirin_Beta__Falling_Apart__Slab.Script.Common;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
 using static System.Math;
@@ -18,6 +17,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         private readonly double _lMaxRawWood = Default.Max_Raw_Wood_Nml;
         private readonly SumirinBranch _branch = Touhoku;
         private readonly int _lFixn;
+        private readonly int _lBdngL;
+        private readonly int _lBdngR;
+        private readonly int _bdngHead;
+        private int _jt = 0;
         #endregion
 
         #region Constructors
@@ -25,7 +28,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         {
             _branch = branch;
             _lMaxRawWood = lMaxRawWood;
+            _bdngHead = BendingL ? BendingR ? 2 : 1 : BendingR ? 1 : 0;
             _lFixn = Fixation();
+            _lBdngL = BendingL ? _lBdng : 0;
+            _lBdngR = BendingR ? _lBdng : 0;
         }
         #endregion
 
@@ -54,73 +60,77 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate bending left
         protected new void CalcRebarBdngL()
         {
-            var fixnR = FixationR ? Fixation() : 0;
+            var fixnR = FixationR ? _lFixn : 0;
             var w = W + fixnR;
-            var lMaxRebarLWoBdng = (int)_lMaxRawWood - _lBdng;
-            if (w <= lMaxRebarLWoBdng)
+            if (w <= _lMaxRawWood - _lBdngL)
             {
-                Rebars = new List<string>
+                MainRebars = new List<string>
                 {
-                    string.Format("{0}×{1,4}", _lBdng, W)
+                    string.Format("{0}×{1,4}", _lBdngL, W.Round10())
                 };
             }
             else
             {
-                var lMaxRebarR = (lMaxRebarLWoBdng - _chidoriHorz).Round500();
-                while (lMaxRebarLWoBdng < lMaxRebarR + _chidoriHorz)
+                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                MainRebars = new List<string>
                 {
-                    lMaxRebarR -= 500;
-                }
-                var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
-                var jt = JtCnt(ref w, lMaxRawWoodRip + lMaxRebarR, lMaxRawWoodRip);
-                var lRebarLWoBdng = ((w + _chidoriHorz) / 2).Round500() - _lBdng;
-                var lRebarR = ((w - _chidoriHorz) / 2).Round500();
-                while (lRebarLWoBdng < lRebarR + _chidoriHorz)
-                {
-                    lRebarLWoBdng += 500;
-                    lRebarR -= 500;
-                }
-                Rebars = new List<string>
-                {
-                    string.Format("{0}×{1,4}", _lBdng, lRebarLWoBdng)
+                    string.Format("{0}×{1,4}", _lBdngL, lRddRebarL)
                 };
-                for (var i = 1; i < jt; i++)
+                for (var i = 1; i < _jt; i++)
                 {
-                    Rebars.Add(_lMaxRawWood.ToString());
+                    MainRebars.Add(_lMaxRawWood.ToString());
                 }
-                Rebars.Add(string.Format("{0,4}", lRebarR));
+                MainRebars.Add(string.Format("{0,4}", lRddRebarR));
+                // sub
+                _jt = PrcsHdrSubRebar(w, out lRddRebarL, out lRddRebarR);
+                SubRebars = new List<string>
+                {
+                    string.Format("{0}×{1,4}", _lBdngL, lRddRebarL)
+                };
+                for (var i = 1; i < _jt; i++)
+                {
+                    SubRebars.Add(_lMaxRawWood.ToString());
+                }
+                SubRebars.Add(string.Format("{0,4}", lRddRebarR));
             }
         }
 
         // Rebar calculate bending right
         protected new void CalcRebarBdngR()
         {
-            var fixnL = FixationL ? Fixation() : 0;
+            var fixnL = FixationL ? _lFixn : 0;
             var w = W + fixnL;
-            var lMaxRebarRWoBdng = _lMaxRawWood - _lBdng;
-            if (w <= lMaxRebarRWoBdng)
+            if (w <= _lMaxRawWood - _lBdngR)
             {
-                Rebars = new List<string>
+                MainRebars = new List<string>
                 {
-                    string.Format("{0}×{1,4}", _lBdng, W)
+                    string.Format("{0}×{1,4}", _lBdngR, W.Round10())
                 };
             }
             else
             {
-                var lMaxRebarR = _lMaxRawWood - _chidoriHorz - _lBdng;
-                var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
-                var jt = JtCnt(ref w, lMaxRawWoodRip + lMaxRebarR, lMaxRawWoodRip);
-                var lRebarL = ((w + _chidoriHorz) / 2).Round500();
-                var lRebarRWoBdng = ((w - _chidoriHorz) / 2).Round500() - _lBdng;
-                Rebars = new List<string>
+                // main
+                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                MainRebars = new List<string>
                 {
-                    string.Format("{0,4}", lRebarL)
+                    string.Format("{0,4}", lRddRebarL)
                 };
-                for (var i = 1; i < jt; i++)
+                for (var i = 1; i < _jt; i++)
                 {
-                    Rebars.Add(_lMaxRawWood.ToString());
+                    MainRebars.Add(_lMaxRawWood.ToString());
                 }
-                Rebars.Add(string.Format("{0}×{1,4}", _lBdng, lRebarRWoBdng));
+                MainRebars.Add(string.Format("{0}×{1,4}", _lBdngR, lRddRebarR));
+                // sub
+                _jt = PrcsHdrSubRebar(w, out lRddRebarL, out lRddRebarR);
+                SubRebars = new List<string>
+                {
+                    string.Format("{0}×{1,4}", _lBdngR, lRddRebarL)
+                };
+                for (var i = 1; i < _jt; i++)
+                {
+                    SubRebars.Add(_lMaxRawWood.ToString());
+                }
+                SubRebars.Add(string.Format("{0,4}", lRddRebarR));
             }
         }
 
@@ -128,28 +138,25 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         protected new void CalcRebarBdngLR()
         {
             var w = W;
-            if (w <= 910)
+            if (w <= _wMinBdngLR)
             {
-                Rebars = new List<string>
+                MainRebars = new List<string>
                 {
-                    $"{_lBdng}×{(W + 2 * D).Round10()}×{_lBdng}"
+                    $"{_lBdngL}×{(W + 2 * D).Round10()}×{_lBdngR}"
                 };
             }
             else
             {
-                var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
-                var jt = JtCnt(ref w, (lMaxRawWoodRip - _lBdng) * 2 - _chidoriHorz + _lFixn, lMaxRawWoodRip);
-                var lRebarLWoBdng = ((w + _chidoriHorz) / 2).Round500() - _lBdng;
-                var lRebarRWoBdng = ((w - _chidoriHorz) / 2).Round500() - _lBdng;
-                Rebars = new List<string>
+                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                MainRebars = new List<string>
                 {
-                    string.Format("{0}×{1,4}", _lBdng, lRebarLWoBdng)
+                    string.Format("{0}×{1,4}", _lBdngL, lRddRebarL)
                 };
-                for (var i = 1; i < jt; i++)
+                for (var i = 1; i < _jt; i++)
                 {
-                    Rebars.Add(_lMaxRawWood.ToString());
+                    MainRebars.Add(_lMaxRawWood.ToString());
                 }
-                Rebars.Add(string.Format("{0}×{1,4}", _lBdng, lRebarRWoBdng));
+                MainRebars.Add(string.Format("{0}×{1,4}", _lBdngR, lRddRebarR));
             }
         }
 
@@ -161,31 +168,42 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             var w = W + fixnL + fixnR;
             if (w <= _lMaxRawWood)
             {
-                Rebars = new List<string>
+                MainRebars = new List<string>
                 {
                     string.Format("{0,4}", W)
                 };
             }
             else
             {
-                var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
-                var jt = JtCnt(ref w, _lMaxRawWood + lMaxRawWoodRip - _chidoriHorz, lMaxRawWoodRip);
-                var lRebarL = ((w + _chidoriHorz) / 2).Round500();
-                var lRebarR = ((w - _chidoriHorz) / 2).Round500();
-                Rebars = new List<string>
+                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                MainRebars = new List<string>
                 {
-                    string.Format("{0,4}", lRebarL)
+                    string.Format("{0,4}", lRddRebarL)
                 };
-                for (var i = 1; i < jt; i++)
+                for (var i = 1; i < _jt; i++)
                 {
-                    Rebars.Add(_lMaxRawWood.ToString());
+                    MainRebars.Add(_lMaxRawWood.ToString());
                 }
-                Rebars.Add(string.Format("{0,4}", lRebarR));
+                MainRebars.Add(string.Format("{0,4}", lRddRebarR));
             }
         }
 
         // Amount calculate
-        protected new void CalcAmt() => Amount = (int)Ceiling(H / Default.Pitch);
+        protected new void CalcAmt()
+        {
+            var amt = (int)Ceiling(H / Default.Pitch);
+            if (_bdngHead == 1 && _jt > 0)
+            {
+                MainAmt = (int)Ceiling(amt / 2d);
+                var subAmt = amt - MainAmt;
+                SubAmt = subAmt > 0 ? subAmt : 1;
+            }
+            else
+            {
+                MainAmt = amt;
+                SubAmt = null;
+            }
+        }
         #endregion
     }
 }

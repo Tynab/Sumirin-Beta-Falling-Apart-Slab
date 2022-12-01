@@ -160,13 +160,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             rsltAmtSs = string.Empty;
             foreach (var area in areaSs)
             {
-                foreach (var rebar in area.Rebars)
+                foreach (var rebar in area.MainRebars)
                 {
                     // display
                     rsltRebarSs += $"{rebar} + ";
                     // summary
                     var item = _smryS.FirstOrDefault(s => s.Item1 == rebar);
-                    var amt = area.Amount;
+                    var amt = area.MainAmt;
                     if (item == default)
                     {
                         _smryS.Add((rebar, amt));
@@ -179,7 +179,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - " + ".Length);
                 rsltRebarSs += "\n";
-                rsltAmtSs += $"{area.Amount}本\n";
+                rsltAmtSs += $"{area.MainAmt}本\n";
             }
             rsltRebarSs.Substring(0, rsltRebarSs.Length - "\n".Length);
             rsltAmtSs.Substring(0, rsltAmtSs.Length - "\n".Length);
@@ -194,14 +194,14 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             foreach (var area in areaRs)
             {
                 rsltDRs += $"D{area.D}\n";
-                foreach (var rebar in area.Rebars)
+                foreach (var rebar in area.MainRebars)
                 {
                     // display
                     rsltRebarRs += $"{rebar} + ";
                     // summary
                     var d = area.D;
                     var item = _smryR.FirstOrDefault(s => s.Item1 == d && s.Item2 == rebar);
-                    var amt = area.Amount;
+                    var amt = area.MainAmt;
                     if (item == default)
                     {
                         _smryR.Add((d, rebar, amt));
@@ -214,7 +214,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - " + ".Length);
                 rsltRebarRs += "\n";
-                rsltAmtRs += $"{area.Amount}本\n";
+                rsltAmtRs += $"{area.MainAmt}本\n";
             }
             rsltDRs.Substring(0, rsltDRs.Length - "\n".Length);
             rsltRebarRs.Substring(0, rsltRebarRs.Length - "\n".Length);
