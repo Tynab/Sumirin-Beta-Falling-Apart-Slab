@@ -16,10 +16,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         private readonly int _fixnD22 = Default.Fixn_D22;
         private readonly double _lMaxRawWood = Default.Max_Raw_Wood_Nml;
         private readonly SumirinBranch _branch = Touhoku;
-        private readonly int _lFixn;
-        private readonly int _lBdngL;
-        private readonly int _lBdngR;
-        private readonly int _bdngHead;
+        private int _lFixn;
+        private int _lFixnL;
+        private int _lFixnR;
+        private int _lBdngL;
+        private int _lBdngR;
+        private int _bdngHead;
         private int _jt = 0;
         #endregion
 
@@ -28,10 +30,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         {
             _branch = branch;
             _lMaxRawWood = lMaxRawWood;
-            _bdngHead = BendingL ? BendingR ? 2 : 1 : BendingR ? 1 : 0;
-            _lFixn = Fixation();
-            _lBdngL = BendingL ? _lBdng : 0;
-            _lBdngR = BendingR ? _lBdng : 0;
         }
         #endregion
 
@@ -44,8 +42,19 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         #endregion
 
         #region Overridden
-        // Fixation
-        protected new int Fixation() => _branch == Touhoku
+        // Fill fields
+        protected new void FillFlds()
+        {
+            _lFixn = FixnLen();
+            _bdngHead = BendingL ? BendingR ? 2 : 1 : BendingR ? 1 : 0;
+            _lBdngL = BendingL ? _lBdng : 0;
+            _lBdngR = BendingR ? _lBdng : 0;
+            _lFixnL = FixationL ? _lFixn : 0;
+            _lFixnR = FixationR ? _lFixn : 0;
+        }
+
+        // Fixation length
+        protected new int FixnLen() => _branch == Touhoku
                 ? _rateFixn * D
                 : D switch
                 {
@@ -60,13 +69,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate bending left
         protected new void CalcRebarBdngL()
         {
-            var fixnR = FixationR ? _lFixn : 0;
-            var w = W + fixnR;
+            var w = W + _lFixnR;
             if (w <= _lMaxRawWood - _lBdngL)
             {
                 MainRebars = new List<string>
                 {
-                    string.Format("{0}×{1,4}", _lBdngL, W.Round10())
+                    string.Format("{0}×{1,4}", _lBdngL, w.Round10())
                 };
             }
             else
@@ -98,13 +106,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate bending right
         protected new void CalcRebarBdngR()
         {
-            var fixnL = FixationL ? _lFixn : 0;
-            var w = W + fixnL;
+            var w = W + _lFixnL;
             if (w <= _lMaxRawWood - _lBdngR)
             {
                 MainRebars = new List<string>
                 {
-                    string.Format("{0}×{1,4}", _lBdngR, W.Round10())
+                    string.Format("{0}×{1,4}", _lBdngR, w.Round10())
                 };
             }
             else
@@ -142,7 +149,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             {
                 MainRebars = new List<string>
                 {
-                    $"{_lBdngL}×{(W + 2 * D).Round10()}×{_lBdngR}"
+                    $"{_lBdngL}×{(w + 2 * D).Round10()}×{_lBdngR}"
                 };
             }
             else
@@ -163,14 +170,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         // Rebar calculate straight
         protected new void CalcRebarSt()
         {
-            var fixnL = FixationL ? Fixation() : 0;
-            var fixnR = FixationR ? Fixation() : 0;
-            var w = W + fixnL + fixnR;
+            var w = W + _lFixnL + _lFixnR;
             if (w <= _lMaxRawWood)
             {
                 MainRebars = new List<string>
                 {
-                    string.Format("{0,4}", W)
+                    string.Format("{0,4}", w.Round10())
                 };
             }
             else

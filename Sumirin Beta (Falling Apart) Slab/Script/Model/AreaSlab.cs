@@ -17,10 +17,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         private readonly int _dSlab = Default.D_Slab;
         private readonly int _fixnSlab = Default.Fixn_D13;
         private readonly SumirinBranch _branch = Touhoku;
-        private readonly int _lFixn;
-        private readonly int _lBdngL;
-        private readonly int _lBdngR;
-        private readonly int _bdngHead;
+        private int _lFixn;
+        private int _lBdngL;
+        private int _lBdngR;
+        private int _bdngHead;
         private int _jt = 0;
         #endregion
 
@@ -29,10 +29,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         {
             _branch = branch;
             _lMaxRawWood = lMaxRawWood;
-            _bdngHead = BendingL ? BendingR ? 2 : 1 : BendingR ? 1 : 0;
-            _lFixn = Fixation();
-            _lBdngL = BendingL ? _lBdng : 0;
-            _lBdngR = BendingR ? _lBdng : 0;
         }
         #endregion
 
@@ -54,6 +50,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         /// </summary>
         public void Prcs()
         {
+            FillFlds();
             if (BendingL)
             {
                 if (BendingR)
@@ -79,8 +76,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             CalcAmt();
         }
 
-        // Fixation
-        protected int Fixation() => _branch == Touhoku ? _rateFixn * _dSlab : _fixnSlab;
+        // Fill fields
+        protected void FillFlds()
+        {
+            _lFixn = FixnLen();
+            _bdngHead = BendingL ? BendingR ? 2 : 1 : BendingR ? 1 : 0;
+            _lBdngL = BendingL ? _lBdng : 0;
+            _lBdngR = BendingR ? _lBdng : 0;
+        }
+
+        // Fixation length
+        protected int FixnLen() => _branch == Touhoku ? _rateFixn * _dSlab : _fixnSlab;
 
         // Rebar calculate bending left
         protected void CalcRebarBdngL()
@@ -90,7 +96,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             {
                 MainRebars = new List<string>
                 {
-                    string.Format("{0}×{1,4}", _lBdngL, W.Round10())
+                    string.Format("{0}×{1,4}", _lBdngL, w.Round10())
                 };
             }
             else
@@ -128,7 +134,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             {
                 MainRebars = new List<string>
                 {
-                    string.Format("{0}×{1,4}", _lBdngR, W.Round10())
+                    string.Format("{0}×{1,4}", _lBdngR, w.Round10())
                 };
             }
             else
@@ -166,7 +172,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             {
                 MainRebars = new List<string>
                 {
-                    $"{_lBdngL}×{(W + 2 * _dSlab).Round10()}×{_lBdngR}"
+                    $"{_lBdngL}×{(w + 2 * _dSlab).Round10()}×{_lBdngR}"
                 };
             }
             else
@@ -192,7 +198,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             {
                 MainRebars = new List<string>
                 {
-                    string.Format("{0,4}", W.Round10())
+                    string.Format("{0,4}", w.Round10())
                 };
             }
             else
@@ -233,78 +239,54 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
         }
 
-        // Process header main rebar
-        protected int PrcsHdrMainRebar(double w, out int lRddRebarL, out int lRddRebarR)
+        // Joint count
+        protected int JtCnt(ref double w)
         {
-            // process 2 head
-            var lMaxRebarLWoBdng = _lMaxRawWood - _lBdngL;
-            var lMaxRebarRWoBdng = _lMaxRawWood - _lBdngR - _chidoriHorz;
-            while (lMaxRebarLWoBdng < lMaxRebarRWoBdng + _chidoriHorz)
-            {
-                lMaxRebarRWoBdng -= 500;
-            }
-            // shortcut
             var jt = 1;
             var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
-            while (w > lMaxRebarLWoBdng + lMaxRebarRWoBdng - _lFixn)
+            var body = 2 * _lMaxRawWood - _lBdngL - _lBdngR - _chidoriHorz - _lFixn;
+            while (w > body)
             {
                 w -= lMaxRawWoodRip;
                 jt++;
             }
-            // result header
             w = (w + jt * _lFixn + _bdngHead * _lBdng).Round500();
+            return jt;
+        }
+
+        // Process header main rebar
+        protected int PrcsHdrMainRebar(double w, out int lRddRebarL, out int lRddRebarR)
+        {
+            var jt = JtCnt(ref w);
             lRddRebarL = ((w + _chidoriHorz) / 2).Round500();
             lRddRebarR = ((w - _chidoriHorz) / 2).Round500();
             while (lRddRebarL + lRddRebarR > w)
             {
                 lRddRebarR -= 500;
             }
-            // process result
-            lRddRebarL -= _lBdngL;
-            lRddRebarR -= _lBdngR;
-            while (lRddRebarL < lRddRebarR + _chidoriHorz)
-            {
-                lRddRebarL += 500;
-                lRddRebarR -= 500;
-            }
+            PrcsBdngHdrRebar(ref lRddRebarL, ref lRddRebarR);
             return jt;
         }
 
         // Process header sub rebar
         protected int PrcsHdrSubRebar(double w, out int lRddRebarL, out int lRddRebarR)
         {
-            // process 2 head
-            var lMaxRebarLWoBdng = _lMaxRawWood - _lBdngL - _chidoriHorz;
-            var lMaxRebarRWoBdng = _lMaxRawWood - _lBdngR;
-            while (lMaxRebarLWoBdng + _chidoriHorz > lMaxRebarRWoBdng)
-            {
-                lMaxRebarLWoBdng -= 500;
-            }
-            // shortcut
-            var jt = 1;
-            var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
-            while (w > lMaxRebarLWoBdng + lMaxRebarRWoBdng - _lFixn)
-            {
-                w -= lMaxRawWoodRip;
-                jt++;
-            }
-            // result header
-            w = (w + jt * _lFixn + _bdngHead * _lBdng).Round500();
+            var jt = JtCnt(ref w);
             lRddRebarL = ((w - _chidoriHorz) / 2).Round500();
             lRddRebarR = ((w + _chidoriHorz) / 2).Round500();
             while (lRddRebarL + lRddRebarR > w)
             {
                 lRddRebarL -= 500;
             }
-            // process result
+            PrcsBdngHdrRebar(ref lRddRebarL, ref lRddRebarR);
+            return jt;
+        }
+
+        // Process bending header rebar
+        protected void PrcsBdngHdrRebar(ref int lRddRebarL, ref int lRddRebarR)
+        {
             lRddRebarL -= _lBdngL;
             lRddRebarR -= _lBdngR;
-            while (lRddRebarL < lRddRebarR + _chidoriHorz)
-            {
-                lRddRebarL -= 500;
-                lRddRebarR += 500;
-            }
-            return jt;
         }
         #endregion
     }
