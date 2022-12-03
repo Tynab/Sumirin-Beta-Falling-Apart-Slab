@@ -2,13 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using static System.Drawing.Color;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Control
 {
     public partial class Calculator : UserControl
     {
         #region Fields
-        private NumericUpDown _nud;
+        private readonly NumericUpDown _nud;
         private string _detail = string.Empty;
         #endregion
 
@@ -36,8 +37,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             {
                 btnN.Click += BtnN_Click;
             }
+            Disposed += OnDispose;
             // option
             _nud = nud;
+            _nud.BackColor = OrangeRed;
         }
         #endregion
 
@@ -136,7 +139,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             lblResult.Text = rslt.ToString("N0");
             _nud.Value = rslt;
             Dispose();
-            _nud.Select();
         }
         #endregion
 
@@ -192,7 +194,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             var oprs = new List<string>();
             var strtPt = 0;
             var nChar = 0;
-            //
+            // split number in text
             for (var i = 0; i < text.Length; i++)
             {
                 nChar++;
@@ -208,7 +210,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                     nums.Add(decimal.Parse(_detail.Substring(strtPt, nChar)).ToGSpan());
                 }
             }
-            //
+            // math process
             rslt += nums[0];
             for (var i = 0; i < oprs.Count; i++)
             {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using static System.Drawing.Color;
 using static System.Windows.Forms.Keys;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Control
@@ -15,6 +16,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D0:
                 case NumPad0:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN0_Click(btnN0, null);
                     BtnNAct(btnN0);
                     break;
@@ -22,6 +24,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D1:
                 case NumPad1:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN1_Click(btnN1, null);
                     BtnNAct(btnN1);
                     break;
@@ -29,6 +32,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D2:
                 case NumPad2:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN2_Click(btnN2, null);
                     BtnNAct(btnN2);
                     break;
@@ -36,6 +40,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D3:
                 case NumPad3:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN3_Click(btnN3, null);
                     BtnNAct(btnN3);
                     break;
@@ -43,6 +48,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D4:
                 case NumPad4:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN4_Click(btnN4, null);
                     BtnNAct(btnN4);
                     break;
@@ -50,6 +56,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D5:
                 case NumPad5:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN5_Click(btnN5, null);
                     BtnNAct(btnN5);
                     break;
@@ -57,6 +64,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D6:
                 case NumPad6:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN6_Click(btnN6, null);
                     BtnNAct(btnN6);
                     break;
@@ -64,6 +72,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D7:
                 case NumPad7:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN7_Click(btnN7, null);
                     BtnNAct(btnN7);
                     break;
@@ -71,6 +80,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D8:
                 case NumPad8:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN8_Click(btnN8, null);
                     BtnNAct(btnN8);
                     break;
@@ -78,6 +88,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case D9:
                 case NumPad9:
                 {
+                    e.SuppressKeyPress = true;
                     BtnN9_Click(btnN9, null);
                     BtnNAct(btnN9);
                     break;
@@ -85,6 +96,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case Keys.Decimal:
                 case OemPeriod:
                 {
+                    e.SuppressKeyPress = true;
                     if (btnDot.Enabled)
                     {
                         BtnDot_Click(btnDot, null);
@@ -94,6 +106,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 }
                 case Escape:
                 {
+                    e.SuppressKeyPress = true;
                     if (btnC.Enabled)
                     {
                         BtnC_Click(btnC, null);
@@ -103,6 +116,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 }
                 case Back:
                 {
+                    e.SuppressKeyPress = true;
                     if (btnBksp.Enabled)
                     {
                         BtnBksp_Click(btnBksp, null);
@@ -113,6 +127,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case Add:
                 case Oemplus:
                 {
+                    e.SuppressKeyPress = true;
                     if (btnPlus.Enabled)
                     {
                         BtnPlus_Click(btnPlus, null);
@@ -123,6 +138,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 case Subtract:
                 case OemMinus:
                 {
+                    e.SuppressKeyPress = true;
                     if (btnMinus.Enabled)
                     {
                         BtnMinus_Click(btnMinus, null);
@@ -132,6 +148,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                 }
                 case Keys.Enter:
                 {
+                    e.SuppressKeyPress = true;
                     if (btnReturn.Enabled)
                     {
                         BtnReturn_Click(btnReturn, null);
@@ -140,6 +157,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
                     break;
                 }
             }
+        }
+
+        // ctrl dispose
+        private void OnDispose(object sender, EventArgs e)
+        {
+            _nud.BackColor = White;
+            _nud.Select();
         }
         #endregion
 

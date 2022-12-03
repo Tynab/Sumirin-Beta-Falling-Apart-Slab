@@ -15,7 +15,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
     {
         #region Fields
         private readonly List<(string, int)> _smryS; // rebar, summary
+        private readonly List<(string, int)> _smryS0; // rebar, summary
+        private readonly List<(string, int)> _smryS1; // rebar, summary
+        private readonly List<(string, int)> _smryS2; // rebar, summary
         private readonly List<(int, string, int)> _smryR; // D, rebar, sumary
+        private readonly List<(int, string, int)> _smryR0; // D, rebar, sumary
+        private readonly List<(int, string, int)> _smryR1; // D, rebar, sumary
+        private readonly List<(int, string, int)> _smryR2; // D, rebar, sumary
         private readonly List<AreaSlab> _areaSHs;
         private readonly List<AreaSlab> _areaSVs;
         private readonly List<AreaReinforcement> _areaRHs;
@@ -62,6 +68,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             KeyDown += Ctrl_KeyDown;
             // get list
             _smryS = new List<(string, int)>();
+            _smryS0 = new List<(string, int)>();
+            _smryS1 = new List<(string, int)>();
+            _smryS2 = new List<(string, int)>();
             _areaSHs = new List<AreaSlab>(areaSHs);
             _areaSVs = new List<AreaSlab>(areaSVs);
             _hasR = false;
@@ -104,9 +113,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             KeyDown += Ctrl_KeyDown;
             // get list
             _smryS = new List<(string, int)>();
+            _smryS0 = new List<(string, int)>();
+            _smryS1 = new List<(string, int)>();
+            _smryS2 = new List<(string, int)>();
             _areaSHs = new List<AreaSlab>(areaSHs);
             _areaSVs = new List<AreaSlab>(areaSVs);
             _smryR = new List<(int, string, int)>();
+            _smryR0 = new List<(int, string, int)>();
+            _smryR1 = new List<(int, string, int)>();
+            _smryR2 = new List<(int, string, int)>();
             _areaRHs = new List<AreaReinforcement>(areaRHs);
             _areaRVs = new List<AreaReinforcement>(areaRVs);
             _hasR = true;
@@ -153,33 +168,154 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Methods
+        // Split slab list bending head
+        private void BdngHeadSpltSs(List<(string, int)> smryS, (int?, string) rebar, int amt)
+        {
+            var item = smryS.FirstOrDefault(s => s.Item1 == rebar.Item2);
+            if (item == default)
+            {
+                smryS.Add((rebar.Item2, amt));
+            }
+            else
+            {
+                item.Item2 += amt;
+                smryS[smryS.FindIndex(s => s.Item1 == rebar.Item2)] = item;
+            }
+        }
+
+        // Split reinforcement list bending head
+        private void BdngHeadSpltRs(List<(int, string, int)> smryR, int d, (int?, string) rebar, int amt)
+        {
+            var item = smryR.FirstOrDefault(s => s.Item1 == d && s.Item2 == rebar.Item2);
+            if (item == default)
+            {
+                smryR.Add((d, rebar.Item2, amt));
+            }
+            else
+            {
+                item.Item3 += amt;
+                smryR[smryR.FindIndex(s => s.Item1 == d && s.Item2 == rebar.Item2)] = item;
+            }
+        }
+
+        // Prepare slab process
+        private void PrepSPrcs(List<AreaSlab> areaSs)
+        {
+            var strtIdx = 0;
+            for (var i = 1; i < areaSs.Count; i++)
+            {
+                if (areaSs[i].BendingHead == 1)
+                {
+                    if (areaSs[strtIdx].MainRebars.SequenceEqual(areaSs[i].MainRebars) && areaSs[strtIdx].SubRebars.SequenceEqual(areaSs[i].SubRebars))
+                    {
+                        // main
+                        areaSs[i].MainRebars = new List<(int?, string)>
+                        {
+                            (null, "↑")
+                        };
+                        areaSs[i].MainAmount = 0;
+                        // sub
+                        areaSs[i].SubRebars = new List<(int?, string)>
+                        {
+                            (null, "↑")
+                        };
+                        areaSs[i].SubAmount = 0;
+                        // reboot
+                        areaSs[strtIdx].H += areaSs[i].H;
+                        areaSs[strtIdx].Prcs();
+                    }
+                    else
+                    {
+                        strtIdx = i;
+                    }
+                }
+                else
+                {
+                    if (areaSs[strtIdx].MainRebars.SequenceEqual(areaSs[i].MainRebars))
+                    {
+                        // main
+                        areaSs[i].MainRebars = new List<(int?, string)>
+                        {
+                            (null, "↑")
+                        };
+                        areaSs[i].MainAmount = 0;
+                        // reboot
+                        areaSs[strtIdx].H += areaSs[i].H;
+                        areaSs[strtIdx].Prcs();
+                    }
+                    else
+                    {
+                        strtIdx = i;
+                    }
+                }
+            }
+        }
+
         // Slab list for display
         private void SsForDisplay(List<AreaSlab> areaSs, out string rsltRebarSs, out string rsltAmtSs)
         {
+            PrepSPrcs(areaSs);
             rsltRebarSs = string.Empty;
             rsltAmtSs = string.Empty;
             foreach (var area in areaSs)
             {
+                // main
+                var mainAmt = area.MainAmount;
                 foreach (var rebar in area.MainRebars)
                 {
-                    // display
-                    rsltRebarSs += $"{rebar} + ";
-                    // summary
-                    var item = _smryS.FirstOrDefault(s => s.Item1 == rebar);
-                    var amt = area.MainAmt;
-                    if (item == default)
+                    rsltRebarSs += $"{rebar.Item2} + ";
+                    switch (rebar.Item1)
                     {
-                        _smryS.Add((rebar, amt));
-                    }
-                    else
-                    {
-                        item.Item2 += amt;
-                        _smryS[_smryS.FindIndex(s => s.Item1 == rebar)] = item;
+                        case 0:
+                        {
+                            BdngHeadSpltSs(_smryS0, rebar, mainAmt);
+                            break;
+                        }
+                        case 1:
+                        {
+                            BdngHeadSpltSs(_smryS1, rebar, mainAmt);
+                            break;
+                        }
+                        case 2:
+                        {
+                            BdngHeadSpltSs(_smryS2, rebar, mainAmt);
+                            break;
+                        }
                     }
                 }
                 rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - " + ".Length);
+                rsltAmtSs += $"{area.MainAmount}本\n";
+                // sub
+                if (area.SubRebars != null)
+                {
+                    var subAmt = (int)area.SubAmount;
+                    rsltRebarSs += "\n(";
+                    foreach (var rebar in area.SubRebars)
+                    {
+                        rsltRebarSs += $"{rebar.Item2} + ";
+                        switch (rebar.Item1)
+                        {
+                            case 0:
+                            {
+                                BdngHeadSpltSs(_smryS0, rebar, subAmt);
+                                break;
+                            }
+                            case 1:
+                            {
+                                BdngHeadSpltSs(_smryS1, rebar, subAmt);
+                                break;
+                            }
+                            case 2:
+                            {
+                                BdngHeadSpltSs(_smryS2, rebar, subAmt);
+                                break;
+                            }
+                        }
+                    }
+                    rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - " + ".Length) + ")";
+                    rsltAmtSs += $"{area.SubAmount}本\n";
+                }
                 rsltRebarSs += "\n";
-                rsltAmtSs += $"{area.MainAmt}本\n";
             }
             rsltRebarSs.Substring(0, rsltRebarSs.Length - "\n".Length);
             rsltAmtSs.Substring(0, rsltAmtSs.Length - "\n".Length);
@@ -193,28 +329,64 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             rsltAmtRs = string.Empty;
             foreach (var area in areaRs)
             {
+                var d = area.D;
+                var mainAmt = area.MainAmount;
                 rsltDRs += $"D{area.D}\n";
                 foreach (var rebar in area.MainRebars)
                 {
-                    // display
-                    rsltRebarRs += $"{rebar} + ";
-                    // summary
-                    var d = area.D;
-                    var item = _smryR.FirstOrDefault(s => s.Item1 == d && s.Item2 == rebar);
-                    var amt = area.MainAmt;
-                    if (item == default)
+                    rsltRebarRs += $"{rebar.Item2} + ";
+                    switch (rebar.Item1)
                     {
-                        _smryR.Add((d, rebar, amt));
-                    }
-                    else
-                    {
-                        item.Item3 += amt;
-                        _smryR[_smryR.FindIndex(s => s.Item1 == d && s.Item2 == rebar)] = item;
+                        case 0:
+                        {
+                            BdngHeadSpltRs(_smryR0, d, rebar, mainAmt);
+                            break;
+                        }
+                        case 1:
+                        {
+                            BdngHeadSpltRs(_smryR1, d, rebar, mainAmt);
+                            break;
+                        }
+                        case 2:
+                        {
+                            BdngHeadSpltRs(_smryR2, d, rebar, mainAmt);
+                            break;
+                        }
                     }
                 }
                 rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - " + ".Length);
+                rsltAmtRs += $"{area.MainAmount}本\n";
+                if (area.SubRebars != null)
+                {
+                    var subAmt = (int)area.SubAmount;
+                    rsltDRs += $"\nD{area.D}\n";
+                    rsltRebarRs += "\n(";
+                    foreach (var rebar in area.MainRebars)
+                    {
+                        rsltRebarRs += $"{rebar.Item2} + ";
+                        switch (rebar.Item1)
+                        {
+                            case 0:
+                            {
+                                BdngHeadSpltRs(_smryR0, d, rebar, subAmt);
+                                break;
+                            }
+                            case 1:
+                            {
+                                BdngHeadSpltRs(_smryR1, d, rebar, subAmt);
+                                break;
+                            }
+                            case 2:
+                            {
+                                BdngHeadSpltRs(_smryR2, d, rebar, subAmt);
+                                break;
+                            }
+                        }
+                    }
+                    rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - " + ".Length) + ")";
+                    rsltAmtRs += $"{area.SubAmount}本\n";
+                }
                 rsltRebarRs += "\n";
-                rsltAmtRs += $"{area.MainAmt}本\n";
             }
             rsltDRs.Substring(0, rsltDRs.Length - "\n".Length);
             rsltRebarRs.Substring(0, rsltRebarRs.Length - "\n".Length);
@@ -225,6 +397,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void SmrySForDisplay()
         {
             var rslt = string.Empty;
+            _smryS.AddRange(_smryS2.OrderByDescending(x => int.Parse(x.Item1.Split('×')[1])).ToList());
+            _smryS.AddRange(_smryS1.OrderByDescending(x => int.Parse(x.Item1.Split('×')[1])).ToList());
+            _smryS.AddRange(_smryS0.OrderByDescending(x => int.Parse(x.Item1)).ToList());
             foreach (var item in _smryS)
             {
                 rslt += $"{item.Item1} = {item.Item2}本\n";
@@ -236,6 +411,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // Reinforcement summary for display
         private void SmryRForDisplay()
         {
+            _smryR.AddRange(_smryR2.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
+            _smryR.AddRange(_smryR1.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
+            _smryR.AddRange(_smryR0.OrderByDescending(x => int.Parse(x.Item2)).ToList());
             var splitList = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
             for (var i = 0; i < splitList.Count; i++)
             {

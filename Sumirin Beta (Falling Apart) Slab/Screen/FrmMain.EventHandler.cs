@@ -111,6 +111,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 case Space:
                 {
+                    e.SuppressKeyPress = true;
                     nud.ResetText();
                     break;
                 }
@@ -126,6 +127,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 case C:
                 {
+                    e.SuppressKeyPress = true;
                     // auto change location
                     var wNud = nud.Width;
                     var hNud = nud.Height;
@@ -337,7 +339,14 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // change state bending left
-                        _chkBLRs[(int)id].Checked = !_chkBLRs[(int)id].Checked;
+                        if (ModifierKeys == Shift)
+                        {
+                            _chkFLRs[(int)id].Checked = !_chkFLRs[(int)id].Checked;
+                        }
+                        else
+                        {
+                            _chkBLRs[(int)id].Checked = !_chkBLRs[(int)id].Checked;
+                        }
                         break;
                     }
                     case R:
@@ -348,29 +357,14 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             e.SuppressKeyPress = true;
                         }
                         // change state bending right
-                        _chkBRRs[(int)id].Checked = !_chkBRRs[(int)id].Checked;
-                        break;
-                    }
-                    case T:
-                    {
-                        // mute nud
-                        if (ctrl is NumericUpDown)
+                        if (ModifierKeys == Shift)
                         {
-                            e.SuppressKeyPress = true;
+                            _chkFRRs[(int)id].Checked = !_chkFRRs[(int)id].Checked;
                         }
-                        // change state bending left
-                        _chkFLRs[(int)id].Checked = !_chkFLRs[(int)id].Checked;
-                        break;
-                    }
-                    case P:
-                    {
-                        // mute nud
-                        if (ctrl is NumericUpDown)
+                        else
                         {
-                            e.SuppressKeyPress = true;
+                            _chkBRRs[(int)id].Checked = !_chkBRRs[(int)id].Checked;
                         }
-                        // change state bending right
-                        _chkFRRs[(int)id].Checked = !_chkFRRs[(int)id].Checked;
                         break;
                     }
                 }
