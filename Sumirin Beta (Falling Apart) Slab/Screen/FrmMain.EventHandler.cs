@@ -22,6 +22,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             var chk = (CheckBox)sender;
             var id = _chkASs.IndexOf(chk);
             _pnlISs[id].Enabled = chk.Checked;
+            _nudASs[id].Enabled = chk.Checked;
             // foward focus
             if (_pnlISs[id].Enabled)
             {
@@ -48,6 +49,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             var chk = (CheckBox)sender;
             var id = _chkARs.IndexOf(chk);
             _pnlIRs[id].Enabled = chk.Checked;
+            _nudARs[id].Enabled = chk.Checked;
             // foward focus
             if (_pnlIRs[id].Enabled)
             {

@@ -52,6 +52,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             InitChkFRRHs();
             InitChkFRRVs();
             // nud
+            InitNudAs();
+            InitNudASs();
+            InitNudARs();
             InitNudWSs();
             InitNudWRs();
             InitNudWSHs();
@@ -289,7 +292,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             };
 
         private List<CheckBox> _chkASVs;
-        // Initialize list chkAS
+        // Initialize list chkASV
         private void InitChkASVs() => _chkASVs = new List<CheckBox>
             {
                 chkASV1,
@@ -762,6 +765,88 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         #endregion
 
         #region Nud
+        private List<NumericUpDown> _nudAs;
+        // Initialize list chkA
+        private void InitNudAs() => _nudAs = new List<NumericUpDown>
+            {
+                nudASH1,
+                nudASH2,
+                nudASH3,
+                nudASH4,
+                nudASH5,
+                nudASH6,
+                nudASH7,
+                nudASH8,
+                nudASH9,
+                nudASH10,
+                nudASV1,
+                nudASV2,
+                nudASV3,
+                nudASV4,
+                nudASV5,
+                nudASV6,
+                nudASV7,
+                nudASV8,
+                nudASV9,
+                nudASV10,
+                nudARH1,
+                nudARH2,
+                nudARH3,
+                nudARH4,
+                nudARH5,
+                nudARH6,
+                nudARV1,
+                nudARV2,
+                nudARV3,
+                nudARV4,
+                nudARV5,
+                nudARV6
+            };
+
+        private List<NumericUpDown> _nudASs;
+        // Initialize list chkAS
+        private void InitNudASs() => _nudASs = new List<NumericUpDown>
+            {
+                nudASH1,
+                nudASH2,
+                nudASH3,
+                nudASH4,
+                nudASH5,
+                nudASH6,
+                nudASH7,
+                nudASH8,
+                nudASH9,
+                nudASH10,
+                nudASV1,
+                nudASV2,
+                nudASV3,
+                nudASV4,
+                nudASV5,
+                nudASV6,
+                nudASV7,
+                nudASV8,
+                nudASV9,
+                nudASV10
+            };
+
+        private List<NumericUpDown> _nudARs;
+        // Initialize list nudAR
+        private void InitNudARs() => _nudARs = new List<NumericUpDown>
+            {
+                nudARH1,
+                nudARH2,
+                nudARH3,
+                nudARH4,
+                nudARH5,
+                nudARH6,
+                nudARV1,
+                nudARV2,
+                nudARV3,
+                nudARV4,
+                nudARV5,
+                nudARV6
+            };
+
         private List<NumericUpDown> _nudWSs;
         // Initialize list nudWS
         private void InitNudWSs() => _nudWSs = new List<NumericUpDown>

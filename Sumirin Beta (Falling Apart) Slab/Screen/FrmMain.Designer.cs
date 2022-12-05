@@ -51,6 +51,7 @@
             this.yanGradPnl3 = new YANF.Control.YANGradPnl();
             this.panel75 = new System.Windows.Forms.Panel();
             this.pnlARV6 = new System.Windows.Forms.Panel();
+            this.nudARV6 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRV6 = new System.Windows.Forms.Panel();
             this.panel157 = new System.Windows.Forms.Panel();
             this.nudWRV6 = new System.Windows.Forms.NumericUpDown();
@@ -69,6 +70,7 @@
             this.lblDRV6 = new System.Windows.Forms.Label();
             this.chkARV6 = new System.Windows.Forms.CheckBox();
             this.pnlARV1 = new System.Windows.Forms.Panel();
+            this.nudARV1 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRV1 = new System.Windows.Forms.Panel();
             this.panel107 = new System.Windows.Forms.Panel();
             this.nudWRV1 = new System.Windows.Forms.NumericUpDown();
@@ -87,6 +89,7 @@
             this.lblDRV1 = new System.Windows.Forms.Label();
             this.chkARV1 = new System.Windows.Forms.CheckBox();
             this.pnlARV5 = new System.Windows.Forms.Panel();
+            this.nudARV5 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRV5 = new System.Windows.Forms.Panel();
             this.panel151 = new System.Windows.Forms.Panel();
             this.nudWRV5 = new System.Windows.Forms.NumericUpDown();
@@ -105,6 +108,7 @@
             this.lblDRV5 = new System.Windows.Forms.Label();
             this.chkARV5 = new System.Windows.Forms.CheckBox();
             this.pnlARV2 = new System.Windows.Forms.Panel();
+            this.nudARV2 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRV2 = new System.Windows.Forms.Panel();
             this.panel113 = new System.Windows.Forms.Panel();
             this.nudWRV2 = new System.Windows.Forms.NumericUpDown();
@@ -123,6 +127,7 @@
             this.lblDRV2 = new System.Windows.Forms.Label();
             this.chkARV2 = new System.Windows.Forms.CheckBox();
             this.pnlARV4 = new System.Windows.Forms.Panel();
+            this.nudARV4 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRV4 = new System.Windows.Forms.Panel();
             this.panel125 = new System.Windows.Forms.Panel();
             this.nudWRV4 = new System.Windows.Forms.NumericUpDown();
@@ -141,6 +146,7 @@
             this.lblDRV4 = new System.Windows.Forms.Label();
             this.chkARV4 = new System.Windows.Forms.CheckBox();
             this.pnlARV3 = new System.Windows.Forms.Panel();
+            this.nudARV3 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRV3 = new System.Windows.Forms.Panel();
             this.panel119 = new System.Windows.Forms.Panel();
             this.nudWRV3 = new System.Windows.Forms.NumericUpDown();
@@ -162,6 +168,7 @@
             this.yanGradPnl4 = new YANF.Control.YANGradPnl();
             this.panel67 = new System.Windows.Forms.Panel();
             this.pnlARH6 = new System.Windows.Forms.Panel();
+            this.nudARH6 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRH6 = new System.Windows.Forms.Panel();
             this.panel101 = new System.Windows.Forms.Panel();
             this.nudWRH6 = new System.Windows.Forms.NumericUpDown();
@@ -180,6 +187,7 @@
             this.lblDRH6 = new System.Windows.Forms.Label();
             this.chkARH6 = new System.Windows.Forms.CheckBox();
             this.pnlARH5 = new System.Windows.Forms.Panel();
+            this.nudARH5 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRH5 = new System.Windows.Forms.Panel();
             this.panel34 = new System.Windows.Forms.Panel();
             this.nudWRH5 = new System.Windows.Forms.NumericUpDown();
@@ -198,6 +206,7 @@
             this.lblDRH5 = new System.Windows.Forms.Label();
             this.chkARH5 = new System.Windows.Forms.CheckBox();
             this.pnlARH4 = new System.Windows.Forms.Panel();
+            this.nudARH4 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRH4 = new System.Windows.Forms.Panel();
             this.panel28 = new System.Windows.Forms.Panel();
             this.nudWRH4 = new System.Windows.Forms.NumericUpDown();
@@ -216,6 +225,7 @@
             this.lblDRH4 = new System.Windows.Forms.Label();
             this.chkARH4 = new System.Windows.Forms.CheckBox();
             this.pnlARH3 = new System.Windows.Forms.Panel();
+            this.nudARH3 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRH3 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.nudWRH3 = new System.Windows.Forms.NumericUpDown();
@@ -234,6 +244,7 @@
             this.lblDRH3 = new System.Windows.Forms.Label();
             this.chkARH3 = new System.Windows.Forms.CheckBox();
             this.pnlARH2 = new System.Windows.Forms.Panel();
+            this.nudARH2 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRH2 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.nudWRH2 = new System.Windows.Forms.NumericUpDown();
@@ -252,6 +263,7 @@
             this.lblDRH2 = new System.Windows.Forms.Label();
             this.chkARH2 = new System.Windows.Forms.CheckBox();
             this.pnlARH1 = new System.Windows.Forms.Panel();
+            this.nudARH1 = new System.Windows.Forms.NumericUpDown();
             this.pnlIRH1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.nudWRH1 = new System.Windows.Forms.NumericUpDown();
@@ -275,6 +287,7 @@
             this.yanGradPnl2 = new YANF.Control.YANGradPnl();
             this.panel16 = new System.Windows.Forms.Panel();
             this.pnlASV10 = new System.Windows.Forms.Panel();
+            this.nudASV10 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV10 = new System.Windows.Forms.Panel();
             this.panel46 = new System.Windows.Forms.Panel();
             this.nudWSV10 = new System.Windows.Forms.NumericUpDown();
@@ -287,6 +300,7 @@
             this.lblHSV10 = new System.Windows.Forms.Label();
             this.chkASV10 = new System.Windows.Forms.CheckBox();
             this.pnlASV5 = new System.Windows.Forms.Panel();
+            this.nudASV5 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV5 = new System.Windows.Forms.Panel();
             this.panel52 = new System.Windows.Forms.Panel();
             this.nudWSV5 = new System.Windows.Forms.NumericUpDown();
@@ -299,6 +313,7 @@
             this.lblHSV5 = new System.Windows.Forms.Label();
             this.chkASV5 = new System.Windows.Forms.CheckBox();
             this.pnlASV9 = new System.Windows.Forms.Panel();
+            this.nudASV9 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV9 = new System.Windows.Forms.Panel();
             this.panel56 = new System.Windows.Forms.Panel();
             this.nudWSV9 = new System.Windows.Forms.NumericUpDown();
@@ -311,6 +326,7 @@
             this.lblHSV9 = new System.Windows.Forms.Label();
             this.chkASV9 = new System.Windows.Forms.CheckBox();
             this.pnlASV4 = new System.Windows.Forms.Panel();
+            this.nudASV4 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV4 = new System.Windows.Forms.Panel();
             this.panel72 = new System.Windows.Forms.Panel();
             this.nudWSV4 = new System.Windows.Forms.NumericUpDown();
@@ -323,6 +339,7 @@
             this.lblHSV4 = new System.Windows.Forms.Label();
             this.chkASV4 = new System.Windows.Forms.CheckBox();
             this.pnlASV8 = new System.Windows.Forms.Panel();
+            this.nudASV8 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV8 = new System.Windows.Forms.Panel();
             this.panel77 = new System.Windows.Forms.Panel();
             this.nudWSV8 = new System.Windows.Forms.NumericUpDown();
@@ -335,6 +352,7 @@
             this.lblHSV8 = new System.Windows.Forms.Label();
             this.chkASV8 = new System.Windows.Forms.CheckBox();
             this.pnlASV3 = new System.Windows.Forms.Panel();
+            this.nudASV3 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV3 = new System.Windows.Forms.Panel();
             this.panel81 = new System.Windows.Forms.Panel();
             this.nudWSV3 = new System.Windows.Forms.NumericUpDown();
@@ -347,6 +365,7 @@
             this.lblHSV3 = new System.Windows.Forms.Label();
             this.chkASV3 = new System.Windows.Forms.CheckBox();
             this.pnlASV6 = new System.Windows.Forms.Panel();
+            this.nudASV6 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV6 = new System.Windows.Forms.Panel();
             this.panel85 = new System.Windows.Forms.Panel();
             this.nudWSV6 = new System.Windows.Forms.NumericUpDown();
@@ -359,6 +378,7 @@
             this.lblHSV6 = new System.Windows.Forms.Label();
             this.chkASV6 = new System.Windows.Forms.CheckBox();
             this.pnlASV7 = new System.Windows.Forms.Panel();
+            this.nudASV7 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV7 = new System.Windows.Forms.Panel();
             this.panel139 = new System.Windows.Forms.Panel();
             this.nudWSV7 = new System.Windows.Forms.NumericUpDown();
@@ -371,6 +391,7 @@
             this.lblHSV7 = new System.Windows.Forms.Label();
             this.chkASV7 = new System.Windows.Forms.CheckBox();
             this.pnlASV2 = new System.Windows.Forms.Panel();
+            this.nudASV2 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV2 = new System.Windows.Forms.Panel();
             this.panel143 = new System.Windows.Forms.Panel();
             this.nudWSV2 = new System.Windows.Forms.NumericUpDown();
@@ -383,6 +404,7 @@
             this.lblHSV2 = new System.Windows.Forms.Label();
             this.chkASV2 = new System.Windows.Forms.CheckBox();
             this.pnlASV1 = new System.Windows.Forms.Panel();
+            this.nudASV1 = new System.Windows.Forms.NumericUpDown();
             this.pnlISV1 = new System.Windows.Forms.Panel();
             this.panel147 = new System.Windows.Forms.Panel();
             this.nudWSV1 = new System.Windows.Forms.NumericUpDown();
@@ -398,6 +420,7 @@
             this.yanGradPnl1 = new YANF.Control.YANGradPnl();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pnlASH10 = new System.Windows.Forms.Panel();
+            this.nudASH10 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH10 = new System.Windows.Forms.Panel();
             this.panel137 = new System.Windows.Forms.Panel();
             this.nudWSH10 = new System.Windows.Forms.NumericUpDown();
@@ -410,6 +433,7 @@
             this.lblHSH10 = new System.Windows.Forms.Label();
             this.chkASH10 = new System.Windows.Forms.CheckBox();
             this.pnlASH5 = new System.Windows.Forms.Panel();
+            this.nudASH5 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH5 = new System.Windows.Forms.Panel();
             this.panel66 = new System.Windows.Forms.Panel();
             this.nudWSH5 = new System.Windows.Forms.NumericUpDown();
@@ -422,6 +446,7 @@
             this.lblHSH5 = new System.Windows.Forms.Label();
             this.chkASH5 = new System.Windows.Forms.CheckBox();
             this.pnlASH9 = new System.Windows.Forms.Panel();
+            this.nudASH9 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH9 = new System.Windows.Forms.Panel();
             this.panel133 = new System.Windows.Forms.Panel();
             this.nudWSH9 = new System.Windows.Forms.NumericUpDown();
@@ -434,6 +459,7 @@
             this.lblHSH9 = new System.Windows.Forms.Label();
             this.chkASH9 = new System.Windows.Forms.CheckBox();
             this.pnlASH4 = new System.Windows.Forms.Panel();
+            this.nudASH4 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH4 = new System.Windows.Forms.Panel();
             this.panel62 = new System.Windows.Forms.Panel();
             this.nudWSH4 = new System.Windows.Forms.NumericUpDown();
@@ -446,6 +472,7 @@
             this.lblHSH4 = new System.Windows.Forms.Label();
             this.chkASH4 = new System.Windows.Forms.CheckBox();
             this.pnlASH8 = new System.Windows.Forms.Panel();
+            this.nudASH8 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH8 = new System.Windows.Forms.Panel();
             this.panel129 = new System.Windows.Forms.Panel();
             this.nudWSH8 = new System.Windows.Forms.NumericUpDown();
@@ -458,6 +485,7 @@
             this.lblHSH8 = new System.Windows.Forms.Label();
             this.chkASH8 = new System.Windows.Forms.CheckBox();
             this.pnlASH3 = new System.Windows.Forms.Panel();
+            this.nudASH3 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH3 = new System.Windows.Forms.Panel();
             this.panel58 = new System.Windows.Forms.Panel();
             this.nudWSH3 = new System.Windows.Forms.NumericUpDown();
@@ -470,6 +498,7 @@
             this.lblHSH3 = new System.Windows.Forms.Label();
             this.chkASH3 = new System.Windows.Forms.CheckBox();
             this.pnlASH6 = new System.Windows.Forms.Panel();
+            this.nudASH6 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH6 = new System.Windows.Forms.Panel();
             this.panel90 = new System.Windows.Forms.Panel();
             this.nudWSH6 = new System.Windows.Forms.NumericUpDown();
@@ -482,6 +511,7 @@
             this.lblHSH6 = new System.Windows.Forms.Label();
             this.chkASH6 = new System.Windows.Forms.CheckBox();
             this.pnlASH7 = new System.Windows.Forms.Panel();
+            this.nudASH7 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH7 = new System.Windows.Forms.Panel();
             this.panel94 = new System.Windows.Forms.Panel();
             this.nudWSH7 = new System.Windows.Forms.NumericUpDown();
@@ -494,6 +524,7 @@
             this.lblHSH7 = new System.Windows.Forms.Label();
             this.chkASH7 = new System.Windows.Forms.CheckBox();
             this.pnlASH2 = new System.Windows.Forms.Panel();
+            this.nudASH2 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH2 = new System.Windows.Forms.Panel();
             this.panel43 = new System.Windows.Forms.Panel();
             this.nudWSH2 = new System.Windows.Forms.NumericUpDown();
@@ -506,6 +537,7 @@
             this.lblHSH2 = new System.Windows.Forms.Label();
             this.chkASH2 = new System.Windows.Forms.CheckBox();
             this.pnlASH1 = new System.Windows.Forms.Panel();
+            this.nudASH1 = new System.Windows.Forms.NumericUpDown();
             this.pnlISH1 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.nudWSH1 = new System.Windows.Forms.NumericUpDown();
@@ -519,38 +551,6 @@
             this.chkASH1 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown14 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown16 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown17 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown21 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown25 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown26 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown27 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown28 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown29 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown30 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown31 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown32 = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -559,6 +559,7 @@
             this.yanGradPnl3.SuspendLayout();
             this.panel75.SuspendLayout();
             this.pnlARV6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV6)).BeginInit();
             this.pnlIRV6.SuspendLayout();
             this.panel157.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV6)).BeginInit();
@@ -569,6 +570,7 @@
             this.panel160.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV6)).BeginInit();
             this.pnlARV1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV1)).BeginInit();
             this.pnlIRV1.SuspendLayout();
             this.panel107.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV1)).BeginInit();
@@ -579,6 +581,7 @@
             this.panel110.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV1)).BeginInit();
             this.pnlARV5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV5)).BeginInit();
             this.pnlIRV5.SuspendLayout();
             this.panel151.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV5)).BeginInit();
@@ -589,6 +592,7 @@
             this.panel154.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV5)).BeginInit();
             this.pnlARV2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV2)).BeginInit();
             this.pnlIRV2.SuspendLayout();
             this.panel113.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV2)).BeginInit();
@@ -599,6 +603,7 @@
             this.panel116.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV2)).BeginInit();
             this.pnlARV4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV4)).BeginInit();
             this.pnlIRV4.SuspendLayout();
             this.panel125.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV4)).BeginInit();
@@ -609,6 +614,7 @@
             this.panel128.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV4)).BeginInit();
             this.pnlARV3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV3)).BeginInit();
             this.pnlIRV3.SuspendLayout();
             this.panel119.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV3)).BeginInit();
@@ -621,6 +627,7 @@
             this.yanGradPnl4.SuspendLayout();
             this.panel67.SuspendLayout();
             this.pnlARH6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH6)).BeginInit();
             this.pnlIRH6.SuspendLayout();
             this.panel101.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH6)).BeginInit();
@@ -631,6 +638,7 @@
             this.panel104.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH6)).BeginInit();
             this.pnlARH5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH5)).BeginInit();
             this.pnlIRH5.SuspendLayout();
             this.panel34.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH5)).BeginInit();
@@ -641,6 +649,7 @@
             this.panel37.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH5)).BeginInit();
             this.pnlARH4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH4)).BeginInit();
             this.pnlIRH4.SuspendLayout();
             this.panel28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH4)).BeginInit();
@@ -651,6 +660,7 @@
             this.panel31.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH4)).BeginInit();
             this.pnlARH3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH3)).BeginInit();
             this.pnlIRH3.SuspendLayout();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH3)).BeginInit();
@@ -661,6 +671,7 @@
             this.panel25.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH3)).BeginInit();
             this.pnlARH2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH2)).BeginInit();
             this.pnlIRH2.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH2)).BeginInit();
@@ -671,6 +682,7 @@
             this.panel19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH2)).BeginInit();
             this.pnlARH1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH1)).BeginInit();
             this.pnlIRH1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH1)).BeginInit();
@@ -684,6 +696,7 @@
             this.yanGradPnl2.SuspendLayout();
             this.panel16.SuspendLayout();
             this.pnlASV10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV10)).BeginInit();
             this.pnlISV10.SuspendLayout();
             this.panel46.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV10)).BeginInit();
@@ -691,6 +704,7 @@
             this.panel49.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV10)).BeginInit();
             this.pnlASV5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV5)).BeginInit();
             this.pnlISV5.SuspendLayout();
             this.panel52.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV5)).BeginInit();
@@ -698,6 +712,7 @@
             this.panel53.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV5)).BeginInit();
             this.pnlASV9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV9)).BeginInit();
             this.pnlISV9.SuspendLayout();
             this.panel56.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV9)).BeginInit();
@@ -705,6 +720,7 @@
             this.panel57.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV9)).BeginInit();
             this.pnlASV4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV4)).BeginInit();
             this.pnlISV4.SuspendLayout();
             this.panel72.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV4)).BeginInit();
@@ -712,6 +728,7 @@
             this.panel73.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV4)).BeginInit();
             this.pnlASV8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV8)).BeginInit();
             this.pnlISV8.SuspendLayout();
             this.panel77.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV8)).BeginInit();
@@ -719,6 +736,7 @@
             this.panel78.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV8)).BeginInit();
             this.pnlASV3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV3)).BeginInit();
             this.pnlISV3.SuspendLayout();
             this.panel81.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV3)).BeginInit();
@@ -726,6 +744,7 @@
             this.panel82.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV3)).BeginInit();
             this.pnlASV6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV6)).BeginInit();
             this.pnlISV6.SuspendLayout();
             this.panel85.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV6)).BeginInit();
@@ -733,6 +752,7 @@
             this.panel86.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV6)).BeginInit();
             this.pnlASV7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV7)).BeginInit();
             this.pnlISV7.SuspendLayout();
             this.panel139.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV7)).BeginInit();
@@ -740,6 +760,7 @@
             this.panel140.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV7)).BeginInit();
             this.pnlASV2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV2)).BeginInit();
             this.pnlISV2.SuspendLayout();
             this.panel143.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV2)).BeginInit();
@@ -747,6 +768,7 @@
             this.panel144.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV2)).BeginInit();
             this.pnlASV1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV1)).BeginInit();
             this.pnlISV1.SuspendLayout();
             this.panel147.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV1)).BeginInit();
@@ -756,6 +778,7 @@
             this.yanGradPnl1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.pnlASH10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH10)).BeginInit();
             this.pnlISH10.SuspendLayout();
             this.panel137.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH10)).BeginInit();
@@ -763,6 +786,7 @@
             this.panel138.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH10)).BeginInit();
             this.pnlASH5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH5)).BeginInit();
             this.pnlISH5.SuspendLayout();
             this.panel66.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH5)).BeginInit();
@@ -770,6 +794,7 @@
             this.panel68.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH5)).BeginInit();
             this.pnlASH9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH9)).BeginInit();
             this.pnlISH9.SuspendLayout();
             this.panel133.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH9)).BeginInit();
@@ -777,6 +802,7 @@
             this.panel134.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH9)).BeginInit();
             this.pnlASH4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH4)).BeginInit();
             this.pnlISH4.SuspendLayout();
             this.panel62.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH4)).BeginInit();
@@ -784,6 +810,7 @@
             this.panel63.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH4)).BeginInit();
             this.pnlASH8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH8)).BeginInit();
             this.pnlISH8.SuspendLayout();
             this.panel129.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH8)).BeginInit();
@@ -791,6 +818,7 @@
             this.panel130.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH8)).BeginInit();
             this.pnlASH3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH3)).BeginInit();
             this.pnlISH3.SuspendLayout();
             this.panel58.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH3)).BeginInit();
@@ -798,6 +826,7 @@
             this.panel59.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH3)).BeginInit();
             this.pnlASH6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH6)).BeginInit();
             this.pnlISH6.SuspendLayout();
             this.panel90.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH6)).BeginInit();
@@ -805,6 +834,7 @@
             this.panel91.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH6)).BeginInit();
             this.pnlASH7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH7)).BeginInit();
             this.pnlISH7.SuspendLayout();
             this.panel94.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH7)).BeginInit();
@@ -812,6 +842,7 @@
             this.panel95.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH7)).BeginInit();
             this.pnlASH2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH2)).BeginInit();
             this.pnlISH2.SuspendLayout();
             this.panel43.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH2)).BeginInit();
@@ -819,44 +850,13 @@
             this.panel44.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH2)).BeginInit();
             this.pnlASH1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH1)).BeginInit();
             this.pnlISH1.SuspendLayout();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH1)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown32)).BeginInit();
             this.SuspendLayout();
             // 
             // tgTruck2Ton
@@ -1167,7 +1167,7 @@
             // pnlARV6
             // 
             this.pnlARV6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV6.Controls.Add(this.numericUpDown32);
+            this.pnlARV6.Controls.Add(this.nudARV6);
             this.pnlARV6.Controls.Add(this.pnlIRV6);
             this.pnlARV6.Controls.Add(this.chkARV6);
             this.pnlARV6.Enabled = false;
@@ -1176,6 +1176,29 @@
             this.pnlARV6.Name = "pnlARV6";
             this.pnlARV6.Size = new System.Drawing.Size(100, 190);
             this.pnlARV6.TabIndex = 6;
+            // 
+            // nudARV6
+            // 
+            this.nudARV6.Enabled = false;
+            this.nudARV6.Location = new System.Drawing.Point(55, 8);
+            this.nudARV6.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARV6.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARV6.Name = "nudARV6";
+            this.nudARV6.Size = new System.Drawing.Size(35, 20);
+            this.nudARV6.TabIndex = 2;
+            this.nudARV6.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRV6
             // 
@@ -1406,7 +1429,7 @@
             // pnlARV1
             // 
             this.pnlARV1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV1.Controls.Add(this.numericUpDown27);
+            this.pnlARV1.Controls.Add(this.nudARV1);
             this.pnlARV1.Controls.Add(this.pnlIRV1);
             this.pnlARV1.Controls.Add(this.chkARV1);
             this.pnlARV1.Location = new System.Drawing.Point(10, 10);
@@ -1414,6 +1437,29 @@
             this.pnlARV1.Name = "pnlARV1";
             this.pnlARV1.Size = new System.Drawing.Size(100, 190);
             this.pnlARV1.TabIndex = 1;
+            // 
+            // nudARV1
+            // 
+            this.nudARV1.Enabled = false;
+            this.nudARV1.Location = new System.Drawing.Point(55, 8);
+            this.nudARV1.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARV1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARV1.Name = "nudARV1";
+            this.nudARV1.Size = new System.Drawing.Size(35, 20);
+            this.nudARV1.TabIndex = 0;
+            this.nudARV1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRV1
             // 
@@ -1644,7 +1690,7 @@
             // pnlARV5
             // 
             this.pnlARV5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV5.Controls.Add(this.numericUpDown31);
+            this.pnlARV5.Controls.Add(this.nudARV5);
             this.pnlARV5.Controls.Add(this.pnlIRV5);
             this.pnlARV5.Controls.Add(this.chkARV5);
             this.pnlARV5.Enabled = false;
@@ -1653,6 +1699,29 @@
             this.pnlARV5.Name = "pnlARV5";
             this.pnlARV5.Size = new System.Drawing.Size(100, 190);
             this.pnlARV5.TabIndex = 5;
+            // 
+            // nudARV5
+            // 
+            this.nudARV5.Enabled = false;
+            this.nudARV5.Location = new System.Drawing.Point(55, 8);
+            this.nudARV5.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARV5.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARV5.Name = "nudARV5";
+            this.nudARV5.Size = new System.Drawing.Size(35, 20);
+            this.nudARV5.TabIndex = 2;
+            this.nudARV5.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRV5
             // 
@@ -1883,7 +1952,7 @@
             // pnlARV2
             // 
             this.pnlARV2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV2.Controls.Add(this.numericUpDown28);
+            this.pnlARV2.Controls.Add(this.nudARV2);
             this.pnlARV2.Controls.Add(this.pnlIRV2);
             this.pnlARV2.Controls.Add(this.chkARV2);
             this.pnlARV2.Enabled = false;
@@ -1892,6 +1961,29 @@
             this.pnlARV2.Name = "pnlARV2";
             this.pnlARV2.Size = new System.Drawing.Size(100, 190);
             this.pnlARV2.TabIndex = 2;
+            // 
+            // nudARV2
+            // 
+            this.nudARV2.Enabled = false;
+            this.nudARV2.Location = new System.Drawing.Point(55, 8);
+            this.nudARV2.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARV2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARV2.Name = "nudARV2";
+            this.nudARV2.Size = new System.Drawing.Size(35, 20);
+            this.nudARV2.TabIndex = 2;
+            this.nudARV2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRV2
             // 
@@ -2122,7 +2214,7 @@
             // pnlARV4
             // 
             this.pnlARV4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV4.Controls.Add(this.numericUpDown30);
+            this.pnlARV4.Controls.Add(this.nudARV4);
             this.pnlARV4.Controls.Add(this.pnlIRV4);
             this.pnlARV4.Controls.Add(this.chkARV4);
             this.pnlARV4.Enabled = false;
@@ -2131,6 +2223,29 @@
             this.pnlARV4.Name = "pnlARV4";
             this.pnlARV4.Size = new System.Drawing.Size(100, 190);
             this.pnlARV4.TabIndex = 4;
+            // 
+            // nudARV4
+            // 
+            this.nudARV4.Enabled = false;
+            this.nudARV4.Location = new System.Drawing.Point(55, 8);
+            this.nudARV4.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARV4.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARV4.Name = "nudARV4";
+            this.nudARV4.Size = new System.Drawing.Size(35, 20);
+            this.nudARV4.TabIndex = 2;
+            this.nudARV4.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRV4
             // 
@@ -2361,7 +2476,7 @@
             // pnlARV3
             // 
             this.pnlARV3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARV3.Controls.Add(this.numericUpDown29);
+            this.pnlARV3.Controls.Add(this.nudARV3);
             this.pnlARV3.Controls.Add(this.pnlIRV3);
             this.pnlARV3.Controls.Add(this.chkARV3);
             this.pnlARV3.Enabled = false;
@@ -2370,6 +2485,29 @@
             this.pnlARV3.Name = "pnlARV3";
             this.pnlARV3.Size = new System.Drawing.Size(100, 190);
             this.pnlARV3.TabIndex = 3;
+            // 
+            // nudARV3
+            // 
+            this.nudARV3.Enabled = false;
+            this.nudARV3.Location = new System.Drawing.Point(55, 8);
+            this.nudARV3.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARV3.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARV3.Name = "nudARV3";
+            this.nudARV3.Size = new System.Drawing.Size(35, 20);
+            this.nudARV3.TabIndex = 2;
+            this.nudARV3.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRV3
             // 
@@ -2641,7 +2779,7 @@
             // pnlARH6
             // 
             this.pnlARH6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH6.Controls.Add(this.numericUpDown26);
+            this.pnlARH6.Controls.Add(this.nudARH6);
             this.pnlARH6.Controls.Add(this.pnlIRH6);
             this.pnlARH6.Controls.Add(this.chkARH6);
             this.pnlARH6.Enabled = false;
@@ -2650,6 +2788,29 @@
             this.pnlARH6.Name = "pnlARH6";
             this.pnlARH6.Size = new System.Drawing.Size(100, 190);
             this.pnlARH6.TabIndex = 6;
+            // 
+            // nudARH6
+            // 
+            this.nudARH6.Enabled = false;
+            this.nudARH6.Location = new System.Drawing.Point(55, 8);
+            this.nudARH6.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARH6.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARH6.Name = "nudARH6";
+            this.nudARH6.Size = new System.Drawing.Size(35, 20);
+            this.nudARH6.TabIndex = 2;
+            this.nudARH6.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRH6
             // 
@@ -2880,7 +3041,7 @@
             // pnlARH5
             // 
             this.pnlARH5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH5.Controls.Add(this.numericUpDown25);
+            this.pnlARH5.Controls.Add(this.nudARH5);
             this.pnlARH5.Controls.Add(this.pnlIRH5);
             this.pnlARH5.Controls.Add(this.chkARH5);
             this.pnlARH5.Enabled = false;
@@ -2889,6 +3050,29 @@
             this.pnlARH5.Name = "pnlARH5";
             this.pnlARH5.Size = new System.Drawing.Size(100, 190);
             this.pnlARH5.TabIndex = 5;
+            // 
+            // nudARH5
+            // 
+            this.nudARH5.Enabled = false;
+            this.nudARH5.Location = new System.Drawing.Point(55, 8);
+            this.nudARH5.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARH5.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARH5.Name = "nudARH5";
+            this.nudARH5.Size = new System.Drawing.Size(35, 20);
+            this.nudARH5.TabIndex = 2;
+            this.nudARH5.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRH5
             // 
@@ -3119,7 +3303,7 @@
             // pnlARH4
             // 
             this.pnlARH4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH4.Controls.Add(this.numericUpDown24);
+            this.pnlARH4.Controls.Add(this.nudARH4);
             this.pnlARH4.Controls.Add(this.pnlIRH4);
             this.pnlARH4.Controls.Add(this.chkARH4);
             this.pnlARH4.Enabled = false;
@@ -3128,6 +3312,29 @@
             this.pnlARH4.Name = "pnlARH4";
             this.pnlARH4.Size = new System.Drawing.Size(100, 190);
             this.pnlARH4.TabIndex = 4;
+            // 
+            // nudARH4
+            // 
+            this.nudARH4.Enabled = false;
+            this.nudARH4.Location = new System.Drawing.Point(55, 8);
+            this.nudARH4.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARH4.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARH4.Name = "nudARH4";
+            this.nudARH4.Size = new System.Drawing.Size(35, 20);
+            this.nudARH4.TabIndex = 2;
+            this.nudARH4.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRH4
             // 
@@ -3358,7 +3565,7 @@
             // pnlARH3
             // 
             this.pnlARH3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH3.Controls.Add(this.numericUpDown23);
+            this.pnlARH3.Controls.Add(this.nudARH3);
             this.pnlARH3.Controls.Add(this.pnlIRH3);
             this.pnlARH3.Controls.Add(this.chkARH3);
             this.pnlARH3.Enabled = false;
@@ -3367,6 +3574,29 @@
             this.pnlARH3.Name = "pnlARH3";
             this.pnlARH3.Size = new System.Drawing.Size(100, 190);
             this.pnlARH3.TabIndex = 3;
+            // 
+            // nudARH3
+            // 
+            this.nudARH3.Enabled = false;
+            this.nudARH3.Location = new System.Drawing.Point(55, 8);
+            this.nudARH3.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARH3.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARH3.Name = "nudARH3";
+            this.nudARH3.Size = new System.Drawing.Size(35, 20);
+            this.nudARH3.TabIndex = 2;
+            this.nudARH3.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRH3
             // 
@@ -3597,7 +3827,7 @@
             // pnlARH2
             // 
             this.pnlARH2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH2.Controls.Add(this.numericUpDown22);
+            this.pnlARH2.Controls.Add(this.nudARH2);
             this.pnlARH2.Controls.Add(this.pnlIRH2);
             this.pnlARH2.Controls.Add(this.chkARH2);
             this.pnlARH2.Enabled = false;
@@ -3606,6 +3836,29 @@
             this.pnlARH2.Name = "pnlARH2";
             this.pnlARH2.Size = new System.Drawing.Size(100, 190);
             this.pnlARH2.TabIndex = 2;
+            // 
+            // nudARH2
+            // 
+            this.nudARH2.Enabled = false;
+            this.nudARH2.Location = new System.Drawing.Point(55, 8);
+            this.nudARH2.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudARH2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARH2.Name = "nudARH2";
+            this.nudARH2.Size = new System.Drawing.Size(35, 20);
+            this.nudARH2.TabIndex = 2;
+            this.nudARH2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRH2
             // 
@@ -3836,7 +4089,7 @@
             // pnlARH1
             // 
             this.pnlARH1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlARH1.Controls.Add(this.numericUpDown21);
+            this.pnlARH1.Controls.Add(this.nudARH1);
             this.pnlARH1.Controls.Add(this.pnlIRH1);
             this.pnlARH1.Controls.Add(this.chkARH1);
             this.pnlARH1.Location = new System.Drawing.Point(10, 10);
@@ -3844,6 +4097,29 @@
             this.pnlARH1.Name = "pnlARH1";
             this.pnlARH1.Size = new System.Drawing.Size(100, 190);
             this.pnlARH1.TabIndex = 1;
+            // 
+            // nudARH1
+            // 
+            this.nudARH1.Enabled = false;
+            this.nudARH1.Location = new System.Drawing.Point(55, 8);
+            this.nudARH1.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARH1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudARH1.Name = "nudARH1";
+            this.nudARH1.Size = new System.Drawing.Size(35, 20);
+            this.nudARH1.TabIndex = 0;
+            this.nudARH1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlIRH1
             // 
@@ -4144,7 +4420,7 @@
             // pnlASV10
             // 
             this.pnlASV10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV10.Controls.Add(this.numericUpDown20);
+            this.pnlASV10.Controls.Add(this.nudASV10);
             this.pnlASV10.Controls.Add(this.pnlISV10);
             this.pnlASV10.Controls.Add(this.chkASV10);
             this.pnlASV10.Enabled = false;
@@ -4153,6 +4429,29 @@
             this.pnlASV10.Name = "pnlASV10";
             this.pnlASV10.Size = new System.Drawing.Size(100, 130);
             this.pnlASV10.TabIndex = 10;
+            // 
+            // nudASV10
+            // 
+            this.nudASV10.Enabled = false;
+            this.nudASV10.Location = new System.Drawing.Point(55, 8);
+            this.nudASV10.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV10.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV10.Name = "nudASV10";
+            this.nudASV10.Size = new System.Drawing.Size(35, 20);
+            this.nudASV10.TabIndex = 2;
+            this.nudASV10.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV10
             // 
@@ -4307,7 +4606,7 @@
             // pnlASV5
             // 
             this.pnlASV5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV5.Controls.Add(this.numericUpDown15);
+            this.pnlASV5.Controls.Add(this.nudASV5);
             this.pnlASV5.Controls.Add(this.pnlISV5);
             this.pnlASV5.Controls.Add(this.chkASV5);
             this.pnlASV5.Enabled = false;
@@ -4316,6 +4615,29 @@
             this.pnlASV5.Name = "pnlASV5";
             this.pnlASV5.Size = new System.Drawing.Size(100, 130);
             this.pnlASV5.TabIndex = 5;
+            // 
+            // nudASV5
+            // 
+            this.nudASV5.Enabled = false;
+            this.nudASV5.Location = new System.Drawing.Point(55, 8);
+            this.nudASV5.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV5.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV5.Name = "nudASV5";
+            this.nudASV5.Size = new System.Drawing.Size(35, 20);
+            this.nudASV5.TabIndex = 2;
+            this.nudASV5.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV5
             // 
@@ -4470,7 +4792,7 @@
             // pnlASV9
             // 
             this.pnlASV9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV9.Controls.Add(this.numericUpDown19);
+            this.pnlASV9.Controls.Add(this.nudASV9);
             this.pnlASV9.Controls.Add(this.pnlISV9);
             this.pnlASV9.Controls.Add(this.chkASV9);
             this.pnlASV9.Enabled = false;
@@ -4479,6 +4801,29 @@
             this.pnlASV9.Name = "pnlASV9";
             this.pnlASV9.Size = new System.Drawing.Size(100, 130);
             this.pnlASV9.TabIndex = 9;
+            // 
+            // nudASV9
+            // 
+            this.nudASV9.Enabled = false;
+            this.nudASV9.Location = new System.Drawing.Point(55, 8);
+            this.nudASV9.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV9.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV9.Name = "nudASV9";
+            this.nudASV9.Size = new System.Drawing.Size(35, 20);
+            this.nudASV9.TabIndex = 2;
+            this.nudASV9.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV9
             // 
@@ -4633,7 +4978,7 @@
             // pnlASV4
             // 
             this.pnlASV4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV4.Controls.Add(this.numericUpDown14);
+            this.pnlASV4.Controls.Add(this.nudASV4);
             this.pnlASV4.Controls.Add(this.pnlISV4);
             this.pnlASV4.Controls.Add(this.chkASV4);
             this.pnlASV4.Enabled = false;
@@ -4642,6 +4987,29 @@
             this.pnlASV4.Name = "pnlASV4";
             this.pnlASV4.Size = new System.Drawing.Size(100, 130);
             this.pnlASV4.TabIndex = 4;
+            // 
+            // nudASV4
+            // 
+            this.nudASV4.Enabled = false;
+            this.nudASV4.Location = new System.Drawing.Point(55, 8);
+            this.nudASV4.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV4.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV4.Name = "nudASV4";
+            this.nudASV4.Size = new System.Drawing.Size(35, 20);
+            this.nudASV4.TabIndex = 2;
+            this.nudASV4.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV4
             // 
@@ -4796,7 +5164,7 @@
             // pnlASV8
             // 
             this.pnlASV8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV8.Controls.Add(this.numericUpDown18);
+            this.pnlASV8.Controls.Add(this.nudASV8);
             this.pnlASV8.Controls.Add(this.pnlISV8);
             this.pnlASV8.Controls.Add(this.chkASV8);
             this.pnlASV8.Enabled = false;
@@ -4805,6 +5173,29 @@
             this.pnlASV8.Name = "pnlASV8";
             this.pnlASV8.Size = new System.Drawing.Size(100, 130);
             this.pnlASV8.TabIndex = 8;
+            // 
+            // nudASV8
+            // 
+            this.nudASV8.Enabled = false;
+            this.nudASV8.Location = new System.Drawing.Point(55, 8);
+            this.nudASV8.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV8.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV8.Name = "nudASV8";
+            this.nudASV8.Size = new System.Drawing.Size(35, 20);
+            this.nudASV8.TabIndex = 2;
+            this.nudASV8.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV8
             // 
@@ -4959,7 +5350,7 @@
             // pnlASV3
             // 
             this.pnlASV3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV3.Controls.Add(this.numericUpDown13);
+            this.pnlASV3.Controls.Add(this.nudASV3);
             this.pnlASV3.Controls.Add(this.pnlISV3);
             this.pnlASV3.Controls.Add(this.chkASV3);
             this.pnlASV3.Enabled = false;
@@ -4968,6 +5359,29 @@
             this.pnlASV3.Name = "pnlASV3";
             this.pnlASV3.Size = new System.Drawing.Size(100, 130);
             this.pnlASV3.TabIndex = 3;
+            // 
+            // nudASV3
+            // 
+            this.nudASV3.Enabled = false;
+            this.nudASV3.Location = new System.Drawing.Point(55, 8);
+            this.nudASV3.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV3.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV3.Name = "nudASV3";
+            this.nudASV3.Size = new System.Drawing.Size(35, 20);
+            this.nudASV3.TabIndex = 2;
+            this.nudASV3.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV3
             // 
@@ -5122,7 +5536,7 @@
             // pnlASV6
             // 
             this.pnlASV6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV6.Controls.Add(this.numericUpDown16);
+            this.pnlASV6.Controls.Add(this.nudASV6);
             this.pnlASV6.Controls.Add(this.pnlISV6);
             this.pnlASV6.Controls.Add(this.chkASV6);
             this.pnlASV6.Enabled = false;
@@ -5131,6 +5545,29 @@
             this.pnlASV6.Name = "pnlASV6";
             this.pnlASV6.Size = new System.Drawing.Size(100, 130);
             this.pnlASV6.TabIndex = 6;
+            // 
+            // nudASV6
+            // 
+            this.nudASV6.Enabled = false;
+            this.nudASV6.Location = new System.Drawing.Point(55, 8);
+            this.nudASV6.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV6.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV6.Name = "nudASV6";
+            this.nudASV6.Size = new System.Drawing.Size(35, 20);
+            this.nudASV6.TabIndex = 2;
+            this.nudASV6.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV6
             // 
@@ -5285,7 +5722,7 @@
             // pnlASV7
             // 
             this.pnlASV7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV7.Controls.Add(this.numericUpDown17);
+            this.pnlASV7.Controls.Add(this.nudASV7);
             this.pnlASV7.Controls.Add(this.pnlISV7);
             this.pnlASV7.Controls.Add(this.chkASV7);
             this.pnlASV7.Enabled = false;
@@ -5294,6 +5731,29 @@
             this.pnlASV7.Name = "pnlASV7";
             this.pnlASV7.Size = new System.Drawing.Size(100, 130);
             this.pnlASV7.TabIndex = 7;
+            // 
+            // nudASV7
+            // 
+            this.nudASV7.Enabled = false;
+            this.nudASV7.Location = new System.Drawing.Point(55, 8);
+            this.nudASV7.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV7.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV7.Name = "nudASV7";
+            this.nudASV7.Size = new System.Drawing.Size(35, 20);
+            this.nudASV7.TabIndex = 2;
+            this.nudASV7.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV7
             // 
@@ -5448,7 +5908,7 @@
             // pnlASV2
             // 
             this.pnlASV2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV2.Controls.Add(this.numericUpDown12);
+            this.pnlASV2.Controls.Add(this.nudASV2);
             this.pnlASV2.Controls.Add(this.pnlISV2);
             this.pnlASV2.Controls.Add(this.chkASV2);
             this.pnlASV2.Location = new System.Drawing.Point(120, 10);
@@ -5456,6 +5916,29 @@
             this.pnlASV2.Name = "pnlASV2";
             this.pnlASV2.Size = new System.Drawing.Size(100, 130);
             this.pnlASV2.TabIndex = 2;
+            // 
+            // nudASV2
+            // 
+            this.nudASV2.Enabled = false;
+            this.nudASV2.Location = new System.Drawing.Point(55, 8);
+            this.nudASV2.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASV2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV2.Name = "nudASV2";
+            this.nudASV2.Size = new System.Drawing.Size(35, 20);
+            this.nudASV2.TabIndex = 2;
+            this.nudASV2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV2
             // 
@@ -5610,7 +6093,7 @@
             // pnlASV1
             // 
             this.pnlASV1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASV1.Controls.Add(this.numericUpDown11);
+            this.pnlASV1.Controls.Add(this.nudASV1);
             this.pnlASV1.Controls.Add(this.pnlISV1);
             this.pnlASV1.Controls.Add(this.chkASV1);
             this.pnlASV1.Location = new System.Drawing.Point(10, 10);
@@ -5618,6 +6101,29 @@
             this.pnlASV1.Name = "pnlASV1";
             this.pnlASV1.Size = new System.Drawing.Size(100, 130);
             this.pnlASV1.TabIndex = 1;
+            // 
+            // nudASV1
+            // 
+            this.nudASV1.Enabled = false;
+            this.nudASV1.Location = new System.Drawing.Point(55, 8);
+            this.nudASV1.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASV1.Name = "nudASV1";
+            this.nudASV1.Size = new System.Drawing.Size(35, 20);
+            this.nudASV1.TabIndex = 0;
+            this.nudASV1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISV1
             // 
@@ -5820,7 +6326,7 @@
             // pnlASH10
             // 
             this.pnlASH10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH10.Controls.Add(this.numericUpDown10);
+            this.pnlASH10.Controls.Add(this.nudASH10);
             this.pnlASH10.Controls.Add(this.pnlISH10);
             this.pnlASH10.Controls.Add(this.chkASH10);
             this.pnlASH10.Enabled = false;
@@ -5829,6 +6335,29 @@
             this.pnlASH10.Name = "pnlASH10";
             this.pnlASH10.Size = new System.Drawing.Size(100, 130);
             this.pnlASH10.TabIndex = 10;
+            // 
+            // nudASH10
+            // 
+            this.nudASH10.Enabled = false;
+            this.nudASH10.Location = new System.Drawing.Point(55, 8);
+            this.nudASH10.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH10.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH10.Name = "nudASH10";
+            this.nudASH10.Size = new System.Drawing.Size(35, 20);
+            this.nudASH10.TabIndex = 2;
+            this.nudASH10.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH10
             // 
@@ -5983,7 +6512,7 @@
             // pnlASH5
             // 
             this.pnlASH5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH5.Controls.Add(this.numericUpDown5);
+            this.pnlASH5.Controls.Add(this.nudASH5);
             this.pnlASH5.Controls.Add(this.pnlISH5);
             this.pnlASH5.Controls.Add(this.chkASH5);
             this.pnlASH5.Enabled = false;
@@ -5992,6 +6521,29 @@
             this.pnlASH5.Name = "pnlASH5";
             this.pnlASH5.Size = new System.Drawing.Size(100, 130);
             this.pnlASH5.TabIndex = 5;
+            // 
+            // nudASH5
+            // 
+            this.nudASH5.Enabled = false;
+            this.nudASH5.Location = new System.Drawing.Point(55, 8);
+            this.nudASH5.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH5.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH5.Name = "nudASH5";
+            this.nudASH5.Size = new System.Drawing.Size(35, 20);
+            this.nudASH5.TabIndex = 2;
+            this.nudASH5.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH5
             // 
@@ -6146,7 +6698,7 @@
             // pnlASH9
             // 
             this.pnlASH9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH9.Controls.Add(this.numericUpDown9);
+            this.pnlASH9.Controls.Add(this.nudASH9);
             this.pnlASH9.Controls.Add(this.pnlISH9);
             this.pnlASH9.Controls.Add(this.chkASH9);
             this.pnlASH9.Enabled = false;
@@ -6155,6 +6707,29 @@
             this.pnlASH9.Name = "pnlASH9";
             this.pnlASH9.Size = new System.Drawing.Size(100, 130);
             this.pnlASH9.TabIndex = 9;
+            // 
+            // nudASH9
+            // 
+            this.nudASH9.Enabled = false;
+            this.nudASH9.Location = new System.Drawing.Point(55, 8);
+            this.nudASH9.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH9.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH9.Name = "nudASH9";
+            this.nudASH9.Size = new System.Drawing.Size(35, 20);
+            this.nudASH9.TabIndex = 2;
+            this.nudASH9.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH9
             // 
@@ -6309,7 +6884,7 @@
             // pnlASH4
             // 
             this.pnlASH4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH4.Controls.Add(this.numericUpDown4);
+            this.pnlASH4.Controls.Add(this.nudASH4);
             this.pnlASH4.Controls.Add(this.pnlISH4);
             this.pnlASH4.Controls.Add(this.chkASH4);
             this.pnlASH4.Enabled = false;
@@ -6318,6 +6893,29 @@
             this.pnlASH4.Name = "pnlASH4";
             this.pnlASH4.Size = new System.Drawing.Size(100, 130);
             this.pnlASH4.TabIndex = 4;
+            // 
+            // nudASH4
+            // 
+            this.nudASH4.Enabled = false;
+            this.nudASH4.Location = new System.Drawing.Point(55, 8);
+            this.nudASH4.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH4.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH4.Name = "nudASH4";
+            this.nudASH4.Size = new System.Drawing.Size(35, 20);
+            this.nudASH4.TabIndex = 2;
+            this.nudASH4.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH4
             // 
@@ -6472,7 +7070,7 @@
             // pnlASH8
             // 
             this.pnlASH8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH8.Controls.Add(this.numericUpDown8);
+            this.pnlASH8.Controls.Add(this.nudASH8);
             this.pnlASH8.Controls.Add(this.pnlISH8);
             this.pnlASH8.Controls.Add(this.chkASH8);
             this.pnlASH8.Enabled = false;
@@ -6481,6 +7079,29 @@
             this.pnlASH8.Name = "pnlASH8";
             this.pnlASH8.Size = new System.Drawing.Size(100, 130);
             this.pnlASH8.TabIndex = 8;
+            // 
+            // nudASH8
+            // 
+            this.nudASH8.Enabled = false;
+            this.nudASH8.Location = new System.Drawing.Point(55, 8);
+            this.nudASH8.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH8.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH8.Name = "nudASH8";
+            this.nudASH8.Size = new System.Drawing.Size(35, 20);
+            this.nudASH8.TabIndex = 2;
+            this.nudASH8.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH8
             // 
@@ -6635,7 +7256,7 @@
             // pnlASH3
             // 
             this.pnlASH3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH3.Controls.Add(this.numericUpDown3);
+            this.pnlASH3.Controls.Add(this.nudASH3);
             this.pnlASH3.Controls.Add(this.pnlISH3);
             this.pnlASH3.Controls.Add(this.chkASH3);
             this.pnlASH3.Enabled = false;
@@ -6644,6 +7265,29 @@
             this.pnlASH3.Name = "pnlASH3";
             this.pnlASH3.Size = new System.Drawing.Size(100, 130);
             this.pnlASH3.TabIndex = 3;
+            // 
+            // nudASH3
+            // 
+            this.nudASH3.Enabled = false;
+            this.nudASH3.Location = new System.Drawing.Point(55, 8);
+            this.nudASH3.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH3.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH3.Name = "nudASH3";
+            this.nudASH3.Size = new System.Drawing.Size(35, 20);
+            this.nudASH3.TabIndex = 2;
+            this.nudASH3.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH3
             // 
@@ -6798,7 +7442,7 @@
             // pnlASH6
             // 
             this.pnlASH6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH6.Controls.Add(this.numericUpDown6);
+            this.pnlASH6.Controls.Add(this.nudASH6);
             this.pnlASH6.Controls.Add(this.pnlISH6);
             this.pnlASH6.Controls.Add(this.chkASH6);
             this.pnlASH6.Enabled = false;
@@ -6807,6 +7451,29 @@
             this.pnlASH6.Name = "pnlASH6";
             this.pnlASH6.Size = new System.Drawing.Size(100, 130);
             this.pnlASH6.TabIndex = 6;
+            // 
+            // nudASH6
+            // 
+            this.nudASH6.Enabled = false;
+            this.nudASH6.Location = new System.Drawing.Point(55, 8);
+            this.nudASH6.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH6.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH6.Name = "nudASH6";
+            this.nudASH6.Size = new System.Drawing.Size(35, 20);
+            this.nudASH6.TabIndex = 2;
+            this.nudASH6.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH6
             // 
@@ -6961,7 +7628,7 @@
             // pnlASH7
             // 
             this.pnlASH7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH7.Controls.Add(this.numericUpDown7);
+            this.pnlASH7.Controls.Add(this.nudASH7);
             this.pnlASH7.Controls.Add(this.pnlISH7);
             this.pnlASH7.Controls.Add(this.chkASH7);
             this.pnlASH7.Enabled = false;
@@ -6970,6 +7637,29 @@
             this.pnlASH7.Name = "pnlASH7";
             this.pnlASH7.Size = new System.Drawing.Size(100, 130);
             this.pnlASH7.TabIndex = 7;
+            // 
+            // nudASH7
+            // 
+            this.nudASH7.Enabled = false;
+            this.nudASH7.Location = new System.Drawing.Point(55, 8);
+            this.nudASH7.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH7.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH7.Name = "nudASH7";
+            this.nudASH7.Size = new System.Drawing.Size(35, 20);
+            this.nudASH7.TabIndex = 2;
+            this.nudASH7.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH7
             // 
@@ -7124,7 +7814,7 @@
             // pnlASH2
             // 
             this.pnlASH2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH2.Controls.Add(this.numericUpDown2);
+            this.pnlASH2.Controls.Add(this.nudASH2);
             this.pnlASH2.Controls.Add(this.pnlISH2);
             this.pnlASH2.Controls.Add(this.chkASH2);
             this.pnlASH2.Location = new System.Drawing.Point(120, 10);
@@ -7132,6 +7822,29 @@
             this.pnlASH2.Name = "pnlASH2";
             this.pnlASH2.Size = new System.Drawing.Size(100, 130);
             this.pnlASH2.TabIndex = 2;
+            // 
+            // nudASH2
+            // 
+            this.nudASH2.Enabled = false;
+            this.nudASH2.Location = new System.Drawing.Point(55, 8);
+            this.nudASH2.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nudASH2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH2.Name = "nudASH2";
+            this.nudASH2.Size = new System.Drawing.Size(35, 20);
+            this.nudASH2.TabIndex = 2;
+            this.nudASH2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH2
             // 
@@ -7286,7 +7999,7 @@
             // pnlASH1
             // 
             this.pnlASH1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlASH1.Controls.Add(this.numericUpDown1);
+            this.pnlASH1.Controls.Add(this.nudASH1);
             this.pnlASH1.Controls.Add(this.pnlISH1);
             this.pnlASH1.Controls.Add(this.chkASH1);
             this.pnlASH1.Location = new System.Drawing.Point(10, 10);
@@ -7294,6 +8007,29 @@
             this.pnlASH1.Name = "pnlASH1";
             this.pnlASH1.Size = new System.Drawing.Size(100, 130);
             this.pnlASH1.TabIndex = 1;
+            // 
+            // nudASH1
+            // 
+            this.nudASH1.Enabled = false;
+            this.nudASH1.Location = new System.Drawing.Point(55, 8);
+            this.nudASH1.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudASH1.Name = "nudASH1";
+            this.nudASH1.Size = new System.Drawing.Size(35, 20);
+            this.nudASH1.TabIndex = 0;
+            this.nudASH1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pnlISH1
             // 
@@ -7474,742 +8210,6 @@
             this.label1.Text = "スラブ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Enabled = false;
-            this.numericUpDown1.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown1.TabIndex = 0;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Enabled = false;
-            this.numericUpDown2.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown2.TabIndex = 2;
-            this.numericUpDown2.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Enabled = false;
-            this.numericUpDown3.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown3.TabIndex = 2;
-            this.numericUpDown3.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.Enabled = false;
-            this.numericUpDown4.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown4.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown4.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown4.TabIndex = 2;
-            this.numericUpDown4.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown5
-            // 
-            this.numericUpDown5.Enabled = false;
-            this.numericUpDown5.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown5.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown5.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown5.TabIndex = 2;
-            this.numericUpDown5.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown6
-            // 
-            this.numericUpDown6.Enabled = false;
-            this.numericUpDown6.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown6.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown6.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown6.TabIndex = 2;
-            this.numericUpDown6.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown7
-            // 
-            this.numericUpDown7.Enabled = false;
-            this.numericUpDown7.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown7.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown7.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown7.TabIndex = 2;
-            this.numericUpDown7.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown8
-            // 
-            this.numericUpDown8.Enabled = false;
-            this.numericUpDown8.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown8.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown8.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown8.TabIndex = 2;
-            this.numericUpDown8.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.Enabled = false;
-            this.numericUpDown9.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown9.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown9.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown9.TabIndex = 2;
-            this.numericUpDown9.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown10
-            // 
-            this.numericUpDown10.Enabled = false;
-            this.numericUpDown10.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown10.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown10.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown10.TabIndex = 2;
-            this.numericUpDown10.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown11
-            // 
-            this.numericUpDown11.Enabled = false;
-            this.numericUpDown11.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown11.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown11.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown11.TabIndex = 0;
-            this.numericUpDown11.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown12
-            // 
-            this.numericUpDown12.Enabled = false;
-            this.numericUpDown12.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown12.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown12.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown12.TabIndex = 2;
-            this.numericUpDown12.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown13
-            // 
-            this.numericUpDown13.Enabled = false;
-            this.numericUpDown13.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown13.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown13.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown13.Name = "numericUpDown13";
-            this.numericUpDown13.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown13.TabIndex = 2;
-            this.numericUpDown13.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown14
-            // 
-            this.numericUpDown14.Enabled = false;
-            this.numericUpDown14.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown14.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown14.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown14.Name = "numericUpDown14";
-            this.numericUpDown14.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown14.TabIndex = 2;
-            this.numericUpDown14.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown15
-            // 
-            this.numericUpDown15.Enabled = false;
-            this.numericUpDown15.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown15.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown15.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown15.Name = "numericUpDown15";
-            this.numericUpDown15.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown15.TabIndex = 2;
-            this.numericUpDown15.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown16
-            // 
-            this.numericUpDown16.Enabled = false;
-            this.numericUpDown16.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown16.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown16.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown16.Name = "numericUpDown16";
-            this.numericUpDown16.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown16.TabIndex = 2;
-            this.numericUpDown16.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown17
-            // 
-            this.numericUpDown17.Enabled = false;
-            this.numericUpDown17.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown17.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown17.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown17.Name = "numericUpDown17";
-            this.numericUpDown17.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown17.TabIndex = 2;
-            this.numericUpDown17.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown18
-            // 
-            this.numericUpDown18.Enabled = false;
-            this.numericUpDown18.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown18.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown18.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown18.Name = "numericUpDown18";
-            this.numericUpDown18.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown18.TabIndex = 2;
-            this.numericUpDown18.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown19
-            // 
-            this.numericUpDown19.Enabled = false;
-            this.numericUpDown19.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown19.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown19.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown19.Name = "numericUpDown19";
-            this.numericUpDown19.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown19.TabIndex = 2;
-            this.numericUpDown19.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown20
-            // 
-            this.numericUpDown20.Enabled = false;
-            this.numericUpDown20.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown20.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown20.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown20.Name = "numericUpDown20";
-            this.numericUpDown20.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown20.TabIndex = 2;
-            this.numericUpDown20.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown21
-            // 
-            this.numericUpDown21.Enabled = false;
-            this.numericUpDown21.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown21.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown21.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown21.Name = "numericUpDown21";
-            this.numericUpDown21.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown21.TabIndex = 0;
-            this.numericUpDown21.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown22
-            // 
-            this.numericUpDown22.Enabled = false;
-            this.numericUpDown22.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown22.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown22.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown22.Name = "numericUpDown22";
-            this.numericUpDown22.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown22.TabIndex = 2;
-            this.numericUpDown22.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown23
-            // 
-            this.numericUpDown23.Enabled = false;
-            this.numericUpDown23.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown23.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown23.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown23.Name = "numericUpDown23";
-            this.numericUpDown23.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown23.TabIndex = 2;
-            this.numericUpDown23.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown24
-            // 
-            this.numericUpDown24.Enabled = false;
-            this.numericUpDown24.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown24.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown24.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown24.Name = "numericUpDown24";
-            this.numericUpDown24.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown24.TabIndex = 2;
-            this.numericUpDown24.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown25
-            // 
-            this.numericUpDown25.Enabled = false;
-            this.numericUpDown25.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown25.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown25.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown25.Name = "numericUpDown25";
-            this.numericUpDown25.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown25.TabIndex = 2;
-            this.numericUpDown25.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown26
-            // 
-            this.numericUpDown26.Enabled = false;
-            this.numericUpDown26.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown26.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown26.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown26.Name = "numericUpDown26";
-            this.numericUpDown26.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown26.TabIndex = 2;
-            this.numericUpDown26.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown27
-            // 
-            this.numericUpDown27.Enabled = false;
-            this.numericUpDown27.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown27.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown27.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown27.Name = "numericUpDown27";
-            this.numericUpDown27.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown27.TabIndex = 0;
-            this.numericUpDown27.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown28
-            // 
-            this.numericUpDown28.Enabled = false;
-            this.numericUpDown28.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown28.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown28.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown28.Name = "numericUpDown28";
-            this.numericUpDown28.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown28.TabIndex = 2;
-            this.numericUpDown28.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown29
-            // 
-            this.numericUpDown29.Enabled = false;
-            this.numericUpDown29.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown29.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown29.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown29.Name = "numericUpDown29";
-            this.numericUpDown29.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown29.TabIndex = 2;
-            this.numericUpDown29.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown30
-            // 
-            this.numericUpDown30.Enabled = false;
-            this.numericUpDown30.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown30.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown30.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown30.Name = "numericUpDown30";
-            this.numericUpDown30.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown30.TabIndex = 2;
-            this.numericUpDown30.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown31
-            // 
-            this.numericUpDown31.Enabled = false;
-            this.numericUpDown31.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown31.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown31.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown31.Name = "numericUpDown31";
-            this.numericUpDown31.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown31.TabIndex = 2;
-            this.numericUpDown31.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown32
-            // 
-            this.numericUpDown32.Enabled = false;
-            this.numericUpDown32.Location = new System.Drawing.Point(55, 8);
-            this.numericUpDown32.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown32.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown32.Name = "numericUpDown32";
-            this.numericUpDown32.Size = new System.Drawing.Size(35, 20);
-            this.numericUpDown32.TabIndex = 2;
-            this.numericUpDown32.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -8239,6 +8239,7 @@
             this.panel75.ResumeLayout(false);
             this.pnlARV6.ResumeLayout(false);
             this.pnlARV6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV6)).EndInit();
             this.pnlIRV6.ResumeLayout(false);
             this.panel157.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV6)).EndInit();
@@ -8252,6 +8253,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV6)).EndInit();
             this.pnlARV1.ResumeLayout(false);
             this.pnlARV1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV1)).EndInit();
             this.pnlIRV1.ResumeLayout(false);
             this.panel107.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV1)).EndInit();
@@ -8265,6 +8267,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV1)).EndInit();
             this.pnlARV5.ResumeLayout(false);
             this.pnlARV5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV5)).EndInit();
             this.pnlIRV5.ResumeLayout(false);
             this.panel151.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV5)).EndInit();
@@ -8278,6 +8281,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV5)).EndInit();
             this.pnlARV2.ResumeLayout(false);
             this.pnlARV2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV2)).EndInit();
             this.pnlIRV2.ResumeLayout(false);
             this.panel113.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV2)).EndInit();
@@ -8291,6 +8295,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV2)).EndInit();
             this.pnlARV4.ResumeLayout(false);
             this.pnlARV4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV4)).EndInit();
             this.pnlIRV4.ResumeLayout(false);
             this.panel125.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV4)).EndInit();
@@ -8304,6 +8309,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRV4)).EndInit();
             this.pnlARV3.ResumeLayout(false);
             this.pnlARV3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARV3)).EndInit();
             this.pnlIRV3.ResumeLayout(false);
             this.panel119.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRV3)).EndInit();
@@ -8319,6 +8325,7 @@
             this.panel67.ResumeLayout(false);
             this.pnlARH6.ResumeLayout(false);
             this.pnlARH6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH6)).EndInit();
             this.pnlIRH6.ResumeLayout(false);
             this.panel101.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH6)).EndInit();
@@ -8332,6 +8339,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH6)).EndInit();
             this.pnlARH5.ResumeLayout(false);
             this.pnlARH5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH5)).EndInit();
             this.pnlIRH5.ResumeLayout(false);
             this.panel34.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH5)).EndInit();
@@ -8345,6 +8353,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH5)).EndInit();
             this.pnlARH4.ResumeLayout(false);
             this.pnlARH4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH4)).EndInit();
             this.pnlIRH4.ResumeLayout(false);
             this.panel28.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH4)).EndInit();
@@ -8358,6 +8367,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH4)).EndInit();
             this.pnlARH3.ResumeLayout(false);
             this.pnlARH3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH3)).EndInit();
             this.pnlIRH3.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH3)).EndInit();
@@ -8371,6 +8381,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH3)).EndInit();
             this.pnlARH2.ResumeLayout(false);
             this.pnlARH2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH2)).EndInit();
             this.pnlIRH2.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH2)).EndInit();
@@ -8384,6 +8395,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDRH2)).EndInit();
             this.pnlARH1.ResumeLayout(false);
             this.pnlARH1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudARH1)).EndInit();
             this.pnlIRH1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWRH1)).EndInit();
@@ -8400,6 +8412,7 @@
             this.panel16.ResumeLayout(false);
             this.pnlASV10.ResumeLayout(false);
             this.pnlASV10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV10)).EndInit();
             this.pnlISV10.ResumeLayout(false);
             this.panel46.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV10)).EndInit();
@@ -8409,6 +8422,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV10)).EndInit();
             this.pnlASV5.ResumeLayout(false);
             this.pnlASV5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV5)).EndInit();
             this.pnlISV5.ResumeLayout(false);
             this.panel52.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV5)).EndInit();
@@ -8418,6 +8432,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV5)).EndInit();
             this.pnlASV9.ResumeLayout(false);
             this.pnlASV9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV9)).EndInit();
             this.pnlISV9.ResumeLayout(false);
             this.panel56.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV9)).EndInit();
@@ -8427,6 +8442,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV9)).EndInit();
             this.pnlASV4.ResumeLayout(false);
             this.pnlASV4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV4)).EndInit();
             this.pnlISV4.ResumeLayout(false);
             this.panel72.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV4)).EndInit();
@@ -8436,6 +8452,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV4)).EndInit();
             this.pnlASV8.ResumeLayout(false);
             this.pnlASV8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV8)).EndInit();
             this.pnlISV8.ResumeLayout(false);
             this.panel77.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV8)).EndInit();
@@ -8445,6 +8462,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV8)).EndInit();
             this.pnlASV3.ResumeLayout(false);
             this.pnlASV3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV3)).EndInit();
             this.pnlISV3.ResumeLayout(false);
             this.panel81.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV3)).EndInit();
@@ -8454,6 +8472,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV3)).EndInit();
             this.pnlASV6.ResumeLayout(false);
             this.pnlASV6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV6)).EndInit();
             this.pnlISV6.ResumeLayout(false);
             this.panel85.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV6)).EndInit();
@@ -8463,6 +8482,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV6)).EndInit();
             this.pnlASV7.ResumeLayout(false);
             this.pnlASV7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV7)).EndInit();
             this.pnlISV7.ResumeLayout(false);
             this.panel139.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV7)).EndInit();
@@ -8472,6 +8492,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV7)).EndInit();
             this.pnlASV2.ResumeLayout(false);
             this.pnlASV2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV2)).EndInit();
             this.pnlISV2.ResumeLayout(false);
             this.panel143.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV2)).EndInit();
@@ -8481,6 +8502,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSV2)).EndInit();
             this.pnlASV1.ResumeLayout(false);
             this.pnlASV1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASV1)).EndInit();
             this.pnlISV1.ResumeLayout(false);
             this.panel147.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSV1)).EndInit();
@@ -8492,6 +8514,7 @@
             this.panel3.ResumeLayout(false);
             this.pnlASH10.ResumeLayout(false);
             this.pnlASH10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH10)).EndInit();
             this.pnlISH10.ResumeLayout(false);
             this.panel137.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH10)).EndInit();
@@ -8501,6 +8524,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH10)).EndInit();
             this.pnlASH5.ResumeLayout(false);
             this.pnlASH5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH5)).EndInit();
             this.pnlISH5.ResumeLayout(false);
             this.panel66.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH5)).EndInit();
@@ -8510,6 +8534,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH5)).EndInit();
             this.pnlASH9.ResumeLayout(false);
             this.pnlASH9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH9)).EndInit();
             this.pnlISH9.ResumeLayout(false);
             this.panel133.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH9)).EndInit();
@@ -8519,6 +8544,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH9)).EndInit();
             this.pnlASH4.ResumeLayout(false);
             this.pnlASH4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH4)).EndInit();
             this.pnlISH4.ResumeLayout(false);
             this.panel62.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH4)).EndInit();
@@ -8528,6 +8554,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH4)).EndInit();
             this.pnlASH8.ResumeLayout(false);
             this.pnlASH8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH8)).EndInit();
             this.pnlISH8.ResumeLayout(false);
             this.panel129.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH8)).EndInit();
@@ -8537,6 +8564,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH8)).EndInit();
             this.pnlASH3.ResumeLayout(false);
             this.pnlASH3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH3)).EndInit();
             this.pnlISH3.ResumeLayout(false);
             this.panel58.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH3)).EndInit();
@@ -8546,6 +8574,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH3)).EndInit();
             this.pnlASH6.ResumeLayout(false);
             this.pnlASH6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH6)).EndInit();
             this.pnlISH6.ResumeLayout(false);
             this.panel90.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH6)).EndInit();
@@ -8555,6 +8584,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH6)).EndInit();
             this.pnlASH7.ResumeLayout(false);
             this.pnlASH7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH7)).EndInit();
             this.pnlISH7.ResumeLayout(false);
             this.panel94.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH7)).EndInit();
@@ -8564,6 +8594,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH7)).EndInit();
             this.pnlASH2.ResumeLayout(false);
             this.pnlASH2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH2)).EndInit();
             this.pnlISH2.ResumeLayout(false);
             this.panel43.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH2)).EndInit();
@@ -8573,6 +8604,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH2)).EndInit();
             this.pnlASH1.ResumeLayout(false);
             this.pnlASH1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudASH1)).EndInit();
             this.pnlISH1.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudWSH1)).EndInit();
@@ -8580,38 +8612,6 @@
             this.panel10.PerformLayout();
             this.panel14.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudHSH1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown32)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -9107,37 +9107,37 @@
         private YANF.Control.YANBtn btnRSelAll;
         private YANF.Control.YANBtn btnSSelAll;
         private YANF.Control.YANBtn btnClRslt;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown32;
-        private System.Windows.Forms.NumericUpDown numericUpDown27;
-        private System.Windows.Forms.NumericUpDown numericUpDown31;
-        private System.Windows.Forms.NumericUpDown numericUpDown28;
-        private System.Windows.Forms.NumericUpDown numericUpDown30;
-        private System.Windows.Forms.NumericUpDown numericUpDown29;
-        private System.Windows.Forms.NumericUpDown numericUpDown26;
-        private System.Windows.Forms.NumericUpDown numericUpDown25;
-        private System.Windows.Forms.NumericUpDown numericUpDown24;
-        private System.Windows.Forms.NumericUpDown numericUpDown23;
-        private System.Windows.Forms.NumericUpDown numericUpDown22;
-        private System.Windows.Forms.NumericUpDown numericUpDown21;
-        private System.Windows.Forms.NumericUpDown numericUpDown20;
-        private System.Windows.Forms.NumericUpDown numericUpDown15;
-        private System.Windows.Forms.NumericUpDown numericUpDown19;
-        private System.Windows.Forms.NumericUpDown numericUpDown14;
-        private System.Windows.Forms.NumericUpDown numericUpDown18;
-        private System.Windows.Forms.NumericUpDown numericUpDown13;
-        private System.Windows.Forms.NumericUpDown numericUpDown16;
-        private System.Windows.Forms.NumericUpDown numericUpDown17;
-        private System.Windows.Forms.NumericUpDown numericUpDown12;
-        private System.Windows.Forms.NumericUpDown numericUpDown11;
-        private System.Windows.Forms.NumericUpDown numericUpDown10;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private System.Windows.Forms.NumericUpDown nudASH1;
+        private System.Windows.Forms.NumericUpDown nudASH2;
+        private System.Windows.Forms.NumericUpDown nudARV6;
+        private System.Windows.Forms.NumericUpDown nudARV1;
+        private System.Windows.Forms.NumericUpDown nudARV5;
+        private System.Windows.Forms.NumericUpDown nudARV2;
+        private System.Windows.Forms.NumericUpDown nudARV4;
+        private System.Windows.Forms.NumericUpDown nudARV3;
+        private System.Windows.Forms.NumericUpDown nudARH6;
+        private System.Windows.Forms.NumericUpDown nudARH5;
+        private System.Windows.Forms.NumericUpDown nudARH4;
+        private System.Windows.Forms.NumericUpDown nudARH3;
+        private System.Windows.Forms.NumericUpDown nudARH2;
+        private System.Windows.Forms.NumericUpDown nudARH1;
+        private System.Windows.Forms.NumericUpDown nudASV10;
+        private System.Windows.Forms.NumericUpDown nudASV5;
+        private System.Windows.Forms.NumericUpDown nudASV9;
+        private System.Windows.Forms.NumericUpDown nudASV4;
+        private System.Windows.Forms.NumericUpDown nudASV8;
+        private System.Windows.Forms.NumericUpDown nudASV3;
+        private System.Windows.Forms.NumericUpDown nudASV6;
+        private System.Windows.Forms.NumericUpDown nudASV7;
+        private System.Windows.Forms.NumericUpDown nudASV2;
+        private System.Windows.Forms.NumericUpDown nudASV1;
+        private System.Windows.Forms.NumericUpDown nudASH10;
+        private System.Windows.Forms.NumericUpDown nudASH5;
+        private System.Windows.Forms.NumericUpDown nudASH9;
+        private System.Windows.Forms.NumericUpDown nudASH4;
+        private System.Windows.Forms.NumericUpDown nudASH8;
+        private System.Windows.Forms.NumericUpDown nudASH3;
+        private System.Windows.Forms.NumericUpDown nudASH6;
+        private System.Windows.Forms.NumericUpDown nudASH7;
     }
 }

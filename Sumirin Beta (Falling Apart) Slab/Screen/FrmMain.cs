@@ -170,6 +170,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 nudD.Value = 10;
             }
+            // default value A
+            foreach (var nudA in _nudAs)
+            {
+                nudA.Value = 1;
+            }
             // default state on
             foreach (var chkOn in _chkOns)
             {
