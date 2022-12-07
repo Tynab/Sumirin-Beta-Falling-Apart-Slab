@@ -400,10 +400,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             _smryS.AddRange(_smryS2.OrderByDescending(x => int.Parse(x.Item1.Split('×')[1])).ToList());
             _smryS.AddRange(_smryS1.OrderByDescending(x => int.Parse(x.Item1.Split('×')[1])).ToList());
             _smryS.AddRange(_smryS0.OrderByDescending(x => int.Parse(x.Item1)).ToList());
-            foreach (var item in _smryS)
-            {
-                rslt += $"{item.Item1} = {item.Item2}本\n";
-            }
+            _smryS.ForEach(x => rslt += $"{x.Item1} = {x.Item2}本\n");
             rslt.Substring(0, rslt.Length - "\n".Length);
             rtxSmryS.Text = rslt;
         }
@@ -414,11 +411,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             _smryR.AddRange(_smryR2.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
             _smryR.AddRange(_smryR1.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
             _smryR.AddRange(_smryR0.OrderByDescending(x => int.Parse(x.Item2)).ToList());
-            var splitList = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
-            for (var i = 0; i < splitList.Count; i++)
+            var spltList = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
+            // TODO: check loop
+            for (var i = 0; i < spltList.Count; i++)
             {
                 var rslt = string.Empty;
-                foreach (var item in splitList[i])
+                foreach (var item in spltList[i])
                 {
                     rslt += $"{item.Item2} = {item.Item3}本\n";
                 }
@@ -430,7 +428,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 }
                 foreach (var lblSmryR in _lblSmryRs)
                 {
-                    lblSmryR.Text = splitList[i].First().Item1.ToString();
+                    lblSmryR.Text = spltList[i].First().Item1.ToString();
                 }
             }
         }

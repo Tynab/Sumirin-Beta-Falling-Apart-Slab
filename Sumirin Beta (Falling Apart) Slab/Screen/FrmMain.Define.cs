@@ -16,6 +16,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // Initialize items
         private void InitItems()
         {
+            // ctrl
+            InitCtrlISs();
+            InitCtrlIRs();
             // pnl
             InitPnlASs();
             InitPnlARs();
@@ -54,7 +57,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             // nud
             InitNudAs();
             InitNudASs();
+            InitNudASHs();
+            InitNudASVs();
             InitNudARs();
+            InitNudARHs();
+            InitNudARVs();
             InitNudWSs();
             InitNudWRs();
             InitNudWSHs();
@@ -73,6 +80,184 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             InitNudTits();
             InitNudGs();
         }
+
+        #region Ctrl
+        private List<System.Windows.Forms.Control> _ctrlISs;
+        // Initialize list ctrlIS
+        private void InitCtrlISs() => _ctrlISs = new List<System.Windows.Forms.Control>
+            {
+                nudWSH1,
+                nudWSH2,
+                nudWSH3,
+                nudWSH4,
+                nudWSH5,
+                nudWSH6,
+                nudWSH7,
+                nudWSH8,
+                nudWSH9,
+                nudWSH10,
+                nudWSV1,
+                nudWSV2,
+                nudWSV3,
+                nudWSV4,
+                nudWSV5,
+                nudWSV6,
+                nudWSV7,
+                nudWSV8,
+                nudWSV9,
+                nudWSV10,
+                nudHSH1,
+                nudHSH2,
+                nudHSH3,
+                nudHSH4,
+                nudHSH5,
+                nudHSH6,
+                nudHSH7,
+                nudHSH8,
+                nudHSH9,
+                nudHSH10,
+                nudHSV1,
+                nudHSV2,
+                nudHSV3,
+                nudHSV4,
+                nudHSV5,
+                nudHSV6,
+                nudHSV7,
+                nudHSV8,
+                nudHSV9,
+                nudHSV10,
+                chkBLSH1,
+                chkBLSH2,
+                chkBLSH3,
+                chkBLSH4,
+                chkBLSH5,
+                chkBLSH6,
+                chkBLSH7,
+                chkBLSH8,
+                chkBLSH9,
+                chkBLSH10,
+                chkBLSV1,
+                chkBLSV2,
+                chkBLSV3,
+                chkBLSV4,
+                chkBLSV5,
+                chkBLSV6,
+                chkBLSV7,
+                chkBLSV8,
+                chkBLSV9,
+                chkBLSV10,
+                chkBRSH1,
+                chkBRSH2,
+                chkBRSH3,
+                chkBRSH4,
+                chkBRSH5,
+                chkBRSH6,
+                chkBRSH7,
+                chkBRSH8,
+                chkBRSH9,
+                chkBRSH10,
+                chkBRSV1,
+                chkBRSV2,
+                chkBRSV3,
+                chkBRSV4,
+                chkBRSV5,
+                chkBRSV6,
+                chkBRSV7,
+                chkBRSV8,
+                chkBRSV9,
+                chkBRSV10
+            };
+
+        private List<System.Windows.Forms.Control> _ctrlIRs;
+        // Initialize list ctrlIR
+        private void InitCtrlIRs() => _ctrlIRs = new List<System.Windows.Forms.Control>
+            {
+                nudWRH1,
+                nudWRH2,
+                nudWRH3,
+                nudWRH4,
+                nudWRH5,
+                nudWRH6,
+                nudWRV1,
+                nudWRV2,
+                nudWRV3,
+                nudWRV4,
+                nudWRV5,
+                nudWRV6,
+                nudHRH1,
+                nudHRH2,
+                nudHRH3,
+                nudHRH4,
+                nudHRH5,
+                nudHRH6,
+                nudHRV1,
+                nudHRV2,
+                nudHRV3,
+                nudHRV4,
+                nudHRV5,
+                nudHRV6,
+                nudDRH1,
+                nudDRH2,
+                nudDRH3,
+                nudDRH4,
+                nudDRH5,
+                nudDRH6,
+                nudDRV1,
+                nudDRV2,
+                nudDRV3,
+                nudDRV4,
+                nudDRV5,
+                nudDRV6,
+                chkBLRH1,
+                chkBLRH2,
+                chkBLRH3,
+                chkBLRH4,
+                chkBLRH5,
+                chkBLRH6,
+                chkBLRV1,
+                chkBLRV2,
+                chkBLRV3,
+                chkBLRV4,
+                chkBLRV5,
+                chkBLRV6,
+                chkBRRH1,
+                chkBRRH2,
+                chkBRRH3,
+                chkBRRH4,
+                chkBRRH5,
+                chkBRRH6,
+                chkBRRV1,
+                chkBRRV2,
+                chkBRRV3,
+                chkBRRV4,
+                chkBRRV5,
+                chkBRRV6,
+                chkFLRH1,
+                chkFLRH2,
+                chkFLRH3,
+                chkFLRH4,
+                chkFLRH5,
+                chkFLRH6,
+                chkFLRV1,
+                chkFLRV2,
+                chkFLRV3,
+                chkFLRV4,
+                chkFLRV5,
+                chkFLRV6,
+                chkFRRH1,
+                chkFRRH2,
+                chkFRRH3,
+                chkFRRH4,
+                chkFRRH5,
+                chkFRRH6,
+                chkFRRV1,
+                chkFRRV2,
+                chkFRRV3,
+                chkFRRV4,
+                chkFRRV5,
+                chkFRRV6
+            };
+        #endregion
 
         #region Pnl
         private List<Panel> _pnlASs;
@@ -766,7 +951,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 
         #region Nud
         private List<NumericUpDown> _nudAs;
-        // Initialize list chkA
+        // Initialize list nudA
         private void InitNudAs() => _nudAs = new List<NumericUpDown>
             {
                 nudASH1,
@@ -804,7 +989,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             };
 
         private List<NumericUpDown> _nudASs;
-        // Initialize list chkAS
+        // Initialize list nudAS
         private void InitNudASs() => _nudASs = new List<NumericUpDown>
             {
                 nudASH1,
@@ -829,6 +1014,38 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nudASV10
             };
 
+        private List<NumericUpDown> _nudASHs;
+        // Initialize list nudASH
+        private void InitNudASHs() => _nudASHs = new List<NumericUpDown>
+            {
+                nudASH1,
+                nudASH2,
+                nudASH3,
+                nudASH4,
+                nudASH5,
+                nudASH6,
+                nudASH7,
+                nudASH8,
+                nudASH9,
+                nudASH10
+            };
+
+        private List<NumericUpDown> _nudASVs;
+        // Initialize list nudASV
+        private void InitNudASVs() => _nudASVs = new List<NumericUpDown>
+            {
+                nudASV1,
+                nudASV2,
+                nudASV3,
+                nudASV4,
+                nudASV5,
+                nudASV6,
+                nudASV7,
+                nudASV8,
+                nudASV9,
+                nudASV10
+            };
+
         private List<NumericUpDown> _nudARs;
         // Initialize list nudAR
         private void InitNudARs() => _nudARs = new List<NumericUpDown>
@@ -839,6 +1056,30 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nudARH4,
                 nudARH5,
                 nudARH6,
+                nudARV1,
+                nudARV2,
+                nudARV3,
+                nudARV4,
+                nudARV5,
+                nudARV6
+            };
+
+        private List<NumericUpDown> _nudARHs;
+        // Initialize list nudARH
+        private void InitNudARHs() => _nudARHs = new List<NumericUpDown>
+            {
+                nudARH1,
+                nudARH2,
+                nudARH3,
+                nudARH4,
+                nudARH5,
+                nudARH6
+            };
+
+        private List<NumericUpDown> _nudARVs;
+        // Initialize list nudARV
+        private void InitNudARVs() => _nudARVs = new List<NumericUpDown>
+            {
                 nudARV1,
                 nudARV2,
                 nudARV3,

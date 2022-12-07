@@ -11,7 +11,6 @@ using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.EventHandler;
-using static System.Math;
 using static YANF.Script.YANEvent;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
@@ -56,48 +55,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 lbl.MouseUp += MoveFrm_MouseUp;
             }
             // ctrl slab info event
-            var ctrlISs = new List<System.Windows.Forms.Control>();
-            ctrlISs.AddRange(_nudWSs);
-            ctrlISs.AddRange(_nudHSs);
-            ctrlISs.AddRange(_chkBLSs);
-            ctrlISs.AddRange(_chkBRSs);
-            foreach (var ctrlS in ctrlISs)
-            {
-                ctrlS.KeyDown += CtrlIS_KeyDown;
-            }
+            _ctrlISs.ForEach(x => x.KeyDown += CtrlIS_KeyDown);
             // ctrl reinforcement info event
-            var ctrlIRs = new List<System.Windows.Forms.Control>();
-            ctrlIRs.AddRange(_nudWRs);
-            ctrlIRs.AddRange(_nudHRs);
-            ctrlIRs.AddRange(_nudDRs);
-            ctrlIRs.AddRange(_chkBLRs);
-            ctrlIRs.AddRange(_chkBRRs);
-            ctrlIRs.AddRange(_chkFLRs);
-            ctrlIRs.AddRange(_chkFRRs);
-            foreach (var ctrlR in ctrlIRs)
-            {
-                ctrlR.KeyDown += CtrlIR_KeyDown;
-            }
+            _ctrlIRs.ForEach(x => x.KeyDown += CtrlIR_KeyDown);
             // chk slab area event
-            foreach (var chkAS in _chkASs)
-            {
-                chkAS.CheckedChanged += ChkAS_CheckedChanged;
-            }
+            _chkASs.ForEach(x => x.CheckedChanged += ChkAS_CheckedChanged);
             // chk reinforcement area event
-            foreach (var chkAR in _chkARs)
-            {
-                chkAR.CheckedChanged += ChkAR_CheckedChanged;
-            }
+            _chkARs.ForEach(x => x.CheckedChanged += ChkAR_CheckedChanged);
             // chk reinforcement on event
-            foreach (var chkROn in _chkROns)
-            {
-                chkROn.CheckedChanged += ChkROn_CheckedChanged;
-            }
+            _chkROns.ForEach(x => x.CheckedChanged += ChkROn_CheckedChanged);
             // chk reinforcement off event
-            foreach (var chkROff in _chkROffs)
-            {
-                chkROff.CheckedChanged += ChkROff_CheckedChanged;
-            }
+            _chkROffs.ForEach(x => x.CheckedChanged += ChkROff_CheckedChanged);
             // rdo fix tab stop
             foreach (var rdo in this.GetAllObjs(typeof(YANRdo)).Cast<YANRdo>())
             {
@@ -113,16 +81,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 nud.KeyUp += Nud_KeyUp;
             }
             // nud title event
-            foreach (var nudTit in _nudTits)
+            _nudTits.ForEach(x =>
             {
-                nudTit.Enter += NudTit_Enter;
-                nudTit.Leave += NudTit_Leave;
-            }
+                x.Enter += NudTit_Enter;
+                x.Leave += NudTit_Leave;
+            });
+            // nud slab area event
+            _nudASs.ForEach(x => x.ValueChanged += NudAS_ValueChanged);
+            // nud reinforcement area event
+            _nudARs.ForEach(x => x.ValueChanged += NudAR_ValueChanged);
             // nud G event
-            foreach (var nudG in _nudGs)
-            {
-                nudG.ValueChanged += NudG_ValueChanged;
-            }
+            _nudGs.ForEach(x => x.ValueChanged += NudG_ValueChanged);
         }
         #endregion
 
@@ -137,22 +106,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void TgTruck2Ton_CheckedChanged(object sender, EventArgs e) => SND_CHG.Play();
 
         // btn slab select all click
-        private void BtnSSelAll_Click(object sender, EventArgs e)
-        {
-            foreach (var chkAS in _chkASs)
-            {
-                chkAS.Checked = true;
-            }
-        }
+        private void BtnSSelAll_Click(object sender, EventArgs e) => _chkASs.ForEach(x => x.Checked = true);
 
         // btn reinforcement select all click
-        private void BtnRSelAll_Click(object sender, EventArgs e)
-        {
-            foreach (var chkAR in _chkARs)
-            {
-                chkAR.Checked = true;
-            }
-        }
+        private void BtnRSelAll_Click(object sender, EventArgs e) => _chkARs.ForEach(x => x.Checked = true);
 
         // btn close result click
         private void BtnClRslt_Click(object sender, EventArgs e) => _frmResult?.Close();
@@ -161,30 +118,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void BtnRst_Click(object sender, EventArgs e)
         {
             // default value W, H
-            foreach (var nudG in _nudGs)
-            {
-                nudG.Value = _span;
-            }
+            _nudGs.ForEach(x => x.Value = _span);
             // default value D
-            foreach (var nudD in _nudDRs)
-            {
-                nudD.Value = 10;
-            }
+            _nudDRs.ForEach(x => x.Value = 10);
             // default value A
-            foreach (var nudA in _nudAs)
-            {
-                nudA.Value = 1;
-            }
+            _nudAs.ForEach(x => x.Value = 1);
             // default state on
-            foreach (var chkOn in _chkOns)
-            {
-                chkOn.Checked = true;
-            }
+            _chkOns.ForEach(x => x.Checked = true);
             // default state off
-            foreach (var chkOff in _chkROffs)
-            {
-                chkOff.Checked = false;
-            }
+            _chkROffs.ForEach(x => x.Checked = false);
             // keep area slab 1
             chkASH2.Checked = false;
             chkASV2.Checked = false;
@@ -249,89 +191,85 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         // Get all chk slab horizontal
         private void GetAllChkSH()
         {
-            var lgRebar = 0d;
             // scan control to list model
-            foreach (var chkASH in _chkASHs)
+            _chkASHs.ForEach(x =>
             {
-                if (chkASH.Checked)
+                if (x.Checked)
                 {
-                    var id = _chkASHs.IndexOf(chkASH);
+                    var id = _chkASHs.IndexOf(x);
                     var w = (double)_nudWSHs[id].Value;
                     var areaS = new AreaSlab(_branch, _maxRawWood)
                     {
+                        Id = id,
+                        Area = (int)_nudASHs[id].Value,
                         W = w,
                         H = (double)_nudHSHs[id].Value,
                         BendingL = _chkBLSHs[id].Checked,
                         BendingR = _chkBRSHs[id].Checked
                     };
                     _areaSHs.Add(areaS);
-                    lgRebar = Max(lgRebar, w);
                 }
-            }
+            });
             // reboot
-            var isLgFd = false;
-            foreach (var areaSH in _areaSHs)
+            var ids = _areaSHs.GroupBy(x => x.Area).Select(g => g.ToList()).ToList().Select(y => y.OrderByDescending(x => x.W).First().Id).ToList();
+            _areaSHs.ForEach(x =>
             {
-                // find longest area
-                if (!isLgFd && areaSH.W == lgRebar)
+                if (ids.Contains(x.Id))
                 {
-                    areaSH.IsLongest = true;
-                    isLgFd = true;
+                    x.IsLongest = true;
                 }
-                // process all
-                areaSH.Prcs();
-            }
+                x.Prcs();
+            });
         }
 
         // Get all chk slab vertical
         private void GetAllChkSV()
         {
-            var lgRebar = 0d;
             // scan control to list model
-            foreach (var chkASH in _chkASVs)
+            _chkASVs.ForEach(x =>
             {
-                if (chkASH.Checked)
+                if (x.Checked)
                 {
-                    var id = _chkASVs.IndexOf(chkASH);
+                    var id = _chkASVs.IndexOf(x);
                     var w = (double)_nudWSVs[id].Value;
                     var areaS = new AreaSlab(_branch, _maxRawWood)
                     {
+                        Id = id,
+                        Area = (int)_nudASVs[id].Value,
                         W = w,
                         H = (double)_nudHSVs[id].Value,
                         BendingL = _chkBLSVs[id].Checked,
                         BendingR = _chkBRSVs[id].Checked
                     };
                     _areaSVs.Add(areaS);
-                    lgRebar = Max(lgRebar, w);
                 }
-            }
+            });
             // reboot
-            var isLgFd = false;
-            foreach (var areaSV in _areaSVs)
+            var ids = _areaSVs.GroupBy(x => x.Area).Select(g => g.ToList()).ToList().Select(y => y.OrderByDescending(x => x.W).First().Id).ToList();
+            _areaSVs.ForEach(x =>
             {
-                // find longest area
-                if (!isLgFd && areaSV.W == lgRebar)
+                if (ids.Contains(x.Id))
                 {
-                    areaSV.IsLongest = true;
-                    isLgFd = true;
+                    x.IsLongest = true;
                 }
-                // process all
-                areaSV.Prcs();
-            }
+                x.Prcs();
+            });
         }
 
         // Get all chk reinforcement horizontal
         private bool HasGetAllChkRH()
         {
             var rslt = false;
-            foreach (var chkARH in _chkARHs)
+            _chkARHs.ForEach(x =>
             {
-                if (chkARH.Checked)
+                if (x.Checked)
                 {
                     rslt = true;
-                    var id = _chkARHs.IndexOf(chkARH);
+                    var id = _chkARHs.IndexOf(x);
                     var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
+                        Id = id,
+                        Area = (int)_nudARHs[id].Value,
                         W = (double)_nudWRHs[id].Value,
                         H = (double)_nudHRHs[id].Value,
                         D = (int)_nudDRHs[id].Value,
@@ -343,7 +281,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     areaR.Prcs();
                     _areaRHs.Add(areaR);
                 }
-            }
+            });
             return rslt;
         }
 
@@ -351,14 +289,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private bool HasGetAllChkRV()
         {
             var rslt = false;
-            foreach (var chkARV in _chkARVs)
+            _chkARVs.ForEach(x =>
             {
-                if (chkARV.Checked)
+                if (x.Checked)
                 {
                     rslt = true;
-                    var id = _chkARVs.IndexOf(chkARV);
+                    var id = _chkARVs.IndexOf(x);
                     var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
+                        Id = id,
+                        Area = (int)_nudARVs[id].Value,
                         W = (double)_nudWRVs[id].Value,
                         H = (double)_nudHRVs[id].Value,
                         D = (int)_nudDRVs[id].Value,
@@ -370,7 +310,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     areaR.Prcs();
                     _areaRHs.Add(areaR);
                 }
-            }
+            });
             return rslt;
         }
         #endregion

@@ -2,10 +2,12 @@
 using Sumirin_Beta__Falling_Apart__Slab.Script;
 using System;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static System.Drawing.Color;
 using static System.Drawing.FontStyle;
+using static System.Math;
 using static System.Windows.Forms.Keys;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
@@ -177,6 +179,32 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         {
             var nud = (NumericUpDown)sender;
             nud.Value = nud.Value.ToGSpan();
+        }
+
+        // nud slab area value changed
+        private void NudAS_ValueChanged(object sender, EventArgs e)
+        {
+            var maxNudAS = Max(1, _nudASs.Max(z => z.Value)) + 1;
+            _nudASs.ForEach(x =>
+            {
+                if (x != (NumericUpDown)sender)
+                {
+                    x.Maximum = maxNudAS;
+                }
+            });
+        }
+
+        // nud reinforcement area value changed
+        private void NudAR_ValueChanged(object sender, EventArgs e)
+        {
+            var maxNudAS = Max(1, _nudARs.Max(z => z.Value)) + 1;
+            _nudARs.ForEach(x =>
+            {
+                if (x != (NumericUpDown)sender)
+                {
+                    x.Maximum = maxNudAS;
+                }
+            });
         }
         #endregion
 

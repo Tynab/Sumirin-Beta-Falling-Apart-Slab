@@ -19,10 +19,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             InitializeComponent();
             InitItems();
             // ctrl all event
-            var ctrls = new List<System.Windows.Forms.Control>();
-            ctrls.AddRange(_btnAllRips);
-            ctrls.AddRange(_ctrlOths);
-            foreach (var ctrl in ctrls)
+            foreach (var ctrl in _ctrlAll)
             {
                 ctrl.KeyDown += Ctrl_KeyDown;
             }

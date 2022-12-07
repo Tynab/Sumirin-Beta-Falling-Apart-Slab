@@ -32,6 +32,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         #endregion
 
         #region Properties
+        public int Id { get; set; }
         public int Area { get; set; }
         public double W { get; set; } = 910;
         public double H { get; set; } = 910;

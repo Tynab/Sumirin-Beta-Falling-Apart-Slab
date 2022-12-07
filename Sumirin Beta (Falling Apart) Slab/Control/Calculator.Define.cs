@@ -7,7 +7,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
     {
         private void InitItems()
         {
-            InitCtrlOths();
+            InitCtrlAll();
             InitBtnAllRips();
             InitBtnBlks();
             InitBtnChns();
@@ -15,14 +15,29 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         }
 
         #region Ctrl
-        private List<System.Windows.Forms.Control> _ctrlOths;
-        // Initialize list ctrl other
-        private void InitCtrlOths() => _ctrlOths = new List<System.Windows.Forms.Control>()
+        private List<System.Windows.Forms.Control> _ctrlAll;
+        // Initialize list ctrl all
+        private void InitCtrlAll() => _ctrlAll = new List<System.Windows.Forms.Control>()
             {
                 pnlBoard,
                 lblResult,
                 rtxDetail,
-                btnReturn
+                btnReturn,
+                btnC,
+                btnBksp,
+                btnPlus,
+                btnMinus,
+                btnDot,
+                btnN0,
+                btnN1,
+                btnN2,
+                btnN3,
+                btnN4,
+                btnN5,
+                btnN6,
+                btnN7,
+                btnN8,
+                btnN9
             };
         #endregion
 

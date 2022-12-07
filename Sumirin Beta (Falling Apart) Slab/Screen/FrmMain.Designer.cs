@@ -1193,7 +1193,7 @@
             0});
             this.nudARV6.Name = "nudARV6";
             this.nudARV6.Size = new System.Drawing.Size(35, 20);
-            this.nudARV6.TabIndex = 2;
+            this.nudARV6.TabIndex = 3;
             this.nudARV6.Value = new decimal(new int[] {
             1,
             0,
@@ -1212,7 +1212,7 @@
             this.pnlIRV6.Location = new System.Drawing.Point(0, 28);
             this.pnlIRV6.Name = "pnlIRV6";
             this.pnlIRV6.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRV6.TabIndex = 3;
+            this.pnlIRV6.TabIndex = 2;
             // 
             // panel157
             // 
@@ -1716,7 +1716,7 @@
             0});
             this.nudARV5.Name = "nudARV5";
             this.nudARV5.Size = new System.Drawing.Size(35, 20);
-            this.nudARV5.TabIndex = 2;
+            this.nudARV5.TabIndex = 3;
             this.nudARV5.Value = new decimal(new int[] {
             1,
             0,
@@ -1735,7 +1735,7 @@
             this.pnlIRV5.Location = new System.Drawing.Point(0, 28);
             this.pnlIRV5.Name = "pnlIRV5";
             this.pnlIRV5.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRV5.TabIndex = 3;
+            this.pnlIRV5.TabIndex = 2;
             // 
             // panel151
             // 
@@ -1978,7 +1978,7 @@
             0});
             this.nudARV2.Name = "nudARV2";
             this.nudARV2.Size = new System.Drawing.Size(35, 20);
-            this.nudARV2.TabIndex = 2;
+            this.nudARV2.TabIndex = 3;
             this.nudARV2.Value = new decimal(new int[] {
             1,
             0,
@@ -1997,7 +1997,7 @@
             this.pnlIRV2.Location = new System.Drawing.Point(0, 28);
             this.pnlIRV2.Name = "pnlIRV2";
             this.pnlIRV2.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRV2.TabIndex = 3;
+            this.pnlIRV2.TabIndex = 2;
             // 
             // panel113
             // 
@@ -2240,7 +2240,7 @@
             0});
             this.nudARV4.Name = "nudARV4";
             this.nudARV4.Size = new System.Drawing.Size(35, 20);
-            this.nudARV4.TabIndex = 2;
+            this.nudARV4.TabIndex = 3;
             this.nudARV4.Value = new decimal(new int[] {
             1,
             0,
@@ -2259,7 +2259,7 @@
             this.pnlIRV4.Location = new System.Drawing.Point(0, 28);
             this.pnlIRV4.Name = "pnlIRV4";
             this.pnlIRV4.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRV4.TabIndex = 3;
+            this.pnlIRV4.TabIndex = 2;
             // 
             // panel125
             // 
@@ -2502,7 +2502,7 @@
             0});
             this.nudARV3.Name = "nudARV3";
             this.nudARV3.Size = new System.Drawing.Size(35, 20);
-            this.nudARV3.TabIndex = 2;
+            this.nudARV3.TabIndex = 3;
             this.nudARV3.Value = new decimal(new int[] {
             1,
             0,
@@ -2521,7 +2521,7 @@
             this.pnlIRV3.Location = new System.Drawing.Point(0, 28);
             this.pnlIRV3.Name = "pnlIRV3";
             this.pnlIRV3.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRV3.TabIndex = 3;
+            this.pnlIRV3.TabIndex = 2;
             // 
             // panel119
             // 
@@ -2805,7 +2805,7 @@
             0});
             this.nudARH6.Name = "nudARH6";
             this.nudARH6.Size = new System.Drawing.Size(35, 20);
-            this.nudARH6.TabIndex = 2;
+            this.nudARH6.TabIndex = 3;
             this.nudARH6.Value = new decimal(new int[] {
             1,
             0,
@@ -2824,7 +2824,7 @@
             this.pnlIRH6.Location = new System.Drawing.Point(0, 28);
             this.pnlIRH6.Name = "pnlIRH6";
             this.pnlIRH6.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRH6.TabIndex = 3;
+            this.pnlIRH6.TabIndex = 2;
             // 
             // panel101
             // 
@@ -3067,7 +3067,7 @@
             0});
             this.nudARH5.Name = "nudARH5";
             this.nudARH5.Size = new System.Drawing.Size(35, 20);
-            this.nudARH5.TabIndex = 2;
+            this.nudARH5.TabIndex = 3;
             this.nudARH5.Value = new decimal(new int[] {
             1,
             0,
@@ -3086,7 +3086,7 @@
             this.pnlIRH5.Location = new System.Drawing.Point(0, 28);
             this.pnlIRH5.Name = "pnlIRH5";
             this.pnlIRH5.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRH5.TabIndex = 3;
+            this.pnlIRH5.TabIndex = 2;
             // 
             // panel34
             // 
@@ -3329,7 +3329,7 @@
             0});
             this.nudARH4.Name = "nudARH4";
             this.nudARH4.Size = new System.Drawing.Size(35, 20);
-            this.nudARH4.TabIndex = 2;
+            this.nudARH4.TabIndex = 3;
             this.nudARH4.Value = new decimal(new int[] {
             1,
             0,
@@ -3348,7 +3348,7 @@
             this.pnlIRH4.Location = new System.Drawing.Point(0, 28);
             this.pnlIRH4.Name = "pnlIRH4";
             this.pnlIRH4.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRH4.TabIndex = 3;
+            this.pnlIRH4.TabIndex = 2;
             // 
             // panel28
             // 
@@ -3591,7 +3591,7 @@
             0});
             this.nudARH3.Name = "nudARH3";
             this.nudARH3.Size = new System.Drawing.Size(35, 20);
-            this.nudARH3.TabIndex = 2;
+            this.nudARH3.TabIndex = 3;
             this.nudARH3.Value = new decimal(new int[] {
             1,
             0,
@@ -3610,7 +3610,7 @@
             this.pnlIRH3.Location = new System.Drawing.Point(0, 28);
             this.pnlIRH3.Name = "pnlIRH3";
             this.pnlIRH3.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRH3.TabIndex = 3;
+            this.pnlIRH3.TabIndex = 2;
             // 
             // panel22
             // 
@@ -3853,7 +3853,7 @@
             0});
             this.nudARH2.Name = "nudARH2";
             this.nudARH2.Size = new System.Drawing.Size(35, 20);
-            this.nudARH2.TabIndex = 2;
+            this.nudARH2.TabIndex = 3;
             this.nudARH2.Value = new decimal(new int[] {
             1,
             0,
@@ -3872,7 +3872,7 @@
             this.pnlIRH2.Location = new System.Drawing.Point(0, 28);
             this.pnlIRH2.Name = "pnlIRH2";
             this.pnlIRH2.Size = new System.Drawing.Size(98, 160);
-            this.pnlIRH2.TabIndex = 3;
+            this.pnlIRH2.TabIndex = 2;
             // 
             // panel13
             // 
@@ -4446,7 +4446,7 @@
             0});
             this.nudASV10.Name = "nudASV10";
             this.nudASV10.Size = new System.Drawing.Size(35, 20);
-            this.nudASV10.TabIndex = 2;
+            this.nudASV10.TabIndex = 3;
             this.nudASV10.Value = new decimal(new int[] {
             1,
             0,
@@ -4463,7 +4463,7 @@
             this.pnlISV10.Location = new System.Drawing.Point(0, 28);
             this.pnlISV10.Name = "pnlISV10";
             this.pnlISV10.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV10.TabIndex = 3;
+            this.pnlISV10.TabIndex = 2;
             // 
             // panel46
             // 
@@ -4632,7 +4632,7 @@
             0});
             this.nudASV5.Name = "nudASV5";
             this.nudASV5.Size = new System.Drawing.Size(35, 20);
-            this.nudASV5.TabIndex = 2;
+            this.nudASV5.TabIndex = 3;
             this.nudASV5.Value = new decimal(new int[] {
             1,
             0,
@@ -4649,7 +4649,7 @@
             this.pnlISV5.Location = new System.Drawing.Point(0, 28);
             this.pnlISV5.Name = "pnlISV5";
             this.pnlISV5.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV5.TabIndex = 3;
+            this.pnlISV5.TabIndex = 2;
             // 
             // panel52
             // 
@@ -4818,7 +4818,7 @@
             0});
             this.nudASV9.Name = "nudASV9";
             this.nudASV9.Size = new System.Drawing.Size(35, 20);
-            this.nudASV9.TabIndex = 2;
+            this.nudASV9.TabIndex = 3;
             this.nudASV9.Value = new decimal(new int[] {
             1,
             0,
@@ -4835,7 +4835,7 @@
             this.pnlISV9.Location = new System.Drawing.Point(0, 28);
             this.pnlISV9.Name = "pnlISV9";
             this.pnlISV9.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV9.TabIndex = 3;
+            this.pnlISV9.TabIndex = 2;
             // 
             // panel56
             // 
@@ -5004,7 +5004,7 @@
             0});
             this.nudASV4.Name = "nudASV4";
             this.nudASV4.Size = new System.Drawing.Size(35, 20);
-            this.nudASV4.TabIndex = 2;
+            this.nudASV4.TabIndex = 3;
             this.nudASV4.Value = new decimal(new int[] {
             1,
             0,
@@ -5021,7 +5021,7 @@
             this.pnlISV4.Location = new System.Drawing.Point(0, 28);
             this.pnlISV4.Name = "pnlISV4";
             this.pnlISV4.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV4.TabIndex = 3;
+            this.pnlISV4.TabIndex = 2;
             // 
             // panel72
             // 
@@ -5190,7 +5190,7 @@
             0});
             this.nudASV8.Name = "nudASV8";
             this.nudASV8.Size = new System.Drawing.Size(35, 20);
-            this.nudASV8.TabIndex = 2;
+            this.nudASV8.TabIndex = 3;
             this.nudASV8.Value = new decimal(new int[] {
             1,
             0,
@@ -5207,7 +5207,7 @@
             this.pnlISV8.Location = new System.Drawing.Point(0, 28);
             this.pnlISV8.Name = "pnlISV8";
             this.pnlISV8.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV8.TabIndex = 3;
+            this.pnlISV8.TabIndex = 2;
             // 
             // panel77
             // 
@@ -5376,7 +5376,7 @@
             0});
             this.nudASV3.Name = "nudASV3";
             this.nudASV3.Size = new System.Drawing.Size(35, 20);
-            this.nudASV3.TabIndex = 2;
+            this.nudASV3.TabIndex = 3;
             this.nudASV3.Value = new decimal(new int[] {
             1,
             0,
@@ -5393,7 +5393,7 @@
             this.pnlISV3.Location = new System.Drawing.Point(0, 28);
             this.pnlISV3.Name = "pnlISV3";
             this.pnlISV3.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV3.TabIndex = 3;
+            this.pnlISV3.TabIndex = 2;
             // 
             // panel81
             // 
@@ -5562,7 +5562,7 @@
             0});
             this.nudASV6.Name = "nudASV6";
             this.nudASV6.Size = new System.Drawing.Size(35, 20);
-            this.nudASV6.TabIndex = 2;
+            this.nudASV6.TabIndex = 3;
             this.nudASV6.Value = new decimal(new int[] {
             1,
             0,
@@ -5579,7 +5579,7 @@
             this.pnlISV6.Location = new System.Drawing.Point(0, 28);
             this.pnlISV6.Name = "pnlISV6";
             this.pnlISV6.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV6.TabIndex = 3;
+            this.pnlISV6.TabIndex = 2;
             // 
             // panel85
             // 
@@ -5748,7 +5748,7 @@
             0});
             this.nudASV7.Name = "nudASV7";
             this.nudASV7.Size = new System.Drawing.Size(35, 20);
-            this.nudASV7.TabIndex = 2;
+            this.nudASV7.TabIndex = 3;
             this.nudASV7.Value = new decimal(new int[] {
             1,
             0,
@@ -5765,7 +5765,7 @@
             this.pnlISV7.Location = new System.Drawing.Point(0, 28);
             this.pnlISV7.Name = "pnlISV7";
             this.pnlISV7.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV7.TabIndex = 3;
+            this.pnlISV7.TabIndex = 2;
             // 
             // panel139
             // 
@@ -5933,7 +5933,7 @@
             0});
             this.nudASV2.Name = "nudASV2";
             this.nudASV2.Size = new System.Drawing.Size(35, 20);
-            this.nudASV2.TabIndex = 2;
+            this.nudASV2.TabIndex = 3;
             this.nudASV2.Value = new decimal(new int[] {
             1,
             0,
@@ -5950,7 +5950,7 @@
             this.pnlISV2.Location = new System.Drawing.Point(0, 28);
             this.pnlISV2.Name = "pnlISV2";
             this.pnlISV2.Size = new System.Drawing.Size(98, 100);
-            this.pnlISV2.TabIndex = 3;
+            this.pnlISV2.TabIndex = 2;
             // 
             // panel143
             // 
@@ -6352,7 +6352,7 @@
             0});
             this.nudASH10.Name = "nudASH10";
             this.nudASH10.Size = new System.Drawing.Size(35, 20);
-            this.nudASH10.TabIndex = 2;
+            this.nudASH10.TabIndex = 3;
             this.nudASH10.Value = new decimal(new int[] {
             1,
             0,
@@ -6538,7 +6538,7 @@
             0});
             this.nudASH5.Name = "nudASH5";
             this.nudASH5.Size = new System.Drawing.Size(35, 20);
-            this.nudASH5.TabIndex = 2;
+            this.nudASH5.TabIndex = 3;
             this.nudASH5.Value = new decimal(new int[] {
             1,
             0,
@@ -6555,7 +6555,7 @@
             this.pnlISH5.Location = new System.Drawing.Point(0, 28);
             this.pnlISH5.Name = "pnlISH5";
             this.pnlISH5.Size = new System.Drawing.Size(98, 100);
-            this.pnlISH5.TabIndex = 3;
+            this.pnlISH5.TabIndex = 2;
             // 
             // panel66
             // 
@@ -6724,7 +6724,7 @@
             0});
             this.nudASH9.Name = "nudASH9";
             this.nudASH9.Size = new System.Drawing.Size(35, 20);
-            this.nudASH9.TabIndex = 2;
+            this.nudASH9.TabIndex = 3;
             this.nudASH9.Value = new decimal(new int[] {
             1,
             0,
@@ -6910,7 +6910,7 @@
             0});
             this.nudASH4.Name = "nudASH4";
             this.nudASH4.Size = new System.Drawing.Size(35, 20);
-            this.nudASH4.TabIndex = 2;
+            this.nudASH4.TabIndex = 3;
             this.nudASH4.Value = new decimal(new int[] {
             1,
             0,
@@ -6927,7 +6927,7 @@
             this.pnlISH4.Location = new System.Drawing.Point(0, 28);
             this.pnlISH4.Name = "pnlISH4";
             this.pnlISH4.Size = new System.Drawing.Size(98, 100);
-            this.pnlISH4.TabIndex = 3;
+            this.pnlISH4.TabIndex = 2;
             // 
             // panel62
             // 
@@ -7096,7 +7096,7 @@
             0});
             this.nudASH8.Name = "nudASH8";
             this.nudASH8.Size = new System.Drawing.Size(35, 20);
-            this.nudASH8.TabIndex = 2;
+            this.nudASH8.TabIndex = 3;
             this.nudASH8.Value = new decimal(new int[] {
             1,
             0,
@@ -7282,7 +7282,7 @@
             0});
             this.nudASH3.Name = "nudASH3";
             this.nudASH3.Size = new System.Drawing.Size(35, 20);
-            this.nudASH3.TabIndex = 2;
+            this.nudASH3.TabIndex = 3;
             this.nudASH3.Value = new decimal(new int[] {
             1,
             0,
@@ -7468,7 +7468,7 @@
             0});
             this.nudASH6.Name = "nudASH6";
             this.nudASH6.Size = new System.Drawing.Size(35, 20);
-            this.nudASH6.TabIndex = 2;
+            this.nudASH6.TabIndex = 3;
             this.nudASH6.Value = new decimal(new int[] {
             1,
             0,
@@ -7654,7 +7654,7 @@
             0});
             this.nudASH7.Name = "nudASH7";
             this.nudASH7.Size = new System.Drawing.Size(35, 20);
-            this.nudASH7.TabIndex = 2;
+            this.nudASH7.TabIndex = 3;
             this.nudASH7.Value = new decimal(new int[] {
             1,
             0,
@@ -7839,7 +7839,7 @@
             0});
             this.nudASH2.Name = "nudASH2";
             this.nudASH2.Size = new System.Drawing.Size(35, 20);
-            this.nudASH2.TabIndex = 2;
+            this.nudASH2.TabIndex = 3;
             this.nudASH2.Value = new decimal(new int[] {
             1,
             0,
@@ -7856,7 +7856,7 @@
             this.pnlISH2.Location = new System.Drawing.Point(0, 28);
             this.pnlISH2.Name = "pnlISH2";
             this.pnlISH2.Size = new System.Drawing.Size(98, 100);
-            this.pnlISH2.TabIndex = 3;
+            this.pnlISH2.TabIndex = 2;
             // 
             // panel43
             // 
