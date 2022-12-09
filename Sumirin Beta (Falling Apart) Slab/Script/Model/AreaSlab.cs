@@ -6,16 +6,10 @@ using static System.Math;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
 {
-    public class AreaSlab
+    public class AreaSlab : Area
     {
         #region Fields
-        protected const int _wMinBdngLR = 910;
-        protected readonly int _lBdng = Default.L_Bdng;
-        protected readonly int _chidoriHorz = Default.Chidori_Horz;
-        protected readonly int _rateFixn = Default.Rate_Fixn;
         private readonly double _lMaxRawWood = Default.Max_Raw_Wood_Nml;
-        private readonly int _dSlab = Default.D_Slab;
-        private readonly int _fixnSlab = Default.Fixn_D13;
         private readonly SumirinBranch _branch = Touhoku;
         private int _lFixn;
         private int _lBdngL;
@@ -32,72 +26,22 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         #endregion
 
         #region Properties
-        public int Id { get; set; }
         public int Area { get; set; }
-        public double W { get; set; } = 910;
-        public double H { get; set; } = 910;
-        public bool BendingL { get; set; } = true;
-        public bool BendingR { get; set; } = true;
         public bool IsLongest { get; set; } = false;
-        public List<(int?, string)> MainRebars { get; set; }
-        public List<(int?, string)> SubRebars { get; set; }
-        public int MainAmount { get; set; }
-        public int? SubAmount { get; set; }
-        public int BendingHead { get; protected set; }
         #endregion
 
-        #region Methods
-        /// <summary>
-        /// Get bending head.
-        /// </summary>
-        /// <returns>Bending head count.</returns>
-        public int GetBdngHead() => BendingL ? BendingR ? 2 : 1 : BendingR ? 1 : 0;
-
-        /// <summary>
-        /// Process.
-        /// </summary>
-        public void Prcs()
+        #region Overridden
+        protected override void FillFlds()
         {
-            FillFlds();
-            if (BendingL)
-            {
-                if (BendingR)
-                {
-                    CalcRebarBdngLR();
-                }
-                else
-                {
-                    CalcRebarBdngL();
-                }
-            }
-            else
-            {
-                if (BendingR)
-                {
-                    CalcRebarBdngR();
-                }
-                else
-                {
-                    CalcRebarSt();
-                }
-            }
-            CalcAmt();
-        }
-
-        // Fill fields
-        protected void FillFlds()
-        {
-            BendingHead = GetBdngHead();
+            BendingHead = BendingL ? BendingR ? 2 : 1 : BendingR ? 1 : 0;
             _lFixn = FixnLen();
-            _lBdngL = BendingL ? _lBdng : 0;
-            _lBdngR = BendingR ? _lBdng : 0;
+            _lBdngL = BendingL ? L_BDNG : 0;
+            _lBdngR = BendingR ? L_BDNG : 0;
         }
 
-        // Fixation length
-        protected int FixnLen() => _branch == Touhoku ? _rateFixn * _dSlab : _fixnSlab;
+        protected override int FixnLen() => _branch == Touhoku ? RATE_FIXN * D_SLAB : FIXN_SLAB;
 
-        // Rebar calculate bending left
-        protected void CalcRebarBdngL()
+        protected override void CalcRebarBdngL()
         {
             var w = W;
             if (w <= _lMaxRawWood - _lBdngL)
@@ -110,7 +54,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             else
             {
                 // main
-                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                _jt = PrcsHdrMainRebar(w, _lMaxRawWood, _lFixn, _lBdngL, _lBdngR, out var lRddRebarL, out var lRddRebarR);
                 MainRebars = new List<(int?, string)>
                 {
                     (1, string.Format("{0}×{1,4}", _lBdngL, lRddRebarL))
@@ -133,8 +77,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
         }
 
-        // Rebar calculate bending right
-        protected void CalcRebarBdngR()
+        protected override void CalcRebarBdngR()
         {
             var w = W;
             if (w <= _lMaxRawWood - _lBdngR)
@@ -147,7 +90,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             else
             {
                 // main
-                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                _jt = PrcsHdrMainRebar(w, _lMaxRawWood, _lFixn, _lBdngL, _lBdngR, out var lRddRebarL, out var lRddRebarR);
                 MainRebars = new List<(int?, string)>
                 {
                     (0, string.Format("{0,4}", lRddRebarL))
@@ -170,20 +113,19 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
         }
 
-        // Rebar calculate bending couple head
-        protected void CalcRebarBdngLR()
+        protected override void CalcRebarBdngLR()
         {
             var w = W;
-            if (w <= _wMinBdngLR)
+            if (w <= W_MIN_BDNG_LR)
             {
                 MainRebars = new List<(int?, string)>
                 {
-                    (2, $"{_lBdngL}×{(w + 2 * _dSlab).Round10()}×{_lBdngR}")
+                    (2, $"{_lBdngL}×{(w + 2 * D_SLAB).Round10()}×{_lBdngR}")
                 };
             }
             else
             {
-                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                _jt = PrcsHdrMainRebar(w, _lMaxRawWood, _lFixn, _lBdngL, _lBdngR, out var lRddRebarL, out var lRddRebarR);
                 MainRebars = new List<(int?, string)>
                 {
                     (1, string.Format("{0}×{1,4}", _lBdngL, lRddRebarL))
@@ -196,8 +138,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
         }
 
-        // Rebar calculate straight
-        protected void CalcRebarSt()
+        protected override void CalcRebarSt()
         {
             var w = W;
             if (w <= _lMaxRawWood)
@@ -209,7 +150,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
             else
             {
-                _jt = PrcsHdrMainRebar(w, out var lRddRebarL, out var lRddRebarR);
+                _jt = PrcsHdrMainRebar(w, _lMaxRawWood, _lFixn, _lBdngL, _lBdngR, out var lRddRebarL, out var lRddRebarR);
                 MainRebars = new List<(int?, string)>
                 {
                     (0, string.Format("{0,4}", lRddRebarL))
@@ -222,8 +163,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             }
         }
 
-        // Amount calculate
-        protected void CalcAmt()
+        protected override void CalcAmt()
         {
             var amt = (int)Ceiling(H / Default.Pitch);
             // split
@@ -243,42 +183,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             {
                 MainAmount++;
             }
-        }
-
-        // Joint count
-        protected int JtCnt(ref double w)
-        {
-            var jt = 1;
-            var lMaxRawWoodRip = _lMaxRawWood - _lFixn;
-            var body = 2 * _lMaxRawWood - _lBdngL - _lBdngR - _chidoriHorz - _lFixn;
-            while (w > body)
-            {
-                w -= lMaxRawWoodRip;
-                jt++;
-            }
-            w = (w + jt * _lFixn + BendingHead * _lBdng).Round500();
-            return jt;
-        }
-
-        // Process header main rebar
-        protected int PrcsHdrMainRebar(double w, out int lRddRebarL, out int lRddRebarR)
-        {
-            var jt = JtCnt(ref w);
-            lRddRebarL = ((w + _chidoriHorz) / 2).Round500();
-            lRddRebarR = ((w - _chidoriHorz) / 2).Round500();
-            while (lRddRebarL + lRddRebarR > w)
-            {
-                lRddRebarR -= 500;
-            }
-            PrcsBdngHdrRebar(ref lRddRebarL, ref lRddRebarR);
-            return jt;
-        }
-
-        // Process bending header rebar
-        protected void PrcsBdngHdrRebar(ref int lRddRebarL, ref int lRddRebarR)
-        {
-            lRddRebarL -= _lBdngL;
-            lRddRebarR -= _lBdngR;
         }
         #endregion
     }

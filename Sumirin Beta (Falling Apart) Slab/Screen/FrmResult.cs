@@ -79,6 +79,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         public FrmResult(List<AreaSlab> areaSHs, List<AreaSlab> areaSVs, List<AreaReinforcement> areaRHs, List<AreaReinforcement> areaRVs)
         {
             InitializeComponent();
+            InitItems();
             // move frm by pnl
             foreach (var pnl in this.GetAllObjs(typeof(Panel)))
             {
@@ -411,25 +412,19 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             _smryR.AddRange(_smryR2.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
             _smryR.AddRange(_smryR1.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
             _smryR.AddRange(_smryR0.OrderByDescending(x => int.Parse(x.Item2)).ToList());
-            var spltList = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
-            // TODO: check loop
-            for (var i = 0; i < spltList.Count; i++)
+            // display
+            var dSmrys = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
+            for (var i = 0; i < dSmrys.Count; i++)
             {
                 var rslt = string.Empty;
-                foreach (var item in spltList[i])
+                foreach (var item in dSmrys[i])
                 {
                     rslt += $"{item.Item2} = {item.Item3}本\n";
                 }
                 rslt.Substring(0, rslt.Length - "\n".Length);
                 // tranfer to ctrl
-                foreach (var rtxSmryR in _rtxSmryRs)
-                {
-                    rtxSmryR.Text = rslt;
-                }
-                foreach (var lblSmryR in _lblSmryRs)
-                {
-                    lblSmryR.Text = spltList[i].First().Item1.ToString();
-                }
+                _rtxSmryRs[i].Text = rslt;
+                _lblSmryRs[i].Text = dSmrys[i].First().Item1.ToString();
             }
         }
         #endregion

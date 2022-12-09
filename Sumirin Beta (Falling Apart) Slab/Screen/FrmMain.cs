@@ -269,7 +269,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
                         Id = id,
-                        Area = (int)_nudARHs[id].Value,
                         W = (double)_nudWRHs[id].Value,
                         H = (double)_nudHRHs[id].Value,
                         D = (int)_nudDRHs[id].Value,
@@ -298,7 +297,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
                         Id = id,
-                        Area = (int)_nudARVs[id].Value,
                         W = (double)_nudWRVs[id].Value,
                         H = (double)_nudHRVs[id].Value,
                         D = (int)_nudDRVs[id].Value,
@@ -308,7 +306,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         FixationR = _chkFRRVs[id].Checked
                     };
                     areaR.Prcs();
-                    _areaRHs.Add(areaR);
+                    _areaRVs.Add(areaR);
                 }
             });
             return rslt;
