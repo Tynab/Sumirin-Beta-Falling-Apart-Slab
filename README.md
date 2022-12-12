@@ -3,11 +3,11 @@ Solution to help 西山 team of エマール group calculate スラブ住本林�
 
 ## IMAGE DEMO
 <p align="center">
-<img src="https://raw.githubusercontent.com/Tynab/Rebar-Weight/main/pic/0.jpg"></img>
+<img src="https://raw.githubusercontent.com/Tynab/Sumirin-Beta-Falling-Apart-Slab/main/pic/0.jpg"></img>
 </p>
 
 ### PACKAGES
-<img src="https://raw.githubusercontent.com/Tynab/Rebar-Weight/main/pic/1.png" align="left" width="3%" height="3%"></img>
+<img src="https://raw.githubusercontent.com/Tynab/Sumirin-Beta-Falling-Apart-Slab/main/pic/1.png" align="left" width="3%" height="3%"></img>
 <div style="display:flex;">
 
 - Tynab.YANF » 1.0.1
