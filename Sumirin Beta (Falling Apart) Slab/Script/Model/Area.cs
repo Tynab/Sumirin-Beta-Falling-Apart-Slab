@@ -70,37 +70,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
 
         // Amount calculate
         protected abstract void CalcAmt();
-        #endregion
 
-        #region Function
         // Joint count
-        protected virtual int JtCnt(ref double w, double lMaxRawWood, int lFixn, int lBdngL, int lBdngR)
-        {
-            var jt = 1;
-            var lMaxRawWoodRip = lMaxRawWood - lFixn;
-            var body = 2 * lMaxRawWood - lBdngL - lBdngR - CHIDORI_HORZ - lFixn;
-            while (w > body)
-            {
-                w -= lMaxRawWoodRip;
-                jt++;
-            }
-            w = (w + jt * lFixn + BendingHead * L_BDNG).Round500();
-            return jt;
-        }
+        protected abstract int JtCnt(ref double w, double lMaxRawWood, int lFixn, int lBdngL, int lBdngR);
 
         // Process header main rebar
-        protected virtual int PrcsHdrMainRebar(double w, double lMaxRawWood, int lFixn, int lBdngL, int lBdngR, out int lRddRebarL, out int lRddRebarR)
-        {
-            var jt = JtCnt(ref w, lMaxRawWood, lFixn, lBdngL, lBdngR);
-            lRddRebarL = ((w + CHIDORI_HORZ) / 2).Round500();
-            lRddRebarR = ((w - CHIDORI_HORZ) / 2).Round500();
-            while (lRddRebarL + lRddRebarR > w)
-            {
-                lRddRebarR -= 500;
-            }
-            PrcsBdngHdrRebar(lBdngL, lBdngR, ref lRddRebarL, ref lRddRebarR);
-            return jt;
-        }
+        protected abstract int PrcsHdrMainRebar(double w, double lMaxRawWood, int lFixn, int lBdngL, int lBdngR, out int lRddRebarL, out int lRddRebarR);
 
         // Process bending header rebar
         protected virtual void PrcsBdngHdrRebar(int lBdngL, int lBdngR, ref int lRddRebarL, ref int lRddRebarR)

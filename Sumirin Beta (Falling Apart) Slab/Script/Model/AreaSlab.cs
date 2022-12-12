@@ -184,6 +184,33 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
                 MainAmount++;
             }
         }
+
+        protected override int JtCnt(ref double w, double lMaxRawWood, int lFixn, int lBdngL, int lBdngR)
+        {
+            var jt = 1;
+            var lMaxRawWoodRip = lMaxRawWood - lFixn;
+            var body = 2 * lMaxRawWood - lBdngL - lBdngR - CHIDORI_HORZ - lFixn;
+            while (w > body)
+            {
+                w -= lMaxRawWoodRip;
+                jt++;
+            }
+            w = (w + jt * lFixn + BendingHead * L_BDNG).Round500();
+            return jt;
+        }
+
+        protected override int PrcsHdrMainRebar(double w, double lMaxRawWood, int lFixn, int lBdngL, int lBdngR, out int lRddRebarL, out int lRddRebarR)
+        {
+            var jt = JtCnt(ref w, lMaxRawWood, lFixn, lBdngL, lBdngR);
+            lRddRebarL = ((w + CHIDORI_HORZ) / 2).Round500();
+            lRddRebarR = ((w - CHIDORI_HORZ) / 2).Round500();
+            while (lRddRebarL + lRddRebarR > w)
+            {
+                lRddRebarR -= 500;
+            }
+            PrcsBdngHdrRebar(lBdngL, lBdngR, ref lRddRebarL, ref lRddRebarR);
+            return jt;
+        }
         #endregion
     }
 }
