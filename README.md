@@ -1,5 +1,5 @@
-# SUMIRIN BETA FALLING APART SLAB
-Solution to help 西山 team of エマール group calculate スラブ住本林業（ベタ・バラバラ） from 文化シャッター partner.
+# SUMIRIN BETA FALLING APART SLAB PROJECT
+Project to help 西山 team of エマール group calculate and summary スラブ住本林業（ベタ・バラバラ） from 文化シャッター partner.
 
 ## IMAGE DEMO
 <p align="center">
