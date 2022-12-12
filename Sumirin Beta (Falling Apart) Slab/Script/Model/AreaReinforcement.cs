@@ -6,7 +6,7 @@ using static System.Math;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
 {
-    public class AreaReinforcement : Area
+    public class AreaReinforcement : AreaSlab
     {
         #region Fields
         private readonly double _lMaxRawWood = Default.Max_Raw_Wood_Nml;
@@ -20,7 +20,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
         #endregion
 
         #region Constructors
-        public AreaReinforcement(SumirinBranch branch, double lMaxRawWood)
+        public AreaReinforcement(SumirinBranch branch, double lMaxRawWood) : base(branch, lMaxRawWood)
         {
             _branch = branch;
             _lMaxRawWood = lMaxRawWood;
@@ -66,7 +66,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
                 MainRebars = FixationHead > 0
                     ? new List<(int?, string)>
                     {
-                        (1, string.Format("{0}×{1,4}", _lBdngL, w.Round500()))
+                        (1, string.Format("{0}×{1,4}", _lBdngL, w.Round500() - _lBdngL))
                     }
                     : new List<(int?, string)>
                     {
@@ -106,7 +106,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
                 MainRebars = FixationHead > 0
                     ? new List<(int?, string)>
                     {
-                        (1, string.Format("{0}×{1,4}", _lBdngR, w.Round500()))
+                        (1, string.Format("{0}×{1,4}", _lBdngR, w.Round500() - _lBdngR))
                     }
                     : new List<(int?, string)>
                     {
@@ -207,6 +207,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script.Model
             {
                 MainAmount = amt;
                 SubAmount = null;
+            }
+            // over
+            if (IsLongest)
+            {
+                MainAmount += 2;
             }
         }
 

@@ -1,6 +1,9 @@
 ﻿using Sumirin_Beta__Falling_Apart__Slab.Screen;
 using System;
-using System.Windows.Forms;
+using System.Threading;
+using static Sumirin_Beta__Falling_Apart__Slab.Properties.Resources;
+using static System.GC;
+using static System.Windows.Forms.Application;
 
 namespace Sumirin_Beta__Falling_Apart__Slab
 {
@@ -12,9 +15,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab
         [STAThread]
         private static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMain());
+            var mutex = new Mutex(true, app_name, out var rslt);
+            if (!rslt)
+            {
+                return;
+            }
+            EnableVisualStyles();
+            SetCompatibleTextRenderingDefault(false);
+            Run(new FrmMain());
+            KeepAlive(mutex);
         }
     }
 }

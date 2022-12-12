@@ -551,6 +551,7 @@
             this.chkASH1 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.tmrUpd = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -1454,7 +1455,7 @@
             0});
             this.nudARV1.Name = "nudARV1";
             this.nudARV1.Size = new System.Drawing.Size(35, 20);
-            this.nudARV1.TabIndex = 0;
+            this.nudARV1.TabIndex = 3;
             this.nudARV1.Value = new decimal(new int[] {
             1,
             0,
@@ -4114,7 +4115,7 @@
             0});
             this.nudARH1.Name = "nudARH1";
             this.nudARH1.Size = new System.Drawing.Size(35, 20);
-            this.nudARH1.TabIndex = 0;
+            this.nudARH1.TabIndex = 3;
             this.nudARH1.Value = new decimal(new int[] {
             1,
             0,
@@ -8210,6 +8211,10 @@
             this.label1.Text = "スラブ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tmrUpd
+            // 
+            this.tmrUpd.Tick += new System.EventHandler(this.TmrUpd_Tick);
+            // 
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -9139,5 +9144,6 @@
         private System.Windows.Forms.NumericUpDown nudASH3;
         private System.Windows.Forms.NumericUpDown nudASH6;
         private System.Windows.Forms.NumericUpDown nudASH7;
+        private System.Windows.Forms.Timer tmrUpd;
     }
 }

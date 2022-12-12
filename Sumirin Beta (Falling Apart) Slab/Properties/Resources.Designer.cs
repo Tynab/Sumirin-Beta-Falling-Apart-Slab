@@ -61,6 +61,78 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sumirin Beta (Falling Apart) Slab.
+        /// </summary>
+        internal static string app_name {
+            get {
+                return ResourceManager.GetString("app_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to スラブ住本林業（ベタ・バラバラ）.
+        /// </summary>
+        internal static string app_true_name {
+            get {
+                return ResourceManager.GetString("app_true_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 22.12.12.
+        /// </summary>
+        internal static string app_ver {
+            get {
+                return ResourceManager.GetString("app_ver", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to YAN.
+        /// </summary>
+        internal static string co_name {
+            get {
+                return ResourceManager.GetString("co_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WUFOIOOCueODqeODluS9j+acrOael+alre+8iOODmeOCv+ODu+ODkOODqeODkOODqe+8iQ==.
+        /// </summary>
+        internal static string key_ser {
+            get {
+                return ResourceManager.GetString("key_ser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://raw.githubusercontent.com/Tynab/Tynab/main/app/Sumirin%20Beta%20(Falling%20Apart)%20Slab.
+        /// </summary>
+        internal static string link_app {
+            get {
+                return ResourceManager.GetString("link_app", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to google.com.
+        /// </summary>
+        internal static string link_base {
+            get {
+                return ResourceManager.GetString("link_base", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://raw.githubusercontent.com/Tynab/Tynab/main/ver/Sumirin%20Beta%20(Falling%20Apart)%20Slab.
+        /// </summary>
+        internal static string link_ver {
+            get {
+                return ResourceManager.GetString("link_ver", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap pOff {

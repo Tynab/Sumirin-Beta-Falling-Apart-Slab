@@ -136,4 +136,36 @@
   <data name="pOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="app_name" xml:space="preserve">
+    <value>Sumirin Beta (Falling Apart) Slab</value>
+    <comment>tên phần mềm</comment>
+  </data>
+  <data name="app_true_name" xml:space="preserve">
+    <value>スラブ住本林業（ベタ・バラバラ）</value>
+    <comment>tên thật phần mềm</comment>
+  </data>
+  <data name="app_ver" xml:space="preserve">
+    <value>22.12.12</value>
+    <comment>phiên bản phần mềm</comment>
+  </data>
+  <data name="co_name" xml:space="preserve">
+    <value>YAN</value>
+    <comment>tên doanh nghiệp</comment>
+  </data>
+  <data name="key_ser" xml:space="preserve">
+    <value>WUFOIOOCueODqeODluS9j+acrOael+alre+8iOODmeOCv+ODu+ODkOODqeODkOODqe+8iQ==</value>
+    <comment>số seri</comment>
+  </data>
+  <data name="link_app" xml:space="preserve">
+    <value>https://raw.githubusercontent.com/Tynab/Tynab/main/app/Sumirin%20Beta%20(Falling%20Apart)%20Slab</value>
+    <comment>đường dẫn tải phần mềm trên server</comment>
+  </data>
+  <data name="link_base" xml:space="preserve">
+    <value>google.com</value>
+    <comment>đường dẫn cơ bản</comment>
+  </data>
+  <data name="link_ver" xml:space="preserve">
+    <value>https://raw.githubusercontent.com/Tynab/Tynab/main/ver/Sumirin%20Beta%20(Falling%20Apart)%20Slab</value>
+    <comment>đường dẫn kiểm tra phiên bản trên server</comment>
+  </data>
 </root>

@@ -148,5 +148,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Properties {
                 return ((int)(this["Fixn_D10"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Chk_Key {
+            get {
+                return ((bool)(this["Chk_Key"]));
+            }
+            set {
+                this["Chk_Key"] = value;
+            }
+        }
     }
 }

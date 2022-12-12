@@ -4,13 +4,21 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Net;
 using System.Windows.Forms;
 using YANF.Control;
 using YANF.Script;
+using YANF.Script.Service;
+using static Sumirin_Beta__Falling_Apart__Slab.Properties.Resources;
 using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.Common;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant.SumirinBranch;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.EventHandler;
+using static System.Diagnostics.Process;
+using static System.Windows.Forms.Application;
+using static System.Windows.Forms.MessageBoxButtons;
+using static YANF.Script.YANConstant.MsgBoxLang;
 using static YANF.Script.YANEvent;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
@@ -24,8 +32,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private List<AreaReinforcement> _areaRVs;
         private FrmResult _frmResult;
         private Calculator _ctrlCalculator;
+        private IYANDlvScrService _dlvScrService;
         private SumirinBranch _branch;
         private double _maxRawWood;
+        private int _pct;
         #endregion
 
         #region Constructors
@@ -97,7 +107,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 
         #region Events
         // frm shown
-        private void FrmMain_Shown(object sender, EventArgs e) => this.FadeIn();
+        private void FrmMain_Shown(object sender, EventArgs e)
+        {
+            this.FadeIn();
+            ChkUpd();
+        }
 
         // frm closing
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e) => this.FadeOut();
@@ -165,9 +179,42 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             // sound
             SND_NEXT.PlaySync();
         }
+
+        // Timer update
+        private void TmrUpd_Tick(object sender, EventArgs e)
+        {
+            if (_pct >= 100)
+            {
+                _dlvScrService.OffLoader();
+                tmrUpd.StopAdv();
+                Start(FILE_SETUP_ADR);
+                Exit();
+            }
+        }
         #endregion
 
         #region Methods
+        // Check update
+        private void ChkUpd()
+        {
+            if (IsNetAvail())
+            {
+                using var wc = new WebClient();
+                if (!wc.DownloadString(link_ver).Contains(app_ver))
+                {
+                    _ = YANMessageBox.Show("更新", "ライセンスが間違っています！", OK, MessageBoxIcon.Information, JAP);
+                    _dlvScrService = new YANUpdScrService();
+                    _dlvScrService.OnLoader(this);
+                    _pct = 0;
+                    tmrUpd.StartAdv();
+                    CrtDirAdv(FRNT_PATH);
+                    DelFileAdv(FILE_SETUP_ADR);
+                    wc.DownloadFileAsync(new Uri(wc.DownloadString(link_app)), FILE_SETUP_ADR);
+                    wc.DownloadProgressChanged += Upd_DownloadProgressChanged;
+                }
+            }
+        }
+
         // Get Id from control slab info
         private int? GetIdFromCtrlIS(System.Windows.Forms.Control ctrl) => _nudWSs.Contains(ctrl)
                 ? _nudWSs.IndexOf((NumericUpDown)ctrl)
@@ -269,6 +316,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
                         Id = id,
+                        Area = (int)_nudARHs[id].Value,
                         W = (double)_nudWRHs[id].Value,
                         H = (double)_nudHRHs[id].Value,
                         D = (int)_nudDRHs[id].Value,
@@ -277,10 +325,22 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         FixationL = _chkFLRHs[id].Checked,
                         FixationR = _chkFRRHs[id].Checked
                     };
-                    areaR.Prcs();
                     _areaRHs.Add(areaR);
                 }
             });
+            if (rslt)
+            {
+                // reboot
+                var ids = _areaRHs.GroupBy(x => x.Area).Select(g => g.ToList()).ToList().Select(y => y.OrderByDescending(x => x.W).First().Id).ToList();
+                _areaRHs.ForEach(x =>
+                {
+                    if (ids.Contains(x.Id))
+                    {
+                        x.IsLongest = true;
+                    }
+                    x.Prcs();
+                });
+            }
             return rslt;
         }
 
@@ -297,6 +357,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     var areaR = new AreaReinforcement(_branch, _maxRawWood)
                     {
                         Id = id,
+                        Area = (int)_nudARVs[id].Value,
                         W = (double)_nudWRVs[id].Value,
                         H = (double)_nudHRVs[id].Value,
                         D = (int)_nudDRVs[id].Value,
@@ -305,10 +366,22 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         FixationL = _chkFLRVs[id].Checked,
                         FixationR = _chkFRRVs[id].Checked
                     };
-                    areaR.Prcs();
                     _areaRVs.Add(areaR);
                 }
             });
+            if (rslt)
+            {
+                // reboot
+                var ids = _areaRVs.GroupBy(x => x.Area).Select(g => g.ToList()).ToList().Select(y => y.OrderByDescending(x => x.W).First().Id).ToList();
+                _areaRVs.ForEach(x =>
+                {
+                    if (ids.Contains(x.Id))
+                    {
+                        x.IsLongest = true;
+                    }
+                    x.Prcs();
+                });
+            }
             return rslt;
         }
         #endregion

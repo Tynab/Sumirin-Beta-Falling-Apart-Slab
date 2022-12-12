@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sumirin Beta (Falling Apart) Slab", "Sumirin Beta (Falling Apart) Slab\Sumirin Beta (Falling Apart) Slab.csproj", "{6E9486C6-FAF3-4C2B-8F1C-4F7E9498802A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Sumirin Beta (Falling Apart) Slab Setup", "Sumirin Beta (Falling Apart) Slab Setup\Sumirin Beta (Falling Apart) Slab Setup.vdproj", "{4E27AC67-6A8D-41D0-A6DC-CADCAFAD649E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{6E9486C6-FAF3-4C2B-8F1C-4F7E9498802A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E9486C6-FAF3-4C2B-8F1C-4F7E9498802A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E9486C6-FAF3-4C2B-8F1C-4F7E9498802A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E27AC67-6A8D-41D0-A6DC-CADCAFAD649E}.Debug|Any CPU.ActiveCfg = Debug
+		{4E27AC67-6A8D-41D0-A6DC-CADCAFAD649E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

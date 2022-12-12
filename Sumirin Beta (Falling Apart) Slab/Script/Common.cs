@@ -1,12 +1,101 @@
-﻿using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
+﻿using System;
+using System.IO;
+using System.Net.NetworkInformation;
+using static Microsoft.VisualBasic.Interaction;
+using static Sumirin_Beta__Falling_Apart__Slab.Properties.Resources;
+using static Sumirin_Beta__Falling_Apart__Slab.Properties.Settings;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static System.Convert;
+using static System.IO.Directory;
 using static System.Math;
+using static System.Net.NetworkInformation.IPStatus;
+using static System.Windows.Forms.Application;
+using static System.Windows.Forms.DialogResult;
+using static System.Windows.Forms.MessageBoxButtons;
+using static System.Windows.Forms.MessageBoxIcon;
+using static YANF.Script.YANConstant.MsgBoxLang;
+using static YANF.Script.YANMessageBox;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Script
 {
     internal static class Common
     {
+        /// <summary>
+        /// Update valid license.
+        /// </summary>
+        private static void UpdVldLic()
+        {
+            Default.Chk_Key = true;
+            Default.Save();
+        }
+
+        /// <summary>
+        /// Check internet connection.
+        /// </summary>
+        /// <returns>Connection state.</returns>
+        internal static bool IsNetAvail()
+        {
+            try
+            {
+                var buffer = new byte[32];
+                return new Ping().Send(link_base, TIME_OUT, buffer, new PingOptions()).Status == Success;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Create directory advanced.
+        /// </summary>
+        /// <param name="path">Folder path.</param>
+        internal static void CrtDirAdv(string path)
+        {
+            if (!Exists(path))
+            {
+                CreateDirectory(path);
+            }
+        }
+
+        /// <summary>
+        /// Delete file advanced.
+        /// </summary>
+        /// <param name="adr">File address.</param>
+        internal static void DelFileAdv(string adr)
+        {
+            if (File.Exists(adr))
+            {
+                File.Delete(adr);
+            }
+        }
+
+        /// <summary>
+        /// Check license.
+        /// </summary>
+        internal static void ChkLic()
+        {
+            if (!Default.Chk_Key)
+            {
+            ChkPt:
+                if (InputBox("シリアルを入力", "ライセンスキー", null, -1, -1) == key_ser)
+                {
+                    UpdVldLic();
+                }
+                else
+                {
+                    if (Show("ライセンスが間違っています！", "エラー", RetryCancel, Error, JAP) == Retry)
+                    {
+                        goto ChkPt;
+                    }
+                    else
+                    {
+                        Exit();
+                    }
+                }
+            }
+        }
+
         /// <summary>
         /// Round 10.
         /// </summary>

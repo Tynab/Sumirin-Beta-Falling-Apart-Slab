@@ -3,12 +3,14 @@ using Sumirin_Beta__Falling_Apart__Slab.Script;
 using System;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Windows.Forms;
 using static Sumirin_Beta__Falling_Apart__Slab.Script.Constant;
 using static System.Drawing.Color;
 using static System.Drawing.FontStyle;
 using static System.Math;
 using static System.Windows.Forms.Keys;
+using static YANF.Script.YANConstant;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Screen
 {
@@ -25,6 +27,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             var id = _chkASs.IndexOf(chk);
             _pnlISs[id].Enabled = chk.Checked;
             _nudASs[id].Enabled = chk.Checked;
+            _nudASs[id].Value = id > 0 ? _nudASs[id - 1].Value : 1;
             // foward focus
             if (_pnlISs[id].Enabled)
             {
@@ -52,6 +55,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             var id = _chkARs.IndexOf(chk);
             _pnlIRs[id].Enabled = chk.Checked;
             _nudARs[id].Enabled = chk.Checked;
+            _nudARs[id].Value = id > 0 ? _nudARs[id - 1].Value : 1;
             // foward focus
             if (_pnlIRs[id].Enabled)
             {
@@ -218,6 +222,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 switch (e.KeyCode)
                 {
+                    case A:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // focus area
+                        _nudASs[(int)id].Select();
+                        break;
+                    }
                     case O:
                     {
                         // mute nud
@@ -303,6 +318,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             {
                 switch (e.KeyCode)
                 {
+                    case A:
+                    {
+                        // mute nud
+                        if (ctrl is NumericUpDown)
+                        {
+                            e.SuppressKeyPress = true;
+                        }
+                        // focus area
+                        _nudARs[(int)id].Select();
+                        break;
+                    }
                     case O:
                     {
                         // mute nud
@@ -399,6 +425,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                     }
                 }
             }
+        }
+
+        // Update download progress changed
+        private void Upd_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        {
+            _pct = e.ProgressPercentage;
+            _ = Invoke((MethodInvoker)delegate
+            {
+                _dlvScrService.PublishValue(_pct, string.Format("{0} MB / {1} MB", (e.BytesReceived / 1024d / 1024d).ToString("0.00"), (e.TotalBytesToReceive / 1024d / 1024d).ToString("0.00")), (int)Ceiling(_pct * W_UPDATE_SCR / 100d));
+            });
         }
         #endregion
     }
