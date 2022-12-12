@@ -110,7 +110,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void FrmMain_Shown(object sender, EventArgs e)
         {
             this.FadeIn();
-            ChkUpd();
+            ChkLic();
+            if (Default.Chk_Key)
+            {
+                ChkUpd();
+            }
         }
 
         // frm closing

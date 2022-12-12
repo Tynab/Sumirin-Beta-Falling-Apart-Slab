@@ -84,7 +84,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Script
                 }
                 else
                 {
-                    if (Show("ライセンスが間違っています！", "エラー", RetryCancel, Error, JAP) == Retry)
+                    if (Show("エラー", "ライセンスが間違っています！", RetryCancel, Error, JAP) == Retry)
                     {
                         goto ChkPt;
                     }
