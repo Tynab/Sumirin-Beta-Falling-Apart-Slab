@@ -134,11 +134,13 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void FrmResult_Load(object sender, EventArgs e)
         {
             // display result slab horizontal
-            SsForDisplay(_areaSHs, out var rsltRebarSH, out var rsltAmtSH);
+            SsForDisplay(_areaSHs, out var rsltAreaSH, out var rsltRebarSH, out var rsltAmtSH);
+            lblRsltASH.Text = rsltAreaSH;
             lblRsltRebarSH.Text = rsltRebarSH;
             lblRsltAmtSH.Text = rsltAmtSH;
             // display result slab vertical
-            SsForDisplay(_areaSVs, out var rsltRebarSV, out var rsltAmtSV);
+            SsForDisplay(_areaSVs, out var rsltAreaSV, out var rsltRebarSV, out var rsltAmtSV);
+            lblRsltASV.Text = rsltAreaSV;
             lblRsltRebarSV.Text = rsltRebarSV;
             lblRsltAmtSV.Text = rsltAmtSV;
             // display slab reinforcement
@@ -147,12 +149,14 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             if (_hasR)
             {
                 // display result reinforcement horizontal
-                RsForDisplay(_areaRHs, out var rsltDRH, out var rsltRebarRH, out var rsltAmtRH);
+                RsForDisplay(_areaRHs, out var rsltAreaRH, out var rsltDRH, out var rsltRebarRH, out var rsltAmtRH);
+                lblRsltARH.Text = rsltAreaRH;
                 lblRsltDRH.Text = rsltDRH;
                 lblRsltRebarRH.Text = rsltRebarRH;
                 lblRsltAmtRH.Text = rsltAmtRH;
                 // display result reinforcement vertical
-                RsForDisplay(_areaRVs, out var rsltDRV, out var rsltRebarRV, out var rsltAmtRV);
+                RsForDisplay(_areaRVs, out var rsltAreaRV, out var rsltDRV, out var rsltRebarRV, out var rsltAmtRV);
+                lblRsltARV.Text = rsltAreaRV;
                 lblRsltDRV.Text = rsltDRV;
                 lblRsltRebarRV.Text = rsltRebarRV;
                 lblRsltAmtRV.Text = rsltAmtRV;
@@ -253,9 +257,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         }
 
         // Slab list for display
-        private void SsForDisplay(List<AreaSlab> areaSs, out string rsltRebarSs, out string rsltAmtSs)
+        private void SsForDisplay(List<AreaSlab> areaSs, out string rsltAreaSs, out string rsltRebarSs, out string rsltAmtSs)
         {
             PrepSPrcs(areaSs);
+            rsltAreaSs = string.Empty;
             rsltRebarSs = string.Empty;
             rsltAmtSs = string.Empty;
             foreach (var area in areaSs)
@@ -284,6 +289,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         }
                     }
                 }
+                rsltAreaSs += $"{area.Area}-\n";
                 rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - " + ".Length);
                 rsltAmtSs += $"{area.MainAmount}本\n";
                 // sub
@@ -313,18 +319,21 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             }
                         }
                     }
+                    rsltAreaSs += "↑\n";
                     rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - " + ".Length) + ")";
                     rsltAmtSs += $"{area.SubAmount}本\n";
                 }
                 rsltRebarSs += "\n";
             }
-            rsltRebarSs.Substring(0, rsltRebarSs.Length - "\n".Length);
-            rsltAmtSs.Substring(0, rsltAmtSs.Length - "\n".Length);
+            rsltAreaSs = rsltAreaSs.Substring(0, rsltAreaSs.Length - "\n".Length);
+            rsltRebarSs = rsltRebarSs.Substring(0, rsltRebarSs.Length - "\n".Length);
+            rsltAmtSs = rsltAmtSs.Substring(0, rsltAmtSs.Length - "\n".Length);
         }
 
         // Reinforcement list for display
-        private void RsForDisplay(List<AreaReinforcement> areaRs, out string rsltDRs, out string rsltRebarRs, out string rsltAmtRs)
+        private void RsForDisplay(List<AreaReinforcement> areaRs, out string rsltAreaRs, out string rsltDRs, out string rsltRebarRs, out string rsltAmtRs)
         {
+            rsltAreaRs = string.Empty;
             rsltDRs = string.Empty;
             rsltRebarRs = string.Empty;
             rsltAmtRs = string.Empty;
@@ -355,6 +364,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         }
                     }
                 }
+                rsltAreaRs += $"{area.Area}-\n";
                 rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - " + ".Length);
                 rsltAmtRs += $"{area.MainAmount}本\n";
                 if (area.SubRebars != null)
@@ -384,14 +394,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                             }
                         }
                     }
+                    rsltAreaRs += "↑\n";
                     rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - " + ".Length) + ")";
                     rsltAmtRs += $"{area.SubAmount}本\n";
                 }
                 rsltRebarRs += "\n";
             }
-            rsltDRs.Substring(0, rsltDRs.Length - "\n".Length);
-            rsltRebarRs.Substring(0, rsltRebarRs.Length - "\n".Length);
-            rsltAmtRs.Substring(0, rsltAmtRs.Length - "\n".Length);
+            rsltAreaRs = rsltAreaRs.Substring(0, rsltAreaRs.Length - "\n".Length);
+            rsltDRs = rsltDRs.Substring(0, rsltDRs.Length - "\n".Length);
+            rsltRebarRs = rsltRebarRs.Substring(0, rsltRebarRs.Length - "\n".Length);
+            rsltAmtRs = rsltAmtRs.Substring(0, rsltAmtRs.Length - "\n".Length);
         }
 
         // Slab summary for display
@@ -402,8 +414,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             _smryS.AddRange(_smryS1.OrderByDescending(x => int.Parse(x.Item1.Split('×')[1])).ToList());
             _smryS.AddRange(_smryS0.OrderByDescending(x => int.Parse(x.Item1)).ToList());
             _smryS.ForEach(x => rslt += $"{x.Item1} = {x.Item2}本\n");
-            rslt.Substring(0, rslt.Length - "\n".Length);
-            rtxSmryS.Text = rslt;
+            rtxSmryS.Text = rslt.Substring(0, rslt.Length - "\n".Length);
         }
 
         // Reinforcement summary for display
@@ -421,9 +432,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 {
                     rslt += $"{item.Item2} = {item.Item3}本\n";
                 }
-                rslt.Substring(0, rslt.Length - "\n".Length);
                 // tranfer to ctrl
-                _rtxSmryRs[i].Text = rslt;
+                _rtxSmryRs[i].Text = rslt.Substring(0, rslt.Length - "\n".Length);
                 _lblSmryRs[i].Text = dSmrys[i].First().Item1.ToString();
             }
         }

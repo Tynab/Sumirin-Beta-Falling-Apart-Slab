@@ -20,8 +20,8 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             // vertical
             rtx.Height = e.NewRectangle.Height;
             var cH = rtx.Height;
-            var pH = rtx.Parent.Height;
-            if (cH < pH - 20)
+            var pH = rtx.Parent.Height - 20;
+            if (cH < pH)
             {
                 rtx.Top = (pH - cH) / 2 + 20;
             }

@@ -85,6 +85,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblRsltASH = new System.Windows.Forms.Label();
+            this.lblRsltASV = new System.Windows.Forms.Label();
+            this.lblRsltARH = new System.Windows.Forms.Label();
+            this.lblRsltARV = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.yanGradPnl3.SuspendLayout();
@@ -522,8 +526,9 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.panel7.Controls.Add(this.lblRsltRebarRV);
-            this.panel7.Controls.Add(this.lblRsltAmtRV);
             this.panel7.Controls.Add(this.lblRsltDRV);
+            this.panel7.Controls.Add(this.lblRsltARV);
+            this.panel7.Controls.Add(this.lblRsltAmtRV);
             this.panel7.Controls.Add(this.label14);
             this.panel7.Location = new System.Drawing.Point(340, 10);
             this.panel7.Margin = new System.Windows.Forms.Padding(10, 10, 0, 10);
@@ -537,9 +542,9 @@
             this.lblRsltRebarRV.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRsltRebarRV.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltRebarRV.ForeColor = System.Drawing.Color.White;
-            this.lblRsltRebarRV.Location = new System.Drawing.Point(40, 20);
+            this.lblRsltRebarRV.Location = new System.Drawing.Point(60, 20);
             this.lblRsltRebarRV.Name = "lblRsltRebarRV";
-            this.lblRsltRebarRV.Size = new System.Drawing.Size(240, 190);
+            this.lblRsltRebarRV.Size = new System.Drawing.Size(220, 190);
             this.lblRsltRebarRV.TabIndex = 0;
             this.lblRsltRebarRV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -561,7 +566,7 @@
             this.lblRsltDRV.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblRsltDRV.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltDRV.ForeColor = System.Drawing.Color.White;
-            this.lblRsltDRV.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltDRV.Location = new System.Drawing.Point(20, 20);
             this.lblRsltDRV.Name = "lblRsltDRV";
             this.lblRsltDRV.Size = new System.Drawing.Size(40, 190);
             this.lblRsltDRV.TabIndex = 0;
@@ -584,6 +589,7 @@
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.panel8.Controls.Add(this.lblRsltRebarSV);
+            this.panel8.Controls.Add(this.lblRsltASV);
             this.panel8.Controls.Add(this.lblRsltAmtSV);
             this.panel8.Controls.Add(this.label18);
             this.panel8.Location = new System.Drawing.Point(10, 10);
@@ -598,9 +604,9 @@
             this.lblRsltRebarSV.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRsltRebarSV.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltRebarSV.ForeColor = System.Drawing.Color.White;
-            this.lblRsltRebarSV.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltRebarSV.Location = new System.Drawing.Point(20, 20);
             this.lblRsltRebarSV.Name = "lblRsltRebarSV";
-            this.lblRsltRebarSV.Size = new System.Drawing.Size(280, 190);
+            this.lblRsltRebarSV.Size = new System.Drawing.Size(260, 190);
             this.lblRsltRebarSV.TabIndex = 0;
             this.lblRsltRebarSV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -670,8 +676,9 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.panel5.Controls.Add(this.lblRsltRebarRH);
-            this.panel5.Controls.Add(this.lblRsltAmtRH);
             this.panel5.Controls.Add(this.lblRsltDRH);
+            this.panel5.Controls.Add(this.lblRsltARH);
+            this.panel5.Controls.Add(this.lblRsltAmtRH);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Location = new System.Drawing.Point(340, 10);
             this.panel5.Margin = new System.Windows.Forms.Padding(10, 10, 0, 10);
@@ -685,9 +692,9 @@
             this.lblRsltRebarRH.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRsltRebarRH.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltRebarRH.ForeColor = System.Drawing.Color.White;
-            this.lblRsltRebarRH.Location = new System.Drawing.Point(40, 20);
+            this.lblRsltRebarRH.Location = new System.Drawing.Point(60, 20);
             this.lblRsltRebarRH.Name = "lblRsltRebarRH";
-            this.lblRsltRebarRH.Size = new System.Drawing.Size(240, 190);
+            this.lblRsltRebarRH.Size = new System.Drawing.Size(220, 190);
             this.lblRsltRebarRH.TabIndex = 0;
             this.lblRsltRebarRH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -709,7 +716,7 @@
             this.lblRsltDRH.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblRsltDRH.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltDRH.ForeColor = System.Drawing.Color.White;
-            this.lblRsltDRH.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltDRH.Location = new System.Drawing.Point(20, 20);
             this.lblRsltDRH.Name = "lblRsltDRH";
             this.lblRsltDRH.Size = new System.Drawing.Size(40, 190);
             this.lblRsltDRH.TabIndex = 0;
@@ -732,6 +739,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.panel4.Controls.Add(this.lblRsltRebarSH);
+            this.panel4.Controls.Add(this.lblRsltASH);
             this.panel4.Controls.Add(this.lblRsltAmtSH);
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(10, 10);
@@ -746,9 +754,9 @@
             this.lblRsltRebarSH.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRsltRebarSH.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRsltRebarSH.ForeColor = System.Drawing.Color.White;
-            this.lblRsltRebarSH.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltRebarSH.Location = new System.Drawing.Point(20, 20);
             this.lblRsltRebarSH.Name = "lblRsltRebarSH";
-            this.lblRsltRebarSH.Size = new System.Drawing.Size(280, 190);
+            this.lblRsltRebarSH.Size = new System.Drawing.Size(260, 190);
             this.lblRsltRebarSH.TabIndex = 0;
             this.lblRsltRebarSH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -802,6 +810,54 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "結果";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblRsltASH
+            // 
+            this.lblRsltASH.BackColor = System.Drawing.Color.Transparent;
+            this.lblRsltASH.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblRsltASH.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRsltASH.ForeColor = System.Drawing.Color.White;
+            this.lblRsltASH.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltASH.Name = "lblRsltASH";
+            this.lblRsltASH.Size = new System.Drawing.Size(20, 190);
+            this.lblRsltASH.TabIndex = 0;
+            this.lblRsltASH.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblRsltASV
+            // 
+            this.lblRsltASV.BackColor = System.Drawing.Color.Transparent;
+            this.lblRsltASV.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblRsltASV.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRsltASV.ForeColor = System.Drawing.Color.White;
+            this.lblRsltASV.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltASV.Name = "lblRsltASV";
+            this.lblRsltASV.Size = new System.Drawing.Size(20, 190);
+            this.lblRsltASV.TabIndex = 0;
+            this.lblRsltASV.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblRsltARH
+            // 
+            this.lblRsltARH.BackColor = System.Drawing.Color.Transparent;
+            this.lblRsltARH.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblRsltARH.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRsltARH.ForeColor = System.Drawing.Color.White;
+            this.lblRsltARH.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltARH.Name = "lblRsltARH";
+            this.lblRsltARH.Size = new System.Drawing.Size(20, 190);
+            this.lblRsltARH.TabIndex = 0;
+            this.lblRsltARH.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblRsltARV
+            // 
+            this.lblRsltARV.BackColor = System.Drawing.Color.Transparent;
+            this.lblRsltARV.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblRsltARV.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRsltARV.ForeColor = System.Drawing.Color.White;
+            this.lblRsltARV.Location = new System.Drawing.Point(0, 20);
+            this.lblRsltARV.Name = "lblRsltARV";
+            this.lblRsltARV.Size = new System.Drawing.Size(20, 190);
+            this.lblRsltARV.TabIndex = 0;
+            this.lblRsltARV.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FrmResult
             // 
@@ -906,5 +962,9 @@
         private System.Windows.Forms.RichTextBox rtxSmryDR3;
         private System.Windows.Forms.RichTextBox rtxSmryDR2;
         private System.Windows.Forms.RichTextBox rtxSmryDR1;
+        private System.Windows.Forms.Label lblRsltASV;
+        private System.Windows.Forms.Label lblRsltASH;
+        private System.Windows.Forms.Label lblRsltARH;
+        private System.Windows.Forms.Label lblRsltARV;
     }
 }
