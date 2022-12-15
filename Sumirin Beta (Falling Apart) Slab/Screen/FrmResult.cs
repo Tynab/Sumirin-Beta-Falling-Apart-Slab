@@ -14,14 +14,12 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
     public partial class FrmResult : Form
     {
         #region Fields
-        private readonly List<(string, int)> _smryS; // rebar, summary
-        private readonly List<(string, int)> _smryS0; // rebar, summary
-        private readonly List<(string, int)> _smryS1; // rebar, summary
-        private readonly List<(string, int)> _smryS2; // rebar, summary
-        private readonly List<(int, string, int)> _smryR; // D, rebar, sumary
-        private readonly List<(int, string, int)> _smryR0; // D, rebar, sumary
-        private readonly List<(int, string, int)> _smryR1; // D, rebar, sumary
-        private readonly List<(int, string, int)> _smryR2; // D, rebar, sumary
+        private List<(string, int)> _smryS0; // rebar, summary
+        private List<(string, int)> _smryS1; // rebar, summary
+        private List<(string, int)> _smryS2; // rebar, summary
+        private List<(int, string, int)> _smryR0; // D, rebar, sumary
+        private List<(int, string, int)> _smryR1; // D, rebar, sumary
+        private List<(int, string, int)> _smryR2; // D, rebar, sumary
         private readonly List<AreaSlab> _areaSHs;
         private readonly List<AreaSlab> _areaSVs;
         private readonly List<AreaReinforcement> _areaRHs;
@@ -67,7 +65,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             // this
             KeyDown += Ctrl_KeyDown;
             // get list
-            _smryS = new List<(string, int)>();
             _smryS0 = new List<(string, int)>();
             _smryS1 = new List<(string, int)>();
             _smryS2 = new List<(string, int)>();
@@ -113,13 +110,11 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             // this
             KeyDown += Ctrl_KeyDown;
             // get list
-            _smryS = new List<(string, int)>();
             _smryS0 = new List<(string, int)>();
             _smryS1 = new List<(string, int)>();
             _smryS2 = new List<(string, int)>();
             _areaSHs = new List<AreaSlab>(areaSHs);
             _areaSVs = new List<AreaSlab>(areaSVs);
-            _smryR = new List<(int, string, int)>();
             _smryR0 = new List<(int, string, int)>();
             _smryR1 = new List<(int, string, int)>();
             _smryR2 = new List<(int, string, int)>();
@@ -410,30 +405,65 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         private void SmrySForDisplay()
         {
             var rslt = string.Empty;
-            _smryS.AddRange(_smryS2.OrderByDescending(x => int.Parse(x.Item1.Split('×')[1])).ToList());
-            _smryS.AddRange(_smryS1.OrderByDescending(x => int.Parse(x.Item1.Split('×')[1])).ToList());
-            _smryS.AddRange(_smryS0.OrderByDescending(x => int.Parse(x.Item1)).ToList());
-            _smryS.ForEach(x => rslt += $"{x.Item1} = {x.Item2}本\n");
-            rtxSmryS.Text = rslt.Substring(0, rslt.Length - "\n".Length);
+            // bdng 2
+            _smryS2 = _smryS2.OrderByDescending(x => int.Parse(x.Item1.Split('x')[1])).ToList();
+            if (_smryS2.Count > 0)
+            {
+                _smryS2.ForEach(x => rslt += $"(曲) L-{x.Item1}=" + string.Format("{0," + _smryS2.Max(x => x.Item2).ToString().Length + "}", x.Item2) + "本\n");
+                rslt += "\n";
+            }
+            // bdng 1
+            _smryS1 = _smryS1.OrderByDescending(x => int.Parse(x.Item1.Split('x')[1])).ToList();
+            if (_smryS1.Count > 0)
+            {
+                _smryS1.ForEach(x => rslt += $"(曲) L-{x.Item1}=" + string.Format("{0," + _smryS1.Max(x => x.Item2).ToString().Length + "}", x.Item2) + "本\n");
+                rslt += "\n";
+            }
+            // st
+            _smryS0 = _smryS0.OrderByDescending(x => int.Parse(x.Item1)).ToList();
+            if (_smryS0.Count > 0)
+            {
+                _smryS0.ForEach(x => rslt += $"(直) L-{x.Item1}=" + string.Format("{0," + _smryS0.Max(x => x.Item2).ToString().Length + "}", x.Item2) + "本\n");
+                rslt += "\n";
+            }
+            rtxSmryS.Text = rslt.Substring(0, rslt.Length - "\n".Length * 2);
         }
 
         // Reinforcement summary for display
         private void SmryRForDisplay()
         {
-            _smryR.AddRange(_smryR2.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
-            _smryR.AddRange(_smryR1.OrderByDescending(x => int.Parse(x.Item2.Split('×')[1])).ToList());
-            _smryR.AddRange(_smryR0.OrderByDescending(x => int.Parse(x.Item2)).ToList());
+            var smryR = new List<(int, string, int)>();
+            smryR.AddRange(_smryR2.OrderByDescending(x => int.Parse(x.Item2.Split('x')[1])).ToList());
+            smryR.AddRange(_smryR1.OrderByDescending(x => int.Parse(x.Item2.Split('x')[1])).ToList());
+            smryR.AddRange(_smryR0.OrderByDescending(x => int.Parse(x.Item2)).ToList());
             // display
-            var dSmrys = _smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
+            var dSmrys = smryR.GroupBy(x => x.Item1).Select(g => g.ToList()).ToList();
             for (var i = 0; i < dSmrys.Count; i++)
             {
                 var rslt = string.Empty;
-                foreach (var item in dSmrys[i])
+                // bdng 2
+                _smryR2 = dSmrys[i].Where(x => x.Item2.Count(c => c == 'x') == 2).ToList();
+                if (_smryR2.Count > 0)
                 {
-                    rslt += $"{item.Item2} = {item.Item3}本\n";
+                    _smryR2.ForEach(x => rslt += $"(曲) L-{x.Item2}=" + string.Format("{0," + _smryR2.Max(x => x.Item3).ToString().Length + "}", x.Item3) + "本\n");
+                    rslt += "\n";
+                }
+                // bdng 1
+                _smryR1 = dSmrys[i].Where(x => x.Item2.Count(c => c == 'x') == 1).ToList();
+                if (_smryR1.Count > 0)
+                {
+                    _smryR1.ForEach(x => rslt += $"(曲) L-{x.Item2}=" + string.Format("{0," + _smryR1.Max(x => x.Item3).ToString().Length + "}", x.Item3) + "本\n");
+                    rslt += "\n";
+                }
+                // st
+                _smryR0 = dSmrys[i].Where(x => x.Item2.Count(c => c == 'x') == 0).ToList();
+                if (_smryR0.Count > 0)
+                {
+                    _smryR0.ForEach(x => rslt += $"(直) L-{x.Item2}=" + string.Format("{0," + _smryR0.Max(x => x.Item3).ToString().Length + "}", x.Item3) + "本\n");
+                    rslt += "\n";
                 }
                 // tranfer to ctrl
-                _rtxSmryRs[i].Text = rslt.Substring(0, rslt.Length - "\n".Length);
+                _rtxSmryRs[i].Text = rslt.Substring(0, rslt.Length - "\n".Length * 2);
                 _lblSmryRs[i].Text = dSmrys[i].First().Item1.ToString();
             }
         }

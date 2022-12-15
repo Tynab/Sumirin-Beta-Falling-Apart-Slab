@@ -968,7 +968,6 @@
             // rdoBrTouhoku
             // 
             this.rdoBrTouhoku.AutoSize = true;
-            this.rdoBrTouhoku.Checked = true;
             this.rdoBrTouhoku.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(208)))));
             this.rdoBrTouhoku.Font = new System.Drawing.Font("Meiryo", 10F);
             this.rdoBrTouhoku.HighlightText = System.Drawing.Color.DarkGoldenrod;
@@ -978,7 +977,6 @@
             this.rdoBrTouhoku.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.rdoBrTouhoku.Size = new System.Drawing.Size(66, 25);
             this.rdoBrTouhoku.TabIndex = 0;
-            this.rdoBrTouhoku.TabStop = true;
             this.rdoBrTouhoku.Text = "東北";
             this.rdoBrTouhoku.UnCheckedColor = System.Drawing.Color.Gray;
             this.rdoBrTouhoku.UseVisualStyleBackColor = true;
@@ -986,6 +984,7 @@
             // rdoBrIbaraki
             // 
             this.rdoBrIbaraki.AutoSize = true;
+            this.rdoBrIbaraki.Checked = true;
             this.rdoBrIbaraki.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(208)))));
             this.rdoBrIbaraki.Font = new System.Drawing.Font("Meiryo", 10F);
             this.rdoBrIbaraki.HighlightText = System.Drawing.Color.DarkGoldenrod;
@@ -995,6 +994,7 @@
             this.rdoBrIbaraki.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.rdoBrIbaraki.Size = new System.Drawing.Size(66, 25);
             this.rdoBrIbaraki.TabIndex = 0;
+            this.rdoBrIbaraki.TabStop = true;
             this.rdoBrIbaraki.Text = "茨城";
             this.rdoBrIbaraki.UnCheckedColor = System.Drawing.Color.Gray;
             this.rdoBrIbaraki.UseVisualStyleBackColor = true;

@@ -110,6 +110,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -134,6 +142,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -402,15 +418,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:スラブ住本林業（ベタ・バラバラ）"
-        "ProductCode" = "8:{94A40D9E-EE21-4678-A402-597C7DC965D6}"
-        "PackageCode" = "8:{85A68956-1852-4836-814D-A810D9C1D75C}"
+        "ProductCode" = "8:{D6CDF521-A2CA-49E2-AB23-9A83984721C8}"
+        "PackageCode" = "8:{A778024F-A017-40E7-A3FE-0A450253160F}"
         "UpgradeCode" = "8:{2121F2EF-D61E-4B45-86F6-430D6EABE98F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.12.14"
+        "ProductVersion" = "8:22.12.15"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -962,7 +978,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E0D2F68D04F2459EABF3675522C4556C"
             {
-            "SourcePath" = "8:..\\Sumirin Beta (Falling Apart) Slab\\obj\\Debug\\Sumirin Beta (Falling Apart) Slab.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4815D08007664233AD508E7E373A0A6E"

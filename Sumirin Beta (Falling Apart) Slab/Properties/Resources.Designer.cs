@@ -79,7 +79,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 22.12.14.
+        ///   Looks up a localized string similar to 22.12.15.
         /// </summary>
         internal static string app_ver {
             get {
