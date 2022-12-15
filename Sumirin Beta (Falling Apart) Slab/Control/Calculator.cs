@@ -19,24 +19,15 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             InitializeComponent();
             InitItems();
             // ctrl all event
-            foreach (var ctrl in _ctrlAll)
-            {
-                ctrl.KeyDown += Ctrl_KeyDown;
-            }
-            KeyDown += Ctrl_KeyDown;
+            _ctrlAll.ForEach(x => x.KeyDown += Ctrl_KeyDown);
             // btn all event
-            foreach (var btn in _btnAllRips)
-            {
-                btn.Click += BtnAll_Click;
-            }
+            _btnAlls.ForEach(x => x.Click += BtnAll_Click);
             // btn num event
-            foreach (var btnN in _btnNs)
-            {
-                btnN.Click += BtnN_Click;
-            }
-            txtDetail.GotFocus += Txt_GotFocus;
-            Disposed += OnDispose;
+            _btnNs.ForEach(x => x.Click += BtnN_Click);
             // option
+            txtDetail.GotFocus += Txt_GotFocus;
+            KeyDown += Ctrl_KeyDown;
+            Disposed += OnDispose;
             _nud = nud;
             _nud.BackColor = OrangeRed;
         }
@@ -149,40 +140,16 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         }
 
         // Un-block
-        private void UnBlk()
-        {
-            foreach (var btnBlk in _btnBlks)
-            {
-                btnBlk.Enabled = true;
-            }
-        }
+        private void UnBlk() => _btnBlks.ForEach(x => x.Enabled = true);
 
         // Re-block
-        private void ReBlk()
-        {
-            foreach (var btnBlk in _btnBlks)
-            {
-                btnBlk.Enabled = false;
-            }
-        }
+        private void ReBlk() => _btnBlks.ForEach(x => x.Enabled = false);
 
         // Enable chain button
-        private void EnblChainBtn()
-        {
-            foreach (var btnChn in _btnChns)
-            {
-                btnChn.Enabled = true;
-            }
-        }
+        private void EnblChainBtn() => _btnChns.ForEach(x => x.Enabled = true);
 
         // Disable chain button
-        private void DsblChainBtn()
-        {
-            foreach (var btnChn in _btnChns)
-            {
-                btnChn.Enabled = false;
-            }
-        }
+        private void DsblChainBtn() => _btnChns.ForEach(x => x.Enabled = false);
 
         // Math (with G) process text
         private decimal MathGPrcsText(string text)

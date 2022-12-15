@@ -8,7 +8,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         private void InitItems()
         {
             InitCtrlAll();
-            InitBtnAllRips();
+            InitBtnAlls();
             InitBtnBlks();
             InitBtnChns();
             InitBtnNs();
@@ -42,9 +42,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         #endregion
 
         #region Btn
-        private List<Button> _btnAllRips;
-        // Initialize list btn all rip
-        private void InitBtnAllRips() => _btnAllRips = new List<Button>()
+        private List<Button> _btnAlls;
+        // Initialize list btn all
+        private void InitBtnAlls() => _btnAlls = new List<Button>()
             {
                 btnC,
                 btnBksp,

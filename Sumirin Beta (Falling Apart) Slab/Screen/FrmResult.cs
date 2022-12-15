@@ -409,21 +409,24 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
             _smryS2 = _smryS2.OrderByDescending(x => int.Parse(x.Item1.Split('x')[1])).ToList();
             if (_smryS2.Count > 0)
             {
-                _smryS2.ForEach(x => rslt += $"(曲) L-{x.Item1}=" + string.Format("{0," + _smryS2.Max(x => x.Item2).ToString().Length + "}", x.Item2) + "本\n");
+                var fmt2 = "{0," + _smryS2.Max(x => x.Item2).ToString().Length + "}";
+                _smryS2.ForEach(x => rslt += $"(曲) L-{x.Item1}=" + string.Format(fmt2, x.Item2) + "本\n");
                 rslt += "\n";
             }
             // bdng 1
             _smryS1 = _smryS1.OrderByDescending(x => int.Parse(x.Item1.Split('x')[1])).ToList();
             if (_smryS1.Count > 0)
             {
-                _smryS1.ForEach(x => rslt += $"(曲) L-{x.Item1}=" + string.Format("{0," + _smryS1.Max(x => x.Item2).ToString().Length + "}", x.Item2) + "本\n");
+                var fmt1 = "{0," + _smryS1.Max(x => x.Item2).ToString().Length + "}";
+                _smryS1.ForEach(x => rslt += $"(曲) L-{x.Item1}=" + string.Format(fmt1, x.Item2) + "本\n");
                 rslt += "\n";
             }
             // st
             _smryS0 = _smryS0.OrderByDescending(x => int.Parse(x.Item1)).ToList();
             if (_smryS0.Count > 0)
             {
-                _smryS0.ForEach(x => rslt += $"(直) L-{x.Item1}=" + string.Format("{0," + _smryS0.Max(x => x.Item2).ToString().Length + "}", x.Item2) + "本\n");
+                var fmt0 = "{0," + _smryS0.Max(x => x.Item2).ToString().Length + "}";
+                _smryS0.ForEach(x => rslt += $"(直) L-{x.Item1}=" + string.Format(fmt0, x.Item2) + "本\n");
                 rslt += "\n";
             }
             rtxSmryS.Text = rslt.Substring(0, rslt.Length - "\n".Length * 2);
@@ -445,21 +448,24 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                 _smryR2 = dSmrys[i].Where(x => x.Item2.Count(c => c == 'x') == 2).ToList();
                 if (_smryR2.Count > 0)
                 {
-                    _smryR2.ForEach(x => rslt += $"(曲) L-{x.Item2}=" + string.Format("{0," + _smryR2.Max(x => x.Item3).ToString().Length + "}", x.Item3) + "本\n");
+                    var fmt2 = "{0," + _smryR2.Max(x => x.Item3).ToString().Length + "}";
+                    _smryR2.ForEach(x => rslt += $"(曲) L-{x.Item2}=" + string.Format(fmt2, x.Item3) + "本\n");
                     rslt += "\n";
                 }
                 // bdng 1
                 _smryR1 = dSmrys[i].Where(x => x.Item2.Count(c => c == 'x') == 1).ToList();
                 if (_smryR1.Count > 0)
                 {
-                    _smryR1.ForEach(x => rslt += $"(曲) L-{x.Item2}=" + string.Format("{0," + _smryR1.Max(x => x.Item3).ToString().Length + "}", x.Item3) + "本\n");
+                    var fmt1 = "{0," + _smryR1.Max(x => x.Item3).ToString().Length + "}";
+                    _smryR1.ForEach(x => rslt += $"(曲) L-{x.Item2}=" + string.Format(fmt1, x.Item3) + "本\n");
                     rslt += "\n";
                 }
                 // st
                 _smryR0 = dSmrys[i].Where(x => x.Item2.Count(c => c == 'x') == 0).ToList();
                 if (_smryR0.Count > 0)
                 {
-                    _smryR0.ForEach(x => rslt += $"(直) L-{x.Item2}=" + string.Format("{0," + _smryR0.Max(x => x.Item3).ToString().Length + "}", x.Item3) + "本\n");
+                    var fmt0 = "{0," + _smryR0.Max(x => x.Item3).ToString().Length + "}";
+                    _smryR0.ForEach(x => rslt += $"(直) L-{x.Item2}=" + string.Format(fmt0, x.Item3) + "本\n");
                     rslt += "\n";
                 }
                 // tranfer to ctrl
