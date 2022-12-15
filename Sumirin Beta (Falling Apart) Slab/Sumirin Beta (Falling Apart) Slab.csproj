@@ -112,6 +112,7 @@
     </Compile>
     <Compile Include="Script\Common.cs" />
     <Compile Include="Script\Constant.cs" />
+    <Compile Include="Script\Define.cs" />
     <Compile Include="Script\EventHandler.cs" />
     <Compile Include="Script\Model\AreaReinforcement.cs" />
     <Compile Include="Script\Model\AreaSlab.cs" />

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using static Sumirin_Beta__Falling_Apart__Slab.Script.Define;
 using static System.Drawing.Color;
 using static System.Windows.Forms.Keys;
 

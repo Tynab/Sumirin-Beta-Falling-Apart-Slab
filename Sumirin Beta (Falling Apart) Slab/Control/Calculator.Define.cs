@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Control
@@ -15,9 +13,6 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             InitBtnChns();
             InitBtnNs();
         }
-
-        [DllImport("user32.dll", EntryPoint = "HideCaret")]
-        public static extern long HideCaret(IntPtr hwnd);
 
         #region Ctrl
         private List<System.Windows.Forms.Control> _ctrlAll;
