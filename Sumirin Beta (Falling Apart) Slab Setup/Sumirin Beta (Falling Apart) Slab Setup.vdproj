@@ -418,15 +418,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:スラブ住本林業（ベタ・バラバラ）"
-        "ProductCode" = "8:{D6CDF521-A2CA-49E2-AB23-9A83984721C8}"
-        "PackageCode" = "8:{A778024F-A017-40E7-A3FE-0A450253160F}"
+        "ProductCode" = "8:{7F1AEF62-A98F-49E1-8D42-29198601F131}"
+        "PackageCode" = "8:{04F1ECBE-6746-4A1D-9069-6DB8DD3DDB5E}"
         "UpgradeCode" = "8:{2121F2EF-D61E-4B45-86F6-430D6EABE98F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.12.15"
+        "ProductVersion" = "8:22.12.16"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -978,7 +978,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E0D2F68D04F2459EABF3675522C4556C"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\Sumirin Beta (Falling Apart) Slab\\obj\\Debug\\Sumirin Beta (Falling Apart) Slab.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4815D08007664233AD508E7E373A0A6E"

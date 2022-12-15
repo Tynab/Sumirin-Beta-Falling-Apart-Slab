@@ -167,12 +167,17 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         }
         #endregion
 
+        #region Txt
+        // txt got focus
+        private void Txt_GotFocus(object sender, EventArgs args) => HideCaret(txtDetail.Handle);
+        #endregion
+
         #region Btn
         // btn num click
         private void BtnN_Click(object sender, EventArgs e) => UnBlk();
 
         // btn all click
-        private void BtnAll_Click(object sender, EventArgs e) => rtxDetail.Text = _detail;
+        private void BtnAll_Click(object sender, EventArgs e) => txtDetail.Text = _detail;
         #endregion
     }
 }

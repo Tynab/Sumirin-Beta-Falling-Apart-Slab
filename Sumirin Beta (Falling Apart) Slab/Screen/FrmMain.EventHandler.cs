@@ -162,8 +162,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
                         Controls.Add(_ctrlCalculator);
                         _ctrlCalculator.BringToFront();
                     }
-                    _ctrlCalculator.rtxDetail.Select();
-                    //nud.Enabled = false;
+                    _ctrlCalculator.txtDetail.Select();
                     break;
                 }
             }

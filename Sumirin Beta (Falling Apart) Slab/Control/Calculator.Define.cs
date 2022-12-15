@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace Sumirin_Beta__Falling_Apart__Slab.Control
@@ -14,6 +16,9 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             InitBtnNs();
         }
 
+        [DllImport("user32.dll", EntryPoint = "HideCaret")]
+        public static extern long HideCaret(IntPtr hwnd);
+
         #region Ctrl
         private List<System.Windows.Forms.Control> _ctrlAll;
         // Initialize list ctrl all
@@ -21,7 +26,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             {
                 pnlBoard,
                 lblResult,
-                rtxDetail,
+                txtDetail,
                 btnReturn,
                 btnC,
                 btnBksp,

@@ -46,7 +46,7 @@
             this.btnBksp = new YANF.Control.YANBtn();
             this.btnN7 = new YANF.Control.YANBtn();
             this.lblResult = new System.Windows.Forms.Label();
-            this.rtxDetail = new System.Windows.Forms.RichTextBox();
+            this.txtDetail = new System.Windows.Forms.TextBox();
             this.pnlBoard.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -415,23 +415,23 @@
             this.lblResult.Text = "0";
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // rtxDetail
+            // txtDetail
             // 
-            this.rtxDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.rtxDetail.Location = new System.Drawing.Point(5, 5);
-            this.rtxDetail.Name = "rtxDetail";
-            this.rtxDetail.ReadOnly = true;
-            this.rtxDetail.Size = new System.Drawing.Size(200, 20);
-            this.rtxDetail.TabIndex = 0;
-            this.rtxDetail.Text = "";
-            this.rtxDetail.TextChanged += new System.EventHandler(this.RtxDetail_TextChanged);
+            this.txtDetail.BackColor = System.Drawing.Color.White;
+            this.txtDetail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDetail.Location = new System.Drawing.Point(5, 5);
+            this.txtDetail.Name = "txtDetail";
+            this.txtDetail.ReadOnly = true;
+            this.txtDetail.Size = new System.Drawing.Size(200, 21);
+            this.txtDetail.TabIndex = 1;
+            this.txtDetail.TextChanged += new System.EventHandler(this.TxtDetail_TextChanged);
             // 
             // Calculator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Controls.Add(this.rtxDetail);
+            this.Controls.Add(this.txtDetail);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.pnlBoard);
             this.DoubleBuffered = true;
@@ -440,6 +440,7 @@
             this.Leave += new System.EventHandler(this.Calculator_Leave);
             this.pnlBoard.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -463,6 +464,6 @@
         private YANF.Control.YANBtn btnBksp;
         private YANF.Control.YANBtn btnN7;
         private System.Windows.Forms.Label lblResult;
-        internal System.Windows.Forms.RichTextBox rtxDetail;
+        internal System.Windows.Forms.TextBox txtDetail;
     }
 }

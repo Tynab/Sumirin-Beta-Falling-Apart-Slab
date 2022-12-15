@@ -34,6 +34,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
             {
                 btnN.Click += BtnN_Click;
             }
+            txtDetail.GotFocus += Txt_GotFocus;
             Disposed += OnDispose;
             // option
             _nud = nud;
@@ -45,10 +46,10 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Control
         // ctrl leave
         private void Calculator_Leave(object sender, EventArgs e) => Dispose();
 
-        // rtx detail text changed
-        private void RtxDetail_TextChanged(object sender, EventArgs e)
+        // txt detail text changed
+        private void TxtDetail_TextChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(rtxDetail.Text))
+            if (string.IsNullOrWhiteSpace(txtDetail.Text))
             {
                 ReBlk();
             }
