@@ -217,7 +217,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         {
             var ctrl = (System.Windows.Forms.Control)sender;
             var id = GetIdFromCtrlIS(ctrl);
-            if (id != null)
+            if (id.HasValue)
             {
                 switch (e.KeyCode)
                 {
@@ -313,7 +313,7 @@ namespace Sumirin_Beta__Falling_Apart__Slab.Screen
         {
             var ctrl = (System.Windows.Forms.Control)sender;
             var id = GetIdFromCtrlIR(ctrl);
-            if (id != null)
+            if (id.HasValue)
             {
                 switch (e.KeyCode)
                 {
