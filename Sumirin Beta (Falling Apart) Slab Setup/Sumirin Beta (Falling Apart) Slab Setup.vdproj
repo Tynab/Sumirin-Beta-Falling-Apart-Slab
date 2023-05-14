@@ -27,14 +27,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_34E1C61E767F41088D524630E3C9505B"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_2D4B591EC8332EA720019289C8CC48FD"
+        "OwnerKey" = "8:_E0D2F68D04F2459EABF3675522C4556C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_53BE1D7A2989C86F99EEB7F96905C975"
-        "OwnerKey" = "8:_E0D2F68D04F2459EABF3675522C4556C"
+        "MsmKey" = "8:_34E1C61E767F41088D524630E3C9505B"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,7 +76,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_53BE1D7A2989C86F99EEB7F96905C975"
+        "OwnerKey" = "8:_2D4B591EC8332EA720019289C8CC48FD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -144,10 +144,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8.1"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    "Name" = "8:Microsoft .NET Framework 4.8.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.8.1"
                     }
                 }
             }
@@ -220,34 +220,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_34E1C61E767F41088D524630E3C9505B"
-            {
-            "SourcePath" = "8:..\\res\\BSLuffy.bmp"
-            "TargetName" = "8:BSLuffy.bmp"
-            "Tag" = "8:"
-            "Folder" = "8:_4815D08007664233AD508E7E373A0A6E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_53BE1D7A2989C86F99EEB7F96905C975"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2D4B591EC8332EA720019289C8CC48FD"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:YANF, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_53BE1D7A2989C86F99EEB7F96905C975"
+                    "_2D4B591EC8332EA720019289C8CC48FD"
                     {
                     "Name" = "8:YANF.dll"
                     "Attributes" = "3:512"
@@ -269,6 +249,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_34E1C61E767F41088D524630E3C9505B"
+            {
+            "SourcePath" = "8:..\\res\\BSLuffy.bmp"
+            "TargetName" = "8:BSLuffy.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_4815D08007664233AD508E7E373A0A6E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_55FEA95909C349C0BD9417EE4084F847"
@@ -978,7 +978,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E0D2F68D04F2459EABF3675522C4556C"
             {
-            "SourcePath" = "8:..\\Sumirin Beta (Falling Apart) Slab\\obj\\Debug\\Sumirin Beta (Falling Apart) Slab.exe"
+            "SourcePath" = "8:..\\Sumirin Beta (Falling Apart) Slab\\obj\\Release\\Sumirin Beta (Falling Apart) Slab.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4815D08007664233AD508E7E373A0A6E"
